@@ -43,6 +43,7 @@ export function PriceCalculator({
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
   const [rgpdConsent, setRgpdConsent] = useState(false)
+  const [website, setWebsite] = useState("")
 
   const avgPrice = (minPrice + maxPrice) / 2
   const estimateLow = Math.round(surface * minPrice * regionalCoefficient)
@@ -78,6 +79,7 @@ export function PriceCalculator({
           trade: tradeSlug,
           surface,
           message,
+          website,
         }),
       })
 
@@ -214,11 +216,24 @@ export function PriceCalculator({
 
             <div className="space-y-2">
               <Label htmlFor="message">Message (optionnel)</Label>
-              <Input
+              <textarea
                 id="message"
+                rows={3}
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 placeholder="Décrivez votre projet..."
+                className="flex w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              />
+            </div>
+
+            <div className="absolute -left-[9999px] -top-[9999px]" aria-hidden="true">
+              <input
+                type="text"
+                name="website"
+                tabIndex={-1}
+                autoComplete="off"
+                value={website}
+                onChange={(e) => setWebsite(e.target.value)}
               />
             </div>
 

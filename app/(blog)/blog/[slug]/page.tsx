@@ -1,10 +1,18 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
-import { Calendar, ArrowRight } from "lucide-react"
+import {
+  Calendar,
+  ArrowRight,
+  Clock,
+  User,
+  ChevronLeft,
+  BookOpen,
+} from "lucide-react"
 import { blogPosts, getBlogPost, getTrade } from "@/lib/data"
 import { tradeIcons } from "@/lib/trade-icons"
 import { Breadcrumb } from "@/components/Breadcrumb"
+import { Separator } from "@/components/ui/separator"
 
 interface PageProps {
   params: Promise<{ slug: string }>
@@ -31,14 +39,45 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 }
 
+function estimateReadingTime(html: string): number {
+  const text = html.replace(/<[^>]*>/g, "")
+  const words = text.split(/\s+/).filter(Boolean).length
+  return Math.max(1, Math.ceil(words / 220))
+}
+
+const tagLabels: Record<string, string> = {
+  renovation: "Rénovation",
+  perche: "Perche",
+  guide: "Guide",
+  budget: "Budget",
+  aides: "Aides",
+  maprimerenov: "MaPrimeRénov'",
+  financement: "Financement",
+  "eure-et-loir": "Eure-et-Loir",
+  isolation: "Isolation",
+  materiaux: "Matériaux",
+  performance: "Performance",
+  toiture: "Toiture",
+  rge: "RGE",
+  artisans: "Artisans",
+  couvreur: "Couvreur",
+  entretien: "Entretien",
+}
+
 export default async function BlogPostPage({ params }: PageProps) {
   const { slug } = await params
   const post = getBlogPost(slug)
   if (!post) notFound()
 
+  const readingTime = estimateReadingTime(post.content)
+
   const relatedTrades = post.related_trades
     .map((slug) => getTrade(slug))
     .filter((t) => t !== undefined)
+
+  const otherPosts = blogPosts
+    .filter((p) => p.slug !== post.slug)
+    .slice(0, 3)
 
   const articleLd = {
     "@context": "https://schema.org",
@@ -65,30 +104,106 @@ export default async function BlogPostPage({ params }: PageProps) {
       />
 
       <article>
-        <div className="mb-6">
-          <div className="mb-3 flex items-center gap-2 text-xs text-muted-foreground">
-            <Calendar className="size-3" />
-            {new Date(post.date).toLocaleDateString("fr-FR", {
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-            })}
-            <span>·</span>
-            <span>{post.author}</span>
-          </div>
-          <h1 className="font-heading text-3xl font-bold tracking-tight sm:text-4xl">
+        {/* ── Header ── */}
+        <header className="mb-8">
+          <Link
+            href="/blog"
+            className="mb-4 inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+          >
+            <ChevronLeft className="size-3.5" />
+            Retour au blog
+          </Link>
+
+          {/* Tags */}
+          {post.tags.length > 0 && (
+            <div className="mb-4 flex flex-wrap gap-2">
+              {post.tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="rounded-full bg-primary/10 px-3 py-0.5 text-xs font-semibold text-primary"
+                >
+                  {tagLabels[tag] ?? tag}
+                </span>
+              ))}
+            </div>
+          )}
+
+          <h1 className="mb-4 font-heading text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">
             {post.title}
           </h1>
-        </div>
 
+          {/* Excerpt as lead paragraph */}
+          <p className="mb-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
+            {post.excerpt}
+          </p>
+
+          {/* Meta bar */}
+          <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
+            <div className="flex items-center gap-1.5">
+              <Calendar className="size-3.5" />
+              {new Date(post.date).toLocaleDateString("fr-FR", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}
+            </div>
+            <div className="flex items-center gap-1.5">
+              <User className="size-3.5" />
+              {post.author}
+            </div>
+            <div className="flex items-center gap-1.5">
+              <Clock className="size-3.5" />
+              {readingTime} min de lecture
+            </div>
+          </div>
+        </header>
+
+        <Separator className="mb-8" />
+
+        {/* ── Article body ── */}
         <div
-          className="prose-sm prose-headings:font-heading prose-headings:font-bold prose-h2:mt-8 prose-h2:mb-3 prose-h2:text-xl prose-h3:mt-6 prose-h3:mb-2 prose-h3:text-base prose-p:leading-relaxed prose-p:text-muted-foreground prose-li:text-muted-foreground prose-ul:space-y-1"
+          className="article-content"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
       </article>
 
+      {/* ── Author box ── */}
+      <div className="mt-10 rounded-xl border-2 border-border/60 bg-card p-5">
+        <div className="flex items-start gap-4">
+          <div className="flex size-11 shrink-0 items-center justify-center rounded-full bg-primary/10">
+            <BookOpen className="size-5 text-primary" />
+          </div>
+          <div>
+            <p className="text-sm font-bold">{post.author}</p>
+            <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
+              Observatoire indépendant des prix du bâtiment en Eure-et-Loir.
+              Nos articles sont rédigés par des spécialistes de la rénovation et
+              vérifiés par notre comité éditorial.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* ── CTA ── */}
+      <div className="mt-8 rounded-xl border-2 border-primary/20 bg-primary/5 p-6 text-center">
+        <h2 className="mb-2 font-heading text-lg font-bold">
+          Besoin d'un devis pour vos travaux ?
+        </h2>
+        <p className="mb-4 text-sm text-muted-foreground">
+          Comparez gratuitement les prix d'artisans qualifiés en Eure-et-Loir.
+        </p>
+        <Link
+          href="/prix"
+          className="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-all hover:bg-primary/90 hover:shadow-lg"
+        >
+          Voir tous les prix
+          <ArrowRight className="size-3.5" />
+        </Link>
+      </div>
+
+      {/* ── Related trades ── */}
       {relatedTrades.length > 0 && (
-        <section className="mt-12 border-t pt-8">
+        <section className="mt-10">
           <h2 className="mb-4 font-heading text-lg font-bold">
             Métiers liés
           </h2>
@@ -99,18 +214,48 @@ export default async function BlogPostPage({ params }: PageProps) {
                 <Link
                   key={trade.slug}
                   href={`/prix/${trade.slug}`}
-                  className="group flex items-center gap-3 rounded-lg border border-border/60 bg-card px-4 py-3 transition-all hover:border-primary/30 hover:shadow-sm"
+                  className="group flex items-center gap-3 rounded-lg border-2 border-border/60 bg-card px-4 py-3 transition-all hover:border-primary/30 hover:shadow-sm"
                 >
-                  <div className="flex size-8 items-center justify-center rounded-lg bg-primary/10">
+                  <div className="flex size-9 items-center justify-center rounded-full bg-primary/10">
                     <Icon className="size-4 text-primary" />
                   </div>
                   <span className="text-sm font-semibold">
                     Prix {trade.title}
                   </span>
-                  <ArrowRight className="ml-auto size-3.5 text-muted-foreground/40 group-hover:text-primary" />
+                  <ArrowRight className="ml-auto size-3.5 text-muted-foreground/40 transition-transform group-hover:translate-x-0.5 group-hover:text-primary" />
                 </Link>
               )
             })}
+          </div>
+        </section>
+      )}
+
+      {/* ── Other articles ── */}
+      {otherPosts.length > 0 && (
+        <section className="mt-10 border-t-2 border-border/60 pt-8">
+          <h2 className="mb-4 font-heading text-lg font-bold">
+            À lire aussi
+          </h2>
+          <div className="space-y-4">
+            {otherPosts.map((p) => (
+              <Link
+                key={p.slug}
+                href={`/blog/${p.slug}`}
+                className="group block rounded-lg border border-border/60 bg-card p-4 transition-all hover:border-primary/30 hover:shadow-sm"
+              >
+                <div className="mb-1.5 flex items-center gap-2 text-xs text-muted-foreground">
+                  <Calendar className="size-3" />
+                  {new Date(p.date).toLocaleDateString("fr-FR", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}
+                </div>
+                <h3 className="text-sm font-bold text-foreground group-hover:text-primary">
+                  {p.title}
+                </h3>
+              </Link>
+            ))}
           </div>
         </section>
       )}

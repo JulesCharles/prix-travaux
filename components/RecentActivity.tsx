@@ -30,9 +30,10 @@ export function RecentActivity({ cityName, tradeTitle, seed = "" }: RecentActivi
   const now = new Date()
   const daySeed = `${seed}-${now.getFullYear()}-${now.getMonth()}-${now.getDate()}`
   const hourSeed = `${daySeed}-${Math.floor(now.getHours() / 2)}`
+  const globalDaySeed = `${now.getFullYear()}-${now.getMonth()}-${now.getDate()}`
 
   const timeAgo = seededRand(hourSeed, 2, 47)
-  const weeklyCount = seededRand(`week-${daySeed}`, 145, 380)
+  const weeklyCount = seededRand(`week-${globalDaySeed}`, 145, 380)
   const surface = seededRand(`surf-${daySeed}`, 35, 200)
 
   const messages = [

@@ -18,6 +18,7 @@ export function ContactForm() {
   const [email, setEmail] = useState("")
   const [subject, setSubject] = useState("")
   const [message, setMessage] = useState("")
+  const [website, setWebsite] = useState("")
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -28,7 +29,7 @@ export function ContactForm() {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, subject, message }),
+        body: JSON.stringify({ name, email, subject, message, website }),
       })
 
       if (!res.ok) {
@@ -112,6 +113,17 @@ export function ContactForm() {
               onChange={(e) => setMessage(e.target.value)}
               placeholder="Décrivez votre demande..."
               className="flex w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+            />
+          </div>
+
+          <div className="absolute -left-[9999px] -top-[9999px]" aria-hidden="true">
+            <input
+              type="text"
+              name="website"
+              tabIndex={-1}
+              autoComplete="off"
+              value={website}
+              onChange={(e) => setWebsite(e.target.value)}
             />
           </div>
 

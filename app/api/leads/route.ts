@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server"
 import { leadSchema } from "@/lib/validation"
+import { isRateLimited } from "@/lib/rate-limit"
 
 const CASANEO_API_URL = process.env.CASANEO_API_URL
 const CASANEO_API_KEY = process.env.CASANEO_API_KEY
@@ -99,6 +100,14 @@ async function fallbackStore(lead: LeadPayload): Promise<void> {
 
 export async function POST(request: Request) {
   try {
+    const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown"
+    if (isRateLimited(ip)) {
+      return NextResponse.json(
+        { error: "Trop de requêtes. Veuillez réessayer dans quelques instants." },
+        { status: 429 }
+      )
+    }
+
     const body = await request.json()
     const result = leadSchema.safeParse(body)
 
@@ -110,6 +119,11 @@ export async function POST(request: Request) {
     }
 
     const lead = result.data
+
+    // Honeypot check — bots fill this hidden field
+    if (lead.website) {
+      return NextResponse.json({ success: true, dispatcher: "none" })
+    }
 
     // Waterfall dispatch
     const sentToCasaneo = await sendToCasaneo(lead)

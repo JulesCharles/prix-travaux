@@ -1,3 +1,27 @@
+export type PopulationTier = "urban" | "periurban" | "bourg" | "rural"
+export type GeographicZone = "perche" | "beauce" | "drouais" | "dunois"
+
+export interface MaterialComparison {
+  name: string
+  price_range: string
+  pros: string
+  cons: string
+  best_for: string
+}
+
+export interface OfficialLink {
+  label: string
+  url: string
+  description: string
+}
+
+export interface ExtendedFaqItem {
+  question: string
+  answer: string
+  tier_filter?: PopulationTier | null
+  zone_filter?: GeographicZone | null
+}
+
 export interface Trade {
   slug: string
   title: string
@@ -7,6 +31,15 @@ export interface Trade {
   description_template: string
   technical_details: string[]
   faq: { question: string; answer: string }[]
+  process_steps: string[]
+  timeline_template: string
+  materials_comparison: MaterialComparison[]
+  financing_guide: string
+  seasonal_advice: string
+  official_links: OfficialLink[]
+  extended_faq: ExtendedFaqItem[]
+  tier_content: Record<PopulationTier, string>
+  zone_content: Record<GeographicZone, string>
 }
 
 export interface City {
@@ -18,6 +51,11 @@ export interface City {
   neighboring_cities_slugs: string[]
   department: string
   region_description: string
+  population_tier: PopulationTier
+  geographic_zone: GeographicZone
+  architectural_style: string
+  climate_note: string
+  local_highlight: string
 }
 
 export interface LeadFormData {

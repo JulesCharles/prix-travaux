@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { ArrowRight, MapPin } from "lucide-react"
-import { trades, getTrade, getCitiesSorted } from "@/lib/data"
+import { trades, getTrade, getCitiesSorted, interpolateForDepartment } from "@/lib/data"
 import { tradeIcons } from "@/lib/trade-icons"
 import { Breadcrumb } from "@/components/Breadcrumb"
 
@@ -121,14 +121,10 @@ export default async function TradeHubPage({ params }: PageProps) {
           {trade.faq.map((item, i) => (
             <div key={i}>
               <h3 className="mb-1.5 text-sm font-semibold">
-                {item.question.replace(/{city}/g, "Eure-et-Loir")}
+                {interpolateForDepartment(item.question, trade)}
               </h3>
               <p className="text-sm leading-relaxed text-muted-foreground">
-                {item.answer
-                  .replace(/{city}/g, "Eure-et-Loir")
-                  .replace(/{min_price}/g, String(trade.min_price))
-                  .replace(/{max_price}/g, String(trade.max_price))
-                  .replace(/{unit}/g, trade.unit)}
+                {interpolateForDepartment(item.answer, trade)}
               </p>
             </div>
           ))}

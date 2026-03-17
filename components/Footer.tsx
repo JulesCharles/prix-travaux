@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Landmark } from "lucide-react"
+import Image from "next/image"
 import { trades, getTopCities, blogPosts } from "@/lib/data"
 
 const TOP_TRADES = 5
@@ -135,9 +135,14 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="flex flex-col items-center justify-between gap-4 border-t border-border/60 pt-6 sm:flex-row">
-          <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <Landmark className="size-3.5" />
-            <span className="font-semibold">Prix Travaux 28</span>
+          <div className="flex items-center">
+            <Image
+              src="/assets/logo.png"
+              alt="Prix Travaux 28"
+              width={140}
+              height={40}
+              className="h-9 w-auto"
+            />
           </div>
           <div className="flex items-center gap-4 text-xs text-muted-foreground/70">
             <Link

@@ -2,7 +2,8 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Landmark, ChevronDown, Menu, X } from "lucide-react"
+import Image from "next/image"
+import { ChevronDown, Menu, X } from "lucide-react"
 import { trades, getTopCities } from "@/lib/data"
 import { tradeIcons } from "@/lib/trade-icons"
 
@@ -13,15 +14,17 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-card/95 backdrop-blur-md">
-      <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5">
-          <div className="flex size-8 items-center justify-center rounded-lg bg-primary">
-            <Landmark className="size-4 text-primary-foreground" />
-          </div>
-          <span className="font-heading text-lg font-bold tracking-tight">
-            Prix Travaux 28
-          </span>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/assets/logo.png"
+            alt="Prix Travaux 28"
+            width={180}
+            height={52}
+            className="h-11 w-auto sm:h-12"
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}
@@ -42,7 +45,7 @@ export function Header() {
             <div className="invisible absolute left-0 top-full z-50 min-w-[240px] pt-1 opacity-0 transition-all group-hover:visible group-hover:opacity-100">
               <div className="rounded-xl border border-border/60 bg-card p-2 shadow-lg">
                 {trades.map((trade) => {
-                  const Icon = tradeIcons[trade.slug] ?? Landmark
+                  const Icon = tradeIcons[trade.slug] ?? ChevronDown
                   return (
                     <Link
                       key={trade.slug}

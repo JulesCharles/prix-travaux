@@ -3,11 +3,11 @@
     "slug": "toiture",
     "title": "Toiture",
     "min_price": 45,
-    "max_price": 130,
+    "max_price": 150,
     "unit": "m²",
     "description_template": "Vous envisagez des travaux de toiture à {city} ? Le prix moyen d'une intervention sur toiture dans le secteur du Perche se situe entre {min_price} € et {max_price} € par {unit}, selon le type de couverture choisie (ardoise, tuile, zinc) et l'état de la charpente existante. Les habitations du Perche, souvent marquées par une architecture traditionnelle en pierre et colombages, nécessitent un savoir-faire spécifique pour respecter le cachet local tout en garantissant une isolation performante.",
     "technical_details": [
-      "Couverture en ardoise naturelle : 80 à 130 €/m²",
+      "Couverture en ardoise naturelle : 100 à 150 €/m² (fourniture et pose)",
       "Couverture en tuiles plates : 45 à 80 €/m²",
       "Rénovation de charpente : 60 à 110 €/m²",
       "Zinguerie et gouttières : 25 à 50 €/ml",
@@ -31,7 +31,122 @@
         "question": "Comment choisir un couvreur fiable à {city} ?",
         "answer": "Vérifiez que l'artisan dispose de la qualification RGE (Reconnu Garant de l'Environnement), consultez ses références locales, demandez au moins 3 devis détaillés et assurez-vous qu'il possède une assurance décennale. Un couvreur du Perche connaîtra les spécificités climatiques et architecturales de la région."
       }
-    ]
+    ],
+    "process_steps": [
+      "Diagnostic de la charpente et évaluation de l'état de la couverture existante par un couvreur qualifié",
+      "Établissement d'un devis détaillé précisant les matériaux, les délais et les conditions d'accès au chantier",
+      "Mise en place de l'échafaudage périphérique et bâchage de protection contre les intempéries",
+      "Dépose de l'ancienne couverture et inspection approfondie des éléments de charpente et du lattage",
+      "Remplacement ou traitement des bois de charpente dégradés et pose du nouvel écran sous-toiture",
+      "Pose de la nouvelle couverture rangée par rangée, du bas vers le faîtage, avec fixations adaptées",
+      "Installation des éléments de zinguerie : gouttières, chéneaux, noues et raccords de ventilation",
+      "Nettoyage du chantier, démontage de l'échafaudage et contrôle final d'étanchéité avec le propriétaire"
+    ],
+    "timeline_template": "À {city}, la durée moyenne d'un chantier de toiture dépend de la surface du toit et du type de couverture choisi. Pour une maison individuelle de 100 m² de toiture, comptez entre 1 et 3 semaines de travaux hors intempéries. La dépose de l'ancienne couverture prend 2 à 3 jours, la reprise éventuelle de charpente 3 à 5 jours, et la pose de la nouvelle couverture 5 à 8 jours. En {population_tier}, les délais d'obtention de l'échafaudage et des autorisations municipales peuvent ajouter 1 à 2 semaines au planning initial. Prévoyez un délai de 4 à 8 semaines entre la signature du devis et le démarrage effectif des travaux, les couvreurs d'Eure-et-Loir étant particulièrement sollicités au printemps et en été.",
+    "materials_comparison": [
+      {
+        "name": "Ardoise naturelle",
+        "price_range": "100 à 150 €/m²",
+        "pros": "Durée de vie exceptionnelle de 100 ans et plus, esthétique noble et intemporelle, excellente résistance au gel et aux UV",
+        "cons": "Prix élevé, pose technique nécessitant un couvreur spécialisé, poids important exigeant une charpente renforcée",
+        "best_for": "Maisons de caractère du Perche, demeures anciennes de Chartres et bâtisses en pierre de roussard"
+      },
+      {
+        "name": "Tuile plate de pays",
+        "price_range": "45 à 80 €/m²",
+        "pros": "Rapport qualité-prix intéressant, esthétique traditionnelle adaptée au patrimoine local, large choix de teintes",
+        "cons": "Durée de vie inférieure à l'ardoise (50 à 70 ans), sensibilité au gel dans les zones les plus exposées",
+        "best_for": "Pavillons et maisons de village de la Beauce et du Drouais, rénovations à budget maîtrisé"
+      },
+      {
+        "name": "Tuile mécanique (grand moule)",
+        "price_range": "40 à 70 €/m²",
+        "pros": "Pose rapide et économique, bonne étanchéité, entretien limité, légèreté relative",
+        "cons": "Esthétique moins noble que la tuile plate ou l'ardoise, moins adaptée au bâti ancien protégé",
+        "best_for": "Constructions récentes, extensions, hangars agricoles rénovés en habitation dans le Dunois"
+      },
+      {
+        "name": "Zinc à joint debout",
+        "price_range": "110 à 200 €/m²",
+        "pros": "Étanchéité parfaite même sur faible pente, durée de vie de 50 à 80 ans, aspect contemporain ou patrimonial",
+        "cons": "Coût élevé de la main-d'œuvre spécialisée, sensibilité aux chocs et à la grêle, dilatation thermique à gérer",
+        "best_for": "Toitures à faible pente, extensions modernes, verrières et bâtiments publics en centre-ville de Chartres ou Dreux"
+      }
+    ],
+    "financing_guide": "Les travaux de toiture à {city} peuvent bénéficier de plusieurs dispositifs d'aide lorsqu'ils incluent une composante d'isolation thermique. MaPrimeRénov' finance l'isolation de la toiture par l'extérieur (sarking) à hauteur de 25 à 75 €/m² selon les revenus du ménage. L'éco-PTZ permet d'emprunter jusqu'à 50 000 € à taux zéro pour un bouquet de travaux incluant la toiture. Les primes CEE (Certificats d'Économie d'Énergie) couvrent 5 à 12 €/m² d'isolation de combles. La TVA réduite à 5,5 % s'applique sur la part isolation des travaux, et à 10 % sur la couverture seule pour les logements de plus de 2 ans. L'ANAH propose le programme « MaPrimeRénov' Parcours Accompagné » pour les ménages modestes, pouvant financer jusqu'à 50 % du montant total des travaux. La région Centre-Val de Loire complète ces dispositifs avec des aides ponctuelles en faveur de la rénovation énergétique. Renseignez-vous auprès de l'espace France Rénov' le plus proche pour un accompagnement gratuit et personnalisé.",
+    "seasonal_advice": "En Eure-et-Loir, la période idéale pour les travaux de toiture s'étend de mars à octobre. Évitez les mois d'hiver où le gel fragilise les mortiers de faîtage et rend les tuiles cassantes au piétinement. En Beauce, les vents dominants d'ouest soufflent fort de novembre à février et compliquent le travail en hauteur. Dans le Perche, l'humidité automnale accélère le développement des mousses mais rend le bâchage de protection indispensable. Planifiez votre chantier dès janvier pour obtenir un créneau favorable au printemps, saison la plus demandée chez les couvreurs du département.",
+    "official_links": [
+      {
+        "label": "France Rénov'",
+        "url": "https://france-renov.gouv.fr",
+        "description": "Service public d'accompagnement pour la rénovation énergétique, simulateur d'aides et annuaire des conseillers locaux en Eure-et-Loir"
+      },
+      {
+        "label": "ANAH",
+        "url": "https://www.anah.gouv.fr",
+        "description": "Agence Nationale de l'Habitat : aides financières pour les propriétaires modestes, programme MaPrimeRénov' Parcours Accompagné"
+      },
+      {
+        "label": "Qualibat",
+        "url": "https://www.qualibat.com",
+        "description": "Organisme de qualification du bâtiment : vérifiez la certification et les assurances de votre couvreur avant de signer"
+      },
+      {
+        "label": "FFB – Fédération Française du Bâtiment",
+        "url": "https://www.ffbatiment.fr",
+        "description": "Annuaire des entreprises de couverture adhérentes en Eure-et-Loir, garanties et labels professionnels"
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "Peut-on trouver un couvreur qualifié dans une petite commune comme {city} ?",
+        "answer": "Les couvreurs intervenant à {city} sont souvent basés dans les bourgs voisins ou les villes du {department}. Leur rayon d'intervention couvre généralement 20 à 30 km. Les frais de déplacement, de 30 à 80 € selon la distance, sont indiqués sur le devis. Pour une commune rurale, demandez des références de chantiers similaires dans le secteur. Les artisans du réseau Qualibat ou CAPEB 28 couvrent l'ensemble du département et connaissent les particularités des toitures locales.",
+        "tier_filter": "rural",
+        "zone_filter": null
+      },
+      {
+        "question": "Quelles sont les contraintes de toiture spécifiques aux maisons à colombages du Perche à {city} ?",
+        "answer": "Les maisons à colombages autour de {city} dans le Perche imposent des techniques de couverture adaptées au bâti ancien. La charpente traditionnelle en chêne doit être préservée et non modifiée sans avis d'un charpentier spécialisé. L'ardoise naturelle ou la tuile plate de pays sont les matériaux conformes au patrimoine local. En secteur protégé, l'Architecte des Bâtiments de France peut imposer des prescriptions sur la couleur et le format des matériaux. Comptez un délai d'instruction supplémentaire de 2 à 4 mois pour obtenir l'autorisation.",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "Comment gérer les contraintes de stationnement pour un chantier de toiture en centre-ville de {city} ?",
+        "answer": "En centre-ville de {city}, l'installation d'un échafaudage sur la voie publique nécessite une autorisation d'occupation temporaire délivrée par la mairie. Le délai d'obtention varie de 15 à 30 jours selon les communes du {department}. Le couvreur doit prévoir un balisage réglementaire et parfois une déviation piétonne. Les livraisons de matériaux sont souvent limitées à certaines heures. Intégrez ces contraintes dans le planning du chantier et vérifiez que votre artisan prend en charge les démarches administratives dans son devis.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "Les toitures en Beauce nécessitent-elles des fixations renforcées à {city} ?",
+        "answer": "En Beauce, les vents de plaine sont nettement plus forts que dans le Perche ou le Drouais, ce qui sollicite les couvertures de façon importante. Autour de {city}, les couvreurs utilisent des crochets tempête et des fixations renforcées conformes au DTU 40.11. Les tuiles mécaniques doivent être clouées ou vissées et non simplement posées par gravité. Le faîtage scellé au mortier est progressivement remplacé par un faîtage ventilé à sec, plus résistant aux rafales. Un contrôle après chaque épisode venteux est recommandé.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "Faut-il un permis de construire pour refaire sa toiture à {city} ?",
+        "answer": "La réfection à l'identique d'une toiture à {city} ne nécessite pas de permis de construire. En revanche, un changement de matériau (par exemple passer de la tuile à l'ardoise) ou une modification de la pente du toit exige une déclaration préalable de travaux auprès de la mairie. En zone protégée au titre des monuments historiques, l'avis conforme de l'Architecte des Bâtiments de France est obligatoire. Le délai d'instruction est d'un mois pour une déclaration préalable et de deux mois pour un permis dans le {department}.",
+        "tier_filter": null,
+        "zone_filter": null
+      },
+      {
+        "question": "Comment anticiper les travaux de toiture dans un bourg du Perche comme {city} ?",
+        "answer": "Dans un bourg comme {city}, les artisans couvreurs sont moins nombreux qu'en zone urbaine, d'où des délais d'intervention souvent plus longs. Anticipez votre projet 3 à 6 mois à l'avance pour obtenir plusieurs devis comparatifs. Profitez des périodes creuses (janvier-février) pour négocier des tarifs plus avantageux. Regroupez si possible vos travaux de toiture avec ceux de voisins pour bénéficier d'économies d'échelle sur l'échafaudage et les frais de déplacement, une pratique courante dans les petites communes du {department}.",
+        "tier_filter": "bourg",
+        "zone_filter": null
+      }
+    ],
+    "tier_content": {
+      "urban": "En centre-ville de {city}, les travaux de toiture s'inscrivent dans un contexte urbain dense qui influence les coûts et la logistique. L'installation d'échafaudages sur voie publique nécessite une autorisation municipale, comptez 15 à 30 jours de délai. Les artisans doivent composer avec les contraintes de stationnement, les horaires de livraison réglementés et la proximité du voisinage. En contrepartie, la concurrence entre couvreurs y est plus forte, ce qui maintient des tarifs compétitifs autour de {min_price} à {max_price} €/{unit}. Les toitures mitoyennes imposent souvent une coordination avec les copropriétés adjacentes.",
+      "periurban": "En zone périurbaine de {city}, les travaux de toiture bénéficient d'un accès plus aisé qu'en centre-ville tout en profitant de la proximité des dépôts de matériaux. Les pavillons construits entre 1970 et 2000, nombreux en périphérie des villes du {department}, arrivent à l'âge de leur première rénovation de couverture. Les charpentes industrielles en fermettes nécessitent un diagnostic spécifique. Les couvreurs du secteur proposent des tarifs de {min_price} à {max_price} €/{unit} avec des délais d'intervention généralement plus courts qu'en milieu rural.",
+      "bourg": "Dans un bourg comme {city} ({population} habitants), les travaux de toiture combinent les avantages d'une accessibilité correcte et d'un tissu artisanal local. Les maisons de bourg, souvent mitoyennes et construites en pierre de pays, présentent des toitures variées qui requièrent un couvreur polyvalent. Le marché local compte quelques artisans bien implantés dont la réputation se transmet par le bouche-à-oreille. Les tarifs se situent dans la fourchette de {min_price} à {max_price} €/{unit}. Consultez la mairie pour connaître les éventuelles prescriptions architecturales du PLU.",
+      "rural": "Dans une commune rurale comme {city} ({population} habitants), les travaux de toiture bénéficient d'un accès facilité aux chantiers et d'un voisinage moins contraignant. En revanche, l'éloignement des dépôts de matériaux et le nombre réduit d'artisans locaux peuvent engendrer un surcoût de 5 à 12 % par rapport aux zones urbaines. Privilégiez les couvreurs installés dans un rayon de 20 km pour limiter les frais de déplacement. Les corps de ferme et longères du {department} présentent de grandes surfaces de toiture qui justifient souvent un phasage des travaux sur plusieurs saisons."
+    },
+    "zone_content": {
+      "perche": "Dans le Perche, autour de {city}, les toitures traditionnelles en ardoise naturelle ou en tuiles plates de pays constituent un patrimoine architectural protégé. Les maisons à colombages et les manoirs en pierre de roussard imposent des techniques de couverture adaptées au bâti ancien respirant. Le {climate_note} du secteur accélère le vieillissement des couvertures et rend l'entretien préventif indispensable. Les couvreurs spécialisés dans la restauration du patrimoine percheronconnaissent les règles imposées par les Architectes des Bâtiments de France dans les périmètres de protection.",
+      "beauce": "En Beauce, {city} est exposée aux vents dominants de la plaine céréalière qui sollicitent fortement les toitures. Les fermes beauceronnes et leurs vastes surfaces de couverture en tuiles plates nécessitent des charpentes robustes et des fixations renforcées. Le {climate_note} impose un contrôle régulier de l'étanchéité, particulièrement au niveau des faîtages et des rives de toit. Les couvreurs du secteur privilégient les tuiles mécaniques grand moule pour leur résistance au vent et leur rapidité de pose sur les grandes surfaces agricoles reconverties en habitation.",
+      "drouais": "Dans le Drouais, autour de {city}, les toitures reflètent une transition architecturale entre l'Île-de-France et la Normandie. On y trouve aussi bien de l'ardoise que de la tuile plate, selon l'époque de construction et l'influence régionale. Le {climate_note} de cette zone, légèrement plus pluvieux que la Beauce voisine, exige une attention particulière à l'étanchéité des noues et des raccords de cheminée. La proximité de Dreux et de ses entreprises de couverture permet de bénéficier d'un bon choix d'artisans et de tarifs concurrentiels.",
+      "dunois": "Dans le Dunois, aux alentours de {city}, les toitures portent la marque d'un patrimoine rural marqué par l'agriculture. Les anciennes granges et dépendances reconverties en habitation présentent des surfaces de couverture importantes, souvent en tuiles plates ou mécaniques. Le {climate_note} de ce secteur, avec des étés chauds et secs, favorise la dilatation des matériaux et fragilise les joints de faîtage. Les couvreurs locaux recommandent un démoussage préventif tous les 5 ans et un contrôle des fixations après les tempêtes hivernales qui balaient cette partie orientale du département."
+    }
   },
   {
     "slug": "isolation",
@@ -59,13 +174,128 @@
       },
       {
         "question": "Quelles aides pour l'isolation en Eure-et-Loir ?",
-        "answer": "Les travaux d'isolation sont parmi les plus aidés : MaPrimeRénov' (jusqu'à 75 €/m² pour l'ITE), éco-PTZ jusqu'à 50 000 €, primes CEE, TVA réduite à 5,5 %, et aides régionales Centre-Val de Loire. Un artisan RGE est obligatoire pour bénéficier de ces aides."
+        "answer": "Les travaux d'isolation sont parmi les plus aidés : MaPrimeRénov' (jusqu'à 75 €/m² pour l'ITE), éco-PTZ jusqu'à 50 000 € (rénovation globale, ou 15 000 € pour une action simple), primes CEE, TVA réduite à 5,5 %, et aides régionales Centre-Val de Loire. Un artisan RGE est obligatoire pour bénéficier de ces aides."
       },
       {
         "question": "Combien peut-on économiser avec une bonne isolation ?",
         "answer": "Une isolation performante permet de réduire les factures de chauffage de 25 à 60 % selon les travaux réalisés. Dans le Perche, où les hivers sont frais, l'investissement est généralement rentabilisé en 4 à 8 ans grâce aux économies d'énergie et aux aides financières."
       }
-    ]
+    ],
+    "process_steps": [
+      "Audit énergétique du logement pour identifier les principales déperditions thermiques et hiérarchiser les travaux",
+      "Choix de la technique d'isolation et de l'isolant en fonction du bâti, du budget et des performances visées",
+      "Vérification de l'état du support : traitement des moisissures, réparation des fuites et mise en place de la ventilation",
+      "Préparation du chantier : protection des meubles, bâchage des sols, installation des accès aux combles si nécessaire",
+      "Pose de l'isolant selon la technique retenue : soufflage, insufflation, pose de panneaux rigides ou rouleaux",
+      "Mise en place du pare-vapeur côté intérieur et des membranes d'étanchéité à l'air aux jonctions",
+      "Finition : pose du parement intérieur (plaques de plâtre, lambris) ou de l'enduit de façade pour l'ITE",
+      "Contrôle de la performance par test d'infiltrométrie et remise de l'attestation de fin de travaux RGE"
+    ],
+    "timeline_template": "À {city}, la durée des travaux d'isolation varie fortement selon la technique choisie. L'isolation de combles perdus par soufflage est la plus rapide : comptez une demi-journée à une journée pour 80 à 120 m². L'isolation des combles aménagés en panneaux ou rouleaux nécessite 3 à 5 jours pour une maison standard. L'isolation des murs par l'intérieur demande 1 à 2 semaines pour un logement de 100 m². Pour une isolation thermique par l'extérieur (ITE), prévoyez 3 à 6 semaines selon la surface de façade. En {population_tier}, le délai entre la signature du devis et le démarrage du chantier est de 4 à 12 semaines, les artisans RGE du département étant très sollicités toute l'année.",
+    "materials_comparison": [
+      {
+        "name": "Laine de verre",
+        "price_range": "5 à 15 €/m² (fourniture)",
+        "pros": "Prix très compétitif, excellentes performances thermiques et acoustiques, classement au feu A1 incombustible",
+        "cons": "Irritante à la pose, sensible à l'humidité si le pare-vapeur est mal posé, tassement possible dans le temps",
+        "best_for": "Isolation de combles perdus et aménagés dans les pavillons récents de la Beauce et du périurbain chartrain"
+      },
+      {
+        "name": "Laine de bois",
+        "price_range": "15 à 30 €/m² (fourniture)",
+        "pros": "Excellent déphasage thermique (confort d'été), matériau biosourcé et perspirant, très bonne tenue dans le temps",
+        "cons": "Prix plus élevé que la laine minérale, épaisseur requise supérieure pour un même R, sensibilité aux insectes xylophages",
+        "best_for": "Maisons en pierre et à colombages du Perche, bâti ancien nécessitant une isolation respirante"
+      },
+      {
+        "name": "Ouate de cellulose",
+        "price_range": "10 à 20 €/m² (fourniture)",
+        "pros": "Bon rapport performance/prix, matériau recyclé (papier journal), excellent comportement estival, pose par soufflage rapide",
+        "cons": "Tassement possible si la densité de pose est insuffisante, nécessite un pare-vapeur soigné, sensible à l'humidité prolongée",
+        "best_for": "Combles perdus et rampants des maisons rurales, isolation écologique à budget maîtrisé dans tout le département 28"
+      },
+      {
+        "name": "Polystyrène expansé (PSE)",
+        "price_range": "8 à 18 €/m² (fourniture)",
+        "pros": "Léger, insensible à l'humidité, excellente résistance en compression, idéal pour l'ITE sous enduit",
+        "cons": "Mauvais déphasage thermique (inconfort estival), non perspirant, inadapté au bâti ancien en pierre",
+        "best_for": "Isolation par l'extérieur des constructions récentes (après 1950) et des planchers bas sur vide sanitaire"
+      }
+    ],
+    "financing_guide": "L'isolation est le poste de rénovation énergétique le mieux subventionné en France. À {city}, MaPrimeRénov' finance l'isolation des murs par l'extérieur jusqu'à 75 €/m² pour les ménages très modestes, 60 €/m² pour les modestes, 40 €/m² pour les intermédiaires et 15 €/m² pour les ménages aisés. L'isolation des combles bénéficie de 25 €/m² (ménages très modestes) à 7 €/m² (ménages aisés). Les primes CEE ajoutent 5 à 12 €/m² selon le type de travaux. La TVA est réduite à 5,5 % sur l'ensemble des travaux d'isolation pour les logements de plus de 2 ans. L'éco-PTZ permet d'emprunter jusqu'à 50 000 € sans intérêts sur 20 ans. L'ANAH finance jusqu'à 50 % du montant total via « MaPrimeRénov' Parcours Accompagné » pour les revenus modestes. La région Centre-Val de Loire propose des aides complémentaires dans le cadre de rénovations globales. Prenez rendez-vous avec l'espace France Rénov' de Chartres ou Dreux pour un bilan personnalisé gratuit.",
+    "seasonal_advice": "En Eure-et-Loir, les travaux d'isolation intérieure et en combles peuvent être réalisés toute l'année. L'isolation par l'extérieur (ITE) requiert des températures supérieures à 5 °C pour la bonne prise des enduits, ce qui exclut la période de décembre à février. Le printemps et l'automne sont les saisons les plus favorables : températures modérées, faible humidité relative et disponibilité des artisans. En Beauce, évitez les jours de vent fort qui compliquent la pose des panneaux d'ITE. Dans le Perche, traitez les problèmes d'humidité avant d'isoler pour éviter les pathologies liées à la condensation.",
+    "official_links": [
+      {
+        "label": "France Rénov'",
+        "url": "https://france-renov.gouv.fr",
+        "description": "Simulateur d'aides à la rénovation énergétique, annuaire des conseillers France Rénov' en Eure-et-Loir et prise de rendez-vous"
+      },
+      {
+        "label": "ADEME",
+        "url": "https://www.ademe.fr",
+        "description": "Agence de la transition écologique : guides techniques sur l'isolation, fiches matériaux et retours d'expérience"
+      },
+      {
+        "label": "ANAH",
+        "url": "https://www.anah.gouv.fr",
+        "description": "Aides financières de l'Agence Nationale de l'Habitat pour les ménages modestes : MaPrimeRénov' Parcours Accompagné et MaPrimeRénov'"
+      },
+      {
+        "label": "Qualibat",
+        "url": "https://www.qualibat.com",
+        "description": "Vérifiez la qualification RGE de votre artisan isolateur avant de signer le devis pour garantir l'éligibilité aux aides"
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "Quelle isolation privilégier pour une maison en pierre du Perche à {city} ?",
+        "answer": "Les maisons en pierre du Perche autour de {city} nécessitent des isolants perspirants qui laissent migrer la vapeur d'eau. La laine de bois et le liège expansé sont les matériaux les plus adaptés à ce bâti ancien. Le polystyrène et les pare-vapeur étanches sont à proscrire car ils piègent l'humidité dans les murs et provoquent des dégradations. Privilégiez une isolation par l'intérieur avec un enduit de finition à la chaux ou, si le budget le permet, une ITE en fibre de bois sous enduit à la chaux.",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "L'isolation par l'extérieur est-elle adaptée aux pavillons de la Beauce à {city} ?",
+        "answer": "Les pavillons de la Beauce construits entre 1960 et 1990, nombreux autour de {city}, sont d'excellents candidats à l'isolation thermique par l'extérieur (ITE). Leurs murs en parpaing ou en brique creuse n'ont généralement aucune isolation d'origine. L'ITE en polystyrène expansé sous enduit, facturée entre 100 et 180 €/m² dans le {department}, supprime les ponts thermiques et transforme le confort du logement. Le retour sur investissement est de 8 à 12 ans grâce aux économies de chauffage et aux aides cumulées.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "L'isolation des combles est-elle rentable dans une petite commune comme {city} ?",
+        "answer": "L'isolation des combles perdus est le geste de rénovation énergétique le plus rentable, quel que soit le lieu. À {city}, le coût moyen de 20 à 35 €/m² est amorti en 2 à 4 ans grâce aux économies de chauffage. Dans les communes rurales du {department}, où les maisons sont souvent plus grandes et moins bien isolées que la moyenne, le gain peut atteindre 500 à 800 €/an sur la facture d'énergie. Les aides MaPrimeRénov' et CEE réduisent le reste à charge à quelques centaines d'euros pour les ménages modestes.",
+        "tier_filter": "rural",
+        "zone_filter": null
+      },
+      {
+        "question": "Comment isoler un appartement en copropriété à {city} ?",
+        "answer": "En centre-ville de {city}, les appartements en copropriété peuvent être isolés par l'intérieur sans accord de la copropriété. Comptez 30 à 60 €/m² pour une isolation des murs en panneaux de laine de bois ou de laine de verre sous plaques de plâtre. L'isolation par l'extérieur nécessite un vote en assemblée générale à la majorité absolue. MaPrimeRénov' Copropriétés finance jusqu'à 25 % du montant des travaux pour les parties communes. Renseignez-vous auprès du syndic et de l'espace France Rénov' de votre secteur.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "Faut-il isoler avant ou après le remplacement du chauffage à {city} ?",
+        "answer": "Les professionnels du {department} recommandent de toujours isoler avant de remplacer le système de chauffage. Une bonne isolation réduit les besoins en puissance de chauffe, ce qui permet de dimensionner un équipement plus petit et moins coûteux. Par exemple, une maison mal isolée nécessitant une PAC de 12 kW n'aura plus besoin que de 8 kW après isolation des combles et des murs. Cette approche « enveloppe d'abord » optimise le retour sur investissement global et maximise le confort à {city}.",
+        "tier_filter": null,
+        "zone_filter": null
+      },
+      {
+        "question": "Quels sont les risques d'une mauvaise isolation dans un bourg du {department} comme {city} ?",
+        "answer": "Dans un bourg comme {city}, les maisons mitoyennes présentent des configurations de murs parfois complexes. Une isolation mal posée peut provoquer des ponts thermiques résiduels, de la condensation dans les parois et des moisissures néfastes pour la santé. Le traitement des jonctions mur-plancher et mur-toiture est primordial. Exigez un artisan RGE qui réalisera un test d'étanchéité à l'air en fin de chantier. Dans les maisons de bourg anciennes, la ventilation doit impérativement être adaptée après isolation pour renouveler l'air intérieur.",
+        "tier_filter": "bourg",
+        "zone_filter": null
+      }
+    ],
+    "tier_content": {
+      "urban": "En centre-ville de {city}, les travaux d'isolation concernent principalement les immeubles collectifs et les maisons de ville mitoyennes. L'isolation par l'intérieur (30 à 60 €/m²) est souvent la seule option lorsque la façade est protégée ou que la copropriété n'autorise pas l'ITE. Les contraintes d'accès limitent parfois l'utilisation de machines de soufflage. Les artisans isolateurs du secteur urbain de {city} sont habitués à travailler en milieu occupé, pièce par pièce. Les prix se situent dans la fourchette de {min_price} à {max_price} €/{unit} avec une bonne disponibilité des professionnels RGE.",
+      "periurban": "En zone périurbaine de {city}, les pavillons des années 1970-1990 représentent le gros du marché de l'isolation en {department}. Ces maisons, construites avant les premières réglementations thermiques, présentent des déperditions importantes par les combles (30 %), les murs (25 %) et les fenêtres (15 %). L'isolation des combles perdus par soufflage est le premier geste à réaliser, suivi de l'ITE si le budget le permet. Les prix s'échelonnent de {min_price} à {max_price} €/{unit} selon la technique. La proximité des fournisseurs de matériaux réduit les délais d'approvisionnement.",
+      "bourg": "Dans un bourg comme {city} ({population} habitants), l'isolation des maisons de ville mitoyennes demande une attention particulière aux murs pignons, seules façades accessibles pour une éventuelle ITE. Les combles sont souvent aménagés ou semi-aménagés, ce qui oriente vers une isolation en rampants à 40-80 €/m². Les artisans locaux du {department} connaissent les particularités de ces maisons de bourg : hauteurs sous plafond variables, présence de cheminées condamnées et planchers intermédiaires en bois. Prévoyez un diagnostic approfondi avant de choisir la technique adaptée.",
+      "rural": "Dans une commune rurale comme {city} ({population} habitants), les maisons individuelles disposent de grandes surfaces de combles souvent non isolées. Les longères et corps de ferme du {department} offrent un potentiel d'économies d'énergie considérable : une isolation de combles perdus de 150 m² coûte entre 3 000 et 5 250 € avant aides. L'éloignement des centres urbains peut engendrer des frais de déplacement de 50 à 100 € pour les artisans. Regroupez vos travaux avec des voisins pour mutualiser ces frais et négocier un meilleur tarif au mètre carré."
+    },
+    "zone_content": {
+      "perche": "Dans le Perche, autour de {city}, le bâti ancien en pierre de roussard et en colombages impose une approche spécifique de l'isolation. Les murs épais (60 à 80 cm) offrent une bonne inertie thermique mais une résistance thermique insuffisante. Les isolants biosourcés et perspirants — laine de bois, chanvre, liège — sont les seuls compatibles avec ces parois respirantes. Le {climate_note} du Perche, avec ses hivers humides, rend la gestion de la vapeur d'eau cruciale. Un enduit intérieur à la chaux couplé à un isolant en fibres naturelles constitue la solution de référence.",
+      "beauce": "En Beauce, autour de {city}, le parc immobilier se compose majoritairement de constructions d'après-guerre en parpaing ou en brique. Ces maisons, souvent exposées aux vents de plaine sans protection végétale, subissent des déperditions thermiques importantes. L'isolation thermique par l'extérieur en polystyrène ou en laine de roche sous enduit est la technique la plus efficace et la plus pratiquée. Le {climate_note} de la Beauce, avec des écarts de température marqués entre été et hiver, plaide pour des isolants à bon déphasage thermique qui protègent aussi de la chaleur estivale.",
+      "drouais": "Dans le Drouais, {city} se trouve dans une zone de transition climatique entre le bassin parisien et la Normandie. L'humidité y est légèrement supérieure à la Beauce, ce qui impose une vigilance accrue sur l'étanchéité à l'air et la gestion de la vapeur d'eau. Les constructions sont variées : pavillons récents, maisons de ville anciennes et fermes restaurées. Le {climate_note} du Drouais justifie une résistance thermique R ≥ 6,5 m².K/W pour les combles et R ≥ 3,7 m².K/W pour les murs. Les artisans RGE du secteur de Dreux interviennent dans un rayon de 25 km.",
+      "dunois": "Dans le Dunois, autour de {city}, l'isolation est une priorité pour les grandes maisons rurales exposées aux rigueurs de l'hiver continental. Les exploitations agricoles reconverties en habitation présentent des volumes importants à chauffer et des combles de grande hauteur. Le {climate_note} du Dunois, avec des gelées fréquentes de novembre à mars, impose une isolation renforcée des combles (R ≥ 7 m².K/W) et du plancher bas sur cave ou vide sanitaire. Le soufflage de ouate de cellulose ou de laine de verre en combles perdus représente le meilleur rapport performance-prix pour ces grands volumes."
+    }
   },
   {
     "slug": "plomberie",
@@ -99,7 +329,115 @@
         "question": "Faut-il refaire toute la plomberie d'une maison ancienne à {city} ?",
         "answer": "Dans les maisons anciennes du Perche, une réfection complète de la plomberie est souvent recommandée lorsque le réseau a plus de 30 ans, surtout si les canalisations sont en plomb. Le coût moyen d'une rénovation complète se situe entre 3 000 et 8 000 € pour une maison de 100 m². Profitez de ces travaux pour installer un système d'eau chaude plus performant et réduire votre consommation."
       }
-    ]
+    ],
+    "process_steps": [
+      "Diagnostic complet du réseau existant : état des canalisations, pression d'eau, conformité des raccordements",
+      "Établissement d'un devis détaillé mentionnant les matériaux (cuivre, PER, multicouche), les équipements et la main-d'œuvre",
+      "Coupure de l'alimentation en eau et vidange du réseau avant toute intervention sur les canalisations",
+      "Dépose des éléments vétustes : anciens tuyaux en plomb ou acier galvanisé, robinetterie usée, chauffe-eau défectueux",
+      "Pose du nouveau réseau d'alimentation en eau froide et chaude avec vannes d'isolement par appareil",
+      "Installation ou remplacement des équipements sanitaires : chauffe-eau, robinetterie, WC, receveur de douche",
+      "Mise en pression du réseau, contrôle de l'absence de fuites et vérification du débit à chaque point de puisage",
+      "Nettoyage du chantier et remise au client du plan du réseau avec l'emplacement des vannes de coupure"
+    ],
+    "timeline_template": "À {city}, la durée d'une intervention de plomberie dépend de son envergure. Une réparation de fuite ou un remplacement de robinetterie se règle en 1 à 3 heures. Le remplacement d'un chauffe-eau électrique prend une demi-journée, celui d'un ballon thermodynamique une journée complète. Une réfection partielle du réseau (cuisine et salle de bain) nécessite 2 à 4 jours. Pour une rénovation complète de la plomberie d'une maison de 100 m², comptez 1 à 2 semaines de travaux. En {population_tier}, le délai de prise de rendez-vous varie de 48 heures pour une urgence à 3-6 semaines pour un chantier programmé, les plombiers qualifiés du département étant très demandés.",
+    "materials_comparison": [
+      {
+        "name": "Tube PER (polyéthylène réticulé)",
+        "price_range": "2 à 5 €/ml (fourniture)",
+        "pros": "Souple et facile à poser, résistant au gel, pas de soudure ni de brasure, raccords à sertir fiables",
+        "cons": "Sensible aux UV (ne pas laisser apparent), nécessite un outillage de sertissage spécifique, durée de vie estimée à 50 ans",
+        "best_for": "Rénovation de maisons anciennes du Perche où le passage des tuyaux rigides est compliqué par les murs épais en pierre"
+      },
+      {
+        "name": "Tube cuivre",
+        "price_range": "5 à 12 €/ml (fourniture)",
+        "pros": "Durée de vie supérieure à 50 ans, bactériostatique, recyclable, résistant aux hautes températures et pressions",
+        "cons": "Prix élevé, pose par brasure nécessitant un professionnel qualifié, risque de corrosion galvanique au contact d'autres métaux",
+        "best_for": "Installations neuves haut de gamme, circuits de chauffage central, rénovation patrimoniale dans le Drouais et le Dunois"
+      },
+      {
+        "name": "Tube multicouche",
+        "price_range": "3 à 8 €/ml (fourniture)",
+        "pros": "Rigidité supérieure au PER, esthétique en apparent, insensible à l'oxygène (pas de corrosion des radiateurs), faible dilatation",
+        "cons": "Raccords plus coûteux que le PER, cintrage limité, moins souple pour les passages difficiles dans le bâti ancien",
+        "best_for": "Installations mixtes eau sanitaire et chauffage dans les pavillons périurbains de Chartres, Dreux et Nogent-le-Rotrou"
+      }
+    ],
+    "financing_guide": "Les travaux de plomberie courante (réparation, remplacement de robinetterie) ne bénéficient pas d'aides spécifiques, mais la TVA est réduite à 10 % pour les logements de plus de 2 ans. En revanche, le remplacement d'un chauffe-eau par un modèle thermodynamique est éligible à MaPrimeRénov' : de 400 € (revenus intermédiaires) à 1 200 € (ménages très modestes) — les ménages aux revenus supérieurs ne sont pas éligibles. Les primes CEE ajoutent 100 à 200 € pour un chauffe-eau thermodynamique. L'éco-PTZ finance jusqu'à 15 000 € de travaux pour une action simple incluant la production d'eau chaude sanitaire, ou 50 000 € dans le cadre d'un bouquet de travaux. La TVA à 5,5 % s'applique sur les équipements de production d'eau chaude utilisant une énergie renouvelable. L'ANAH peut compléter le financement pour les ménages modestes d'Eure-et-Loir via le programme MaPrimeRénov' Parcours Accompagné. Les chauffe-eau solaires bénéficient des mêmes aides avec des montants majorés.",
+    "seasonal_advice": "En Eure-et-Loir, les interventions de plomberie d'urgence se concentrent en hiver avec les épisodes de gel qui provoquent des éclatements de canalisations, surtout dans les maisons peu chauffées du Perche et les résidences secondaires de la Beauce. Planifiez vos travaux de rénovation au printemps ou en été, quand les plombiers sont plus disponibles et les conditions de travail optimales. Avant l'hiver, faites vérifier l'isolation des canalisations situées en combles non chauffés ou en vide sanitaire. En zone rurale, purgez et protégez les robinets extérieurs dès les premières gelées annoncées, généralement fin octobre dans le département.",
+    "official_links": [
+      {
+        "label": "Qualibat",
+        "url": "https://www.qualibat.com",
+        "description": "Vérifiez la qualification professionnelle de votre plombier : certifications Qualibat 5111 (installations sanitaires) et 5112 (plomberie)"
+      },
+      {
+        "label": "France Rénov'",
+        "url": "https://france-renov.gouv.fr",
+        "description": "Simulez vos aides pour l'installation d'un chauffe-eau thermodynamique ou solaire et trouvez un conseiller en Eure-et-Loir"
+      },
+      {
+        "label": "CAPEB – Confédération de l'Artisanat et des Petites Entreprises du Bâtiment",
+        "url": "https://www.capeb.fr",
+        "description": "Annuaire des plombiers artisans en Eure-et-Loir, garanties professionnelles et conseils aux particuliers"
+      },
+      {
+        "label": "ADEME",
+        "url": "https://www.ademe.fr",
+        "description": "Guides pratiques sur le choix d'un chauffe-eau performant, économies d'eau et transition énergétique du logement"
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "Les canalisations en plomb sont-elles encore fréquentes dans les maisons du Perche à {city} ?",
+        "answer": "Dans le Perche, autour de {city}, les maisons construites avant 1950 conservent parfois des canalisations en plomb, notamment pour le raccordement au réseau public. Depuis 2013, la concentration en plomb dans l'eau potable ne doit pas dépasser 10 µg/L. Si votre réseau intérieur est en plomb, le remplacement par du PER ou du cuivre est fortement recommandé. Un plombier qualifié du {department} peut réaliser un diagnostic et un devis de remplacement, généralement entre 2 000 et 5 000 € pour une maison individuelle.",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "Comment protéger ses canalisations du gel dans une ferme isolée à {city} ?",
+        "answer": "Dans les communes rurales du {department} comme {city}, les maisons isolées sont particulièrement vulnérables au gel. Isolez toutes les canalisations situées en combles, garage, cave ou vide sanitaire avec des manchons en mousse polyéthylène (2 à 5 €/ml). Pour les tuyaux très exposés, un câble chauffant antigel (15 à 30 €/ml) constitue une protection efficace. Coupez l'alimentation des robinets extérieurs et vidangez-les avant l'hiver. En cas d'absence prolongée, maintenez le chauffage à 8 °C minimum.",
+        "tier_filter": "rural",
+        "zone_filter": null
+      },
+      {
+        "question": "Quel plombier choisir pour un dépannage urgent en centre-ville de {city} ?",
+        "answer": "En centre-ville de {city}, les dépannages urgents (fuite importante, WC bouché, ballon d'eau chaude en panne) nécessitent un plombier réactif et proche. Méfiez-vous des numéros surtaxés qui redirigent vers des sociétés éloignées aux tarifs abusifs. Privilégiez un artisan local du {department} disposant d'un numéro fixe et d'un SIRET vérifiable. Le tarif d'une intervention urgente en journée se situe entre 100 et 250 € dans le département, incluant le déplacement et la première heure de main-d'œuvre.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "L'eau est-elle calcaire à {city} et faut-il installer un adoucisseur ?",
+        "answer": "La dureté de l'eau varie fortement en Eure-et-Loir. En Beauce, autour de {city}, l'eau issue des nappes du calcaire de Beauce est très dure (30 à 45 °f), ce qui entartre rapidement les canalisations et les chauffe-eau. Un adoucisseur à résine coûte entre 800 et 2 000 € pose comprise, avec un entretien annuel de 100 à 150 €. L'investissement est rentabilisé en 3 à 5 ans par l'allongement de la durée de vie des appareils et la réduction de la consommation de produits ménagers.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "Peut-on installer un récupérateur d'eau de pluie à {city} ?",
+        "answer": "L'installation d'un récupérateur d'eau de pluie est parfaitement légale et encouragée à {city}. Un système enterré de 3 000 à 5 000 litres, raccordé aux WC et au jardin, coûte entre 2 500 et 5 000 € pose comprise en Eure-et-Loir. Le réseau d'eau de pluie doit être strictement séparé du réseau d'eau potable, avec une signalisation conforme à l'arrêté du 21 août 2008. Un plombier qualifié s'assure de la conformité de l'installation et déclare les travaux en mairie, obligation souvent méconnue des propriétaires.",
+        "tier_filter": null,
+        "zone_filter": null
+      },
+      {
+        "question": "Comment choisir entre réparation et remplacement de la plomberie dans un bourg comme {city} ?",
+        "answer": "Dans un bourg comme {city}, les maisons de ville datent souvent de la fin du XIXe siècle ou du début du XXe. Si les canalisations sont en acier galvanisé (reconnaissable à sa couleur grise et au goût métallique de l'eau), un remplacement complet est préférable à des réparations ponctuelles répétées. En revanche, un réseau en cuivre en bon état peut être conservé et complété. Un plombier du {department} évaluera l'état du réseau par un contrôle de pression et une inspection visuelle des points accessibles.",
+        "tier_filter": "bourg",
+        "zone_filter": null
+      }
+    ],
+    "tier_content": {
+      "urban": "En centre-ville de {city}, les interventions de plomberie se déroulent dans un contexte de logements souvent anciens et parfois exigus. Les réseaux d'eau passent dans des gaines techniques étroites ou sont encastrés dans des murs porteurs, ce qui complique les réparations. Le tarif horaire de {min_price} à {max_price} €/{unit} reste compétitif grâce à la densité d'artisans. Les copropriétés imposent des plages horaires de travaux (8h-19h en semaine) et l'accord du syndic pour toute intervention sur les colonnes montantes. Les dépannages d'urgence sont facilités par la proximité des professionnels.",
+      "periurban": "En zone périurbaine de {city}, la plomberie des pavillons individuels construits entre 1970 et 2000 arrive en fin de vie. Les canalisations en acier galvanisé ou en polybutylène, posées à cette époque, présentent des risques de fuite et de baisse de débit. Le remplacement complet par du PER ou du multicouche coûte entre 3 000 et 6 000 € pour une maison de 100 m². Les plombiers du secteur facturent {min_price} à {max_price} €/{unit} avec des délais d'intervention de 3 à 10 jours pour les travaux programmés. La proximité des grandes surfaces de bricolage facilite l'approvisionnement en pièces.",
+      "bourg": "Dans un bourg comme {city} ({population} habitants), la plomberie des maisons de ville reflète l'histoire du bâti local. Les réseaux datent souvent des années 1950-1970, avec un mélange de cuivre, d'acier et parfois de plomb qu'il convient de remplacer. Les plombiers installés dans les bourgs du {department} pratiquent des tarifs de {min_price} à {max_price} €/{unit} et assurent un suivi régulier de leur clientèle locale. Le bouche-à-oreille reste le meilleur moyen de trouver un professionnel de confiance. Pensez à regrouper vos travaux de plomberie avec ceux de la salle de bain ou de la cuisine.",
+      "rural": "Dans une commune rurale comme {city} ({population} habitants), les interventions de plomberie nécessitent de faire venir un artisan depuis une ville voisine, ce qui engendre des frais de déplacement de 30 à 80 € selon la distance. Les maisons rurales du {department} possèdent parfois un puits ou un forage privé dont l'eau doit être analysée annuellement. Les canalisations extérieures enterrées sont vulnérables au gel et aux racines d'arbres. Prévoyez un budget légèrement supérieur à la fourchette urbaine de {min_price} à {max_price} €/{unit} pour compenser les frais d'accès."
+    },
+    "zone_content": {
+      "perche": "Dans le Perche, autour de {city}, la plomberie des maisons anciennes en pierre présente des défis spécifiques. Les murs épais en moellons rendent l'encastrement des canalisations délicat, et les plombiers privilégient le passage en apparent ou en plinthes techniques. Les réseaux en plomb subsistent dans les demeures les plus anciennes et doivent être remplacés. Le {climate_note} favorise la condensation dans les pièces humides mal ventilées. Les artisans plombiers du Perche maîtrisent ces contraintes et proposent des solutions adaptées au bâti respirant traditionnel.",
+      "beauce": "En Beauce, autour de {city}, la principale caractéristique affectant la plomberie est la dureté élevée de l'eau. Le calcaire de la nappe de Beauce provoque un entartrage rapide des chauffe-eau, réduisant leur durée de vie de 30 à 40 %. L'installation d'un adoucisseur d'eau est fortement recommandée. Le {climate_note} impose une protection antigel renforcée des canalisations dans les combles et les garages non chauffés. Les fermes beauceronnes reconverties en habitation nécessitent souvent une mise aux normes complète du réseau sanitaire.",
+      "drouais": "Dans le Drouais, {city} bénéficie de la proximité de Dreux et de son bassin d'artisans plombiers. La qualité de l'eau y est variable selon les communes, avec une dureté moyenne de 25 à 35 °f. Le {climate_note} du Drouais, plus humide que la Beauce, favorise la corrosion des canalisations en acier dans les vides sanitaires mal ventilés. Les plombiers du secteur recommandent un contrôle annuel des joints et raccords dans les maisons de plus de 20 ans. La création de lotissements neufs en périphérie de Dreux génère une forte demande en plomberie neuve.",
+      "dunois": "Dans le Dunois, les maisons rurales autour de {city} sont souvent alimentées par des réseaux d'eau communaux aux débits parfois limités. Un surpresseur peut s'avérer nécessaire pour les habitations en bout de réseau. Le {climate_note} du Dunois, avec des hivers marqués, impose une isolation soignée des canalisations dans les bâtiments non chauffés. Les exploitations agricoles reconverties disposent parfois de puits ou de forages privés dont la potabilité doit être vérifiée. Les plombiers intervenant dans ce secteur oriental du département pratiquent des tarifs alignés sur la moyenne départementale."
+    }
   },
   {
     "slug": "electricite",
@@ -127,13 +465,121 @@
       },
       {
         "question": "Quelles aides pour la rénovation électrique à {city} ?",
-        "answer": "La rénovation électrique bénéficie de la TVA réduite à 10 % pour les logements de plus de 2 ans. L'installation d'une borne de recharge pour véhicule électrique donne droit à un crédit d'impôt de 300 €. L'ANAH propose des aides pour les logements insalubres via le programme « Habiter Sain ». Les résidents d'Eure-et-Loir en situation de précarité énergétique peuvent solliciter des aides complémentaires auprès du CCAS."
+        "answer": "La rénovation électrique bénéficie de la TVA réduite à 10 % pour les logements de plus de 2 ans. L'installation d'une borne de recharge pour véhicule électrique donne droit à un crédit d'impôt de 500 €. L'ANAH propose des aides pour les logements insalubres via le programme « Habiter Sain ». Les résidents d'Eure-et-Loir en situation de précarité énergétique peuvent solliciter des aides complémentaires auprès du CCAS."
       },
       {
         "question": "Faut-il un électricien certifié pour les travaux à {city} ?",
         "answer": "Oui, il est fortement recommandé de faire appel à un électricien certifié Qualifelec ou titulaire de la mention RGE pour les travaux liés à la performance énergétique. L'attestation de conformité Consuel est obligatoire pour toute nouvelle installation ou rénovation lourde. Dans le Perche, un professionnel local connaîtra les contraintes du bâti ancien et les exigences des Architectes des Bâtiments de France si votre bien se situe en zone protégée."
       }
-    ]
+    ],
+    "process_steps": [
+      "Diagnostic de l'installation électrique existante : vérification du tableau, de la prise de terre et de l'état des circuits",
+      "Conception du schéma électrique conforme à la norme NF C 15-100 et dimensionnement de la puissance nécessaire",
+      "Coupure de l'alimentation au compteur et consignation du tableau électrique pour travailler en sécurité",
+      "Tirage des câbles et pose des gaines ICTA dans les murs, cloisons et plafonds selon le plan de distribution",
+      "Installation du nouveau tableau électrique avec disjoncteurs différentiels, disjoncteurs divisionnaires et parafoudre",
+      "Pose de l'appareillage : prises, interrupteurs, points lumineux, prises RJ45 et prises spécialisées (four, plaque)",
+      "Raccordement de la prise de terre, vérification des liaisons équipotentielles dans les salles d'eau",
+      "Tests de conformité, obtention de l'attestation Consuel si nécessaire, et remise du dossier technique au propriétaire"
+    ],
+    "timeline_template": "À {city}, la durée d'une intervention électrique varie considérablement selon l'ampleur des travaux. Le remplacement d'un tableau électrique prend 1 à 2 jours. L'ajout de circuits supplémentaires (prises, éclairages) nécessite 2 à 4 jours. Une rénovation électrique complète d'une maison de 100 m² demande 2 à 4 semaines de travaux, davantage si les murs en pierre du bâti ancien imposent des saignées manuelles. L'installation d'une borne de recharge pour véhicule électrique se réalise en une demi-journée à une journée. En {population_tier}, le délai entre la demande de devis et le démarrage des travaux est de 2 à 8 semaines, les électriciens certifiés Qualifelec du département étant particulièrement sollicités.",
+    "materials_comparison": [
+      {
+        "name": "Appareillage standard (Legrand, Schneider)",
+        "price_range": "5 à 15 € par mécanisme",
+        "pros": "Fiabilité éprouvée, large gamme de finitions, disponibilité immédiate chez les distributeurs du département, conformité garantie",
+        "cons": "Design basique sur les gammes d'entrée, pas de fonctionnalités connectées sur les modèles standards",
+        "best_for": "Rénovations complètes et mises aux normes dans les pavillons et maisons de ville du département 28"
+      },
+      {
+        "name": "Appareillage connecté (Legrand Céliane with Netatmo, Schneider Wiser)",
+        "price_range": "30 à 80 € par mécanisme",
+        "pros": "Pilotage à distance via smartphone, programmation horaire, compatibilité avec les assistants vocaux, suivi de consommation",
+        "cons": "Prix 3 à 5 fois supérieur à l'appareillage standard, nécessite un réseau Wi-Fi stable, obsolescence technologique possible",
+        "best_for": "Maisons neuves et rénovations haut de gamme en périurbain de Chartres et Dreux, résidences secondaires du Perche"
+      },
+      {
+        "name": "Câblage en cuivre (section 1,5 à 6 mm²)",
+        "price_range": "1 à 4 €/ml selon la section",
+        "pros": "Matériau de référence pour les installations électriques, excellente conductivité, durée de vie supérieure à 30 ans",
+        "cons": "Prix fluctuant selon le cours du cuivre, nécessite un passage en gaine ICTA conforme",
+        "best_for": "Toutes les installations neuves et rénovations dans le département, imposé par la norme NF C 15-100"
+      }
+    ],
+    "financing_guide": "La rénovation électrique ne bénéficie pas directement de MaPrimeRénov', mais plusieurs aides sont accessibles à {city}. La TVA réduite à 10 % s'applique sur la main-d'œuvre et les fournitures pour les logements de plus de 2 ans. L'installation d'une borne de recharge pour véhicule électrique ouvre droit à un crédit d'impôt de 500 € par point de charge (500 € pour un système de charge piloté), sans condition de revenus. L'ANAH propose le programme « Habiter Sain » pour les logements présentant des risques électriques avérés (installation non conforme, fils apparents), avec une prise en charge pouvant atteindre 50 % du montant des travaux pour les ménages modestes. L'éco-PTZ est mobilisable si la rénovation électrique s'inscrit dans un bouquet de travaux de rénovation énergétique. La prime Advenir couvre jusqu'à 50 % du coût d'une borne de recharge en copropriété. Contactez l'espace France Rénov' d'Eure-et-Loir pour un accompagnement personnalisé.",
+    "seasonal_advice": "En Eure-et-Loir, les travaux d'électricité peuvent être réalisés en toute saison puisqu'ils se déroulent principalement à l'intérieur du logement. Néanmoins, la pose de gaines extérieures ou de panneaux solaires photovoltaïques est préférable entre avril et octobre. Les orages estivaux en Beauce provoquent régulièrement des surtensions qui endommagent les appareils électroniques : l'installation d'un parafoudre est vivement recommandée. Planifiez votre rénovation électrique en dehors des pics de demande (septembre-octobre pour les mises en conformité avant l'hiver). Dans le Perche, profitez des périodes de faible humidité pour les saignées dans les murs en pierre qui nécessitent un temps de séchage avant la refermeture.",
+    "official_links": [
+      {
+        "label": "Qualifelec",
+        "url": "https://www.qualifelec.fr",
+        "description": "Organisme de qualification des entreprises d'électricité : vérifiez la certification de votre électricien en Eure-et-Loir"
+      },
+      {
+        "label": "France Rénov'",
+        "url": "https://france-renov.gouv.fr",
+        "description": "Information sur les aides à la rénovation énergétique et annuaire des conseillers locaux pour les résidents du département 28"
+      },
+      {
+        "label": "ANAH",
+        "url": "https://www.anah.gouv.fr",
+        "description": "Programme « Habiter Sain » pour la mise en sécurité électrique des logements insalubres en Eure-et-Loir"
+      },
+      {
+        "label": "CAPEB",
+        "url": "https://www.capeb.fr",
+        "description": "Confédération de l'Artisanat et des Petites Entreprises du Bâtiment : annuaire des électriciens artisans du département 28"
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "Peut-on installer une borne de recharge pour véhicule électrique dans une maison rurale à {city} ?",
+        "answer": "L'installation d'une borne de recharge est tout à fait possible dans une commune rurale comme {city}, à condition que la puissance du compteur électrique soit suffisante (au moins 9 kVA pour une borne de 7 kW). Dans les hameaux éloignés du {department}, la qualité du réseau électrique peut limiter la puissance disponible. Un électricien certifié IRVE vérifiera la faisabilité technique et pourra demander un renforcement de branchement à Enedis si nécessaire. Le crédit d'impôt de 500 € s'applique quelle que soit la localisation.",
+        "tier_filter": "rural",
+        "zone_filter": null
+      },
+      {
+        "question": "Comment rénover l'électricité d'une maison à colombages du Perche à {city} ?",
+        "answer": "Les maisons à colombages du Perche autour de {city} imposent des contraintes spécifiques pour la rénovation électrique. Les murs en torchis et pans de bois ne supportent pas les saignées profondes. Les électriciens spécialisés dans le bâti ancien privilégient le passage des gaines dans les plinthes, les chambranles de portes et les faux plafonds. En secteur protégé, l'Architecte des Bâtiments de France peut imposer des prescriptions sur la couleur et l'emplacement des éléments apparents. Comptez un surcoût de 15 à 25 % par rapport à une rénovation standard.",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "Faut-il installer un parafoudre dans une maison en Beauce à {city} ?",
+        "answer": "En Beauce, autour de {city}, l'exposition aux orages est supérieure à la moyenne nationale en raison de la topographie plane et de l'absence de relief protecteur. L'installation d'un parafoudre au tableau électrique est fortement recommandée, voire obligatoire si la commune est classée en zone AQ2 (densité de foudroiement élevée) par la norme NF C 15-100. Le coût d'un parafoudre de type 2 est de 150 à 300 € pose comprise. Il protège les appareils électroniques sensibles contre les surtensions induites par la foudre.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "Comment gérer une rénovation électrique en copropriété à {city} ?",
+        "answer": "En centre-ville de {city}, la rénovation électrique d'un appartement en copropriété nécessite de distinguer les parties privatives (à la charge du copropriétaire) des parties communes (colonnes montantes, tableau général). Depuis la loi ELAN de 2018, le transfert des colonnes montantes à Enedis simplifie leur mise aux normes. Pour les travaux privatifs, respectez les horaires du règlement de copropriété et informez le syndic. Un diagnostic électrique est obligatoire à la vente et recommandé avant tout achat dans les immeubles anciens du {department}.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "La domotique est-elle adaptée aux maisons anciennes du {department} à {city} ?",
+        "answer": "La domotique sans fil (protocoles Zigbee, Z-Wave ou Wi-Fi) s'adapte parfaitement aux maisons anciennes de {city} sans travaux de câblage invasifs. Les interrupteurs connectés remplacent les modèles existants et permettent de piloter l'éclairage, le chauffage et les volets à distance. Comptez 200 à 500 € par pièce pour un équipement de base. Pour les murs épais en pierre du Perche, un répéteur de signal peut être nécessaire. Attention : la domotique filaire (protocole KNX) reste plus fiable mais impose un recâblage complet rarement justifié en rénovation.",
+        "tier_filter": null,
+        "zone_filter": null
+      },
+      {
+        "question": "Comment trouver un électricien disponible rapidement dans un bourg comme {city} ?",
+        "answer": "Dans un bourg comme {city}, le nombre d'électriciens locaux est limité. En cas d'urgence (panne de tableau, court-circuit), contactez les artisans des communes voisines dans un rayon de 15 à 20 km. La CAPEB 28 et Qualifelec tiennent des annuaires à jour des professionnels certifiés en Eure-et-Loir. Pour les travaux programmés, anticiper 4 à 8 semaines est prudent. Regroupez si possible plusieurs interventions (remplacement tableau, ajout de prises, installation d'un détecteur de fumée) pour optimiser le déplacement et le coût global.",
+        "tier_filter": "bourg",
+        "zone_filter": null
+      }
+    ],
+    "tier_content": {
+      "urban": "En centre-ville de {city}, les travaux d'électricité concernent majoritairement la mise aux normes d'immeubles anciens et l'installation de bornes de recharge en copropriété. Les contraintes urbaines (accès limité, nuisances sonores réglementées, coordination avec le syndic) influencent l'organisation du chantier. Les électriciens du secteur urbain facturent entre {min_price} et {max_price} €/{unit} avec une bonne réactivité grâce à la proximité. La forte densité de logements permet de mutualiser les interventions et d'obtenir des tarifs compétitifs, notamment pour les mises aux normes groupées en copropriété.",
+      "periurban": "En zone périurbaine de {city}, la demande électrique porte principalement sur les bornes de recharge pour véhicules électriques et la domotique. Les pavillons des lotissements des années 1980-2000 arrivent à l'âge de leur première mise aux normes, avec des tableaux électriques sous-dimensionnés pour les usages actuels (induction, pompe à chaleur, recharge VE). Le tarif horaire de {min_price} à {max_price} €/{unit} est celui pratiqué par la majorité des électriciens du secteur. Les délais d'intervention restent raisonnables grâce au maillage dense d'artisans autour des villes du {department}.",
+      "bourg": "Dans un bourg comme {city} ({population} habitants), l'électricité des maisons de ville et des commerces nécessite une attention particulière. Les installations datent souvent des années 1960-1970 et ne répondent plus aux exigences actuelles de sécurité ni aux besoins en puissance des foyers modernes. Le passage de 6 à 9 ou 12 kVA au compteur est fréquent lors des rénovations. Les électriciens du {department} pratiquent des tarifs de {min_price} à {max_price} €/{unit}. Pensez à coupler la mise aux normes électrique avec l'installation de détecteurs de fumée, obligatoires depuis 2015.",
+      "rural": "Dans une commune rurale comme {city} ({population} habitants), les installations électriques présentent souvent un retard par rapport aux zones urbaines. Les compteurs en fin de réseau peuvent délivrer une tension plus basse, affectant le fonctionnement des appareils sensibles. L'installation d'une borne de recharge ou d'une pompe à chaleur nécessite parfois un renforcement de branchement auprès d'Enedis (délai de 2 à 6 mois). Les électriciens intervenant à {city} ajoutent des frais de déplacement de 30 à 80 € au tarif horaire de {min_price} à {max_price} €/{unit}."
+    },
+    "zone_content": {
+      "perche": "Dans le Perche, autour de {city}, la rénovation électrique des maisons anciennes constitue un défi technique. Les murs en pierre de 50 à 80 cm d'épaisseur, les planchers en bois et les colombages en chêne imposent des techniques de passage de câbles adaptées : chemins de câbles en apparent, plinthes techniques ou passages dans les faux plafonds. Le {climate_note} du Perche, avec son humidité ambiante, rend la mise à la terre et les différentiels 30 mA d'autant plus critiques. Les électriciens spécialisés dans le patrimoine percheronsont rares mais indispensables pour les biens en périmètre ABF.",
+      "beauce": "En Beauce, {city} est située dans une zone soumise à un niveau kéraunique (densité de foudre) supérieur à la moyenne régionale. La norme NF C 15-100 impose l'installation d'un parafoudre lorsque le bâtiment se situe dans une commune classée AQ2. Les fermes beauceronnes avec leurs grands volumes et leurs dépendances nécessitent des installations puissantes et bien protégées. Le {climate_note} de la plaine, avec ses orages d'été violents, justifie des dispositifs de protection renforcés pour les équipements agricoles convertis en usage résidentiel.",
+      "drouais": "Dans le Drouais, autour de {city}, le parc immobilier mêle constructions anciennes du centre-ville de Dreux et lotissements récents en périphérie. Cette diversité se reflète dans les besoins électriques : mise aux normes pour les uns, domotique et bornes de recharge pour les autres. Le {climate_note} de cette zone, similaire à celui de l'Île-de-France voisine, n'impose pas de contraintes particulières au-delà des exigences normatives standard. La proximité de Dreux garantit un bon choix d'électriciens certifiés Qualifelec et des délais d'intervention raisonnables.",
+      "dunois": "Dans le Dunois, autour de {city}, les installations électriques des maisons rurales et des corps de ferme reconvertis demandent souvent une refonte complète. Les anciennes installations agricoles (compteurs triphasés, câblages surdimensionnés pour les moteurs) doivent être adaptées à un usage résidentiel. Le {climate_note} de ce secteur oriental du département, avec des températures hivernales parfois très basses, impose un dimensionnement soigneux du chauffage électrique lorsqu'il est retenu. Les électriciens intervenant dans le Dunois couvrent généralement un rayon large et regroupent leurs interventions pour optimiser les déplacements."
+    }
   },
   {
     "slug": "chauffage",
@@ -143,7 +589,7 @@
     "unit": "h",
     "description_template": "Vous souhaitez installer ou rénover votre système de chauffage à {city} ? Le tarif horaire d'un chauffagiste en Eure-et-Loir se situe entre {min_price} € et {max_price} € de l'{unit}, hors équipements, selon le type d'intervention (installation, entretien, dépannage). Le climat du Perche, avec des hivers froids et humides, rend indispensable un système de chauffage performant et bien dimensionné. Les maisons en pierre typiques du département {department} bénéficient d'une inertie thermique qu'un chauffagiste expérimenté saura exploiter pour optimiser le confort et réduire la consommation énergétique.",
     "technical_details": [
-      "Installation pompe à chaleur air-eau : 8 000 à 15 000 €",
+      "Installation pompe à chaleur air-eau : 10 000 à 16 000 €",
       "Pose chaudière gaz à condensation : 3 500 à 6 000 €",
       "Installation poêle à bois ou granulés : 2 500 à 6 000 €",
       "Remplacement radiateurs (lot de 5) : 2 000 à 4 500 €",
@@ -161,13 +607,128 @@
       },
       {
         "question": "Quelles aides pour le chauffage en Eure-et-Loir à {city} ?",
-        "answer": "Les aides pour le chauffage sont particulièrement avantageuses : MaPrimeRénov' (jusqu'à 11 000 € pour une PAC géothermique), prime « Coup de Pouce Chauffage » des CEE, éco-PTZ jusqu'à 50 000 €, TVA à 5,5 % et aides régionales Centre-Val de Loire. L'ANAH propose aussi le programme « Habiter Mieux Sérénité » pour les ménages modestes. Un artisan RGE est indispensable pour en bénéficier."
+        "answer": "Les aides pour le chauffage sont particulièrement avantageuses : MaPrimeRénov' (jusqu'à 11 000 € pour une PAC géothermique), prime « Coup de Pouce Chauffage » des CEE, éco-PTZ jusqu'à 50 000 € (rénovation globale, ou 15 000 € pour une action simple), TVA à 5,5 % et aides régionales Centre-Val de Loire. L'ANAH propose aussi le programme « MaPrimeRénov' Parcours Accompagné » pour les ménages modestes. Un artisan RGE est indispensable pour en bénéficier."
       },
       {
         "question": "À quelle fréquence entretenir sa chaudière à {city} ?",
         "answer": "L'entretien annuel de la chaudière est obligatoire par la loi et coûte entre 100 et 180 € en Eure-et-Loir. Il garantit la sécurité, prolonge la durée de vie de l'appareil et optimise son rendement. Pour les pompes à chaleur, un entretien tous les 2 ans est obligatoire pour les appareils contenant plus de 2 kg de fluide frigorigène. Un contrat d'entretien annuel avec un chauffagiste local du Perche permet de bénéficier de tarifs préférentiels et d'interventions rapides en cas de panne."
       }
-    ]
+    ],
+    "process_steps": [
+      "Étude thermique du logement pour évaluer les déperditions et dimensionner correctement le futur système de chauffage",
+      "Comparaison des solutions adaptées au bâti et au budget : pompe à chaleur, chaudière gaz, poêle à bois ou système hybride",
+      "Établissement du devis détaillé incluant les équipements, la main-d'œuvre, les raccordements et les démarches d'aides financières",
+      "Dépose de l'ancien système de chauffage, démontage de la cuve à fioul le cas échéant et nettoyage du local technique",
+      "Installation du nouvel équipement : raccordement hydraulique au réseau de radiateurs ou au plancher chauffant",
+      "Raccordement électrique, paramétrage de la régulation et programmation du thermostat d'ambiance",
+      "Mise en service de l'installation, vérification du bon fonctionnement de chaque émetteur et équilibrage du réseau",
+      "Formation du propriétaire à l'utilisation et à la programmation du système, remise des documents de garantie et du contrat d'entretien"
+    ],
+    "timeline_template": "À {city}, la durée d'installation d'un nouveau système de chauffage varie selon l'équipement choisi. Le remplacement d'une chaudière gaz par un modèle à condensation se réalise en 1 à 2 jours. L'installation d'une pompe à chaleur air-eau avec raccordement au réseau de radiateurs existant nécessite 2 à 4 jours. La pose d'un poêle à granulés avec création du conduit de fumée prend 1 à 3 jours. L'installation d'un plancher chauffant exige 1 à 2 semaines pour 80 m². En {population_tier}, le délai entre la signature du devis et la réalisation des travaux varie de 4 à 12 semaines selon la saison. Anticipez votre projet dès le printemps pour une installation avant l'hiver suivant, les chauffagistes du département étant surchargés de septembre à décembre.",
+    "materials_comparison": [
+      {
+        "name": "Pompe à chaleur air-eau",
+        "price_range": "10 000 à 16 000 €",
+        "pros": "COP de 3 à 4 (1 kWh consommé produit 3 à 4 kWh de chaleur), éligible aux aides massives, compatible avec les radiateurs existants",
+        "cons": "Bruit de l'unité extérieure, baisse de rendement sous -7 °C, investissement initial élevé, nécessite un appoint par grand froid",
+        "best_for": "Maisons de 80 à 150 m² bien isolées, remplacement de chaudière fioul dans les pavillons du département 28"
+      },
+      {
+        "name": "Chaudière gaz à condensation",
+        "price_range": "3 500 à 6 000 € (pose comprise)",
+        "pros": "Rendement supérieur à 100 % sur PCI, technologie éprouvée et fiable, encombrement réduit, coût modéré",
+        "cons": "Énergie fossile dont le prix est volatil, interdite en construction neuve depuis 2022, raccordement gaz nécessaire",
+        "best_for": "Logements raccordés au gaz de ville à Chartres, Dreux et Nogent-le-Rotrou, budget d'investissement limité"
+      },
+      {
+        "name": "Poêle à granulés",
+        "price_range": "2 500 à 6 000 € (pose comprise)",
+        "pros": "Énergie renouvelable et locale, flamme visible et ambiance chaleureuse, autonomie de 1 à 3 jours, programmable",
+        "cons": "Chauffage d'appoint ne couvrant pas toute la maison, stockage des granulés, entretien régulier du foyer et du conduit",
+        "best_for": "Complément de chauffage dans les maisons du Perche et du Dunois, pièce de vie de 30 à 60 m²"
+      },
+      {
+        "name": "Pompe à chaleur géothermique (eau-eau)",
+        "price_range": "15 000 à 25 000 € (pose et forage compris)",
+        "pros": "Rendement constant quelle que soit la température extérieure (COP 4 à 5), silencieuse, durée de vie de 20 à 25 ans",
+        "cons": "Investissement très élevé, nécessite un terrain suffisant pour les capteurs ou un forage, travaux de terrassement importants",
+        "best_for": "Grandes propriétés rurales avec terrain disponible, maisons neuves dans le Dunois et la Beauce"
+      }
+    ],
+    "financing_guide": "Le chauffage est le poste de rénovation énergétique offrant les aides financières les plus généreuses à {city}. MaPrimeRénov' finance les pompes à chaleur air-eau à hauteur de 3 000 € (revenus intermédiaires) à 5 000 € (ménages très modestes) — les ménages aux revenus supérieurs ne sont pas éligibles. Les PAC géothermiques bénéficient de 6 000 à 11 000 €. La prime « Coup de Pouce Chauffage » des CEE ajoute 2 500 à 4 000 € pour le remplacement d'une chaudière fioul ou gaz ancienne. L'éco-PTZ permet d'emprunter jusqu'à 50 000 € (rénovation globale) ou 15 000 € (action simple) à taux zéro sur 20 ans. La TVA à 5,5 % s'applique sur tous les équipements de chauffage utilisant une énergie renouvelable. Pour un poêle à granulés, MaPrimeRénov' accorde 750 € (revenus intermédiaires) à 1 250 € (ménages très modestes). L'ANAH complète via « MaPrimeRénov' Parcours Accompagné » pour les ménages modestes d'Eure-et-Loir, avec une prise en charge pouvant atteindre 50 % du montant total. La région Centre-Val de Loire propose des aides complémentaires dans le cadre de rénovations globales. Le cumul de ces dispositifs réduit le reste à charge d'une PAC air-eau à 3 000-6 000 € pour la majorité des ménages.",
+    "seasonal_advice": "En Eure-et-Loir, planifiez le remplacement de votre chauffage entre avril et septembre pour être opérationnel avant les premiers froids, qui surviennent généralement mi-octobre dans le Perche et fin octobre en Beauce. Les chauffagistes du département sont débordés de mi-septembre à fin décembre : les délais d'intervention doublent et les prix grimpent en urgence. L'entretien annuel de votre chaudière ou PAC doit être effectué avant le redémarrage hivernal, idéalement en septembre. Dans les maisons en pierre du Perche, la montée en température est lente : un système de chauffage surdimensionné de 10 % compense l'inertie des murs épais.",
+    "official_links": [
+      {
+        "label": "France Rénov'",
+        "url": "https://france-renov.gouv.fr",
+        "description": "Simulateur d'aides pour le remplacement de votre chauffage, annuaire des conseillers et prise de rendez-vous en Eure-et-Loir"
+      },
+      {
+        "label": "Qualit'EnR",
+        "url": "https://www.qualit-enr.org",
+        "description": "Annuaire des installateurs de pompes à chaleur (QualiPAC), poêles à bois (Qualibois) et solaire (QualiSol) certifiés RGE"
+      },
+      {
+        "label": "ANAH",
+        "url": "https://www.anah.gouv.fr",
+        "description": "Programme MaPrimeRénov' Parcours Accompagné pour les ménages modestes du département 28 : financement global de la rénovation énergétique"
+      },
+      {
+        "label": "ADEME",
+        "url": "https://www.ademe.fr",
+        "description": "Guides comparatifs des systèmes de chauffage, calculateurs d'économies d'énergie et conseils pour la transition hors fioul"
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "La pompe à chaleur air-eau est-elle efficace par grand froid dans le Perche à {city} ?",
+        "answer": "Dans le Perche, autour de {city}, les températures descendent occasionnellement sous -10 °C en janvier et février. Les pompes à chaleur air-eau récentes (modèles inverter) maintiennent un bon rendement jusqu'à -15 °C, mais leur COP diminue significativement sous -7 °C. Un appoint électrique intégré prend alors le relais. Pour les maisons mal isolées du Perche, un système hybride PAC + poêle à bois sécurise le confort les jours les plus froids. Le {climate_note} du Perche justifie un dimensionnement généreux de la PAC.",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "Le granulé de bois est-il facilement disponible en Beauce à {city} ?",
+        "answer": "En Beauce, autour de {city}, l'approvisionnement en granulés de bois est assuré par plusieurs distributeurs régionaux et des grandes surfaces de bricolage. Le prix du sac de 15 kg oscille entre 5 et 7 € en Eure-et-Loir, et le vrac livré en silo coûte entre 300 et 400 € la tonne. La Beauce n'étant pas une zone forestière, les délais de livraison en vrac peuvent être plus longs qu'en Perche. Commandez vos granulés au printemps ou en été pour bénéficier des meilleurs tarifs et garantir la disponibilité avant l'hiver.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "Comment chauffer une grande maison rurale de façon économique à {city} ?",
+        "answer": "Dans une commune rurale comme {city}, les grandes maisons du {department} (150 à 250 m²) nécessitent un système de chauffage adapté aux volumes importants. La combinaison d'une pompe à chaleur air-eau pour la base et d'un poêle à bois ou granulés en complément constitue la solution la plus économique à l'usage. Le bois-bûche, disponible localement à 50-70 €/stère, réduit la facture de chauffage de 20 à 30 %. Isolez en priorité les combles et les murs exposés au nord avant de dimensionner votre nouveau système.",
+        "tier_filter": "rural",
+        "zone_filter": null
+      },
+      {
+        "question": "Quel chauffage choisir pour un appartement en centre-ville de {city} ?",
+        "answer": "En centre-ville de {city}, les appartements en copropriété ont souvent un chauffage collectif au gaz dont la conversion est décidée en assemblée générale. Pour un chauffage individuel, la chaudière gaz à condensation murale reste la solution la plus adaptée en espace réduit (3 500 à 6 000 €). Si la copropriété autorise l'installation d'une unité extérieure, une PAC air-air réversible (climatisation en été) constitue une alternative intéressante à 3 000-5 000 €. Le poêle à granulés nécessite un conduit de fumée en façade, soumis à l'accord de la copropriété.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "Quand faut-il remplacer une chaudière fioul dans le {department} à {city} ?",
+        "answer": "Depuis juillet 2022, l'installation de chaudières fonctionnant exclusivement au fioul est interdite en France, y compris pour le remplacement à l'identique. Si votre chaudière fioul tombe en panne à {city}, vous devrez opter pour une énergie alternative : pompe à chaleur, chaudière gaz (si raccordement disponible), poêle à granulés ou système hybride. N'attendez pas la panne pour anticiper ce changement : les aides MaPrimeRénov' et CEE sont particulièrement avantageuses pour sortir du fioul. Un chauffagiste RGE du {department} établira un comparatif chiffré des solutions.",
+        "tier_filter": null,
+        "zone_filter": null
+      },
+      {
+        "question": "Comment optimiser le chauffage d'une maison de bourg à {city} ?",
+        "answer": "Dans un bourg comme {city}, les maisons mitoyennes bénéficient de l'effet tampon des habitations voisines, ce qui réduit les besoins en chauffage des murs latéraux. Concentrez l'investissement sur l'isolation du toit et de la façade exposée au nord. Un thermostat d'ambiance programmable (150 à 300 €) permet d'ajuster le chauffage selon vos horaires de présence et d'économiser 10 à 15 % sur la facture. Dans les bourgs du {department}, le réseau de gaz naturel dessert souvent le centre, offrant l'option d'une chaudière à condensation compacte.",
+        "tier_filter": "bourg",
+        "zone_filter": null
+      }
+    ],
+    "tier_content": {
+      "urban": "En centre-ville de {city}, le chauffage des logements se caractérise par la prépondérance du chauffage collectif au gaz et des installations individuelles en appartement. L'espace réduit oriente vers des chaudières murales à condensation ou des PAC air-air réversibles. L'installation d'un poêle à granulés est soumise à l'accord de la copropriété et à la faisabilité d'un conduit de fumée. Les tarifs de main-d'œuvre de {min_price} à {max_price} €/{unit} sont contenus par la concurrence entre chauffagistes. La densité urbaine facilite le raccordement au réseau de gaz naturel, une option indisponible dans les communes rurales.",
+      "periurban": "En zone périurbaine de {city}, les pavillons individuels offrent une grande liberté dans le choix du système de chauffage. La pompe à chaleur air-eau domine le marché de la rénovation dans les lotissements du {department}, où elle remplace avantageusement les anciennes chaudières fioul ou les convecteurs électriques. Le terrain disponible permet aussi l'installation d'une PAC géothermique pour les budgets conséquents. Les chauffagistes facturent {min_price} à {max_price} €/{unit} avec des délais d'intervention de 2 à 6 semaines. La proximité des fournisseurs d'équipements garantit un choix étendu de marques et de modèles.",
+      "bourg": "Dans un bourg comme {city} ({population} habitants), le chauffage des maisons de ville conjugue les avantages de la mitoyenneté (moindres déperditions latérales) et les contraintes de l'ancien (cheminées condamnées, petits locaux techniques). Le réseau de gaz naturel dessert souvent le centre-bourg, ce qui maintient l'intérêt de la chaudière à condensation. Le poêle à granulés canalisable, qui distribue la chaleur dans plusieurs pièces via des gaines, constitue une alternative prisée. Les chauffagistes locaux pratiquent des tarifs de {min_price} à {max_price} €/{unit} et assurent l'entretien annuel des installations du bourg.",
+      "rural": "Dans une commune rurale comme {city} ({population} habitants), le chauffage représente le premier poste de dépenses énergétiques des ménages. Les maisons rurales du {department}, souvent mal isolées et de grande surface, consomment 15 000 à 25 000 kWh/an. Le fioul reste présent dans de nombreux foyers faute de raccordement au gaz naturel. La pompe à chaleur air-eau et le poêle à granulés sont les deux solutions de remplacement les plus pertinentes. Le bois-bûche, abondant et peu coûteux en zone rurale (50 à 70 €/stère), complète efficacement une PAC. Les frais de déplacement du chauffagiste s'ajoutent au tarif de {min_price} à {max_price} €/{unit}."
+    },
+    "zone_content": {
+      "perche": "Dans le Perche, autour de {city}, le chauffage des maisons en pierre de roussard et à colombages exige un système respectueux du bâti ancien. Les murs épais (60 à 80 cm) offrent une inertie thermique précieuse que le chauffage basse température (plancher chauffant, radiateurs à eau) exploite parfaitement. La pompe à chaleur air-eau, couplée à des radiateurs basse température, est la solution de référence en rénovation. Le {climate_note} du Perche, avec ses hivers humides, rend la régulation de l'hygrométrie aussi importante que celle de la température. Les poêles à bois locaux complètent idéalement le chauffage principal.",
+      "beauce": "En Beauce, {city} se situe dans une zone où le réseau de gaz naturel est bien développé le long des axes principaux, mais absent dans les communes écartées. Les fermes beauceronnes reconverties présentent des volumes à chauffer importants et des plafonds hauts qui compliquent la diffusion de la chaleur. Le {climate_note} de la Beauce, avec des hivers secs et ventés, accentue la sensation de froid et les infiltrations d'air. La pompe à chaleur air-eau fonctionne efficacement dans ce climat continental modéré, avec un COP satisfaisant même lors des épisodes de gel courants de décembre à février.",
+      "drouais": "Dans le Drouais, autour de {city}, le marché du chauffage bénéficie de la proximité de Dreux et de son bassin d'installateurs qualifiés. Le réseau de gaz naturel dessert les communes les plus importantes, offrant l'option de la chaudière à condensation pour les budgets limités. Le {climate_note} du Drouais est comparable à celui de l'Île-de-France, avec des hivers modérés mais humides. Les maisons récentes des lotissements périurbains de Dreux adoptent massivement la pompe à chaleur, tandis que les demeures anciennes du centre-ville privilégient le gaz ou le bois. La concurrence entre chauffagistes maintient des tarifs compétitifs dans ce secteur.",
+      "dunois": "Dans le Dunois, autour de {city}, l'éloignement du réseau de gaz naturel oriente fortement vers les solutions de chauffage autonomes. La pompe à chaleur air-eau et le poêle à granulés dominent le marché de la rénovation dans ce secteur rural. Le {climate_note} du Dunois, marqué par des hivers plus rigoureux que le reste du département, impose un dimensionnement généreux des équipements. Les grandes propriétés rurales avec terrain disponible constituent des candidates idéales pour la géothermie sur capteurs horizontaux. Le bois-bûche reste abordable grâce aux forêts du secteur, à 45-65 €/stère en circuit court."
+    }
   },
   {
     "slug": "salle-de-bain",
@@ -195,13 +756,128 @@
       },
       {
         "question": "Quelles aides pour adapter une salle de bain aux seniors à {city} ?",
-        "answer": "L'adaptation d'une salle de bain pour les personnes âgées ou à mobilité réduite bénéficie de plusieurs aides : MaPrimeAdapt' (jusqu'à 70 % du montant des travaux), crédit d'impôt de 25 % pour l'adaptation du logement, aides de l'ANAH et de la CARSAT. La TVA réduite à 5,5 % s'applique pour les équipements spécifiques (barres d'appui, siège de douche). Le département d'Eure-et-Loir propose aussi des aides via l'Allocation Personnalisée d'Autonomie (APA)."
+        "answer": "L'adaptation d'une salle de bain pour les personnes âgées ou à mobilité réduite bénéficie de plusieurs aides : MaPrimeAdapt' (jusqu'à 70 % du montant des travaux), dispositif MaPrimeAdapt' (jusqu'à 70 % des travaux dans la limite de 22 000 € HT), aides de l'ANAH et de la CARSAT. La TVA réduite à 5,5 % s'applique pour les équipements spécifiques (barres d'appui, siège de douche). Le département d'Eure-et-Loir propose aussi des aides via l'Allocation Personnalisée d'Autonomie (APA)."
       },
       {
         "question": "Douche ou baignoire : que choisir pour sa salle de bain à {city} ?",
         "answer": "Le remplacement d'une baignoire par une douche à l'italienne est la tendance forte en Eure-et-Loir, notamment pour les maisons du Perche où l'espace est parfois contraint. La douche consomme moins d'eau (60 litres contre 150 pour un bain) et facilite l'accessibilité. Comptez 2 000 à 4 500 € pour cette transformation. Toutefois, si vous avez de jeunes enfants ou un espace suffisant, la baignoire reste un atout pour la revente."
       }
-    ]
+    ],
+    "process_steps": [
+      "Visite technique pour relever les cotes, vérifier les arrivées d'eau et les évacuations existantes.",
+      "Établissement du plan d'aménagement avec positionnement précis de chaque équipement sanitaire et des alimentations.",
+      "Dépose complète de l'ancienne salle de bain : sanitaires, revêtements muraux, sol et plomberie vétuste.",
+      "Reprise des réseaux de plomberie en PER multicouche et mise en conformité de l'installation électrique NF C 15-100.",
+      "Réalisation de l'étanchéité sous carrelage (SPEC) en douche et zones humides, conformément au DTU 65.10.",
+      "Pose du carrelage au sol et en mural, avec calepinage adapté à la configuration de la pièce.",
+      "Installation des équipements sanitaires : receveur ou douche à l'italienne, meuble vasque, WC, robinetterie.",
+      "Mise en service, raccordement VMC, vérification de l'étanchéité et nettoyage fin de chantier."
+    ],
+    "timeline_template": "À {city}, la durée moyenne d'une rénovation complète de salle de bain est de 2 à 4 semaines pour une pièce de 4 à 6 m². En {population_tier}, les artisans sont généralement disponibles sous 3 à 6 semaines de délai. La phase de dépose et de reprise des réseaux occupe la première semaine. Le carrelage et l'étanchéité nécessitent 4 à 6 jours de séchage incompressibles. La pose des sanitaires et les finitions clôturent le chantier en 3 à 4 jours. Prévoyez une semaine supplémentaire si les murs présentent des problèmes d'humidité ou si le plancher doit être renforcé, situation fréquente dans les maisons anciennes du département.",
+    "materials_comparison": [
+      {
+        "name": "Grès cérame émaillé",
+        "price_range": "25 à 55 €/m²",
+        "pros": "Très résistant à l'eau et aux produits d'entretien, large choix de décors, imitation bois ou pierre convaincante",
+        "cons": "Surface froide au toucher, nécessite un ragréage parfait, les grands formats exigent un poseur expérimenté",
+        "best_for": "Sols et murs de douche, excellent rapport durabilité-prix pour la plupart des salles de bain en Eure-et-Loir"
+      },
+      {
+        "name": "Faïence murale",
+        "price_range": "15 à 40 €/m²",
+        "pros": "Économique, facile à poser, large gamme de couleurs et de formats, nettoyage aisé",
+        "cons": "Moins résistante aux chocs que le grès cérame, ne convient pas au sol, joints à entretenir régulièrement",
+        "best_for": "Revêtement mural autour de la baignoire ou de la vasque, idéal pour les budgets maîtrisés"
+      },
+      {
+        "name": "Résine de synthèse (receveur et plan vasque)",
+        "price_range": "300 à 900 € par élément",
+        "pros": "Surface douce et chaude au toucher, antidérapante, réparable en cas de rayure, découpe sur mesure possible",
+        "cons": "Sensible aux produits abrasifs, peut jaunir avec le temps si qualité médiocre, prix plus élevé que la céramique",
+        "best_for": "Douches à l'italienne et plans vasque contemporains, particulièrement adapté aux rénovations sans receveur encastré"
+      },
+      {
+        "name": "PVC mural (dalles ou lames clipsables)",
+        "price_range": "15 à 30 €/m²",
+        "pros": "Pose rapide sans colle, étanche, léger, ne nécessite pas de dépose de l'ancien revêtement",
+        "cons": "Esthétique moins qualitative que le carrelage, durée de vie limitée (10-15 ans), choix de décors restreint",
+        "best_for": "Rénovation rapide à petit budget, logements locatifs, salles de bain secondaires"
+      }
+    ],
+    "financing_guide": "La rénovation d'une salle de bain à {city} peut bénéficier de plusieurs dispositifs financiers. MaPrimeAdapt' couvre jusqu'à 70 % du montant des travaux d'adaptation pour les personnes de plus de 70 ans ou en situation de handicap, dans la limite de 22 000 € HT. L'éco-PTZ permet d'emprunter jusqu'à 50 000 € à taux zéro pour un bouquet de travaux incluant la salle de bain si celle-ci intègre des équipements d'économie d'eau ou d'énergie. Les primes CEE (Certificats d'Économie d'Énergie) financent le remplacement d'un chauffe-eau par un modèle thermodynamique, avec une prime moyenne de 100 à 300 €. La TVA réduite à 5,5 % s'applique aux équipements PMR (barres d'appui, siège de douche, receveur extra-plat). Pour les ménages modestes, l'ANAH finance jusqu'à 50 % du montant HT via le programme « Habiter Sain ». Enfin, la région Centre-Val de Loire propose ponctuellement des aides complémentaires dans le cadre de la lutte contre l'habitat indigne.",
+    "seasonal_advice": "En Eure-et-Loir, la meilleure période pour rénover une salle de bain se situe entre mars et juin ou entre septembre et novembre. L'été est chargé pour les artisans du bâtiment, et les délais d'attente peuvent atteindre 8 à 12 semaines. L'hiver convient techniquement (travaux intérieurs), mais les jours courts rallongent la durée du chantier. Réservez votre artisan au moins 6 semaines à l'avance pour obtenir un créneau optimal et négocier les tarifs hors période de pointe.",
+    "official_links": [
+      {
+        "label": "France Rénov'",
+        "url": "https://france-renov.gouv.fr",
+        "description": "Guichet unique de la rénovation : simulateur d'aides MaPrimeRénov' et MaPrimeAdapt', annuaire des conseillers France Rénov' en Eure-et-Loir."
+      },
+      {
+        "label": "ANAH",
+        "url": "https://www.anah.gouv.fr",
+        "description": "Agence nationale de l'habitat : programmes « Habiter Sain » et « Habiter Serein » pour la rénovation des salles de bain insalubres ou inadaptées."
+      },
+      {
+        "label": "Qualibat",
+        "url": "https://www.qualibat.com",
+        "description": "Annuaire des entreprises qualifiées : vérifiez les certifications de votre plombier ou carreleur avant de signer un devis."
+      },
+      {
+        "label": "CAPEB",
+        "url": "https://www.capeb.fr",
+        "description": "Confédération de l'artisanat et des petites entreprises du bâtiment : trouver un artisan de confiance en Eure-et-Loir pour la rénovation de salle de bain."
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "Quelles précautions pour rénover une salle de bain dans une maison à colombages à {city} ?",
+        "answer": "Les maisons à colombages du Perche présentent des murs en torchis sensibles à l'humidité. Il est indispensable de traiter le bois contre les insectes xylophages avant de poser un revêtement étanche. L'étanchéité sous carrelage (système SPEC) doit remonter à 2 mètres de hauteur dans la zone de douche. Privilégiez une VMC hygroréglable pour réguler l'humidité ambiante sans assécher le torchis, et évitez les panneaux de doublage en plâtre qui emprisonnent la vapeur d'eau dans les murs anciens.",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "Faut-il un permis ou une déclaration pour rénover une salle de bain à {city} ?",
+        "answer": "En règle générale, la rénovation intérieure d'une salle de bain ne nécessite ni permis de construire ni déclaration préalable, sauf si les travaux modifient l'aspect extérieur du bâtiment (création de fenêtre, extension). En zone protégée ou en périmètre ABF, toute modification visible depuis la voie publique requiert l'avis conforme de l'Architecte des Bâtiments de France. Dans les centres-bourgs historiques d'Eure-et-Loir, vérifiez le PLU de votre commune avant de prévoir une nouvelle ouverture pour la ventilation.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "Comment trouver un artisan pour rénover une salle de bain dans une commune rurale près de {city} ?",
+        "answer": "Dans les communes rurales du département {zip}, le choix d'artisans locaux est plus restreint. Élargissez votre recherche dans un rayon de 25 à 30 km et consultez les annuaires Qualibat et CAPEB pour identifier des professionnels qualifiés. Prévoyez un surcoût de 5 à 12 % lié aux frais de déplacement. Regrouper plusieurs corps de métier sous un seul maître d'œuvre permet de limiter les allers-retours et de réduire la facture globale sur les chantiers éloignés des pôles urbains.",
+        "tier_filter": "rural",
+        "zone_filter": null
+      },
+      {
+        "question": "Quel revêtement de sol choisir pour une salle de bain sur plancher bois à {city} ?",
+        "answer": "Les maisons de la Beauce comportent souvent des planchers bois sur solivage. Pour poser du carrelage sur ce type de support, il faut intercaler une plaque de désolidarisation (type Schlüter-DITRA) qui absorbe les mouvements du bois. Alternativement, les lames vinyles clipsables ou le béton ciré sur trame offrent une étanchéité satisfaisante sans surcharger le plancher. Vérifiez la portance du solivage avec votre artisan : un plancher ancien peut nécessiter un renfort avant toute pose de revêtement lourd.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "Comment optimiser l'espace d'une petite salle de bain dans un pavillon à {city} ?",
+        "answer": "Dans les pavillons périurbains des années 1970-1990 fréquents en Eure-et-Loir, la salle de bain est souvent exiguë (3 à 4 m²). Remplacer la baignoire par une douche à l'italienne libère immédiatement 0,8 à 1,2 m² au sol. Le mobilier suspendu (meuble vasque, WC) dégage le sol et facilite l'entretien. Un grand miroir et un éclairage LED en bandeau agrandissent visuellement la pièce. Comptez entre 3 500 et 6 000 € pour ce type de réaménagement complet dans le département.",
+        "tier_filter": "periurban",
+        "zone_filter": null
+      },
+      {
+        "question": "Quels sont les problèmes d'humidité courants dans les salles de bain du Dunois à {city} ?",
+        "answer": "La vallée du Loir qui traverse le Dunois génère un taux d'humidité ambiante élevé, souvent supérieur à 70 % en hiver. Les salles de bain des maisons en tuffeau sont particulièrement exposées aux remontées capillaires et à la condensation. Installez impérativement une VMC double flux ou hygroréglable de type B pour maintenir un taux d'humidité acceptable (45-65 %). Un traitement hydrofuge des murs en tuffeau par injection de résine en pied de mur prévient les remontées capillaires récurrentes dans cette zone.",
+        "tier_filter": null,
+        "zone_filter": "dunois"
+      }
+    ],
+    "tier_content": {
+      "urban": "À {city} ({population} habitants), la rénovation de salle de bain s'inscrit souvent dans un contexte d'immeuble collectif ou de maison de ville mitoyenne. L'accès au chantier peut nécessiter une autorisation de stationnement pour la benne à gravats, à demander en mairie 15 jours avant le début des travaux. La concurrence entre artisans maintient les prix dans la fourchette basse, entre {min_price} et {max_price} €/{unit}. Les contraintes de copropriété imposent de respecter les colonnes d'eau existantes et les horaires de chantier réglementaires. Demandez systématiquement la validation du syndic pour tout déplacement de point d'eau.",
+      "periurban": "Dans les zones périurbaines autour de {city}, les pavillons des années 1970 à 1990 arrivent à l'âge de leur première rénovation lourde de salle de bain. Les salles d'eau d'origine, souvent de 3 à 5 m² avec baignoire en fonte, sont remplacées par des douches à l'italienne plus fonctionnelles. L'accès au chantier est facilité par le garage ou le jardin. Le bassin d'artisans disponibles dans le {department} est large, avec des délais raisonnables de 4 à 8 semaines. Le budget moyen constaté oscille entre {min_price} et {max_price} €/{unit}, fournitures comprises.",
+      "bourg": "À {city}, bourg-centre du {department}, les habitations mêlent bâti ancien de centre-bourg et lotissements récents en périphérie. La rénovation de salle de bain dans les maisons de bourg demande une attention particulière aux réseaux d'eau anciens, souvent en cuivre vieillissant ou en plomb. Les artisans locaux connaissent bien ces configurations et proposent des tarifs modérés, entre {min_price} et {max_price} €/{unit}. La proximité des négoces de matériaux (Point P, Cedeo) limite les frais de livraison et accélère l'approvisionnement en cas d'imprévu sur le chantier.",
+      "rural": "Dans les communes rurales proches de {city}, la rénovation de salle de bain se heurte à des contraintes d'éloignement. Les artisans facturent un surcoût de déplacement de 5 à 12 % selon la distance. L'approvisionnement en matériaux peut nécessiter des commandes anticipées de 2 à 3 semaines. Les maisons de caractère (longères, fermes rénovées) présentent souvent des murs épais en pierre avec des problèmes d'humidité à traiter avant la pose de tout revêtement. Comptez un budget global légèrement supérieur, entre {min_price} et {max_price} €/{unit}, et un chantier de 3 à 5 semaines."
+    },
+    "zone_content": {
+      "perche": "Dans le Perche, les salles de bain des maisons à colombages et en pierre de roussard exigent un traitement spécifique de l'humidité. Le {climate_note} impose une ventilation renforcée et l'usage de matériaux perspirants compatibles avec le bâti ancien. Les enduits à la chaux aérienne sont préférables aux plaques de plâtre pour les murs de salle de bain. Le style {architectural_style} du Perche incite à choisir des carrelages en terre cuite ou en pierre naturelle qui s'harmonisent avec les poutres apparentes et la pierre locale. Les artisans formés à la restauration patrimoniale sont présents sur le secteur de Nogent-le-Rotrou et Thiron-Gardais.",
+      "beauce": "En Beauce, les corps de ferme rénovés et les grandes maisons en pierre calcaire disposent souvent de pièces spacieuses permettant des salles de bain généreuses de 6 à 10 m². Le {climate_note} et l'exposition au vent nécessitent une attention particulière à l'isolation des murs extérieurs donnant sur la salle d'eau. Le style {architectural_style} de la Beauce se prête aux aménagements contemporains avec grands formats de carrelage et douches de plain-pied. Les sols en pierre calcaire existants peuvent être conservés après traitement hydrofuge, ce qui confère un cachet authentique à la pièce d'eau.",
+      "drouais": "Le secteur drouais présente un patrimoine bâti marqué par la brique et le silex, typique de la transition entre Île-de-France et Normandie. Le {climate_note} des vallées de l'Eure et de la Blaise génère une humidité importante à traiter dans les salles de bain. Les influences normandes du style {architectural_style} se retrouvent dans les encadrements de fenêtres en brique qu'il convient de protéger lors des travaux intérieurs. La proximité de Dreux et de ses négoces de matériaux facilite l'approvisionnement. Les artisans du secteur maîtrisent aussi bien la rénovation du bâti ancien que l'aménagement de pavillons récents.",
+      "dunois": "Dans le Dunois, la vallée du Loir confère au bâti un caractère singulier avec ses maisons en tuffeau et ses caves troglodytes. Le {climate_note}, marqué par une hygrométrie élevée, impose des solutions d'étanchéité renforcées dans les salles de bain. Le style {architectural_style} du Dunois favorise les teintes chaudes et les matériaux naturels. Le tuffeau, pierre tendre et poreuse, nécessite un traitement hydrofuge avant la pose de tout revêtement mural étanche. Les artisans autour de Châteaudun connaissent ces spécificités et recommandent des systèmes de ventilation performants pour prévenir les moisissures liées à la proximité de la rivière."
+    }
   },
   {
     "slug": "menuiserie",
@@ -235,7 +911,122 @@
         "question": "Comment restaurer des menuiseries anciennes à {city} ?",
         "answer": "La restauration des menuiseries anciennes dans les maisons du Perche est souvent préférable au remplacement, surtout pour les biens situés en secteur protégé. Un menuisier spécialisé peut décaper, traiter et remettre en état les boiseries pour 150 à 400 € par élément. L'ajout d'un survitrage ou d'un joint d'étanchéité améliore les performances thermiques sans dénaturer le cachet. Cette option est souvent moins coûteuse qu'un remplacement complet et préserve le caractère patrimonial."
       }
-    ]
+    ],
+    "process_steps": [
+      "Prise de cotes sur site et relevé des contraintes techniques (épaisseur des murs, état du dormant, accès).",
+      "Choix du matériau (bois, PVC, aluminium ou mixte) et du vitrage en fonction du PLU et des performances souhaitées.",
+      "Fabrication en atelier selon les cotes relevées, avec traitement du bois par lasure ou peinture en usine.",
+      "Dépose soignée de l'ancien ouvrage en protégeant les enduits et les parements intérieurs et extérieurs.",
+      "Pose du nouveau dormant avec calage, aplomb et scellement au mortier ou mousse expansive selon le support.",
+      "Mise en place de l'ouvrant, réglage de la quincaillerie, vérification de l'étanchéité à l'air et à l'eau.",
+      "Réalisation des joints de finition intérieurs et extérieurs (silicone, mastic, couvre-joints bois).",
+      "Nettoyage du chantier, retrait des films de protection et remise des fiches d'entretien au client."
+    ],
+    "timeline_template": "À {city}, le remplacement de menuiseries extérieures nécessite un délai global de 4 à 8 semaines entre la commande et la pose. En {population_tier}, la prise de cotes et la validation du devis prennent 1 à 2 semaines. La fabrication en atelier dure 2 à 4 semaines selon le matériau choisi et la complexité des ouvrages. La pose proprement dite est rapide : comptez 1 journée pour 3 à 4 fenêtres standard, ou 2 jours pour une porte d'entrée sur mesure. Pour un escalier en bois, la fabrication peut atteindre 6 semaines et la pose nécessite 2 à 3 jours. Anticipez les commandes en période hivernale pour bénéficier de délais plus courts.",
+    "materials_comparison": [
+      {
+        "name": "PVC (fenêtres et portes-fenêtres)",
+        "price_range": "400 à 600 € par fenêtre posée",
+        "pros": "Excellent rapport qualité-prix, très bonne isolation thermique (Uw 1,1 à 1,3), entretien quasi nul, large choix de coloris",
+        "cons": "Aspect moins noble que le bois, peut être refusé par les ABF en zone protégée, recyclage encore limité",
+        "best_for": "Pavillons récents, maisons hors périmètre ABF, budgets maîtrisés"
+      },
+      {
+        "name": "Bois (chêne, pin traité, exotiques)",
+        "price_range": "500 à 800 € par fenêtre posée",
+        "pros": "Esthétique chaleureuse, compatible avec le bâti ancien du Perche, excellent isolant naturel, réparable et durable",
+        "cons": "Entretien régulier (lasure ou peinture tous les 5-8 ans), prix plus élevé, sensible à l'humidité sans traitement",
+        "best_for": "Maisons à colombages, bâtiments classés ou en périmètre ABF, restauration patrimoniale"
+      },
+      {
+        "name": "Aluminium (fenêtres, baies coulissantes)",
+        "price_range": "700 à 1 100 €",
+        "pros": "Profilés fins permettant plus de surface vitrée, très résistant à la corrosion, design contemporain, aucun entretien",
+        "cons": "Isolation thermique inférieure sans rupture de pont thermique, prix élevé, condensation possible sur les profilés",
+        "best_for": "Grandes baies coulissantes, vérandas, constructions contemporaines, menuiseries de grande dimension"
+      },
+      {
+        "name": "Mixte bois-aluminium",
+        "price_range": "700 à 1 100 € par fenêtre posée",
+        "pros": "Bois à l'intérieur pour le cachet, aluminium à l'extérieur pour la résistance, excellente isolation, pas d'entretien extérieur",
+        "cons": "Coût élevé, poids important, choix de fabricants limité en Eure-et-Loir",
+        "best_for": "Maisons de caractère souhaitant allier tradition intérieure et modernité extérieure"
+      }
+    ],
+    "financing_guide": "Le remplacement des menuiseries extérieures à {city} bénéficie d'aides substantielles lorsque les nouveaux ouvrages améliorent la performance thermique du logement. MaPrimeRénov' accorde jusqu'à 100 € par fenêtre (ménages très modestes), 80 € (modestes) et 40 € (revenus intermédiaires) — les ménages aux revenus supérieurs ne sont pas éligibles, à condition de respecter un coefficient Uw ≤ 1,3 W/m².K. Les primes CEE complètent ce dispositif à hauteur de 50 à 120 € par fenêtre selon l'opérateur. L'éco-PTZ permet de financer jusqu'à 7 000 € de menuiseries dans le cadre d'un remplacement simple, ou 50 000 € pour un bouquet de travaux. La TVA réduite à 5,5 % s'applique sur la fourniture et la pose dès lors que le logement a plus de 2 ans. L'ANAH propose un financement complémentaire dans le cadre d'une rénovation globale via le programme MaPrimeRénov' Parcours Accompagné, couvrant jusqu'à 90 % du montant HT pour les ménages très modestes. La région Centre-Val de Loire complète ponctuellement ces dispositifs par des appels à projets de rénovation énergétique.",
+    "seasonal_advice": "En Eure-et-Loir, la période idéale pour remplacer des menuiseries extérieures s'étend de mars à octobre, lorsque les conditions météorologiques permettent de laisser les ouvertures béantes pendant la dépose sans risque de pluie ou de gel. Les mois de janvier et février sont à éviter : le froid complique la pose des joints et des mastics. Passez commande en automne pour une pose au printemps suivant, vous bénéficierez de délais de fabrication plus courts et de tarifs parfois plus avantageux en basse saison.",
+    "official_links": [
+      {
+        "label": "France Rénov'",
+        "url": "https://france-renov.gouv.fr",
+        "description": "Simulateur d'aides MaPrimeRénov' pour le remplacement de fenêtres, annuaire des conseillers France Rénov' en Eure-et-Loir."
+      },
+      {
+        "label": "ANAH",
+        "url": "https://www.anah.gouv.fr",
+        "description": "Agence nationale de l'habitat : financement de la rénovation globale incluant le remplacement des menuiseries pour les ménages modestes."
+      },
+      {
+        "label": "Qualibat",
+        "url": "https://www.qualibat.com",
+        "description": "Vérifiez la qualification RGE de votre menuisier, indispensable pour bénéficier des aides à la rénovation énergétique."
+      },
+      {
+        "label": "FFB",
+        "url": "https://www.ffbatiment.fr",
+        "description": "Fédération Française du Bâtiment : annuaire des menuisiers adhérents en Eure-et-Loir, garanties et assurances professionnelles."
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "Faut-il l'accord des ABF pour changer les fenêtres d'une maison à colombages à {city} ?",
+        "answer": "Dans le Perche, de nombreuses maisons à colombages et en pierre de roussard sont situées en périmètre de protection des Monuments Historiques. Tout remplacement de menuiserie visible depuis la voie publique nécessite alors une déclaration préalable soumise à l'avis de l'Architecte des Bâtiments de France. L'ABF imposera généralement des fenêtres en bois avec petits-bois, excluant le PVC. Comptez un délai administratif de 2 à 3 mois. Un menuisier habitué au secteur patrimonial du Perche pourra constituer le dossier technique à joindre à la demande.",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "Comment renforcer l'isolation des menuiseries dans les fermes beauceronnes à {city} ?",
+        "answer": "Les grandes fermes de la Beauce sont souvent percées de larges ouvertures exposées au vent dominant. Le remplacement par du triple vitrage (Uw ≤ 0,9 W/m².K) est pertinent sur les façades nord et ouest. Les volets roulants intégrés ajoutent une résistance thermique complémentaire de 0,10 à 0,15 m².K/W. Pour les portes de grange transformées en baies vitrées, l'aluminium à rupture de pont thermique offre la rigidité nécessaire aux grands formats. Prévoyez un budget de 1 200 à 2 500 € par baie pour ce type de menuiserie performante.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "Quel est le délai pour faire fabriquer un escalier sur mesure à {city} ?",
+        "answer": "La fabrication d'un escalier en bois sur mesure en Eure-et-Loir demande généralement 4 à 8 semaines entre la validation des plans et la livraison. Le relevé de cotes et la conception prennent 1 à 2 semaines. La fabrication en atelier dure 3 à 6 semaines selon l'essence choisie (chêne, hêtre, frêne) et la complexité de la trémie. La pose nécessite 2 à 3 jours. En {population_tier}, les menuisiers artisanaux proposent des délais plus courts qu'en période estivale. Anticipez votre commande pour les projets prévus au printemps.",
+        "tier_filter": "bourg",
+        "zone_filter": null
+      },
+      {
+        "question": "Comment gérer le stationnement et l'accès chantier pour un remplacement de fenêtres en centre-ville de {city} ?",
+        "answer": "En zone urbaine dense à {city}, le remplacement de menuiseries nécessite souvent une autorisation temporaire de stationnement pour le véhicule utilitaire et les chevalets de stockage. Déposez la demande en mairie au moins 15 jours avant le chantier. Les rues piétonnes ou à sens unique peuvent imposer une intervention tôt le matin (6 h - 8 h). Prévoyez une protection des façades voisines si vous intervenez en immeuble mitoyen. Un menuisier habitué aux chantiers urbains en Eure-et-Loir intègrera ces contraintes dès le devis.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "Quelles menuiseries résistent le mieux à l'humidité dans le Dunois à {city} ?",
+        "answer": "La proximité du Loir et de ses affluents génère une hygrométrie élevée dans le Dunois, accélérant la dégradation des menuiseries en bois non traité. Les essences résineuses traitées autoclave (pin classe 3 ou 4) ou les bois exotiques (moabi, tauari) résistent mieux que le chêne non traité. L'aluminium reste le matériau le plus insensible à l'humidité. Pour le bois, appliquez une lasure microporeuse tous les 4 à 5 ans. Les menuiseries mixtes bois-aluminium constituent un excellent compromis pour cette zone géographique.",
+        "tier_filter": null,
+        "zone_filter": "dunois"
+      },
+      {
+        "question": "Quel surcoût prévoir pour des menuiseries dans une commune isolée près de {city} ?",
+        "answer": "Dans les communes rurales du {department}, les menuisiers appliquent généralement un forfait déplacement de 30 à 80 € ou un surcoût kilométrique de 0,50 à 0,80 €/km au-delà de 15 km. Ce supplément représente environ 5 à 10 % du devis pour une commande de 5 fenêtres. Pour limiter ce surcoût, regroupez la commande (fenêtres, portes, volets) afin que le menuisier ne se déplace qu'une fois pour la prise de cotes et une fois pour la pose. Les artisans situés dans les bourgs voisins offrent souvent de meilleurs tarifs de déplacement.",
+        "tier_filter": "rural",
+        "zone_filter": null
+      }
+    ],
+    "tier_content": {
+      "urban": "À {city} ({population} habitants), les menuisiers interviennent principalement pour le remplacement de fenêtres en immeuble collectif ou en maison de ville. La densité du bâti impose des contraintes logistiques : stationnement réglementé, protection des façades voisines, horaires de chantier encadrés par le règlement de copropriété. En contrepartie, la forte concurrence entre artisans maintient les tarifs entre {min_price} et {max_price} €/{unit}. Le PLU peut imposer des matériaux spécifiques (bois en centre historique). Les délais de pose sont courts grâce à la proximité des ateliers de fabrication et des fournisseurs.",
+      "periurban": "Les pavillons périurbains autour de {city} présentent des menuiseries d'origine des années 1970-1990 arrivées en fin de vie : simple vitrage aluminium, fenêtres PVC première génération ou bois non entretenu. Le remplacement par du double vitrage performant (Uw ≤ 1,3 W/m².K) réduit immédiatement la facture de chauffage de 10 à 15 %. L'accès facile au chantier via le jardin ou le garage simplifie la logistique. Les artisans du {department} sont bien représentés dans ce segment et proposent des tarifs compétitifs entre {min_price} et {max_price} €/{unit} avec des délais de 4 à 6 semaines.",
+      "bourg": "Dans les bourgs du {department} comme {city}, le patrimoine bâti mêle maisons de ville anciennes et constructions récentes en lotissement. Les menuiseries des maisons de bourg nécessitent souvent une restauration plutôt qu'un remplacement, pour préserver les moulures et les proportions d'origine. Les menuisiers installés localement connaissent ces typologies et proposent des solutions adaptées à chaque cas. Les tarifs se situent entre {min_price} et {max_price} €/{unit}. La proximité des négociants en bois et en quincaillerie facilite l'approvisionnement et réduit les coûts de transport.",
+      "rural": "Dans les communes rurales autour de {city}, la menuiserie concerne souvent la restauration de longères, de manoirs ou de fermes réhabilitées. Les menuiseries d'origine, parfois centenaires, peuvent nécessiter une fabrication sur mesure aux dimensions non standard. Le nombre de menuisiers locaux est restreint, ce qui allonge les délais à 6 à 10 semaines. Prévoyez un surcoût de déplacement de 5 à 12 % par rapport aux tarifs urbains. Les essences locales (chêne du Perche, frêne) sont disponibles en scieries de proximité et permettent une fabrication artisanale de qualité à des prix raisonnables entre {min_price} et {max_price} €/{unit}."
+    },
+    "zone_content": {
+      "perche": "Le Perche impose aux menuisiers un savoir-faire patrimonial de premier ordre. Les maisons à colombages exigent des fenêtres en bois aux proportions traditionnelles, souvent avec petits-bois rapportés et ferronneries anciennes. La pierre de roussard, utilisée pour les encadrements, requiert une pose soignée au mortier de chaux sans ciment. Le {climate_note} du Perche (pluviométrie de 700 à 800 mm/an) impose un traitement du bois renforcé et des seuils de fenêtres en pierre ou en zinc à forte pente d'évacuation. Le style {architectural_style} conditionne les choix : les ABF encadrent strictement les menuiseries dans les bourgs classés comme Nocé, Bellême ou La Perrière.",
+      "beauce": "En Beauce, les corps de ferme et les maisons de maître en pierre calcaire présentent des ouvertures de grande taille, souvent cintrées, qui nécessitent des menuiseries sur mesure. L'exposition au vent dominant rend le triple vitrage pertinent sur les façades ouest. Le style {architectural_style} sobre de la Beauce autorise le PVC ou l'aluminium dans la plupart des communes, hors périmètre ABF. Le {climate_note} (amplitude thermique élevée, gel fréquent) exige des quincailleries robustes et des joints de vitrage résistants aux écarts de température. Les menuisiers du secteur de Chartres, Janville et Voves sont bien équipés pour ces configurations.",
+      "drouais": "Le secteur drouais mêle influences normandes et franciliennes dans ses menuiseries traditionnelles. Les encadrements en brique et silex nécessitent une pose adaptée, souvent avec un dormant en retrait et un habillage de tableau spécifique. Le {climate_note} des vallées de l'Eure et de la Blaise apporte une humidité persistante qui impose un traitement fongicide renforcé pour les menuiseries en bois. Le style {architectural_style} du Drouais se traduit par des fenêtres à imposte et des volets persiennés que les menuisiers locaux savent reproduire. La proximité de Dreux et de la zone industrielle offre un bon choix de fabricants et de poseurs qualifiés.",
+      "dunois": "Le Dunois, traversé par le Loir, présente un bâti en tuffeau dont les encadrements de fenêtres sont sculptés dans la pierre tendre. Le remplacement des menuiseries doit préserver ces éléments architecturaux caractéristiques du style {architectural_style}. Le {climate_note} du val de Loir (brouillards fréquents, humidité de 75 à 85 % en hiver) déconseille les menuiseries en bois non traité. Les essences durables (chêne, mélèze) ou les menuiseries mixtes bois-alu offrent la meilleure résistance. Les menuisiers basés autour de Châteaudun et Cloyes-les-Trois-Rivières connaissent ces contraintes et proposent des solutions éprouvées pour le patrimoine de la vallée."
+    }
   },
   {
     "slug": "peinture",
@@ -248,7 +1039,7 @@
       "Peinture murs intérieurs (2 couches) : 20 à 35 €/m²",
       "Peinture plafonds : 25 à 40 €/m²",
       "Peinture façade extérieure : 25 à 45 €/m²",
-      "Laquage portes et boiseries : 30 à 60 € l'unité",
+      "Laquage portes et boiseries : 50 à 100 € l'unité",
       "Enduit et préparation murs abîmés : 15 à 30 €/m²",
       "Pose papier peint ou toile de verre : 15 à 35 €/m²"
     ],
@@ -269,7 +1060,122 @@
         "question": "Faut-il un peintre professionnel à {city} ou peut-on peindre soi-même ?",
         "answer": "Si la peinture semble accessible, un peintre professionnel à {city} garantit un résultat impeccable, surtout pour les plafonds, les boiseries et les surfaces en mauvais état. La préparation des supports représente 60 % du travail et conditionne la durabilité du résultat. Dans les maisons du Perche, les murs irréguliers en pierre ou en torchis exigent un savoir-faire particulier en matière d'enduits et de finitions."
       }
-    ]
+    ],
+    "process_steps": [
+      "Protection du mobilier, des sols et des menuiseries avec bâches et adhésif de masquage professionnel.",
+      "Diagnostic des supports : sondage des enduits, repérage des fissures, test d'adhérence de l'ancienne peinture.",
+      "Préparation des murs : rebouchage des trous et fissures, ponçage, lessivage et application d'un fixateur si nécessaire.",
+      "Application d'une sous-couche d'accrochage adaptée au support (plâtre, ciment, bois ou ancien revêtement).",
+      "Première couche de peinture de finition, avec rechampi soigné aux angles, plafonds et encadrements.",
+      "Ponçage léger entre couches pour garantir un tendu parfait, puis application de la seconde couche de finition.",
+      "Laquage des boiseries (portes, plinthes, encadrements) avec sous-couche spécifique et laque satinée ou brillante.",
+      "Retrait des protections, retouches finales, nettoyage du chantier et remise des fiches techniques des produits utilisés."
+    ],
+    "timeline_template": "À {city}, les travaux de peinture intérieure d'une maison de 80 à 100 m² prennent en moyenne 8 à 12 jours ouvrés. En {population_tier}, les peintres sont généralement disponibles sous 2 à 5 semaines. La préparation des supports occupe 40 à 60 % du temps total : 3 à 5 jours pour le rebouchage, ponçage et sous-couche. L'application de 2 couches de finition nécessite 3 à 5 jours avec les temps de séchage (6 à 12 heures entre couches selon la saison). Le laquage des boiseries ajoute 1 à 2 jours. En période hivernale, les temps de séchage s'allongent de 30 à 50 % en raison de l'humidité ambiante plus élevée dans le département.",
+    "materials_comparison": [
+      {
+        "name": "Peinture acrylique (phase aqueuse)",
+        "price_range": "5 à 15 €/litre",
+        "pros": "Séchage rapide (1 à 2 heures), faible odeur, nettoyage à l'eau, très large gamme de teintes, faible taux de COV",
+        "cons": "Moins résistante aux chocs et à l'abrasion que la glycéro, finition moins tendue sur boiseries, sensible au gel",
+        "best_for": "Murs et plafonds intérieurs, chambres, séjours, pièces de vie courantes"
+      },
+      {
+        "name": "Peinture alkyde (glycéro nouvelle génération)",
+        "price_range": "12 à 25 €/litre",
+        "pros": "Excellent tendu, très bonne résistance à l'abrasion et à l'humidité, finition lisse et durable",
+        "cons": "Temps de séchage plus long (6 à 8 heures), odeur plus marquée, nettoyage au white-spirit",
+        "best_for": "Boiseries, cuisines, salles de bain, pièces à fort passage nécessitant une résistance accrue"
+      },
+      {
+        "name": "Peinture à la chaux (badigeon ou lait de chaux)",
+        "price_range": "8 à 18 €/litre",
+        "pros": "Matériau naturel et respirant, idéal sur murs anciens en pierre ou torchis, régule l'humidité, effet patiné authentique",
+        "cons": "Application plus technique, couleurs limitées aux teintes naturelles, nécessite un savoir-faire spécifique",
+        "best_for": "Maisons anciennes en pierre, bâti patrimonial du Perche, murs en torchis ou enduit à la chaux"
+      },
+      {
+        "name": "Peinture silicatée (minérale)",
+        "price_range": "15 à 30 €/litre",
+        "pros": "Extrêmement durable (20-30 ans), microporeuse, résistante aux UV et aux intempéries, aucun film plastique",
+        "cons": "Application technique nécessitant un peintre formé, incompatible avec les anciennes peintures acryliques, prix élevé",
+        "best_for": "Façades en pierre, enduits à la chaux extérieurs, bâtiments historiques nécessitant des produits perspirants"
+      }
+    ],
+    "financing_guide": "Les travaux de peinture intérieure ne bénéficient pas directement de MaPrimeRénov', mais la TVA réduite à 10 % s'applique systématiquement sur la main-d'œuvre et les fournitures pour les logements de plus de 2 ans. Si la peinture s'inscrit dans un projet de rénovation énergétique globale (par exemple après une isolation par l'intérieur), l'ensemble du chantier peut être éligible à la TVA à 5,5 %. L'éco-PTZ intègre les travaux induits, incluant la peinture après isolation, dans l'enveloppe finançable de 50 000 €. Les primes CEE couvrent les travaux d'isolation mais pas la peinture seule. L'ANAH finance les travaux de remise en état dans le cadre du programme « Habiter Sain » pour les logements insalubres, incluant la peinture au plomb à traiter en urgence. Pour les façades, la peinture extérieure couplée à un ravalement peut bénéficier d'aides communales dans certaines communes d'Eure-et-Loir engagées dans des opérations de revitalisation de centre-bourg. La région Centre-Val de Loire propose ponctuellement des subventions pour la rénovation des façades en secteur patrimonial.",
+    "seasonal_advice": "En Eure-et-Loir, les meilleures périodes pour les travaux de peinture intérieure vont de mars à juin et de septembre à novembre. La température idéale d'application se situe entre 15 et 25 °C avec un taux d'humidité inférieur à 70 %. En hiver, le chauffage au bois fréquent dans le Perche peut encrasser les murs fraîchement peints. Pour la peinture de façade extérieure, mai-juin et septembre sont optimaux : il ne faut ni gel, ni pluie, ni soleil direct intense. Évitez juillet-août, période de forte demande où les tarifs peuvent augmenter de 10 à 15 %.",
+    "official_links": [
+      {
+        "label": "ADEME",
+        "url": "https://www.ademe.fr",
+        "description": "Guides pratiques sur les peintures écologiques, les labels environnementaux et la qualité de l'air intérieur après travaux."
+      },
+      {
+        "label": "ANAH",
+        "url": "https://www.anah.gouv.fr",
+        "description": "Financement des travaux de remise en état incluant le traitement des peintures au plomb et la rénovation des logements insalubres."
+      },
+      {
+        "label": "Qualibat",
+        "url": "https://www.qualibat.com",
+        "description": "Annuaire des peintres qualifiés : certification Qualibat 6111 (peinture intérieure) et 6112 (peinture extérieure) en Eure-et-Loir."
+      },
+      {
+        "label": "CAPEB",
+        "url": "https://www.capeb.fr",
+        "description": "Confédération de l'artisanat : trouver un peintre artisan de proximité dans le département 28, garanties décennale et biennale."
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "Quelle peinture utiliser sur des murs en torchis dans une maison du Perche à {city} ?",
+        "answer": "Les murs en torchis des maisons à colombages du Perche doivent impérativement respirer. Utilisez exclusivement des peintures à la chaux (badigeon ou peinture à la caséine) qui permettent les échanges hygrométriques. Les peintures acryliques ou vinyliques créent un film imperméable qui provoque des désordres (cloquage, décollement, moisissures). Un peintre spécialisé dans le bâti ancien préparera le support avec un enduit de chaux et de chanvre avant d'appliquer 2 à 3 couches de badigeon. Le rendu patiné est caractéristique du patrimoine perchelon.",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "Comment peindre une façade exposée au vent en Beauce à {city} ?",
+        "answer": "Les façades des maisons beauceronnes sont soumises à des vents dominants de secteur ouest et sud-ouest qui accélèrent l'érosion des enduits et des peintures. Choisissez une peinture siloxane ou pliolite haute résistance, appliquée sur un enduit solide et sec. Un traitement antimousse préalable est indispensable sur les faces nord. L'application au rouleau ou à l'airless doit être réalisée par temps calme (vent < 30 km/h). Prévoyez un hydrofuge de finition pour prolonger la tenue de 3 à 5 ans dans cette zone très exposée.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "Quels sont les délais d'attente pour un peintre en zone rurale près de {city} ?",
+        "answer": "Dans les communes rurales du {department}, les peintres professionnels sont moins nombreux et leurs carnets de commandes souvent remplis 4 à 8 semaines à l'avance. Contactez au moins 3 artisans pour comparer les disponibilités et les tarifs. Le surcoût de déplacement représente 5 à 10 % du devis total pour les chantiers situés à plus de 20 km du siège de l'entreprise. Pour un chantier de peinture intérieure complète, privilégiez la période creuse (janvier-février ou novembre) pour obtenir des délais et des tarifs plus avantageux.",
+        "tier_filter": "rural",
+        "zone_filter": null
+      },
+      {
+        "question": "Comment préparer les murs d'un pavillon des années 1980 avant peinture à {city} ?",
+        "answer": "Les pavillons périurbains construits entre 1970 et 1990 présentent souvent des murs en plaques de plâtre avec des bandes de jointure visibles, des microfissures de retrait et parfois un papier peint vieillissant. La préparation consiste à décoller l'ancien revêtement, enduire les bandes et fissures au MAP ou à l'enduit de lissage, poncer finement au grain 120, puis appliquer une sous-couche universelle. Ce travail de préparation conditionne 80 % du résultat final. Comptez 12 à 18 €/m² pour la préparation seule dans le {department}.",
+        "tier_filter": "periurban",
+        "zone_filter": null
+      },
+      {
+        "question": "Faut-il une autorisation pour peindre la façade d'une maison de ville à {city} ?",
+        "answer": "En centre-ville de {city}, le ravalement de façade ou sa mise en peinture peut être soumis à déclaration préalable selon le PLU de la commune. Les couleurs sont souvent réglementées par une charte chromatique consultable en mairie. En périmètre ABF (500 m autour d'un monument historique), l'accord de l'Architecte des Bâtiments de France est obligatoire. Le montage d'un échafaudage sur voie publique nécessite une autorisation d'occupation temporaire du domaine public, à demander 3 semaines avant les travaux.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "Comment traiter les problèmes d'humidité avant de peindre dans le Drouais à {city} ?",
+        "answer": "Le secteur drouais, traversé par les vallées de l'Eure et de la Blaise, présente des taux d'humidité élevés qui provoquent moisissures, salpêtre et cloquage des peintures. Avant toute mise en peinture, identifiez la source : remontées capillaires, infiltrations ou condensation. Un diagnostic humidité coûte entre 200 et 400 € en Eure-et-Loir. Traitez la cause avant de peindre, sous peine de voir le travail se dégrader en quelques mois. Les peintures anti-humidité ne sont qu'un traitement de surface temporaire, pas une solution durable.",
+        "tier_filter": null,
+        "zone_filter": "drouais"
+      }
+    ],
+    "tier_content": {
+      "urban": "À {city} ({population} habitants), les travaux de peinture concernent principalement les appartements en copropriété et les maisons de ville mitoyennes. Le peintre doit respecter les horaires de chantier (généralement 8 h - 19 h en semaine) et protéger les parties communes lors du passage du matériel. Le stationnement d'un véhicule utilitaire nécessite parfois une autorisation municipale. La concurrence entre artisans maintient les prix entre {min_price} et {max_price} €/{unit}. Les immeubles anciens du centre-ville présentent souvent des moulures et des corniches qui requièrent un travail de rechampi minutieux et augmentent le temps de chantier.",
+      "periurban": "Dans les zones périurbaines de {city}, la peinture intérieure intervient souvent dans le cadre d'une rénovation globale de pavillon. Les maisons des années 1970-1990 présentent des surfaces importantes (200 à 350 m² de murs et plafonds) avec des supports en plaques de plâtre relativement faciles à préparer. Le budget moyen se situe entre {min_price} et {max_price} €/{unit}. L'accès au chantier est aisé, et le stockage du matériel ne pose pas de difficulté. C'est le segment le plus courant pour les peintres du {department}, avec des délais raisonnables de 3 à 5 semaines.",
+      "bourg": "À {city}, bourg du {department}, les travaux de peinture alternent entre maisons de bourg anciennes en centre et pavillons récents en périphérie. Les maisons de bourg présentent souvent des plafonds hauts (2,80 à 3,20 m), des murs en plâtre sur pierre et des boiseries à restaurer. Les peintres locaux connaissent ces configurations et proposent des tarifs modérés entre {min_price} et {max_price} €/{unit}. Le réseau d'artisans de proximité permet d'obtenir des devis rapidement et de bénéficier d'un suivi de chantier réactif.",
+      "rural": "Dans les communes rurales proches de {city}, les travaux de peinture concernent principalement les longères, fermes et maisons de caractère en cours de réhabilitation. Les surfaces sont souvent importantes (murs en pierre, poutres apparentes, hauteurs sous plafond variables) et les supports plus complexes à préparer. Le nombre de peintres locaux est limité, ce qui peut allonger les délais à 6 à 10 semaines. Prévoyez un surcoût de 5 à 10 % pour les frais de déplacement. Le budget oscille entre {min_price} et {max_price} €/{unit}, avec un supplément pour les enduits à la chaux sur murs anciens."
+    },
+    "zone_content": {
+      "perche": "Dans le Perche, la peinture des maisons à colombages et en pierre de roussard exige des produits spécifiques. Le {climate_note} (700 à 800 mm de pluie annuelle, humidité hivernale de 80 à 90 %) impose des peintures microporeuses qui laissent respirer les murs. Le badigeon de chaux naturelle est le revêtement traditionnel des façades perche­lonnes, décliné en teintes ocre, blanc cassé ou gris pierre. Le style {architectural_style} se caractérise par des volets en bois peints dans des tons sombres (vert wagon, gris ardoise, bleu-gris) qui contrastent avec la pierre claire. Les peintres formés à ces techniques sont présents sur l'axe Nogent-le-Rotrou – Thiron-Gardais.",
+      "beauce": "En Beauce, les vastes corps de ferme et les maisons en pierre calcaire offrent des surfaces de peinture considérables. Le {climate_note} (exposition au vent, écarts thermiques importants, gel hivernal) exige des peintures de façade très résistantes aux intempéries. Les peintures pliolite et siloxane sont privilégiées pour leur tenue dans le temps. Le style {architectural_style} de la Beauce est sobre : enduits clairs (blanc, crème, pierre) avec volets dans des teintes traditionnelles (gris, vert foncé, marron). À l'intérieur, les grands volumes des anciennes granges réhabilitées se prêtent aux peintures mates dans des tons neutres qui mettent en valeur la charpente apparente.",
+      "drouais": "Le secteur drouais présente un bâti en brique et silex dont la mise en peinture requiert des produits compatibles avec ces supports poreux. Le {climate_note} des vallées de l'Eure et de la Blaise génère une humidité persistante qui favorise les mousses et lichens sur les façades exposées au nord. Un traitement biocide préalable est indispensable avant toute mise en peinture extérieure. Le style {architectural_style} du Drouais autorise une palette chromatique variée, entre les rouges brique, les gris silex et les enduits crème. Les peintres du secteur de Dreux maîtrisent les techniques de ravalement sur ces supports mixtes et conseillent des cycles d'entretien de 8 à 12 ans.",
+      "dunois": "Dans le Dunois, le tuffeau et les enduits traditionnels à la chaux constituent l'essentiel des façades à peindre. Le {climate_note} marqué par la proximité du Loir et une hygrométrie élevée impose des peintures minérales ou silicatées strictement microporeuses. Toute peinture filmogène (acrylique, glycéro) provoquerait un cloquage rapide sur ces supports tendres et poreux. Le style {architectural_style} du Dunois se traduit par des teintes naturelles : blanc de tuffeau, ocre de sable, gris clair. Les encadrements de fenêtres en pierre sculptée ne se peignent jamais mais se rejointent au mortier de chaux. Les peintres spécialisés autour de Châteaudun et Bonneval connaissent ces règles de l'art spécifiques à la vallée du Loir."
+    }
   },
   {
     "slug": "carrelage",
@@ -303,7 +1209,122 @@
         "question": "Combien de temps pour carreler une pièce à {city} ?",
         "answer": "La pose de carrelage dans une pièce de 20 m² prend en moyenne 2 à 4 jours, incluant la préparation du sol, la pose et les joints. Pour un carrelage grand format ou une pose en diagonale, comptez un jour supplémentaire. Dans les maisons anciennes d'Eure-et-Loir, la préparation du sol (ragréage, mise à niveau) peut ajouter 1 à 2 jours au chantier, les sols étant souvent irréguliers."
       }
-    ]
+    ],
+    "process_steps": [
+      "Visite technique pour évaluer l'état du sol existant, mesurer la planéité et relever les surfaces à carreler.",
+      "Choix du carrelage, du format et du calepinage en fonction de la configuration de la pièce et des contraintes techniques.",
+      "Dépose de l'ancien revêtement de sol si nécessaire, évacuation des gravats et nettoyage du support.",
+      "Ragréage ou chape de mise à niveau pour obtenir une planéité conforme (tolérance DTU : 3 mm sous règle de 2 m).",
+      "Traçage des axes de pose et calepinage à blanc pour vérifier l'alignement et minimiser les coupes en périphérie.",
+      "Encollage double (sol + carreau pour les grands formats) et pose avec croisillons pour des joints réguliers.",
+      "Réalisation des joints au coulis ciment ou époxy après 24 heures minimum de séchage de la colle.",
+      "Nettoyage du voile de ciment, pose des plinthes et des barres de seuil, protection du carrelage neuf pendant 48 heures."
+    ],
+    "timeline_template": "À {city}, un chantier de carrelage de 20 à 40 m² (séjour ou cuisine) dure en moyenne 4 à 7 jours ouvrés. En {population_tier}, les carreleurs sont disponibles sous 3 à 6 semaines de délai. La dépose de l'ancien sol et le ragréage occupent 1 à 2 jours. La pose proprement dite avance au rythme de 8 à 15 m² par jour selon le format (les grands formats 60x120 cm ralentissent la cadence). Le séchage de la colle impose 24 heures d'attente avant la réalisation des joints, qui nécessitent à leur tour 24 à 48 heures avant la mise en circulation. Prévoyez un délai supplémentaire de 1 à 2 jours si le chantier implique un plancher chauffant à intégrer.",
+    "materials_comparison": [
+      {
+        "name": "Grès cérame pleine masse",
+        "price_range": "20 à 50 €/m² (fourniture)",
+        "pros": "Extrêmement résistant à l'usure et au gel, teint dans la masse (éclats invisibles), classement UPEC élevé",
+        "cons": "Lourd et difficile à couper en grand format, choix de décors limité par rapport à l'émaillé, surface rugueuse",
+        "best_for": "Entrées, garages, terrasses couvertes, pièces à très fort passage"
+      },
+      {
+        "name": "Grès cérame émaillé (imitation bois, pierre, béton)",
+        "price_range": "15 à 45 €/m² (fourniture)",
+        "pros": "Gamme décorative très large, reproduction fidèle du bois ou de la pierre, facile d'entretien, compatible plancher chauffant",
+        "cons": "Couche d'émail pouvant s'écailler en cas de choc violent, surface glissante sans traitement R10+",
+        "best_for": "Séjours, cuisines, chambres, pièces de vie principales"
+      },
+      {
+        "name": "Tomettes et terre cuite artisanale",
+        "price_range": "30 à 70 €/m² (fourniture)",
+        "pros": "Cachet authentique incomparable, matériau naturel, patine qui s'embellit avec le temps, compatible bâti ancien",
+        "cons": "Poreux (nécessite un traitement hydrofuge), entretien spécifique, pose plus lente, choix de formats limité",
+        "best_for": "Maisons de caractère, longères du Perche, restauration patrimoniale, cuisines rustiques"
+      },
+      {
+        "name": "Carreaux de ciment (véritables ou imitation grès)",
+        "price_range": "40 à 120 €/m² (fourniture, véritable) / 20 à 40 €/m² (imitation grès)",
+        "pros": "Effet décoratif très recherché, motifs uniques, tendance forte en 2026, valeur ajoutée pour la revente",
+        "cons": "Les véritables sont fragiles, poreux et chers ; les imitations grès offrent un bon compromis qualité-prix",
+        "best_for": "Entrées, salles de bain, crédences de cuisine, petites surfaces décoratives"
+      }
+    ],
+    "financing_guide": "La pose de carrelage ne bénéficie pas directement de MaPrimeRénov', sauf lorsqu'elle s'inscrit dans un projet de rénovation énergétique (installation de plancher chauffant basse température, isolation du sol). La TVA réduite à 10 % s'applique sur la main-d'œuvre et les matériaux pour les logements de plus de 2 ans, ramenant le coût d'un chantier de 30 m² de 4 500 € TTC à environ 4 100 € TTC par rapport au taux normal. Si le carrelage accompagne une isolation de plancher bas, l'ensemble peut bénéficier de la TVA à 5,5 %, des primes CEE (environ 10 à 12 €/m² isolé) et de l'éco-PTZ dans la limite de 15 000 € pour un lot de travaux. L'ANAH finance les travaux de remise en état des sols dans le cadre du programme « Habiter Sain » pour les logements présentant des risques sanitaires (plomb, amiante dans les anciens dalles vinyle). La région Centre-Val de Loire peut compléter ces aides pour les rénovations globales des logements classés passoires thermiques (DPE F ou G).",
+    "seasonal_advice": "En Eure-et-Loir, la pose de carrelage peut se réaliser toute l'année puisqu'il s'agit de travaux intérieurs. Néanmoins, la température de la pièce doit être maintenue entre 10 et 30 °C pour garantir une prise correcte de la colle et du mortier de joints. En hiver, prévoyez le chauffage du chantier si la maison est inhabitable. Le printemps et l'automne sont les périodes les plus demandées par les carreleurs du département. Réservez votre artisan 4 à 6 semaines à l'avance. L'été permet des temps de séchage optimaux mais coïncide avec les congés de nombreux artisans.",
+    "official_links": [
+      {
+        "label": "Qualibat",
+        "url": "https://www.qualibat.com",
+        "description": "Vérifiez la qualification Qualibat 6331 (carrelage et revêtements) de votre carreleur pour garantir la conformité des travaux."
+      },
+      {
+        "label": "FFB",
+        "url": "https://www.ffbatiment.fr",
+        "description": "Fédération Française du Bâtiment : annuaire des carreleurs adhérents en Eure-et-Loir, assurance décennale et biennale."
+      },
+      {
+        "label": "CAPEB",
+        "url": "https://www.capeb.fr",
+        "description": "Confédération de l'artisanat : trouver un carreleur artisan de proximité dans le département 28 avec garantie professionnelle."
+      },
+      {
+        "label": "ADEME",
+        "url": "https://www.ademe.fr",
+        "description": "Guides pratiques sur l'isolation des planchers bas et les planchers chauffants, travaux souvent combinés avec la pose de carrelage."
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "Comment poser du carrelage sur un sol en tomettes anciennes dans le Perche à {city} ?",
+        "answer": "Dans les maisons du Perche, les tomettes anciennes constituent un patrimoine qu'il est souvent préférable de conserver et restaurer plutôt que de recouvrir. Si vous souhaitez néanmoins poser un nouveau carrelage par-dessus, vérifiez d'abord la solidité et l'adhérence des tomettes existantes. Un ragréage fibré de 3 à 5 mm d'épaisseur permettra de lisser les irrégularités. Utilisez une colle flex (C2S1) pour compenser les mouvements du support ancien. Cette technique évite la dépose destructrice mais ajoute 1 à 2 cm de suréhaussement à prendre en compte au niveau des seuils de porte.",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "Le carrelage grand format est-il adapté aux maisons beauceronnes à {city} ?",
+        "answer": "Les grandes pièces de vie des corps de ferme beaucerons se prêtent parfaitement aux carrelages grand format (60x120 cm voire 80x160 cm). Le format réduit le nombre de joints et crée une sensation d'espace accrue. Toutefois, ces carreaux de grande taille exigent un sol parfaitement plan (tolérance de 3 mm sous règle de 2 m). Le ragréage est quasi systématique dans les fermes anciennes. L'encollage double est obligatoire et ralentit la cadence de pose à 6-8 m²/jour. Prévoyez un surcoût de 5 à 10 €/m² pour la pose en grand format par rapport au format standard.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "Quel carrelage choisir pour un plancher chauffant dans un pavillon à {city} ?",
+        "answer": "Dans les pavillons périurbains d'Eure-et-Loir, l'installation d'un plancher chauffant basse température sous carrelage est un excellent investissement. Choisissez un carrelage en grès cérame d'épaisseur 8 à 10 mm, qui transmet bien la chaleur. Évitez les carreaux trop épais (> 12 mm) ou les matériaux naturels poreux (terre cuite, pierre) qui isolent la chaleur au lieu de la diffuser. La colle doit être spécifique plancher chauffant (classement C2S1). Comptez un supplément de 40 à 60 €/m² pour le système de chauffage complet (tubes, chape, régulation) en plus de la pose du carrelage.",
+        "tier_filter": "periurban",
+        "zone_filter": null
+      },
+      {
+        "question": "Comment gérer les contraintes d'accès pour un chantier de carrelage en centre-ville de {city} ?",
+        "answer": "En zone urbaine dense à {city}, le stockage et la livraison de palettes de carrelage (une palette pèse 1 à 1,5 tonne) posent des contraintes logistiques. Prévoyez un espace de déchargement proche de l'entrée du chantier et une autorisation de stationnement temporaire pour le camion de livraison. Les gravats de dépose doivent être évacués en benne, avec une demande d'occupation du domaine public si la benne est sur la voie. Un carreleur habitué aux chantiers urbains planifiera les livraisons tôt le matin pour éviter les encombrements et protégera les parties communes de l'immeuble.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "Existe-t-il un risque de remontées d'humidité sous le carrelage dans le Dunois à {city} ?",
+        "answer": "La vallée du Loir est une zone à forte hygrométrie où les remontées capillaires sont fréquentes dans les maisons anciennes. Avant de poser un carrelage, vérifiez le taux d'humidité résiduelle de la dalle ou de la chape (test à la bombe carbure). Si le taux dépasse 4,5 %, un traitement par injection de résine hydrophobe en pied de mur et la pose d'un film polyéthylène sous la chape sont indispensables. Un primaire d'accrochage époxy bloqueur d'humidité complète la protection. Sans ce traitement, le carrelage se décollera sous la pression de l'eau remontant par capillarité.",
+        "tier_filter": null,
+        "zone_filter": "dunois"
+      },
+      {
+        "question": "Quel budget prévoir pour un carrelage de qualité dans une commune rurale du {department} à {city} ?",
+        "answer": "Dans les communes rurales d'Eure-et-Loir, le prix de pose du carrelage se situe entre {min_price} et {max_price} €/{unit}, auquel s'ajoute un surcoût de déplacement de 5 à 12 % selon l'éloignement. La fourniture représente 15 à 80 €/m² selon la gamme choisie. Pour un séjour de 25 m² en grès cérame imitation bois (milieu de gamme), le budget total avoisine 2 000 à 3 000 € pose comprise. Regrouper les achats chez un même négociant (Point P, Brossette) et commander en avance réduit les frais de livraison, souvent offerts au-delà de 500 € de commande.",
+        "tier_filter": "rural",
+        "zone_filter": null
+      }
+    ],
+    "tier_content": {
+      "urban": "À {city} ({population} habitants), la pose de carrelage en milieu urbain implique des contraintes de stationnement pour la livraison des matériaux et l'évacuation des gravats. Les carreleurs facturent entre {min_price} et {max_price} €/{unit} pour la main-d'œuvre seule. En immeuble collectif, la protection des parties communes est obligatoire et les nuisances sonores (découpe, percussion) sont réglementées par le règlement de copropriété. La concurrence entre artisans en zone urbaine permet d'obtenir 3 à 5 devis comparatifs en quelques jours. Les showrooms de carrelage à proximité facilitent le choix des matériaux.",
+      "periurban": "Dans les zones périurbaines de {city}, la pose de carrelage intervient souvent lors de la rénovation complète d'un pavillon. Les maisons des années 1970-1990 disposent généralement de dalles béton en bon état, facilitant la préparation du support. Le budget de pose se situe entre {min_price} et {max_price} €/{unit}. L'accès au chantier par le garage ou le jardin simplifie les livraisons. C'est le segment le plus courant pour les carreleurs du {department}, avec des délais de 3 à 6 semaines. L'ajout d'un plancher chauffant sous le nouveau carrelage est fréquemment demandé pour améliorer le confort thermique.",
+      "bourg": "À {city}, bourg du {department}, les carreleurs interviennent aussi bien dans les maisons de centre-bourg que dans les lotissements récents en périphérie. Les maisons de bourg présentent souvent des sols anciens (tomettes, dalles de pierre, chape irrégulière) qui nécessitent une préparation soignée avant la pose. Les tarifs se situent entre {min_price} et {max_price} €/{unit}. La proximité des négoces matériaux facilite l'approvisionnement et les échanges en cas de casse ou de complément de commande. Les artisans locaux proposent souvent un service complet incluant la fourniture à prix négocié.",
+      "rural": "Dans les communes rurales autour de {city}, les chantiers de carrelage concernent principalement la rénovation de longères et de fermes. Les sols existants sont souvent en terre battue, en pierre ou en chape ancienne nécessitant un ragréage important (15 à 25 €/m² de supplément). Le nombre de carreleurs locaux est limité : comptez 5 à 8 semaines de délai. Le surcoût de déplacement représente 5 à 12 % du devis total. Prévoyez un budget de {min_price} à {max_price} €/{unit} pour la pose, majoré des frais de préparation du sol souvent conséquents dans ces bâtiments anciens."
+    },
+    "zone_content": {
+      "perche": "Dans le Perche, le carrelage doit s'adapter au caractère patrimonial des maisons à colombages et en pierre de roussard. Les tomettes en terre cuite hexagonales restent le revêtement de sol traditionnel, disponibles chez les fabricants locaux à 35 à 70 €/m². Le {climate_note} du Perche (sols humides, hygrométrie élevée) impose un traitement hydrofuge des tomettes et une ventilation basse de la chape pour éviter les remontées d'humidité. Le style {architectural_style} se marie harmonieusement avec les carreaux de ciment dans les entrées et les cuisines. Les carreleurs spécialisés dans la restauration patrimoniale maîtrisent la pose à la chaux, technique traditionnelle adaptée aux supports anciens irréguliers.",
+      "beauce": "En Beauce, les grandes surfaces de sol des corps de ferme et des maisons de maître se prêtent aux carrelages grand format (60x120, 80x80 cm) qui minimisent les joints et créent une lecture d'espace moderne. Le {climate_note} (amplitude thermique élevée, gel hivernal) rend le plancher chauffant basse température particulièrement pertinent sous carrelage. Le style {architectural_style} de la Beauce privilégie les teintes claires (pierre calcaire, beige, sable) qui reflètent la lumière dans les pièces parfois sombres des maisons à murs épais. Le grès cérame imitation pierre de Beauce constitue une alternative économique et résistante aux dalles naturelles.",
+      "drouais": "Le secteur drouais, à la croisée des influences franciliennes et normandes, présente un bâti où la brique rouge voisine avec le silex. Le {climate_note} des vallées encaissées de l'Eure génère des taux d'humidité importants au niveau des sols, surtout dans les maisons sans vide sanitaire. Un film polyéthylène sous la chape est recommandé avant toute pose de carrelage. Le style {architectural_style} du Drouais se traduit par des intérieurs éclectiques où les carrelages imitation carreaux de ciment et les parquets céramique sont très demandés. Les carreleurs du secteur de Dreux et Anet connaissent les contraintes spécifiques des maisons de vallée et adaptent la préparation du support en conséquence.",
+      "dunois": "Dans le Dunois, les maisons en tuffeau posées sur des sols calcaires présentent des problématiques de remontées capillaires que le carreleur doit impérativement traiter avant la pose. Le {climate_note} du val de Loir (brouillards fréquents, nappe phréatique haute) impose un traitement hydrofuge de la dalle et l'utilisation de colles et joints résistants à l'humidité (classe R2T pour les joints époxy). Le style {architectural_style} du Dunois se caractérise par des sols en pierre de tuffeau dans les maisons anciennes, que les propriétaires choisissent souvent de restaurer plutôt que de recouvrir. Lorsque la pose de carrelage est retenue, les teintes claires rappelant le tuffeau (ivoire, crème, blanc cassé) assurent une cohérence avec l'architecture locale."
+    }
   },
   {
     "slug": "facade",
@@ -337,6 +1358,121 @@
         "question": "À quelle fréquence ravaler sa façade à {city} ?",
         "answer": "En règle générale, un ravalement de façade est recommandé tous les 10 à 15 ans, et il est obligatoire tous les 10 ans dans certaines communes d'Eure-et-Loir conformément au Code de la construction. Les façades exposées aux intempéries (nord et ouest) se dégradent plus vite dans le Perche en raison de l'humidité. Un traitement hydrofuge après ravalement prolonge la durée de vie de la façade de 5 à 10 ans supplémentaires."
       }
-    ]
+    ],
+    "process_steps": [
+      "Diagnostic de la façade : identification des désordres (fissures, décollements, efflorescences, mousses) et choix de la technique de ravalement.",
+      "Montage de l'échafaudage conforme à la réglementation, avec filet de protection et balisage de sécurité au sol.",
+      "Nettoyage du support par hydrogommage, sablage doux ou nettoyage basse pression selon la nature de la pierre ou de l'enduit.",
+      "Réparation des désordres : reprise des fissures, rejointoiement des pierres descellées, remplacement des éléments dégradés.",
+      "Application de l'enduit de fond ou du gobetis d'accrochage sur les zones reprises, avec respect des temps de séchage.",
+      "Finition par enduit à la chaux, peinture de façade ou badigeon selon le type de bâti et les prescriptions du PLU ou des ABF.",
+      "Traitement hydrofuge et/ou anti-mousse pour protéger la façade contre les intempéries et les micro-organismes.",
+      "Démontage de l'échafaudage, nettoyage des abords et remise au client du procès-verbal de réception des travaux."
+    ],
+    "timeline_template": "À {city}, un ravalement de façade complet pour une maison individuelle de 100 à 150 m² de surface murale dure en moyenne 2 à 4 semaines. En {population_tier}, les façadiers sont disponibles sous 4 à 10 semaines de délai selon la saison. Le montage de l'échafaudage prend 1 à 2 jours. Le nettoyage et les réparations occupent 3 à 5 jours. L'application de l'enduit ou de la peinture de finition nécessite 3 à 5 jours, avec des temps de séchage dépendant de la météo (idéalement 48 à 72 heures entre couches). Le traitement hydrofuge et le démontage de l'échafaudage clôturent le chantier en 2 à 3 jours. Pour les façades en pierre du département nécessitant un rejointoiement complet, ajoutez 1 à 2 semaines supplémentaires.",
+    "materials_comparison": [
+      {
+        "name": "Enduit à la chaux aérienne (CL 90)",
+        "price_range": "50 à 80 €/m² (fourniture et pose)",
+        "pros": "Matériau traditionnel perspirant, compatible avec le bâti ancien, régule l'humidité, patine naturelle dans le temps",
+        "cons": "Application technique nécessitant un façadier expérimenté, séchage lent (3-4 semaines), sensible au gel pendant la prise",
+        "best_for": "Maisons en pierre, bâti à colombages, restauration patrimoniale, secteurs ABF du Perche"
+      },
+      {
+        "name": "Enduit monocouche (prêt à l'emploi ciment-chaux)",
+        "price_range": "35 à 55 €/m² (fourniture et pose)",
+        "pros": "Application rapide en une seule passe, large gamme de teintes, bon rapport qualité-prix, durabilité de 15-20 ans",
+        "cons": "Moins respirant que la chaux pure, non adapté aux murs anciens en pierre, risque de fissuration si support non préparé",
+        "best_for": "Pavillons récents, constructions en parpaing ou brique creuse, lotissements des années 1970-2000"
+      },
+      {
+        "name": "Peinture de façade (pliolite, siloxane)",
+        "price_range": "25 à 45 €/m² (fourniture et pose)",
+        "pros": "Application facile au rouleau ou à l'airless, séchage rapide, grand choix de couleurs, entretien simple",
+        "cons": "Durée de vie limitée (8-12 ans), ne masque pas les fissures structurelles, nécessite un support en bon état",
+        "best_for": "Ravalement d'entretien sur enduit existant en bon état, façades déjà peintes"
+      },
+      {
+        "name": "ITE sous enduit (polystyrène ou laine de roche + enduit)",
+        "price_range": "100 à 180 €/m² (fourniture et pose)",
+        "pros": "Supprime les ponts thermiques, améliore le DPE de 1 à 3 classes, éligible à MaPrimeRénov' et CEE, façade neuve",
+        "cons": "Coût élevé, modifie l'aspect du bâti (souvent interdit en zone ABF), épaisseur de 12 à 20 cm réduisant les ouvertures",
+        "best_for": "Pavillons énergivores (DPE E, F, G), maisons en parpaing des années 1960-1990, rénovation énergétique globale"
+      }
+    ],
+    "financing_guide": "Le ravalement de façade à {city} bénéficie de plusieurs aides financières, surtout s'il intègre une isolation thermique par l'extérieur (ITE). MaPrimeRénov' accorde jusqu'à 75 €/m² d'ITE pour les ménages très modestes, 60 €/m² pour les modestes et 40 €/m² pour les revenus intermédiaires. Les primes CEE « Coup de Pouce Rénovation Performante » complètent ce dispositif à hauteur de 5 à 12 €/m² selon l'opérateur. L'éco-PTZ permet de financer jusqu'à 15 000 € de travaux de façade (ou 50 000 € dans le cadre d'un bouquet de travaux) à taux zéro. La TVA réduite à 5,5 % s'applique à l'ITE, tandis que le ravalement simple bénéficie de la TVA à 10 % pour les logements de plus de 2 ans. L'ANAH propose un accompagnement renforcé via MaPrimeRénov' Parcours Accompagné, couvrant jusqu'à 90 % du montant HT pour les ménages très modestes. Certaines communes d'Eure-et-Loir (Chartres, Nogent-le-Rotrou, Dreux) offrent des subventions locales pour les ravalements en centre-ville, dans le cadre des opérations de revitalisation commerciale et résidentielle.",
+    "seasonal_advice": "En Eure-et-Loir, les travaux de façade doivent être réalisés entre avril et octobre, période où les températures restent supérieures à 5 °C et les risques de gel sont nuls. L'enduit à la chaux ne doit jamais être appliqué par temps de gel, sous pluie ou au-dessus de 30 °C. Les mois de mai-juin et septembre sont les plus favorables, offrant des conditions hygrométriques idéales pour le séchage des enduits. Évitez les périodes de canicule (juillet-août) qui provoquent un séchage trop rapide et des fissurations. Réservez votre façadier dès janvier pour un chantier au printemps.",
+    "official_links": [
+      {
+        "label": "France Rénov'",
+        "url": "https://france-renov.gouv.fr",
+        "description": "Simulateur d'aides MaPrimeRénov' pour l'ITE et le ravalement, annuaire des conseillers France Rénov' en Eure-et-Loir."
+      },
+      {
+        "label": "ANAH",
+        "url": "https://www.anah.gouv.fr",
+        "description": "Agence nationale de l'habitat : programme MaPrimeRénov' Parcours Accompagné pour les rénovations de façade des ménages modestes."
+      },
+      {
+        "label": "Qualibat",
+        "url": "https://www.qualibat.com",
+        "description": "Vérifiez la qualification Qualibat 7131 (enduit de façade) ou RGE de votre façadier pour accéder aux aides financières."
+      },
+      {
+        "label": "FFB",
+        "url": "https://www.ffbatiment.fr",
+        "description": "Fédération Française du Bâtiment : annuaire des façadiers adhérents, garantie décennale et assurance professionnelle."
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "Comment ravaler une façade à colombages sans dénaturer le patrimoine du Perche à {city} ?",
+        "answer": "Le ravalement d'une façade à colombages dans le Perche exige un savoir-faire spécifique. Le remplissage entre les pans de bois (torchis, brique ou silex) doit être restauré avec des matériaux compatibles : torchis terre-paille pour les remplissages anciens, enduit chaux-chanvre pour les reprises. Le bois de la structure colombage est traité au xylophène puis protégé par une lasure microporeuse ou un badigeon de chaux ferrée. Le ciment Portland est strictement proscrit : il emprisonne l'humidité et provoque la pourriture du bois. Un façadier qualifié en restauration patrimoniale facture ce type de chantier entre 60 et 100 €/m².",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "Comment protéger une façade exposée au vent en Beauce à {city} ?",
+        "answer": "En Beauce, les façades ouest et sud-ouest subissent de plein fouet les vents dominants, souvent supérieurs à 40 km/h, chargés de pluie. Le choix d'un enduit hydrofuge ou d'une peinture siloxane haute résistance est primordial. Un traitement antimousse préventif sur les faces exposées prolonge la durée de vie du ravalement de 3 à 5 ans. Les fermes isolées en plaine sont particulièrement vulnérables aux chocs thermiques : l'enduit monocouche souple (classé D2) absorbe les microfissures liées aux variations de température. Prévoyez un budget de 35 à 60 €/m² pour un ravalement adapté aux contraintes beauceronnes.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "Faut-il une autorisation pour ravaler la façade d'une maison de ville à {city} ?",
+        "answer": "En centre-ville de {city}, le ravalement de façade est soumis à déclaration préalable de travaux déposée en mairie. Le PLU fixe les couleurs autorisées et les matériaux admis. En périmètre ABF (rayon de 500 m autour d'un monument historique), l'Architecte des Bâtiments de France doit donner son avis conforme, ce qui ajoute 2 à 3 mois de délai administratif. Le montage d'un échafaudage sur voie publique nécessite une autorisation d'occupation temporaire (30 à 80 € par semaine selon la commune). Anticipez ces démarches 3 à 4 mois avant le début prévu du chantier.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "L'ITE est-elle adaptée à un pavillon des années 1980 à {city} ?",
+        "answer": "Les pavillons périurbains des années 1970-1990 sont les candidats idéaux pour l'isolation thermique par l'extérieur (ITE). Leurs murs en parpaing de 20 cm offrent une faible résistance thermique (R = 0,23 m².K/W) que l'ITE porte à R ≥ 3,7 m².K/W avec 12 cm de polystyrène expansé. Le gain sur le DPE est spectaculaire : passage de E ou F à C ou B. Le coût de 100 à 180 €/m² est largement subventionné par MaPrimeRénov' (40 à 75 €/m²), les CEE (5 à 12 €/m²) et l'éco-PTZ. Le reste à charge réel se situe souvent entre 30 et 60 €/m² pour les ménages modestes du {department}.",
+        "tier_filter": "periurban",
+        "zone_filter": null
+      },
+      {
+        "question": "Quels problèmes spécifiques rencontrent les façades en brique et silex du Drouais à {city} ?",
+        "answer": "Le bâti drouais en brique et silex présente des joints sensibles à l'érosion par le gel et la pluie battante. Le rejointoiement doit être réalisé au mortier de chaux hydraulique (NHL 3,5) et non au ciment Portland, qui rigidifie excessivement les joints et provoque l'éclatement des briques par rétention d'humidité. La brique ancienne du secteur drouais est souvent gélive : un traitement hydrofuge par imprégnation protège les briques exposées sans modifier leur aspect. Comptez 40 à 70 €/m² pour un rejointoiement complet et 15 à 25 €/m² pour le traitement hydrofuge dans cette zone géographique.",
+        "tier_filter": null,
+        "zone_filter": "drouais"
+      },
+      {
+        "question": "Comment ravaler une façade en tuffeau dans le Dunois à {city} ?",
+        "answer": "Le tuffeau, pierre tendre calcaire emblématique du val de Loir, requiert des techniques de ravalement spécifiques. Le nettoyage se fait exclusivement par micro-gommage à basse pression (< 3 bars) avec un abrasif doux (poudre de verre). Le karcher haute pression est formellement interdit : il érode irrémédiablement la surface de la pierre. Les joints s'effectuent au mortier de chaux aérienne (CL 90) additionné de sable de Loire. Les pierres trop dégradées sont remplacées par des blocs de tuffeau neufs taillés sur mesure. Un badigeon de chaux protège la façade tout en la laissant respirer. Les façadiers formés au tuffeau sont peu nombreux : adressez-vous aux spécialistes du val de Loire.",
+        "tier_filter": null,
+        "zone_filter": "dunois"
+      }
+    ],
+    "tier_content": {
+      "urban": "À {city} ({population} habitants), le ravalement de façade en milieu urbain est encadré par le PLU et souvent par l'obligation décennale de ravalement inscrite au Code de la construction. Le montage d'échafaudage nécessite une autorisation d'occupation de la voie publique, facturée 30 à 80 €/semaine selon la commune. Les façades mitoyennes en centre historique imposent une coordination avec les propriétaires voisins. La concurrence entre façadiers maintient les tarifs entre {min_price} et {max_price} €/{unit}. Les communes de Chartres, Dreux et Nogent-le-Rotrou proposent parfois des subventions de 10 à 20 % du montant HT dans le cadre des opérations de revitalisation de centre-bourg.",
+      "periurban": "Dans les zones périurbaines de {city}, le ravalement de façade concerne principalement les pavillons des années 1970-1990 dont l'enduit monocouche d'origine se dégrade après 25 à 35 ans. L'accès facile à toutes les faces de la maison simplifie le montage de l'échafaudage. C'est le contexte idéal pour coupler ravalement et ITE : l'investissement est rentabilisé en 8 à 12 ans grâce aux économies de chauffage. Les façadiers du {department} proposent des tarifs compétitifs de {min_price} à {max_price} €/{unit} pour le ravalement seul. Les délais s'établissent entre 4 et 8 semaines en période normale.",
+      "bourg": "À {city}, bourg du {department}, les façades mélangent bâti ancien de centre (pierre, enduit à la chaux) et constructions récentes en lotissement (enduit monocouche, bardage). Le ravalement des maisons de bourg anciennes nécessite un façadier formé aux techniques traditionnelles. Les tarifs se situent entre {min_price} et {max_price} €/{unit}, avec une prime de 10 à 20 €/m² pour les travaux sur pierre. Le tissu artisanal local est dense et les délais raisonnables (4 à 6 semaines). Certains bourgs d'Eure-et-Loir font l'objet d'opérations programmées d'amélioration de l'habitat (OPAH) offrant des aides complémentaires.",
+      "rural": "Dans les communes rurales proches de {city}, le ravalement de façade concerne souvent des bâtiments de grande surface (corps de ferme, longères, manoirs) avec des façades de 150 à 300 m². Le montage d'échafaudage sur terrain meuble ou en pente ajoute 10 à 15 % au coût global. Les façadiers doivent parfois parcourir 30 à 40 km, générant un surcoût de déplacement de 5 à 12 %. Le budget se situe entre {min_price} et {max_price} €/{unit}, hors préparation spécifique du support. Les matériaux de réemploi (pierres de récupération, sable local) permettent de contenir les coûts sur les chantiers patrimoniaux tout en respectant l'authenticité du bâti."
+    },
+    "zone_content": {
+      "perche": "Le Perche concentre le patrimoine architectural le plus riche et le plus exigeant du département en matière de ravalement de façade. Les maisons à colombages, les manoirs en pierre de roussard et les fermes percheronnes exigent des techniques ancestrales : enduit au mortier de chaux et de sable local, torchis terre-paille pour les remplissages de colombages, badigeon de chaux pour la protection des parements. Le {climate_note} (pluviométrie soutenue, humidité hivernale élevée) accélère la dégradation des joints et des enduits. Le style {architectural_style} est strictement encadré par les ABF dans les bourgs classés. Les façadiers spécialisés facturent entre 60 et 100 €/m² pour ce type de restauration patrimoniale.",
+      "beauce": "En Beauce, les façades des grandes fermes et des maisons de plaine sont exposées aux vents dominants qui érodent les enduits et favorisent l'encrassement. Le {climate_note} (gel fréquent, amplitude thermique forte, ensoleillement important) impose des enduits souples résistants aux chocs thermiques. Le style {architectural_style} de la Beauce se caractérise par des façades sobres en pierre calcaire ou en enduit clair, avec des encadrements de fenêtres en pierre de taille. L'ITE est particulièrement pertinente sur les murs en parpaing des exploitations agricoles reconverties en habitations. Les façadiers du secteur de Chartres et Janville maîtrisent aussi bien le ravalement traditionnel que l'ITE sous enduit.",
+      "drouais": "Le Drouais se distingue par un patrimoine bâti en brique et silex hérité de la tradition constructive normande et francilienne. Le {climate_note} des vallées de l'Eure et de la Blaise apporte une humidité qui fragilise les joints et favorise les mousses sur les façades nord. Le style {architectural_style} du Drouais mêle appareillages de brique décoratifs, bandeaux de silex et encadrements de grès. Le rejointoiement à la chaux hydraulique préserve la souplesse nécessaire à ces maçonneries mixtes. Les façadiers du secteur de Dreux, Anet et Brezolles interviennent régulièrement sur ce type de bâti et connaissent les exigences du secteur sauvegardé de Dreux.",
+      "dunois": "Le Dunois, traversé par le Loir, est le pays du tuffeau, cette pierre tendre calcaire qui confère aux façades leur blancheur lumineuse. Le {climate_note} du val de Loir (brouillards, humidité élevée, gel modéré) provoque des désagrégations de surface (desquamation, alvéolisation) que seul un façadier formé au patrimoine de tuffeau peut traiter correctement. Le style {architectural_style} se caractérise par des façades sculptées (corniches, bandeaux, moulures) qu'il faut restaurer avec le même soin que la maçonnerie courante. Le micro-gommage à basse pression est la seule technique de nettoyage admise. Les façadiers spécialisés travaillent également dans le Loir-et-Cher voisin, ce qui assure un bon niveau de compétence sur le tuffeau dans le secteur de Châteaudun et Cloyes-les-Trois-Rivières."
+    }
   }
 ]
