@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
+@plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -84,37 +85,37 @@
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
+  --background: oklch(0.16 0.01 145);
+  --foreground: oklch(0.96 0.005 85);
+  --card: oklch(0.20 0.01 145);
+  --card-foreground: oklch(0.96 0.005 85);
+  --popover: oklch(0.20 0.01 145);
+  --popover-foreground: oklch(0.96 0.005 85);
+  --primary: oklch(0.55 0.10 145);
+  --primary-foreground: oklch(0.16 0.01 145);
+  --secondary: oklch(0.25 0.015 145);
+  --secondary-foreground: oklch(0.96 0.005 85);
+  --muted: oklch(0.25 0.01 145);
+  --muted-foreground: oklch(0.65 0.02 85);
+  --accent: oklch(0.62 0.12 55);
+  --accent-foreground: oklch(0.96 0.005 85);
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.809 0.105 251.813);
-  --chart-2: oklch(0.623 0.214 259.815);
-  --chart-3: oklch(0.546 0.245 262.881);
-  --chart-4: oklch(0.488 0.243 264.376);
-  --chart-5: oklch(0.424 0.199 265.638);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.55 0.10 145);
+  --chart-1: oklch(0.55 0.10 145);
+  --chart-2: oklch(0.62 0.12 55);
+  --chart-3: oklch(0.50 0.08 30);
+  --chart-4: oklch(0.68 0.06 85);
+  --chart-5: oklch(0.42 0.05 200);
+  --sidebar: oklch(0.20 0.01 145);
+  --sidebar-foreground: oklch(0.96 0.005 85);
+  --sidebar-primary: oklch(0.55 0.10 145);
+  --sidebar-primary-foreground: oklch(0.96 0.005 85);
+  --sidebar-accent: oklch(0.25 0.015 145);
+  --sidebar-accent-foreground: oklch(0.96 0.005 85);
   --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --sidebar-ring: oklch(0.55 0.10 145);
 }
 
 @layer base {
@@ -155,4 +156,157 @@
   .animate-fade-in-up {
     animation: fadeInUp 0.5s ease-out both;
   }
+}
+
+/* ─── Article content typography ─── */
+.article-content h2 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.35rem;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--foreground);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid var(--primary);
+}
+
+.article-content h3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 1.35;
+  color: var(--foreground);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.article-content p {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--muted-foreground);
+  margin-bottom: 1.25rem;
+}
+
+.article-content strong {
+  color: var(--foreground);
+  font-weight: 600;
+}
+
+.article-content a {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+.article-content a:hover {
+  text-decoration: underline;
+}
+
+.article-content ul,
+.article-content ol {
+  list-style: none;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.article-content li {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--muted-foreground);
+  padding: 0.75rem 1rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--primary);
+  border-radius: 0.5rem;
+}
+
+.article-content li strong {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--foreground);
+  margin-bottom: 0.2rem;
+}
+
+.article-content ol {
+  counter-reset: article-counter;
+}
+
+.article-content ol li {
+  counter-increment: article-counter;
+  position: relative;
+  padding-left: 3rem;
+}
+
+.article-content ol li::before {
+  content: counter(article-counter);
+  position: absolute;
+  left: 0.75rem;
+  top: 0.75rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: var(--primary);
+  color: var(--primary-foreground);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.article-content blockquote {
+  border-left: 3px solid var(--primary);
+  padding: 0.75rem 1.25rem;
+  margin: 1.5rem 0;
+  background: oklch(0.97 0.005 145 / 40%);
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.article-content blockquote p {
+  color: var(--foreground);
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.article-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.875rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.article-content th {
+  background: var(--muted);
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--foreground);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.article-content td {
+  padding: 0.65rem 1rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted-foreground);
+  line-height: 1.5;
+}
+
+.article-content tr:nth-child(even) td {
+  background: oklch(0.97 0.003 85 / 50%);
+}
+
+.article-content > *:first-child {
+  margin-top: 0;
 }

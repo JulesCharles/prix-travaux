@@ -15,6 +15,7 @@ import { Database, Award, RefreshCw } from "lucide-react"
 import { trades, cities, getTopCities } from "@/lib/data"
 import { tradeIcons } from "@/lib/trade-icons"
 import { Header } from "@/components/Header"
+import { TrustBar } from "@/components/TrustBar"
 import { Footer } from "@/components/Footer"
 import { HomeSearch } from "@/components/HomeSearch"
 import { RecentActivity } from "@/components/RecentActivity"
@@ -52,6 +53,7 @@ export default function HomePage() {
   return (
     <>
       <Header />
+      <TrustBar />
 
       {/* ─── Hero ─── */}
       <section className="relative overflow-hidden border-b border-border/40">
@@ -60,7 +62,7 @@ export default function HomePage() {
         <div className="pointer-events-none absolute -right-32 -top-32 size-96 rounded-full bg-accent/10 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-20 -left-20 size-72 rounded-full bg-primary/5 blur-3xl" />
 
-        <div className="relative mx-auto max-w-6xl px-4 pb-16 pt-20 sm:pb-20 sm:pt-28">
+        <div className="relative mx-auto max-w-6xl px-4 pb-12 pt-12 sm:pb-16 sm:pt-16">
           <div className="mx-auto max-w-2xl text-center animate-fade-in">
             <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-primary">
               Guide des prix &middot; Eure-et-Loir (28)

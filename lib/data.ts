@@ -1,4 +1,4 @@
-import type { Trade, City, BlogPost } from "./types"
+import type { Trade, City, BlogPost, ExtendedFaqItem } from "./types"
 import tradesData from "@/data/trades.json"
 import citiesData from "@/data/cities.json"
 import blogPostsData from "@/data/blog-posts.json"
@@ -38,6 +38,11 @@ export function interpolateTemplate(template: string, trade: Trade, city: City):
     .replace(/{max_price}/g, String(trade.max_price))
     .replace(/{unit}/g, trade.unit)
     .replace(/{department}/g, city.department)
+    .replace(/{zip}/g, city.zip)
+    .replace(/{population}/g, city.population.toLocaleString("fr-FR"))
+    .replace(/{population_tier}/g, city.population_tier)
+    .replace(/{architectural_style}/g, city.architectural_style)
+    .replace(/{climate_note}/g, city.climate_note)
 }
 
 /** Regional coefficient based on population density — small villages cost slightly more */
@@ -56,4 +61,41 @@ export function getTopCities(n: number): City[] {
 /** Get all cities sorted by population descending */
 export function getCitiesSorted(): City[] {
   return [...cities].sort((a, b) => b.population - a.population)
+}
+
+/** Get the tier-specific paragraph for a trade × city combination (interpolated) */
+export function getTierContent(trade: Trade, city: City): string {
+  const raw = trade.tier_content[city.population_tier] ?? ""
+  return interpolateTemplate(raw, trade, city)
+}
+
+/** Get the zone-specific paragraph for a trade × city combination (interpolated) */
+export function getZoneContent(trade: Trade, city: City): string {
+  const raw = trade.zone_content[city.geographic_zone] ?? ""
+  return interpolateTemplate(raw, trade, city)
+}
+
+/** Get extended FAQ items filtered by city tier and zone, merged with base FAQ */
+export function getExtendedFaq(trade: Trade, city: City): ExtendedFaqItem[] {
+  return trade.extended_faq.filter((item) => {
+    if (item.tier_filter && item.tier_filter !== city.population_tier) return false
+    if (item.zone_filter && item.zone_filter !== city.geographic_zone) return false
+    return true
+  })
+}
+
+/**
+ * Interpolate template for department-level pages (trade hubs).
+ * Handles French grammar: "à Eure-et-Loir" → "en Eure-et-Loir",
+ * and replaces {city} with "Eure-et-Loir".
+ */
+export function interpolateForDepartment(template: string, trade: Trade): string {
+  return template
+    .replace(/{city}/g, "Eure-et-Loir")
+    .replace(/{min_price}/g, String(trade.min_price))
+    .replace(/{max_price}/g, String(trade.max_price))
+    .replace(/{unit}/g, trade.unit)
+    .replace(/{department}/g, "28")
+    .replace(/\bà Eure-et-Loir\b/g, "en Eure-et-Loir")
+    .replace(/\bde Eure-et-Loir\b/g, "d'Eure-et-Loir")
 }

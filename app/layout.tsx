@@ -1,17 +1,20 @@
 import type { Metadata } from "next"
+import Script from "next/script"
 import { Libre_Franklin, Instrument_Sans } from "next/font/google"
 import "./globals.css"
 
 const libreFranklin = Libre_Franklin({
   variable: "--font-heading",
   subsets: ["latin"],
-  weight: ["600", "700", "800", "900"],
+  weight: ["700", "800"],
+  display: "swap",
 })
 
 const instrumentSans = Instrument_Sans({
   variable: "--font-sans",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "600"],
+  display: "swap",
 })
 
 export const metadata: Metadata = {
@@ -24,6 +27,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_BASE_URL || "https://prix-travaux-28.fr"
   ),
+  verification: {
+    google: "2vat9KzWXaPVWbBQrMoe2O4t05ll8FeMOCHIyGfBXWA",
+  },
   openGraph: {
     siteName: "Prix Travaux 28",
     locale: "fr_FR",
@@ -42,6 +48,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-4J9M2TK94H"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-4J9M2TK94H');
+          `}
+        </Script>
+      </head>
       <body
         className={`${instrumentSans.variable} ${libreFranklin.variable} antialiased`}
       >

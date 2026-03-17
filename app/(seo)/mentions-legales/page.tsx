@@ -18,7 +18,7 @@ export default function MentionsLegalesPage() {
         ]}
       />
 
-      <article className="prose prose-sm max-w-none prose-headings:font-heading prose-headings:font-bold prose-headings:tracking-tight prose-a:text-primary">
+      <article className="article-content">
         <h1 className="font-heading text-3xl font-bold tracking-tight">
           Mentions légales
         </h1>

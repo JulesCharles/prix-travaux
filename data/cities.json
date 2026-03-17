@@ -3,330 +3,741 @@
     "slug": "nogent-le-rotrou",
     "name": "Nogent-le-Rotrou",
     "zip": "28400",
-    "population": 10500,
-    "coordinates": { "lat": 48.3222, "lng": 0.8222 },
-    "neighboring_cities_slugs": ["margon", "souance-au-perche", "coudreceau", "brunelles", "trizay-coutretot-saint-serge", "thiron-gardais", "authon-du-perche"],
+    "population": 9305,
+    "coordinates": {
+      "lat": 48.3222,
+      "lng": 0.8222
+    },
+    "neighboring_cities_slugs": [
+      "margon",
+      "souance-au-perche",
+      "coudreceau",
+      "brunelles",
+      "trizay-coutretot-saint-serge",
+      "thiron-gardais",
+      "authon-du-perche"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Capitale historique du Perche, Nogent-le-Rotrou est une ville de caractère dominée par le château des Comtes du Perche. Son architecture mêle maisons à colombages, hôtels particuliers Renaissance et bâtisses en pierre du Perche. Le climat océanique dégradé, avec des précipitations régulières, impose un entretien rigoureux des toitures et une isolation adaptée."
+    "region_description": "Capitale historique du Perche, Nogent-le-Rotrou est une ville de caractère dominée par le château des Comtes du Perche. Son architecture mêle maisons à colombages, hôtels particuliers Renaissance et bâtisses en pierre du Perche. Le climat océanique dégradé, avec des précipitations régulières, impose un entretien rigoureux des toitures et une isolation adaptée.",
+    "population_tier": "periurban",
+    "geographic_zone": "perche",
+    "architectural_style": "colombages, hôtels Renaissance et pierre du Perche",
+    "climate_note": "climat océanique dégradé, précipitations régulières",
+    "local_highlight": "Capitale historique du Perche, la ville concentre un patrimoine bâti exceptionnel nécessitant des artisans spécialisés en restauration."
   },
   {
     "slug": "margon",
     "name": "Margon",
     "zip": "28400",
     "population": 1300,
-    "coordinates": { "lat": 48.3000, "lng": 0.8500 },
-    "neighboring_cities_slugs": ["nogent-le-rotrou", "souance-au-perche", "brunelles", "coudreceau"],
+    "coordinates": {
+      "lat": 48.334,
+      "lng": 0.836
+    },
+    "neighboring_cities_slugs": [
+      "nogent-le-rotrou",
+      "souance-au-perche",
+      "brunelles",
+      "coudreceau"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Commune attractive pour les primo-accédants et les télétravailleurs, Margon offre des prix immobiliers parmi les plus accessibles du département (autour de 1 200 €/m²). La réhabilitation des corps de ferme en résidences principales constitue un marché dynamique, avec des budgets de rénovation maîtrisables grâce à des artisans locaux compétitifs."
+    "region_description": "Commune attractive pour les primo-accédants et les télétravailleurs, Margon offre des prix immobiliers parmi les plus accessibles du département (autour de 1 200 €/m²). La réhabilitation des corps de ferme en résidences principales constitue un marché dynamique, avec des budgets de rénovation maîtrisables grâce à des artisans locaux compétitifs.",
+    "population_tier": "rural",
+    "geographic_zone": "perche",
+    "architectural_style": "corps de ferme en pierre du Perche à réhabiliter",
+    "climate_note": "climat percheron doux, humidité modérée en vallée",
+    "local_highlight": "Commune prisée des primo-accédants franciliens, les rénovations de corps de ferme y sont particulièrement dynamiques et abordables."
   },
   {
     "slug": "souance-au-perche",
     "name": "Souancé-au-Perche",
     "zip": "28400",
-    "population": 850,
-    "coordinates": { "lat": 48.3400, "lng": 0.8600 },
-    "neighboring_cities_slugs": ["nogent-le-rotrou", "margon", "trizay-coutretot-saint-serge"],
+    "population": 505,
+    "coordinates": {
+      "lat": 48.34,
+      "lng": 0.86
+    },
+    "neighboring_cities_slugs": [
+      "nogent-le-rotrou",
+      "margon",
+      "trizay-coutretot-saint-serge"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Village engagé dans la transition écologique, Souancé-au-Perche encourage la rénovation énergétique performante. Plusieurs projets de réhabilitation passive ont vu le jour dans la commune, illustrant le potentiel des habitations percheronnes en matière d'efficacité thermique. Les artisans du secteur maîtrisent les techniques d'isolation adaptées au bâti ancien respirant."
+    "region_description": "Village engagé dans la transition écologique, Souancé-au-Perche encourage la rénovation énergétique performante. Plusieurs projets de réhabilitation passive ont vu le jour dans la commune, illustrant le potentiel des habitations percheronnes en matière d'efficacité thermique. Les artisans du secteur maîtrisent les techniques d'isolation adaptées au bâti ancien respirant.",
+    "population_tier": "rural",
+    "geographic_zone": "perche",
+    "architectural_style": "habitations percheronnes traditionnelles en pierre et bois",
+    "climate_note": "climat percheron frais, nécessitant une isolation performante",
+    "local_highlight": "Village pionnier de la rénovation passive en Perche, avec plusieurs projets de réhabilitation énergétique exemplaires déjà réalisés."
   },
   {
     "slug": "coudreceau",
     "name": "Coudreceau",
     "zip": "28400",
-    "population": 700,
-    "coordinates": { "lat": 48.2900, "lng": 0.8800 },
-    "neighboring_cities_slugs": ["nogent-le-rotrou", "margon", "brunelles", "thiron-gardais"],
+    "population": 440,
+    "coordinates": {
+      "lat": 48.29,
+      "lng": 0.88
+    },
+    "neighboring_cities_slugs": [
+      "nogent-le-rotrou",
+      "margon",
+      "brunelles",
+      "thiron-gardais"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Petite commune percheronne au sud-est de Nogent-le-Rotrou, Coudreceau conserve un patrimoine rural authentique. Ses longères en pierre calcaire et ses granges traditionnelles requièrent des artisans maîtrisant les techniques de rénovation adaptées aux bâtis anciens du Perche."
+    "region_description": "Petite commune percheronne au sud-est de Nogent-le-Rotrou, Coudreceau conserve un patrimoine rural authentique. Ses longères en pierre calcaire et ses granges traditionnelles requièrent des artisans maîtrisant les techniques de rénovation adaptées aux bâtis anciens du Perche.",
+    "population_tier": "rural",
+    "geographic_zone": "perche",
+    "architectural_style": "longères en pierre calcaire et granges traditionnelles",
+    "climate_note": "climat percheron humide, entretien régulier des maçonneries",
+    "local_highlight": "Ses longères et granges en pierre calcaire du Perche attirent des acquéreurs en quête d'authenticité rurale à rénover."
   },
   {
     "slug": "brunelles",
     "name": "Brunelles",
     "zip": "28400",
     "population": 600,
-    "coordinates": { "lat": 48.2800, "lng": 0.8300 },
-    "neighboring_cities_slugs": ["nogent-le-rotrou", "margon", "coudreceau", "authon-du-perche"],
+    "coordinates": {
+      "lat": 48.28,
+      "lng": 0.83
+    },
+    "neighboring_cities_slugs": [
+      "nogent-le-rotrou",
+      "margon",
+      "coudreceau",
+      "authon-du-perche"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Brunelles attire des acquéreurs franciliens en quête de résidences secondaires de caractère dans le Perche. Les manoirs et longères du secteur, souvent à rénover intégralement, représentent des opportunités d'investissement avec des budgets travaux maîtrisables. La proximité de Nogent-le-Rotrou facilite l'accès aux artisans qualifiés pour des chantiers ambitieux."
+    "region_description": "Brunelles attire des acquéreurs franciliens en quête de résidences secondaires de caractère dans le Perche. Les manoirs et longères du secteur, souvent à rénover intégralement, représentent des opportunités d'investissement avec des budgets travaux maîtrisables. La proximité de Nogent-le-Rotrou facilite l'accès aux artisans qualifiés pour des chantiers ambitieux.",
+    "population_tier": "rural",
+    "geographic_zone": "perche",
+    "architectural_style": "manoirs et longères percherons à rénover intégralement",
+    "climate_note": "climat percheron doux, hivers humides sur les maçonneries",
+    "local_highlight": "Haut lieu des résidences secondaires percheronnes, les manoirs et longères à rénover y représentent des investissements de caractère."
   },
   {
     "slug": "trizay-coutretot-saint-serge",
     "name": "Trizay-Coutretôt-Saint-Serge",
     "zip": "28400",
-    "population": 550,
-    "coordinates": { "lat": 48.3500, "lng": 0.7900 },
-    "neighboring_cities_slugs": ["nogent-le-rotrou", "souance-au-perche"],
+    "population": 438,
+    "coordinates": {
+      "lat": 48.35,
+      "lng": 0.79
+    },
+    "neighboring_cities_slugs": [
+      "nogent-le-rotrou",
+      "souance-au-perche"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Commune fusionnée au nord-ouest de Nogent-le-Rotrou, Trizay-Coutretôt-Saint-Serge offre un cadre rural préservé. Les anciennes fermes percheronnes avec leurs cours carrées caractéristiques présentent des besoins spécifiques en rénovation énergétique et en remise en état des couvertures."
+    "region_description": "Commune fusionnée au nord-ouest de Nogent-le-Rotrou, Trizay-Coutretôt-Saint-Serge offre un cadre rural préservé. Les anciennes fermes percheronnes avec leurs cours carrées caractéristiques présentent des besoins spécifiques en rénovation énergétique et en remise en état des couvertures.",
+    "population_tier": "rural",
+    "geographic_zone": "perche",
+    "architectural_style": "fermes percheronnes à cours carrées en pierre",
+    "climate_note": "climat percheron exposé, couvertures sollicitées par le vent",
+    "local_highlight": "Commune fusionnée aux fermes à cours carrées typiques du Perche, offrant un potentiel de rénovation énergétique considérable."
   },
   {
     "slug": "chartres",
     "name": "Chartres",
     "zip": "28000",
     "population": 38324,
-    "coordinates": { "lat": 48.4469, "lng": 1.4892 },
-    "neighboring_cities_slugs": ["luce", "mainvilliers", "luisant", "leves", "le-coudray", "champhol"],
+    "coordinates": {
+      "lat": 48.4469,
+      "lng": 1.4892
+    },
+    "neighboring_cities_slugs": [
+      "luce",
+      "mainvilliers",
+      "luisant",
+      "leves",
+      "le-coudray",
+      "champhol"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Préfecture d'Eure-et-Loir, Chartres est mondialement célèbre pour sa cathédrale gothique inscrite au patrimoine mondial de l'UNESCO. La ville déploie un centre médiéval dense avec des maisons à pans de bois, des hôtels particuliers et des ruelles pittoresques surplombant l'Eure. Le climat de plaine beauceronne, venteux et humide en hiver, impose des rénovations exigeantes sur les toitures et les façades anciennes."
+    "region_description": "Préfecture d'Eure-et-Loir, Chartres est mondialement célèbre pour sa cathédrale gothique inscrite au patrimoine mondial de l'UNESCO. La ville déploie un centre médiéval dense avec des maisons à pans de bois, des hôtels particuliers et des ruelles pittoresques surplombant l'Eure. Le climat de plaine beauceronne, venteux et humide en hiver, impose des rénovations exigeantes sur les toitures et les façades anciennes.",
+    "population_tier": "urban",
+    "geographic_zone": "beauce",
+    "architectural_style": "pierre calcaire, maisons médiévales à pans de bois",
+    "climate_note": "plaine venteuse et humide en hiver, façades exposées",
+    "local_highlight": "Le périmètre UNESCO autour de la cathédrale impose des contraintes architecturales strictes sur les travaux en centre-ville."
   },
   {
     "slug": "luce",
     "name": "Lucé",
     "zip": "28110",
     "population": 15921,
-    "coordinates": { "lat": 48.4333, "lng": 1.4667 },
-    "neighboring_cities_slugs": ["chartres", "mainvilliers", "luisant", "le-coudray"],
+    "coordinates": {
+      "lat": 48.4333,
+      "lng": 1.4667
+    },
+    "neighboring_cities_slugs": [
+      "chartres",
+      "mainvilliers",
+      "luisant",
+      "le-coudray"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Deuxième commune de l'agglomération chartraine par sa population, Lucé bénéficie du programme Action Cœur de Ville et de dispositifs d'aide à la rénovation des copropriétés. Les immeubles des années 1960-70, nombreux dans la ville, sont prioritaires pour l'isolation thermique par l'extérieur et la modernisation des équipements collectifs de chauffage."
+    "region_description": "Deuxième commune de l'agglomération chartraine par sa population, Lucé bénéficie du programme Action Cœur de Ville et de dispositifs d'aide à la rénovation des copropriétés. Les immeubles des années 1960-70, nombreux dans la ville, sont prioritaires pour l'isolation thermique par l'extérieur et la modernisation des équipements collectifs de chauffage.",
+    "population_tier": "urban",
+    "geographic_zone": "beauce",
+    "architectural_style": "immeubles collectifs années 1960-70, copropriétés à rénover",
+    "climate_note": "climat beauceron, vents de plaine sur les façades",
+    "local_highlight": "Le programme Action Cœur de Ville et les aides à la rénovation des copropriétés dynamisent fortement le marché des travaux."
   },
   {
     "slug": "mainvilliers",
     "name": "Mainvilliers",
     "zip": "28300",
     "population": 10629,
-    "coordinates": { "lat": 48.4500, "lng": 1.4500 },
-    "neighboring_cities_slugs": ["chartres", "luce", "leves", "champhol"],
+    "coordinates": {
+      "lat": 48.45,
+      "lng": 1.45
+    },
+    "neighboring_cities_slugs": [
+      "chartres",
+      "luce",
+      "leves",
+      "champhol"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Commune limitrophe à l'ouest de Chartres, Mainvilliers offre un cadre résidentiel dynamique entre habitat collectif et maisons individuelles. Le patrimoine bâti y est varié, des pavillons des années 1970 aux constructions neuves en passant par quelques fermes beauceronnes reconverties. Le climat continental dégradé, avec des hivers rigoureux et des vents de plaine soutenus, sollicite fortement les couvertures."
+    "region_description": "Commune limitrophe à l'ouest de Chartres, Mainvilliers offre un cadre résidentiel dynamique entre habitat collectif et maisons individuelles. Le patrimoine bâti y est varié, des pavillons des années 1970 aux constructions neuves en passant par quelques fermes beauceronnes reconverties. Le climat continental dégradé, avec des hivers rigoureux et des vents de plaine soutenus, sollicite fortement les couvertures.",
+    "population_tier": "urban",
+    "geographic_zone": "beauce",
+    "architectural_style": "pavillons années 1970, fermes beauceronnes reconverties",
+    "climate_note": "climat continental dégradé, hivers rigoureux et vents soutenus",
+    "local_highlight": "La mixité du parc bâti — pavillons, collectifs, fermes reconverties — génère une demande variée en rénovation aux portes de Chartres."
   },
   {
     "slug": "luisant",
     "name": "Luisant",
     "zip": "28600",
     "population": 6945,
-    "coordinates": { "lat": 48.4300, "lng": 1.4800 },
-    "neighboring_cities_slugs": ["chartres", "luce", "le-coudray"],
+    "coordinates": {
+      "lat": 48.43,
+      "lng": 1.48
+    },
+    "neighboring_cities_slugs": [
+      "chartres",
+      "luce",
+      "le-coudray"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Commune résidentielle prisée des familles de l'agglomération chartraine, Luisant se distingue par son parc de pavillons individuels des années 1980-90 qui atteignent l'âge de la première rénovation lourde. L'amélioration du DPE (Diagnostic de Performance Énergétique) y est un enjeu central, les passoires thermiques classées F ou G étant progressivement interdites à la location."
+    "region_description": "Commune résidentielle prisée des familles de l'agglomération chartraine, Luisant se distingue par son parc de pavillons individuels des années 1980-90 qui atteignent l'âge de la première rénovation lourde. L'amélioration du DPE (Diagnostic de Performance Énergétique) y est un enjeu central, les passoires thermiques classées F ou G étant progressivement interdites à la location.",
+    "population_tier": "periurban",
+    "geographic_zone": "beauce",
+    "architectural_style": "pavillons individuels années 1980-90 en lotissement",
+    "climate_note": "climat beauceron exposé, déperditions thermiques importantes",
+    "local_highlight": "Les pavillons des années 1980-90 atteignent l'âge de la première rénovation lourde, avec un enjeu DPE central pour la location."
   },
   {
     "slug": "leves",
     "name": "Lèves",
     "zip": "28300",
     "population": 5685,
-    "coordinates": { "lat": 48.4700, "lng": 1.4700 },
-    "neighboring_cities_slugs": ["chartres", "mainvilliers", "champhol"],
+    "coordinates": {
+      "lat": 48.47,
+      "lng": 1.47
+    },
+    "neighboring_cities_slugs": [
+      "chartres",
+      "mainvilliers",
+      "champhol"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Commune au nord de Chartres, Lèves bénéficie d'un cadre semi-rural avec vue sur la cathédrale et la plaine de Beauce. Le patrimoine bâti associe anciennes demeures de notables, corps de ferme réhabilités et lotissements modernes. Les vents du nord-ouest balayant le plateau beauceron imposent une attention particulière à la solidité des charpentes et à la tenue des couvertures."
+    "region_description": "Commune au nord de Chartres, Lèves bénéficie d'un cadre semi-rural avec vue sur la cathédrale et la plaine de Beauce. Le patrimoine bâti associe anciennes demeures de notables, corps de ferme réhabilités et lotissements modernes. Les vents du nord-ouest balayant le plateau beauceron imposent une attention particulière à la solidité des charpentes et à la tenue des couvertures.",
+    "population_tier": "periurban",
+    "geographic_zone": "beauce",
+    "architectural_style": "demeures de notables, corps de ferme et lotissements",
+    "climate_note": "vents du nord-ouest sur le plateau, charpentes sollicitées",
+    "local_highlight": "Cadre semi-rural avec vue sur la cathédrale de Chartres, mêlant demeures de notables et corps de ferme à réhabiliter."
   },
   {
     "slug": "le-coudray",
     "name": "Le Coudray",
     "zip": "28630",
     "population": 4038,
-    "coordinates": { "lat": 48.4200, "lng": 1.5000 },
-    "neighboring_cities_slugs": ["chartres", "luce", "luisant"],
+    "coordinates": {
+      "lat": 48.42,
+      "lng": 1.5
+    },
+    "neighboring_cities_slugs": [
+      "chartres",
+      "luce",
+      "luisant"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Commune où l'offre de terrains constructibles reste active aux portes de Chartres, Le Coudray permet de comparer les coûts d'une construction neuve (1 500 à 2 000 €/m²) et d'une rénovation de pavillon existant (600 à 1 200 €/m²). Cette dualité attire aussi bien les jeunes ménages que les investisseurs locatifs souhaitant optimiser leur budget travaux."
+    "region_description": "Commune où l'offre de terrains constructibles reste active aux portes de Chartres, Le Coudray permet de comparer les coûts d'une construction neuve (1 500 à 2 000 €/m²) et d'une rénovation de pavillon existant (600 à 1 200 €/m²). Cette dualité attire aussi bien les jeunes ménages que les investisseurs locatifs souhaitant optimiser leur budget travaux.",
+    "population_tier": "periurban",
+    "geographic_zone": "beauce",
+    "architectural_style": "pavillons existants et constructions neuves mixtes",
+    "climate_note": "climat beauceron de plaine, exposition aux vents dominants",
+    "local_highlight": "L'offre active de terrains constructibles permet de comparer coût de construction neuve et rénovation de pavillon existant."
   },
   {
     "slug": "champhol",
     "name": "Champhol",
     "zip": "28300",
     "population": 3643,
-    "coordinates": { "lat": 48.4650, "lng": 1.4950 },
-    "neighboring_cities_slugs": ["chartres", "mainvilliers", "leves"],
+    "coordinates": {
+      "lat": 48.465,
+      "lng": 1.495
+    },
+    "neighboring_cities_slugs": [
+      "chartres",
+      "mainvilliers",
+      "leves"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Champhol, en bordure immédiate du centre historique de Chartres, se situe en partie dans le périmètre de protection des Architectes des Bâtiments de France (ABF). Les travaux de façade, de toiture et de menuiserie y sont soumis à des contraintes esthétiques strictes — coloris, matériaux, types de couverture — qui influencent le choix des artisans et le budget prévisionnel."
+    "region_description": "Champhol, en bordure immédiate du centre historique de Chartres, se situe en partie dans le périmètre de protection des Architectes des Bâtiments de France (ABF). Les travaux de façade, de toiture et de menuiserie y sont soumis à des contraintes esthétiques strictes — coloris, matériaux, types de couverture — qui influencent le choix des artisans et le budget prévisionnel.",
+    "population_tier": "bourg",
+    "geographic_zone": "beauce",
+    "architectural_style": "bâti sous contraintes ABF, matériaux et coloris réglementés",
+    "climate_note": "climat beauceron, vents de plaine sur toitures et façades",
+    "local_highlight": "Le périmètre ABF impose des contraintes esthétiques strictes sur façades, toitures et menuiseries, influençant le choix des artisans."
   },
   {
     "slug": "dreux",
     "name": "Dreux",
     "zip": "28100",
     "population": 31543,
-    "coordinates": { "lat": 48.7356, "lng": 1.3656 },
-    "neighboring_cities_slugs": ["vernouillet", "saint-lubin-des-joncherets", "saint-remy-sur-avre", "nogent-le-roi"],
+    "coordinates": {
+      "lat": 48.7356,
+      "lng": 1.3656
+    },
+    "neighboring_cities_slugs": [
+      "vernouillet",
+      "saint-lubin-des-joncherets",
+      "saint-remy-sur-avre",
+      "nogent-le-roi"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Sous-préfecture d'Eure-et-Loir, Dreux est une ville au riche passé industriel et royal, dominée par la chapelle royale Saint-Louis et son beffroi médiéval. Le centre-ville mêle maisons à colombages, immeubles de rapport du XIXe siècle et habitat social des années 1960. Le climat de la vallée de la Blaise, humide et parfois brumeux, engendre des pathologies de façade et des besoins réguliers en ravalement et étanchéité."
+    "region_description": "Sous-préfecture d'Eure-et-Loir, Dreux est une ville au riche passé industriel et royal, dominée par la chapelle royale Saint-Louis et son beffroi médiéval. Le centre-ville mêle maisons à colombages, immeubles de rapport du XIXe siècle et habitat social des années 1960. Le climat de la vallée de la Blaise, humide et parfois brumeux, engendre des pathologies de façade et des besoins réguliers en ravalement et étanchéité.",
+    "population_tier": "urban",
+    "geographic_zone": "drouais",
+    "architectural_style": "colombages, immeubles XIXe et habitat social années 1960",
+    "climate_note": "vallée de la Blaise humide, brouillards et pathologies de façade",
+    "local_highlight": "Sous-préfecture au riche passé royal et industriel, la diversité du bâti génère une demande soutenue en ravalement et étanchéité."
   },
   {
     "slug": "vernouillet",
     "name": "Vernouillet",
     "zip": "28500",
     "population": 12310,
-    "coordinates": { "lat": 48.7200, "lng": 1.3800 },
-    "neighboring_cities_slugs": ["dreux", "saint-lubin-des-joncherets", "saint-remy-sur-avre"],
+    "coordinates": {
+      "lat": 48.722,
+      "lng": 1.357
+    },
+    "neighboring_cities_slugs": [
+      "dreux",
+      "saint-lubin-des-joncherets",
+      "saint-remy-sur-avre"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Vernouillet fait l'objet d'un vaste plan de renouvellement urbain portant sur la réhabilitation de son parc de logements collectifs. Les propriétaires bailleurs et occupants bénéficient de dispositifs renforcés (ANAH, CEE, aides communales) pour la rénovation énergétique globale. Le marché local des travaux est particulièrement dynamique grâce à ces programmes d'aide."
+    "region_description": "Vernouillet fait l'objet d'un vaste plan de renouvellement urbain portant sur la réhabilitation de son parc de logements collectifs. Les propriétaires bailleurs et occupants bénéficient de dispositifs renforcés (ANAH, CEE, aides communales) pour la rénovation énergétique globale. Le marché local des travaux est particulièrement dynamique grâce à ces programmes d'aide.",
+    "population_tier": "urban",
+    "geographic_zone": "drouais",
+    "architectural_style": "logements collectifs en renouvellement urbain",
+    "climate_note": "climat de vallée humide, façades dégradées par l'humidité",
+    "local_highlight": "Le vaste plan de renouvellement urbain et les aides renforcées ANAH/CEE rendent le marché des travaux exceptionnellement dynamique."
   },
   {
     "slug": "saint-lubin-des-joncherets",
     "name": "Saint-Lubin-des-Joncherets",
     "zip": "28350",
     "population": 4116,
-    "coordinates": { "lat": 48.7500, "lng": 1.2600 },
-    "neighboring_cities_slugs": ["dreux", "vernouillet", "saint-remy-sur-avre"],
+    "coordinates": {
+      "lat": 48.769,
+      "lng": 1.2
+    },
+    "neighboring_cities_slugs": [
+      "dreux",
+      "vernouillet",
+      "saint-remy-sur-avre"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Bourg industriel historique de la vallée de l'Avre, Saint-Lubin-des-Joncherets conserve un patrimoine lié à la métallurgie et au textile. Les anciennes maisons ouvrières en brique et pierre, typiques du XIXe siècle, nécessitent des restaurations respectueuses de leur cachet. Le microclimat de vallée, avec des brouillards fréquents en automne et en hiver, accélère le vieillissement des couvertures."
+    "region_description": "Bourg industriel historique de la vallée de l'Avre, Saint-Lubin-des-Joncherets conserve un patrimoine lié à la métallurgie et au textile. Les anciennes maisons ouvrières en brique et pierre, typiques du XIXe siècle, nécessitent des restaurations respectueuses de leur cachet. Le microclimat de vallée, avec des brouillards fréquents en automne et en hiver, accélère le vieillissement des couvertures.",
+    "population_tier": "periurban",
+    "geographic_zone": "drouais",
+    "architectural_style": "maisons ouvrières en brique et pierre du XIXe siècle",
+    "climate_note": "microclimat de vallée, brouillards fréquents automne-hiver",
+    "local_highlight": "Le patrimoine industriel lié à la métallurgie et au textile offre des maisons ouvrières XIXe à restaurer avec leur cachet d'origine."
   },
   {
     "slug": "saint-remy-sur-avre",
     "name": "Saint-Rémy-sur-Avre",
     "zip": "28380",
     "population": 4058,
-    "coordinates": { "lat": 48.7600, "lng": 1.2400 },
-    "neighboring_cities_slugs": ["dreux", "vernouillet", "saint-lubin-des-joncherets"],
+    "coordinates": {
+      "lat": 48.76,
+      "lng": 1.24
+    },
+    "neighboring_cities_slugs": [
+      "dreux",
+      "vernouillet",
+      "saint-lubin-des-joncherets"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Commune frontalière avec la Normandie, Saint-Rémy-sur-Avre s'étire le long de la rivière Avre dans un paysage de prairies et de bois. Le bâti ancien associe briques, silex et enduits à la chaux, reflet des influences normandes et beauceronnes. L'humidité permanente liée à la rivière impose un traitement attentif des remontées capillaires et de la ventilation des bâtiments anciens."
+    "region_description": "Commune frontalière avec la Normandie, Saint-Rémy-sur-Avre s'étire le long de la rivière Avre dans un paysage de prairies et de bois. Le bâti ancien associe briques, silex et enduits à la chaux, reflet des influences normandes et beauceronnes. L'humidité permanente liée à la rivière impose un traitement attentif des remontées capillaires et de la ventilation des bâtiments anciens.",
+    "population_tier": "periurban",
+    "geographic_zone": "drouais",
+    "architectural_style": "briques, silex et enduits à la chaux, influence normande",
+    "climate_note": "humidité permanente de rivière, remontées capillaires fréquentes",
+    "local_highlight": "Commune frontalière avec la Normandie, le bâti reflète un croisement unique d'influences architecturales normandes et beauceronnes."
   },
   {
     "slug": "auneau-bleury-saint-symphorien",
     "name": "Auneau-Bleury-Saint-Symphorien",
     "zip": "28700",
     "population": 6419,
-    "coordinates": { "lat": 48.4600, "lng": 1.7700 },
-    "neighboring_cities_slugs": ["gallardon", "epernon", "maintenon"],
+    "coordinates": {
+      "lat": 48.46,
+      "lng": 1.77
+    },
+    "neighboring_cities_slugs": [
+      "gallardon",
+      "epernon",
+      "maintenon"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Commune nouvelle au cœur de la Beauce, Auneau-Bleury-Saint-Symphorien est un bourg agricole animé doté d'un château médiéval et d'une halle historique. Les grandes propriétés céréalières avec leurs bâtiments d'exploitation en pierre et leurs hangars imposants caractérisent le paysage bâti. L'exposition maximale aux vents de la plaine de Beauce soumet les toitures à rude épreuve et rend l'isolation thermique indispensable."
+    "region_description": "Commune nouvelle au cœur de la Beauce, Auneau-Bleury-Saint-Symphorien est un bourg agricole animé doté d'un château médiéval et d'une halle historique. Les grandes propriétés céréalières avec leurs bâtiments d'exploitation en pierre et leurs hangars imposants caractérisent le paysage bâti. L'exposition maximale aux vents de la plaine de Beauce soumet les toitures à rude épreuve et rend l'isolation thermique indispensable.",
+    "population_tier": "periurban",
+    "geographic_zone": "beauce",
+    "architectural_style": "propriétés céréalières en pierre, hangars et halle historique",
+    "climate_note": "exposition maximale aux vents de plaine, toitures éprouvées",
+    "local_highlight": "Commune nouvelle au cœur de la Beauce céréalière, les grandes exploitations agricoles en pierre offrent un potentiel de reconversion unique."
   },
   {
     "slug": "epernon",
     "name": "Épernon",
     "zip": "28230",
     "population": 5715,
-    "coordinates": { "lat": 48.6100, "lng": 1.6700 },
-    "neighboring_cities_slugs": ["maintenon", "gallardon", "auneau-bleury-saint-symphorien", "nogent-le-roi"],
+    "coordinates": {
+      "lat": 48.61,
+      "lng": 1.67
+    },
+    "neighboring_cities_slugs": [
+      "maintenon",
+      "gallardon",
+      "auneau-bleury-saint-symphorien",
+      "nogent-le-roi"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Cité de caractère à la lisière de la forêt de Rambouillet, Épernon possède un patrimoine bâti remarquable avec ses vestiges de remparts, son prieuré et ses maisons anciennes en pierre de taille. La ville, traversée par la Drouette, bénéficie d'un environnement boisé qui tempère le climat beauceron. Les propriétés anciennes du centre nécessitent des restaurations soignées respectant les prescriptions architecturales du secteur protégé."
+    "region_description": "Cité de caractère à la lisière de la forêt de Rambouillet, Épernon possède un patrimoine bâti remarquable avec ses vestiges de remparts, son prieuré et ses maisons anciennes en pierre de taille. La ville, traversée par la Drouette, bénéficie d'un environnement boisé qui tempère le climat beauceron. Les propriétés anciennes du centre nécessitent des restaurations soignées respectant les prescriptions architecturales du secteur protégé.",
+    "population_tier": "periurban",
+    "geographic_zone": "beauce",
+    "architectural_style": "remparts, prieuré et maisons anciennes en pierre de taille",
+    "climate_note": "climat tempéré par la forêt, humidité de la Drouette",
+    "local_highlight": "Cité de caractère en secteur protégé à la lisière de la forêt de Rambouillet, les restaurations y sont soumises à des prescriptions strictes."
   },
   {
     "slug": "maintenon",
     "name": "Maintenon",
     "zip": "28130",
     "population": 4494,
-    "coordinates": { "lat": 48.5900, "lng": 1.5800 },
-    "neighboring_cities_slugs": ["epernon", "gallardon", "nogent-le-roi", "chartres"],
+    "coordinates": {
+      "lat": 48.59,
+      "lng": 1.58
+    },
+    "neighboring_cities_slugs": [
+      "epernon",
+      "gallardon",
+      "nogent-le-roi",
+      "chartres"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Célèbre pour son château Renaissance et l'aqueduc inachevé de Louis XIV, Maintenon est une commune élégante bordée par l'Eure. Le centre ancien regorge de demeures en pierre de Berchères aux toitures en ardoise, témoins d'un patrimoine soigneusement entretenu. La proximité de la rivière et la plaine environnante créent un microclimat humide qui nécessite une vigilance constante sur l'étanchéité et le drainage des bâtiments."
+    "region_description": "Célèbre pour son château Renaissance et l'aqueduc inachevé de Louis XIV, Maintenon est une commune élégante bordée par l'Eure. Le centre ancien regorge de demeures en pierre de Berchères aux toitures en ardoise, témoins d'un patrimoine soigneusement entretenu. La proximité de la rivière et la plaine environnante créent un microclimat humide qui nécessite une vigilance constante sur l'étanchéité et le drainage des bâtiments.",
+    "population_tier": "periurban",
+    "geographic_zone": "beauce",
+    "architectural_style": "demeures en pierre de Berchères, toitures en ardoise",
+    "climate_note": "microclimat humide de rivière, vigilance étanchéité et drainage",
+    "local_highlight": "Le château Renaissance et l'aqueduc de Louis XIV confèrent à la commune un prestige architectural qui rejaillit sur tout le bâti ancien."
   },
   {
     "slug": "gallardon",
     "name": "Gallardon",
     "zip": "28320",
     "population": 3518,
-    "coordinates": { "lat": 48.5200, "lng": 1.6900 },
-    "neighboring_cities_slugs": ["maintenon", "epernon", "auneau-bleury-saint-symphorien"],
+    "coordinates": {
+      "lat": 48.52,
+      "lng": 1.69
+    },
+    "neighboring_cities_slugs": [
+      "maintenon",
+      "epernon",
+      "auneau-bleury-saint-symphorien"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Dominé par sa célèbre tour penchée dite « l'Épaule de Gallardon », ce bourg médiéval de la Beauce chartraine offre un patrimoine architectural singulier. Les maisons anciennes en pierre et les vestiges fortifiés témoignent d'une histoire riche nécessitant des restaurations patrimoniales délicates. Le plateau beauceron, battu par des vents puissants, exige des couvertures résistantes et des menuiseries étanches."
+    "region_description": "Dominé par sa célèbre tour penchée dite « l'Épaule de Gallardon », ce bourg médiéval de la Beauce chartraine offre un patrimoine architectural singulier. Les maisons anciennes en pierre et les vestiges fortifiés témoignent d'une histoire riche nécessitant des restaurations patrimoniales délicates. Le plateau beauceron, battu par des vents puissants, exige des couvertures résistantes et des menuiseries étanches.",
+    "population_tier": "bourg",
+    "geographic_zone": "beauce",
+    "architectural_style": "maisons anciennes en pierre et vestiges fortifiés médiévaux",
+    "climate_note": "plateau battu par des vents puissants, couvertures éprouvées",
+    "local_highlight": "La célèbre tour penchée « l'Épaule de Gallardon » témoigne d'un patrimoine médiéval singulier exigeant des restaurations délicates."
   },
   {
     "slug": "nogent-le-roi",
     "name": "Nogent-le-Roi",
     "zip": "28210",
     "population": 4021,
-    "coordinates": { "lat": 48.6500, "lng": 1.5300 },
-    "neighboring_cities_slugs": ["maintenon", "epernon", "dreux"],
+    "coordinates": {
+      "lat": 48.65,
+      "lng": 1.53
+    },
+    "neighboring_cities_slugs": [
+      "maintenon",
+      "epernon",
+      "dreux"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Petite ville historique traversée par l'Eure, Nogent-le-Roi possède les ruines d'un château royal et un centre bourg préservé aux maisons de pierre et de brique. Située à la charnière entre la Beauce et le Drouais, la commune bénéficie d'un paysage verdoyant de vallée. Les crues occasionnelles de l'Eure et l'humidité ambiante rendent les travaux de drainage et d'assainissement des murs prioritaires pour le bâti riverain."
+    "region_description": "Petite ville historique traversée par l'Eure, Nogent-le-Roi possède les ruines d'un château royal et un centre bourg préservé aux maisons de pierre et de brique. Située à la charnière entre la Beauce et le Drouais, la commune bénéficie d'un paysage verdoyant de vallée. Les crues occasionnelles de l'Eure et l'humidité ambiante rendent les travaux de drainage et d'assainissement des murs prioritaires pour le bâti riverain.",
+    "population_tier": "periurban",
+    "geographic_zone": "beauce",
+    "architectural_style": "maisons de pierre et de brique, ruines du château royal",
+    "climate_note": "crues occasionnelles de l'Eure, humidité ambiante persistante",
+    "local_highlight": "À la charnière entre Beauce et Drouais, les crues de l'Eure rendent le drainage et l'assainissement des murs absolument prioritaires."
   },
   {
     "slug": "courville-sur-eure",
     "name": "Courville-sur-Eure",
     "zip": "28190",
     "population": 2917,
-    "coordinates": { "lat": 48.4500, "lng": 1.2400 },
-    "neighboring_cities_slugs": ["chartres", "illiers-combray", "la-loupe"],
+    "coordinates": {
+      "lat": 48.45,
+      "lng": 1.24
+    },
+    "neighboring_cities_slugs": [
+      "chartres",
+      "illiers-combray",
+      "la-loupe"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Bourg de transition entre la Beauce et le Perche, Courville-sur-Eure s'articule autour de sa halle médiévale et de son église romane. Le bâti ancien mêle pierre de pays et pans de bois, reflet d'une double influence architecturale percheronne et beauceronne. Le passage de l'Eure apporte fraîcheur et humidité, favorisant la mousse sur les toitures et nécessitant des traitements réguliers."
+    "region_description": "Bourg de transition entre la Beauce et le Perche, Courville-sur-Eure s'articule autour de sa halle médiévale et de son église romane. Le bâti ancien mêle pierre de pays et pans de bois, reflet d'une double influence architecturale percheronne et beauceronne. Le passage de l'Eure apporte fraîcheur et humidité, favorisant la mousse sur les toitures et nécessitant des traitements réguliers.",
+    "population_tier": "bourg",
+    "geographic_zone": "beauce",
+    "architectural_style": "pierre de pays et pans de bois, influence percheronne-beauceronne",
+    "climate_note": "humidité de l'Eure, mousse sur toitures, traitements réguliers",
+    "local_highlight": "Bourg de transition architecturale entre Perche et Beauce, la double influence stylistique enrichit le patrimoine bâti à restaurer."
   },
   {
     "slug": "les-villages-voveens",
     "name": "Les Villages Vovéens",
     "zip": "28150",
     "population": 4009,
-    "coordinates": { "lat": 48.3100, "lng": 1.5000 },
-    "neighboring_cities_slugs": ["bonneval", "illiers-combray", "chartres"],
+    "coordinates": {
+      "lat": 48.272,
+      "lng": 1.627
+    },
+    "neighboring_cities_slugs": [
+      "bonneval",
+      "illiers-combray"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Commune nouvelle du cœur de la Beauce, Les Villages Vovéens rassemblent plusieurs hameaux au milieu des grandes étendues céréalières. Le patrimoine bâti est celui de la Beauce profonde : fermes à cour fermée, granges monumentales en pierre et silex, et habitations basses aux toits de tuiles plates. L'exposition permanente aux vents de plaine et l'absence de relief protecteur font de la solidité des couvertures un enjeu majeur."
+    "region_description": "Commune nouvelle du cœur de la Beauce, Les Villages Vovéens rassemblent plusieurs hameaux au milieu des grandes étendues céréalières. Le patrimoine bâti est celui de la Beauce profonde : fermes à cour fermée, granges monumentales en pierre et silex, et habitations basses aux toits de tuiles plates. L'exposition permanente aux vents de plaine et l'absence de relief protecteur font de la solidité des couvertures un enjeu majeur.",
+    "population_tier": "periurban",
+    "geographic_zone": "dunois",
+    "architectural_style": "fermes à cour fermée, granges en pierre et silex, tuiles plates",
+    "climate_note": "exposition permanente aux vents de plaine, aucun relief protecteur",
+    "local_highlight": "En pleine Beauce céréalière, les fermes à cour fermée et granges monumentales en pierre et silex définissent un paysage bâti unique."
   },
   {
     "slug": "chateaudun",
     "name": "Châteaudun",
     "zip": "28200",
     "population": 12830,
-    "coordinates": { "lat": 48.0700, "lng": 1.3400 },
-    "neighboring_cities_slugs": ["cloyes-les-trois-rivieres", "bonneval", "brou"],
+    "coordinates": {
+      "lat": 48.07,
+      "lng": 1.34
+    },
+    "neighboring_cities_slugs": [
+      "cloyes-les-trois-rivieres",
+      "bonneval",
+      "brou"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Sous-préfecture du Dunois, Châteaudun est dominée par son imposant château médiéval perché au-dessus de la vallée du Loir. La vieille ville, classée secteur sauvegardé, présente un ensemble remarquable de maisons troglodytes, de demeures à pans de bois et d'hôtels particuliers en pierre de tuffeau. Le climat de la vallée du Loir, humide et tempéré, favorise le développement de pathologies liées à l'humidité sur les bâtiments anciens."
+    "region_description": "Sous-préfecture du Dunois, Châteaudun est dominée par son imposant château médiéval perché au-dessus de la vallée du Loir. La vieille ville, classée secteur sauvegardé, présente un ensemble remarquable de maisons troglodytes, de demeures à pans de bois et d'hôtels particuliers en pierre de tuffeau. Le climat de la vallée du Loir, humide et tempéré, favorise le développement de pathologies liées à l'humidité sur les bâtiments anciens.",
+    "population_tier": "urban",
+    "geographic_zone": "dunois",
+    "architectural_style": "tuffeau, maisons troglodytes et demeures à pans de bois",
+    "climate_note": "vallée du Loir humide et tempérée, pathologies d'humidité",
+    "local_highlight": "Le secteur sauvegardé avec ses maisons troglodytes et son château médiéval impose des restaurations patrimoniales sous contrôle strict."
   },
   {
     "slug": "cloyes-les-trois-rivieres",
     "name": "Cloyes-les-Trois-Rivières",
     "zip": "28220",
     "population": 5607,
-    "coordinates": { "lat": 47.9900, "lng": 1.2300 },
-    "neighboring_cities_slugs": ["chateaudun", "bonneval", "brou"],
+    "coordinates": {
+      "lat": 48.004,
+      "lng": 1.293
+    },
+    "neighboring_cities_slugs": [
+      "chateaudun",
+      "bonneval"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Commune nouvelle au confluent du Loir et de ses affluents, Cloyes-les-Trois-Rivières est une cité au charme ligérien, immortalisée par Émile Zola sous le nom de Cloyes-sur-Loir. Le bâti ancien en tuffeau et pierre calcaire longe les quais et les venelles médiévales du centre-bourg. La présence omniprésente de l'eau génère une hygrométrie élevée qui demande des solutions adaptées pour la ventilation et l'assainissement des murs."
+    "region_description": "Commune nouvelle au confluent du Loir et de ses affluents, Cloyes-les-Trois-Rivières est une cité au charme ligérien, immortalisée par Émile Zola sous le nom de Cloyes-sur-Loir. Le bâti ancien en tuffeau et pierre calcaire longe les quais et les venelles médiévales du centre-bourg. La présence omniprésente de l'eau génère une hygrométrie élevée qui demande des solutions adaptées pour la ventilation et l'assainissement des murs.",
+    "population_tier": "periurban",
+    "geographic_zone": "dunois",
+    "architectural_style": "tuffeau et pierre calcaire, quais et venelles médiévales",
+    "climate_note": "hygrométrie élevée au confluent, ventilation et assainissement critiques",
+    "local_highlight": "Immortalisée par Zola, cette cité au confluent de trois rivières exige des solutions spécifiques contre l'humidité omniprésente."
   },
   {
     "slug": "bonneval",
     "name": "Bonneval",
     "zip": "28800",
     "population": 4868,
-    "coordinates": { "lat": 48.1800, "lng": 1.3900 },
-    "neighboring_cities_slugs": ["chateaudun", "les-villages-voveens", "brou"],
+    "coordinates": {
+      "lat": 48.18,
+      "lng": 1.39
+    },
+    "neighboring_cities_slugs": [
+      "chateaudun",
+      "brou"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Surnommée la « Petite Venise de la Beauce », Bonneval est une cité fortifiée traversée par le Loir et ses bras secondaires. Les remparts médiévaux, l'ancienne abbaye Saint-Florentin et les maisons à pans de bois du centre forment un ensemble patrimonial protégé. La proximité constante de l'eau et le climat dunois tempéré mais humide imposent des traitements spécifiques contre les remontées d'humidité et les infiltrations."
+    "region_description": "Surnommée la « Petite Venise de la Beauce », Bonneval est une cité fortifiée traversée par le Loir et ses bras secondaires. Les remparts médiévaux, l'ancienne abbaye Saint-Florentin et les maisons à pans de bois du centre forment un ensemble patrimonial protégé. La proximité constante de l'eau et le climat dunois tempéré mais humide imposent des traitements spécifiques contre les remontées d'humidité et les infiltrations.",
+    "population_tier": "periurban",
+    "geographic_zone": "dunois",
+    "architectural_style": "remparts médiévaux, abbaye et maisons à pans de bois",
+    "climate_note": "proximité constante de l'eau, remontées d'humidité et infiltrations",
+    "local_highlight": "Surnommée « Petite Venise de la Beauce », la cité fortifiée traversée par le Loir nécessite des traitements anti-humidité permanents."
   },
   {
     "slug": "brou",
     "name": "Brou",
     "zip": "28160",
-    "population": 3513,
-    "coordinates": { "lat": 48.2200, "lng": 1.1700 },
-    "neighboring_cities_slugs": ["chateaudun", "bonneval", "illiers-combray", "thiron-gardais"],
+    "population": 3230,
+    "coordinates": {
+      "lat": 48.211,
+      "lng": 1.17
+    },
+    "neighboring_cities_slugs": [
+      "chateaudun",
+      "bonneval",
+      "illiers-combray",
+      "thiron-gardais"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Chef-lieu de canton à la croisée du Perche et de la Beauce dunoise, Brou est un bourg commerçant dont le marché hebdomadaire perpétue une longue tradition rurale. L'architecture locale oscille entre fermes beauceronnes en pierre et premières influences percheronnes avec colombages et enduits à la chaux. Le climat de transition, plus arrosé que la Beauce ouverte, accélère le vieillissement des revêtements extérieurs et des couvertures."
+    "region_description": "Chef-lieu de canton à la croisée du Perche et de la Beauce dunoise, Brou est un bourg commerçant dont le marché hebdomadaire perpétue une longue tradition rurale. L'architecture locale oscille entre fermes beauceronnes en pierre et premières influences percheronnes avec colombages et enduits à la chaux. Le climat de transition, plus arrosé que la Beauce ouverte, accélère le vieillissement des revêtements extérieurs et des couvertures.",
+    "population_tier": "bourg",
+    "geographic_zone": "dunois",
+    "architectural_style": "fermes beauceronnes en pierre, colombages et enduits à la chaux",
+    "climate_note": "climat de transition plus arrosé, revêtements vieillissant vite",
+    "local_highlight": "À la croisée du Perche et de la Beauce dunoise, Brou offre un bâti de transition où se mêlent deux traditions architecturales distinctes."
   },
   {
     "slug": "la-loupe",
     "name": "La Loupe",
     "zip": "28240",
-    "population": 3500,
-    "coordinates": { "lat": 48.4700, "lng": 1.0200 },
-    "neighboring_cities_slugs": ["senonches", "courville-sur-eure", "illiers-combray", "thiron-gardais"],
+    "population": 3268,
+    "coordinates": {
+      "lat": 48.47,
+      "lng": 1.02
+    },
+    "neighboring_cities_slugs": [
+      "senonches",
+      "courville-sur-eure",
+      "illiers-combray",
+      "thiron-gardais"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Petit bourg animé du Perche-Gouët, La Loupe est un nœud ferroviaire historique sur la ligne Paris-Brest. Le patrimoine bâti associe maisons bourgeoises du XIXe siècle le long de la rue principale et corps de ferme en pierre du Perche dans les hameaux environnants. Le climat percheron, plus frais et humide que la plaine beauceronne, impose une isolation thermique performante et un entretien régulier des boiseries extérieures."
+    "region_description": "Petit bourg animé du Perche-Gouët, La Loupe est un nœud ferroviaire historique sur la ligne Paris-Brest. Le patrimoine bâti associe maisons bourgeoises du XIXe siècle le long de la rue principale et corps de ferme en pierre du Perche dans les hameaux environnants. Le climat percheron, plus frais et humide que la plaine beauceronne, impose une isolation thermique performante et un entretien régulier des boiseries extérieures.",
+    "population_tier": "bourg",
+    "geographic_zone": "perche",
+    "architectural_style": "maisons bourgeoises XIXe et corps de ferme en pierre du Perche",
+    "climate_note": "climat percheron frais et humide, boiseries à entretenir",
+    "local_highlight": "Nœud ferroviaire historique sur la ligne Paris-Brest, La Loupe associe maisons bourgeoises XIXe et fermes percheronnes dans ses hameaux."
   },
   {
     "slug": "illiers-combray",
     "name": "Illiers-Combray",
     "zip": "28120",
     "population": 3200,
-    "coordinates": { "lat": 48.3000, "lng": 1.2400 },
-    "neighboring_cities_slugs": ["courville-sur-eure", "brou", "la-loupe", "les-villages-voveens", "thiron-gardais"],
+    "coordinates": {
+      "lat": 48.3,
+      "lng": 1.24
+    },
+    "neighboring_cities_slugs": [
+      "courville-sur-eure",
+      "brou",
+      "la-loupe",
+      "thiron-gardais"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Rendue célèbre par Marcel Proust qui en fit le « Combray » de sa Recherche, Illiers-Combray est une bourgade chargée de mémoire littéraire. Le bâti ancien en pierre et brique, les jardins clos de murs et l'église Saint-Jacques composent un décor préservé au charme intemporel. Le climat de la petite Beauce, aux hivers froids et aux étés secs, soumet les enduits et les pierres de taille à des cycles de gel-dégel exigeants."
+    "region_description": "Rendue célèbre par Marcel Proust qui en fit le « Combray » de sa Recherche, Illiers-Combray est une bourgade chargée de mémoire littéraire. Le bâti ancien en pierre et brique, les jardins clos de murs et l'église Saint-Jacques composent un décor préservé au charme intemporel. Le climat de la petite Beauce, aux hivers froids et aux étés secs, soumet les enduits et les pierres de taille à des cycles de gel-dégel exigeants.",
+    "population_tier": "bourg",
+    "geographic_zone": "dunois",
+    "architectural_style": "bâti ancien en pierre et brique, jardins clos de murs",
+    "climate_note": "hivers froids, étés secs, cycles de gel-dégel sur enduits",
+    "local_highlight": "Le « Combray » de Marcel Proust offre un décor littéraire préservé où chaque restauration doit respecter l'atmosphère proustienne."
   },
   {
     "slug": "senonches",
     "name": "Senonches",
     "zip": "28250",
     "population": 3100,
-    "coordinates": { "lat": 48.5600, "lng": 1.0400 },
-    "neighboring_cities_slugs": ["la-loupe", "courville-sur-eure"],
+    "coordinates": {
+      "lat": 48.56,
+      "lng": 1.04
+    },
+    "neighboring_cities_slugs": [
+      "la-loupe",
+      "courville-sur-eure"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Aux portes de la vaste forêt domaniale de Senonches, cette commune percheronne est dominée par son château médiéval abritant aujourd'hui un espace muséographique dédié à la forêt. Le bâti traditionnel mêle grès roussard, pierre calcaire et colombages, typiques du Perche thimerais. La forêt environnante et le microclimat humide qui en résulte favorisent la mousse et le lichen sur les couvertures, nécessitant des traitements préventifs réguliers."
+    "region_description": "Aux portes de la vaste forêt domaniale de Senonches, cette commune percheronne est dominée par son château médiéval abritant aujourd'hui un espace muséographique dédié à la forêt. Le bâti traditionnel mêle grès roussard, pierre calcaire et colombages, typiques du Perche thimerais. La forêt environnante et le microclimat humide qui en résulte favorisent la mousse et le lichen sur les couvertures, nécessitant des traitements préventifs réguliers.",
+    "population_tier": "bourg",
+    "geographic_zone": "perche",
+    "architectural_style": "grès roussard, pierre calcaire et colombages du Perche thimerais",
+    "climate_note": "microclimat forestier humide, mousse et lichen sur couvertures",
+    "local_highlight": "Aux portes de la forêt domaniale, le bâti en grès roussard et colombages du Perche thimerais exige des traitements anti-mousse réguliers."
   },
   {
     "slug": "thiron-gardais",
     "name": "Thiron-Gardais",
     "zip": "28480",
-    "population": 1100,
-    "coordinates": { "lat": 48.3200, "lng": 0.9900 },
-    "neighboring_cities_slugs": ["nogent-le-rotrou", "coudreceau", "la-loupe", "illiers-combray", "brou"],
+    "population": 1000,
+    "coordinates": {
+      "lat": 48.311,
+      "lng": 0.992
+    },
+    "neighboring_cities_slugs": [
+      "nogent-le-rotrou",
+      "coudreceau",
+      "la-loupe",
+      "illiers-combray",
+      "brou"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Village historique du Perche, Thiron-Gardais abrite l'ancienne abbaye de la Sainte-Trinité fondée au XIIe siècle, dont les jardins remarquables attirent de nombreux visiteurs. Le bâti monastique en pierre de grès et calcaire local, complété par des maisons rurales à colombages, constitue un ensemble patrimonial exigeant en matière de restauration. Le vallon boisé dans lequel se niche le village crée un environnement humide qui requiert une attention constante à la ventilation et au drainage des bâtiments."
+    "region_description": "Village historique du Perche, Thiron-Gardais abrite l'ancienne abbaye de la Sainte-Trinité fondée au XIIe siècle, dont les jardins remarquables attirent de nombreux visiteurs. Le bâti monastique en pierre de grès et calcaire local, complété par des maisons rurales à colombages, constitue un ensemble patrimonial exigeant en matière de restauration. Le vallon boisé dans lequel se niche le village crée un environnement humide qui requiert une attention constante à la ventilation et au drainage des bâtiments.",
+    "population_tier": "rural",
+    "geographic_zone": "perche",
+    "architectural_style": "bâti monastique en grès et calcaire, colombages ruraux",
+    "climate_note": "vallon boisé humide, ventilation et drainage indispensables",
+    "local_highlight": "L'abbaye de la Sainte-Trinité du XIIe siècle et ses jardins remarquables confèrent au village un patrimoine monastique exceptionnel à préserver."
   },
   {
     "slug": "authon-du-perche",
     "name": "Authon-du-Perche",
     "zip": "28330",
-    "population": 1400,
-    "coordinates": { "lat": 48.2000, "lng": 0.8900 },
-    "neighboring_cities_slugs": ["nogent-le-rotrou", "brunelles", "thiron-gardais"],
+    "population": 1482,
+    "coordinates": {
+      "lat": 48.2,
+      "lng": 0.89
+    },
+    "neighboring_cities_slugs": [
+      "nogent-le-rotrou",
+      "brunelles",
+      "thiron-gardais"
+    ],
     "department": "Eure-et-Loir (28)",
-    "region_description": "Bourg rural au sud du Perche eurélien, Authon-du-Perche est une commune de bocage et de forêts traversée par l'Huisne naissante. Le patrimoine architectural se compose de manoirs percherons, de longères en pierre et de fermes à colombages nichées dans des vallons verdoyants. Le climat doux mais très arrosé du Perche méridional engendre des problématiques d'humidité persistantes sur les maçonneries anciennes et les charpentes en bois."
+    "region_description": "Bourg rural au sud du Perche eurélien, Authon-du-Perche est une commune de bocage et de forêts traversée par l'Huisne naissante. Le patrimoine architectural se compose de manoirs percherons, de longères en pierre et de fermes à colombages nichées dans des vallons verdoyants. Le climat doux mais très arrosé du Perche méridional engendre des problématiques d'humidité persistantes sur les maçonneries anciennes et les charpentes en bois.",
+    "population_tier": "rural",
+    "geographic_zone": "perche",
+    "architectural_style": "manoirs percherons, longères en pierre et fermes à colombages",
+    "climate_note": "climat doux très arrosé, humidité persistante sur maçonneries",
+    "local_highlight": "Traversé par l'Huisne naissante, ce bourg de bocage concentre manoirs et longères percherons nichés dans des vallons verdoyants."
   }
 ]

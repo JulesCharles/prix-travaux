@@ -1,12 +1,16 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
+import { ExternalLink } from "lucide-react"
 import {
   getAllTradesCityCombinations,
   getTrade,
   getCity,
   interpolateTemplate,
   getRegionalCoefficient,
+  getTierContent,
+  getZoneContent,
+  getExtendedFaq,
 } from "@/lib/data"
 import { getTradeCityMeta } from "@/lib/metadata"
 import { PriceCalculator } from "@/components/PriceCalculator"
@@ -52,6 +56,12 @@ export default async function TradeCityPage({ params }: PageProps) {
   const currentYear = new Date().getFullYear()
   const regionalCoeff = getRegionalCoefficient(city)
   const description = interpolateTemplate(trade.description_template, trade, city)
+  const timeline = interpolateTemplate(trade.timeline_template, trade, city)
+  const tierContent = getTierContent(trade, city)
+  const zoneContent = getZoneContent(trade, city)
+  const financingGuide = interpolateTemplate(trade.financing_guide, trade, city)
+  const seasonalAdvice = interpolateTemplate(trade.seasonal_advice, trade, city)
+  const extendedFaq = getExtendedFaq(trade, city)
 
   return (
     <>
@@ -73,7 +83,7 @@ export default async function TradeCityPage({ params }: PageProps) {
         </h1>
         <p className="max-w-2xl text-base leading-relaxed text-muted-foreground">
           Estimez le coût de votre projet de {trade.title.toLowerCase()} à{" "}
-          {city.name} en {currentYear}. Comparez les devis d'artisans qualifiés
+          {city.name} en {currentYear}. Comparez les devis d&apos;artisans qualifiés
           en Eure-et-Loir.
         </p>
         <div className="mt-3 flex flex-wrap gap-3 text-sm">
@@ -160,14 +170,189 @@ export default async function TradeCityPage({ params }: PageProps) {
 
       <Separator />
 
-      {/* H2 — FAQ */}
+      {/* H2 — Déroulement des travaux */}
+      <section className="my-10">
+        <h2 className="mb-4 font-heading text-xl font-bold">
+          Déroulement des travaux de {trade.title.toLowerCase()} à {city.name}
+        </h2>
+        <p className="mb-6 text-sm leading-relaxed text-muted-foreground">
+          {timeline}
+        </p>
+        <ol className="space-y-3">
+          {trade.process_steps.map((step, i) => (
+            <li key={i} className="flex items-start gap-3 text-sm">
+              <span className="flex size-6 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs font-bold text-primary">
+                {i + 1}
+              </span>
+              <span className="text-muted-foreground">{interpolateTemplate(step, trade, city)}</span>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <Separator />
+
+      {/* H2 — Comparatif des matériaux */}
+      <section className="my-10">
+        <h2 className="mb-4 font-heading text-xl font-bold">
+          Comparatif des matériaux — {trade.title} à {city.name}
+        </h2>
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border/60 text-left">
+                <th className="pb-3 pr-4 font-bold">Matériau</th>
+                <th className="pb-3 pr-4 font-bold">Prix</th>
+                <th className="hidden pb-3 pr-4 font-bold sm:table-cell">Avantages</th>
+                <th className="hidden pb-3 pr-4 font-bold sm:table-cell">Inconvénients</th>
+                <th className="hidden pb-3 font-bold md:table-cell">Idéal pour</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-border/40">
+              {trade.materials_comparison.map((mat, i) => (
+                <tr key={i}>
+                  <td className="py-3 pr-4 font-medium">{mat.name}</td>
+                  <td className="py-3 pr-4 text-muted-foreground">{mat.price_range}</td>
+                  <td className="hidden py-3 pr-4 text-muted-foreground sm:table-cell">{mat.pros}</td>
+                  <td className="hidden py-3 pr-4 text-muted-foreground sm:table-cell">{mat.cons}</td>
+                  <td className="hidden py-3 text-muted-foreground md:table-cell">{mat.best_for}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        {/* Mobile detail cards */}
+        <div className="mt-4 space-y-3 sm:hidden">
+          {trade.materials_comparison.map((mat, i) => (
+            <div key={i} className="rounded-lg border border-border/60 p-4">
+              <div className="mb-2 flex items-center justify-between">
+                <span className="font-medium">{mat.name}</span>
+                <span className="text-xs text-muted-foreground">{mat.price_range}</span>
+              </div>
+              <p className="text-xs text-muted-foreground">
+                <strong className="text-foreground">+</strong> {mat.pros}
+              </p>
+              <p className="mt-1 text-xs text-muted-foreground">
+                <strong className="text-foreground">−</strong> {mat.cons}
+              </p>
+              <p className="mt-1 text-xs text-primary">
+                Idéal : {mat.best_for}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <Separator />
+
+      {/* H2 — Spécificités locales */}
+      <section className="my-10">
+        <h2 className="mb-4 font-heading text-xl font-bold">
+          {trade.title} à {city.name} : spécificités locales
+        </h2>
+        <div className="space-y-4">
+          <div className="rounded-lg border border-border/60 p-5">
+            <h3 className="mb-2 text-sm font-bold">
+              Caractéristiques de {city.name} ({city.population.toLocaleString("fr-FR")} habitants)
+            </h3>
+            <p className="text-sm leading-relaxed text-muted-foreground">
+              {tierContent}
+            </p>
+          </div>
+          <div className="rounded-lg border border-border/60 p-5">
+            <h3 className="mb-2 text-sm font-bold">
+              Particularités architecturales et climatiques
+            </h3>
+            <p className="mb-2 text-sm leading-relaxed text-muted-foreground">
+              {zoneContent}
+            </p>
+            <p className="text-sm leading-relaxed text-muted-foreground">
+              <strong className="text-foreground">Style architectural :</strong>{" "}
+              {city.architectural_style}.{" "}
+              <strong className="text-foreground">Climat :</strong>{" "}
+              {city.climate_note}.
+            </p>
+          </div>
+          {city.local_highlight && (
+            <div className="rounded-lg bg-primary/5 p-5">
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                <strong className="text-foreground">Le saviez-vous ?</strong>{" "}
+                {city.local_highlight}
+              </p>
+            </div>
+          )}
+        </div>
+      </section>
+
+      <Separator />
+
+      {/* H2 — Aides et financement */}
+      <section className="my-10">
+        <h2 className="mb-4 font-heading text-xl font-bold">
+          Aides et financement — {trade.title} à {city.name}
+        </h2>
+        <p className="mb-6 text-sm leading-relaxed text-muted-foreground">
+          {financingGuide}
+        </p>
+
+        {/* H3 — Meilleure période */}
+        <div className="mb-6 rounded-lg bg-muted/40 p-5">
+          <h3 className="mb-2 text-sm font-bold">
+            Meilleure période pour vos travaux
+          </h3>
+          <p className="text-sm leading-relaxed text-muted-foreground">
+            {seasonalAdvice}
+          </p>
+        </div>
+
+        {/* Liens officiels */}
+        {trade.official_links.length > 0 && (
+          <div className="rounded-lg border border-border/60 p-5">
+            <h3 className="mb-3 text-sm font-bold">Liens utiles</h3>
+            <ul className="space-y-2">
+              {trade.official_links.map((link, i) => (
+                <li key={i} className="flex items-start gap-2 text-sm">
+                  <ExternalLink className="mt-0.5 size-3.5 shrink-0 text-primary" />
+                  <div>
+                    <a
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-medium text-primary transition-colors hover:text-primary/80"
+                    >
+                      {link.label}
+                    </a>
+                    <span className="ml-1 text-muted-foreground">
+                      — {link.description}
+                    </span>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </section>
+
+      <Separator />
+
+      {/* H2 — FAQ (base + extended) */}
       <section className="my-10">
         <h2 className="mb-6 font-heading text-xl font-bold">
           Questions fréquentes — {trade.title} à {city.name}
         </h2>
         <div className="space-y-6">
           {trade.faq.map((item, i) => (
-            <div key={i}>
+            <div key={`base-${i}`}>
+              <h3 className="mb-1.5 text-sm font-bold">
+                {interpolateTemplate(item.question, trade, city)}
+              </h3>
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                {interpolateTemplate(item.answer, trade, city)}
+              </p>
+            </div>
+          ))}
+          {extendedFaq.map((item, i) => (
+            <div key={`ext-${i}`}>
               <h3 className="mb-1.5 text-sm font-bold">
                 {interpolateTemplate(item.question, trade, city)}
               </h3>

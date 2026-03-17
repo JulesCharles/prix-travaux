@@ -1,5 +1,5 @@
 import type { Trade, City } from "@/lib/types"
-import { interpolateTemplate } from "@/lib/data"
+import { interpolateTemplate, getExtendedFaq } from "@/lib/data"
 
 interface JsonLdProps {
   trade: Trade
@@ -8,6 +8,26 @@ interface JsonLdProps {
 
 export function JsonLd({ trade, city }: JsonLdProps) {
   const currentYear = new Date().getFullYear()
+  const extendedFaq = getExtendedFaq(trade, city)
+
+  const allFaqItems = [
+    ...trade.faq.map((item) => ({
+      "@type": "Question" as const,
+      name: interpolateTemplate(item.question, trade, city),
+      acceptedAnswer: {
+        "@type": "Answer" as const,
+        text: interpolateTemplate(item.answer, trade, city),
+      },
+    })),
+    ...extendedFaq.map((item) => ({
+      "@type": "Question" as const,
+      name: interpolateTemplate(item.question, trade, city),
+      acceptedAnswer: {
+        "@type": "Answer" as const,
+        text: interpolateTemplate(item.answer, trade, city),
+      },
+    })),
+  ]
 
   const localBusiness = {
     "@context": "https://schema.org",
@@ -30,14 +50,7 @@ export function JsonLd({ trade, city }: JsonLdProps) {
   const faqPage = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: trade.faq.map((item) => ({
-      "@type": "Question",
-      name: interpolateTemplate(item.question, trade, city),
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: interpolateTemplate(item.answer, trade, city),
-      },
-    })),
+    mainEntity: allFaqItems,
   }
 
   const webPage = {
