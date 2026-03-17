@@ -1,0 +1,342 @@
+[
+  {
+    "slug": "toiture",
+    "title": "Toiture",
+    "min_price": 45,
+    "max_price": 130,
+    "unit": "m²",
+    "description_template": "Vous envisagez des travaux de toiture à {city} ? Le prix moyen d'une intervention sur toiture dans le secteur du Perche se situe entre {min_price} € et {max_price} € par {unit}, selon le type de couverture choisie (ardoise, tuile, zinc) et l'état de la charpente existante. Les habitations du Perche, souvent marquées par une architecture traditionnelle en pierre et colombages, nécessitent un savoir-faire spécifique pour respecter le cachet local tout en garantissant une isolation performante.",
+    "technical_details": [
+      "Couverture en ardoise naturelle : 80 à 130 €/m²",
+      "Couverture en tuiles plates : 45 à 80 €/m²",
+      "Rénovation de charpente : 60 à 110 €/m²",
+      "Zinguerie et gouttières : 25 à 50 €/ml",
+      "Traitement hydrofuge : 15 à 30 €/m²",
+      "Démoussage et nettoyage : 10 à 25 €/m²"
+    ],
+    "faq": [
+      {
+        "question": "Quel est le prix moyen d'une rénovation de toiture à {city} ?",
+        "answer": "Le prix moyen d'une rénovation de toiture à {city} varie entre {min_price} € et {max_price} € par {unit}. Ce tarif dépend du matériau choisi (ardoise, tuile, zinc), de la surface du toit et de l'état de la charpente. Dans le Perche, les artisans recommandent souvent l'ardoise naturelle pour respecter le patrimoine architectural local."
+      },
+      {
+        "question": "Combien de temps durent les travaux de toiture ?",
+        "answer": "Une rénovation complète de toiture prend généralement entre 1 et 3 semaines selon la superficie et la complexité du chantier. Pour une maison traditionnelle du Perche, comptez environ 2 semaines pour une couverture standard de 100 m²."
+      },
+      {
+        "question": "Quelles aides financières pour la toiture dans le département 28 ?",
+        "answer": "Plusieurs aides sont disponibles : MaPrimeRénov' pour les travaux d'isolation de toiture, l'éco-PTZ (prêt à taux zéro), les aides de l'ANAH, et les primes CEE (Certificats d'Économie d'Énergie). Les résidents d'Eure-et-Loir peuvent aussi bénéficier d'aides régionales Centre-Val de Loire."
+      },
+      {
+        "question": "Comment choisir un couvreur fiable à {city} ?",
+        "answer": "Vérifiez que l'artisan dispose de la qualification RGE (Reconnu Garant de l'Environnement), consultez ses références locales, demandez au moins 3 devis détaillés et assurez-vous qu'il possède une assurance décennale. Un couvreur du Perche connaîtra les spécificités climatiques et architecturales de la région."
+      }
+    ]
+  },
+  {
+    "slug": "isolation",
+    "title": "Isolation",
+    "min_price": 20,
+    "max_price": 80,
+    "unit": "m²",
+    "description_template": "Vous recherchez un spécialiste de l'isolation à {city} ? Le coût moyen des travaux d'isolation dans le Perche oscille entre {min_price} € et {max_price} € par {unit}, en fonction de la technique utilisée (intérieure, extérieure, combles) et du type d'isolant. Le climat continental du Perche, avec des hivers rigoureux et des étés chauds, rend une bonne isolation indispensable pour le confort thermique et la réduction des factures énergétiques.",
+    "technical_details": [
+      "Isolation des combles perdus : 20 à 35 €/m²",
+      "Isolation des combles aménagés : 40 à 80 €/m²",
+      "Isolation thermique par l'extérieur (ITE) : 100 à 180 €/m² (prestation spécifique, devis sur mesure — non inclus dans la fourchette standard de 20 à 80 €/m²)",
+      "Isolation des murs par l'intérieur : 30 à 60 €/m²",
+      "Isolation du plancher bas : 25 à 50 €/m²",
+      "Soufflage de laine en combles : 15 à 25 €/m²"
+    ],
+    "faq": [
+      {
+        "question": "Quel est le prix d'une isolation de maison à {city} ?",
+        "answer": "Le prix de l'isolation à {city} varie entre {min_price} € et {max_price} € par {unit} selon la méthode choisie. L'isolation des combles perdus est la plus économique (20-35 €/m²), tandis que l'isolation par l'extérieur est plus onéreuse (100-180 €/m²) mais offre les meilleures performances énergétiques."
+      },
+      {
+        "question": "Quelle isolation choisir dans le Perche ?",
+        "answer": "Le climat du Perche impose une isolation performante. La laine de bois et la ouate de cellulose sont très adaptées aux maisons traditionnelles en pierre de la région. Pour les combles, privilégiez une résistance thermique R ≥ 7 m².K/W. L'isolation par l'extérieur est idéale pour les rénovations complètes."
+      },
+      {
+        "question": "Quelles aides pour l'isolation en Eure-et-Loir ?",
+        "answer": "Les travaux d'isolation sont parmi les plus aidés : MaPrimeRénov' (jusqu'à 75 €/m² pour l'ITE), éco-PTZ jusqu'à 50 000 €, primes CEE, TVA réduite à 5,5 %, et aides régionales Centre-Val de Loire. Un artisan RGE est obligatoire pour bénéficier de ces aides."
+      },
+      {
+        "question": "Combien peut-on économiser avec une bonne isolation ?",
+        "answer": "Une isolation performante permet de réduire les factures de chauffage de 25 à 60 % selon les travaux réalisés. Dans le Perche, où les hivers sont frais, l'investissement est généralement rentabilisé en 4 à 8 ans grâce aux économies d'énergie et aux aides financières."
+      }
+    ]
+  },
+  {
+    "slug": "plomberie",
+    "title": "Plomberie",
+    "min_price": 40,
+    "max_price": 80,
+    "unit": "h",
+    "description_template": "Les travaux de plomberie à {city} coûtent en moyenne entre {min_price} et {max_price} €/{unit}, selon la nature de l'intervention et l'état des installations existantes. La mise aux normes des réseaux d'eau, le remplacement d'équipements vétustes et l'installation de solutions économes en eau figurent parmi les demandes les plus fréquentes dans le {department}. Que votre logement soit récent ou ancien, faire appel à un plombier qualifié garantit des travaux conformes aux DTU en vigueur et peut ouvrir l'accès à certaines aides financières, notamment pour l'installation de chauffe-eau thermodynamiques.",
+    "technical_details": [
+      "Remplacement chauffe-eau : 800 à 1 500 €",
+      "Installation cumulus thermodynamique : 2 500 à 4 000 €",
+      "Réparation fuite d'eau : 100 à 350 €",
+      "Remplacement robinetterie : 150 à 400 €",
+      "Débouchage canalisation : 100 à 300 €",
+      "Mise en conformité réseau cuivre/PER : 40 à 70 €/ml"
+    ],
+    "faq": [
+      {
+        "question": "Quel est le tarif horaire d'un plombier à {city} ?",
+        "answer": "Le tarif horaire d'un plombier à {city} se situe entre {min_price} € et {max_price} € de l'heure, hors fournitures et déplacement. Ce tarif est celui constaté en Eure-et-Loir, sensiblement inférieur aux prix pratiqués en Île-de-France. En cas d'urgence (nuit, week-end, jours fériés), prévoyez une majoration de 50 à 100 % sur le tarif de base."
+      },
+      {
+        "question": "Comment trouver un bon plombier à {city} ?",
+        "answer": "Pour trouver un plombier fiable à {city}, vérifiez qu'il dispose d'une assurance décennale et de la qualification Qualibat. Demandez plusieurs devis détaillés et consultez les avis en ligne de clients locaux. Un plombier installé dans le Perche connaîtra les particularités des installations anciennes, notamment les réseaux en plomb encore présents dans certaines maisons de caractère."
+      },
+      {
+        "question": "Quelles aides pour remplacer un chauffe-eau à {city} ?",
+        "answer": "Le remplacement d'un chauffe-eau par un modèle thermodynamique ou solaire est éligible à MaPrimeRénov' (jusqu'à 1 200 € selon les revenus), aux primes CEE et à l'éco-PTZ. La TVA réduite à 5,5 % s'applique si le logement a plus de 2 ans. Les résidents d'Eure-et-Loir peuvent également bénéficier des aides de la région Centre-Val de Loire."
+      },
+      {
+        "question": "Faut-il refaire toute la plomberie d'une maison ancienne à {city} ?",
+        "answer": "Dans les maisons anciennes du Perche, une réfection complète de la plomberie est souvent recommandée lorsque le réseau a plus de 30 ans, surtout si les canalisations sont en plomb. Le coût moyen d'une rénovation complète se situe entre 3 000 et 8 000 € pour une maison de 100 m². Profitez de ces travaux pour installer un système d'eau chaude plus performant et réduire votre consommation."
+      }
+    ]
+  },
+  {
+    "slug": "electricite",
+    "title": "Électricité",
+    "min_price": 35,
+    "max_price": 65,
+    "unit": "h",
+    "description_template": "Le tarif horaire d'un électricien à {city} se situe entre {min_price} et {max_price} €/{unit}, hors fournitures. La mise en sécurité électrique, la domotique et l'installation de bornes de recharge pour véhicules électriques représentent les demandes les plus courantes dans le {department}. Un électricien certifié Qualifelec garantit la conformité NF C 15-100 de votre installation et vous permet de bénéficier des aides à la rénovation énergétique lorsque les travaux améliorent la performance du logement.",
+    "technical_details": [
+      "Mise aux normes tableau électrique : 800 à 1 500 €",
+      "Rénovation électrique complète (100 m²) : 8 000 à 15 000 €",
+      "Installation prise ou interrupteur : 80 à 150 € l'unité",
+      "Pose borne de recharge véhicule électrique : 1 200 à 2 500 €",
+      "Installation domotique (pièce) : 200 à 500 €",
+      "Mise à la terre et liaisons équipotentielles : 500 à 1 200 €"
+    ],
+    "faq": [
+      {
+        "question": "Quel est le prix d'une mise aux normes électrique à {city} ?",
+        "answer": "Le coût d'une mise aux normes électrique à {city} dépend de l'état de l'installation existante. Pour un tableau électrique seul, comptez 800 à 1 500 €. Pour une rénovation complète d'une maison de 100 m², le budget se situe entre 8 000 et 15 000 €. Dans le Perche, de nombreuses maisons anciennes nécessitent cette mise en conformité pour obtenir le Consuel."
+      },
+      {
+        "question": "Comment savoir si l'installation électrique est dangereuse à {city} ?",
+        "answer": "Plusieurs signes doivent alerter : disjoncteurs qui sautent fréquemment, prises chaudes ou noircies, absence de prise de terre, fils en tissu ou porcelaine. Un diagnostic électrique (obligatoire pour la vente d'un bien de plus de 15 ans) coûte entre 100 et 150 € en Eure-et-Loir. Les maisons à colombages du Perche, souvent anciennes, présentent régulièrement des installations obsolètes."
+      },
+      {
+        "question": "Quelles aides pour la rénovation électrique à {city} ?",
+        "answer": "La rénovation électrique bénéficie de la TVA réduite à 10 % pour les logements de plus de 2 ans. L'installation d'une borne de recharge pour véhicule électrique donne droit à un crédit d'impôt de 300 €. L'ANAH propose des aides pour les logements insalubres via le programme « Habiter Sain ». Les résidents d'Eure-et-Loir en situation de précarité énergétique peuvent solliciter des aides complémentaires auprès du CCAS."
+      },
+      {
+        "question": "Faut-il un électricien certifié pour les travaux à {city} ?",
+        "answer": "Oui, il est fortement recommandé de faire appel à un électricien certifié Qualifelec ou titulaire de la mention RGE pour les travaux liés à la performance énergétique. L'attestation de conformité Consuel est obligatoire pour toute nouvelle installation ou rénovation lourde. Dans le Perche, un professionnel local connaîtra les contraintes du bâti ancien et les exigences des Architectes des Bâtiments de France si votre bien se situe en zone protégée."
+      }
+    ]
+  },
+  {
+    "slug": "chauffage",
+    "title": "Chauffage",
+    "min_price": 50,
+    "max_price": 90,
+    "unit": "h",
+    "description_template": "Vous souhaitez installer ou rénover votre système de chauffage à {city} ? Le tarif horaire d'un chauffagiste en Eure-et-Loir se situe entre {min_price} € et {max_price} € de l'{unit}, hors équipements, selon le type d'intervention (installation, entretien, dépannage). Le climat du Perche, avec des hivers froids et humides, rend indispensable un système de chauffage performant et bien dimensionné. Les maisons en pierre typiques du département {department} bénéficient d'une inertie thermique qu'un chauffagiste expérimenté saura exploiter pour optimiser le confort et réduire la consommation énergétique.",
+    "technical_details": [
+      "Installation pompe à chaleur air-eau : 8 000 à 15 000 €",
+      "Pose chaudière gaz à condensation : 3 500 à 6 000 €",
+      "Installation poêle à bois ou granulés : 2 500 à 6 000 €",
+      "Remplacement radiateurs (lot de 5) : 2 000 à 4 500 €",
+      "Entretien annuel chaudière : 100 à 180 €",
+      "Installation plancher chauffant : 50 à 90 €/m²"
+    ],
+    "faq": [
+      {
+        "question": "Quel système de chauffage choisir à {city} ?",
+        "answer": "Le choix du système de chauffage à {city} dépend de la surface, de l'isolation et du budget. La pompe à chaleur air-eau est très populaire en Eure-et-Loir pour son excellent rendement. Le poêle à granulés constitue un complément idéal dans les maisons du Perche. Pour les grandes demeures en pierre, un système hybride (PAC + bois) offre le meilleur compromis entre confort et économies."
+      },
+      {
+        "question": "Combien coûte le remplacement d'une chaudière fioul à {city} ?",
+        "answer": "Le remplacement d'une chaudière fioul à {city} coûte entre 8 000 et 15 000 € pour une pompe à chaleur, ou 3 500 à 6 000 € pour une chaudière gaz à condensation. Grâce à MaPrimeRénov', le reste à charge peut être réduit de 4 000 à 11 000 € selon vos revenus. L'éco-PTZ permet de financer le solde sans intérêts. De nombreux foyers du Perche encore chauffés au fioul réalisent cette transition énergétique."
+      },
+      {
+        "question": "Quelles aides pour le chauffage en Eure-et-Loir à {city} ?",
+        "answer": "Les aides pour le chauffage sont particulièrement avantageuses : MaPrimeRénov' (jusqu'à 11 000 € pour une PAC géothermique), prime « Coup de Pouce Chauffage » des CEE, éco-PTZ jusqu'à 50 000 €, TVA à 5,5 % et aides régionales Centre-Val de Loire. L'ANAH propose aussi le programme « Habiter Mieux Sérénité » pour les ménages modestes. Un artisan RGE est indispensable pour en bénéficier."
+      },
+      {
+        "question": "À quelle fréquence entretenir sa chaudière à {city} ?",
+        "answer": "L'entretien annuel de la chaudière est obligatoire par la loi et coûte entre 100 et 180 € en Eure-et-Loir. Il garantit la sécurité, prolonge la durée de vie de l'appareil et optimise son rendement. Pour les pompes à chaleur, un entretien tous les 2 ans est obligatoire pour les appareils contenant plus de 2 kg de fluide frigorigène. Un contrat d'entretien annuel avec un chauffagiste local du Perche permet de bénéficier de tarifs préférentiels et d'interventions rapides en cas de panne."
+      }
+    ]
+  },
+  {
+    "slug": "salle-de-bain",
+    "title": "Salle de Bain",
+    "min_price": 800,
+    "max_price": 1500,
+    "unit": "m²",
+    "description_template": "La rénovation d'une salle de bain à {city} coûte entre {min_price} et {max_price} €/{unit}, un budget qui dépend du niveau de finition souhaité et de la configuration de la pièce. Douche à l'italienne, mobilier suspendu et éclairage LED sont les choix les plus courants en 2026 dans le {department}. L'adaptation PMR (personnes à mobilité réduite) est encouragée par le dispositif MaPrimeAdapt' et peut ouvrir droit à des financements avantageux pour les propriétaires de plus de 70 ans ou en situation de handicap.",
+    "technical_details": [
+      "Rénovation complète salle de bain (5 m²) : 4 000 à 7 500 €",
+      "Pose douche à l'italienne : 1 500 à 3 500 €",
+      "Remplacement baignoire par douche : 2 000 à 4 500 €",
+      "Pose meuble vasque et robinetterie : 500 à 1 800 €",
+      "Carrelage mural et sol salle de bain : 40 à 90 €/m²",
+      "Création VMC et ventilation : 400 à 1 200 €"
+    ],
+    "faq": [
+      {
+        "question": "Quel budget prévoir pour rénover une salle de bain à {city} ?",
+        "answer": "Le budget d'une rénovation de salle de bain à {city} varie entre {min_price} € et {max_price} € par {unit}, soit entre 4 000 et 7 500 € pour une salle de bain standard de 5 m². Ce prix inclut la dépose de l'existant, la plomberie, l'électricité, le carrelage et les sanitaires. Les tarifs en Eure-et-Loir restent inférieurs de 20 à 30 % par rapport à l'Île-de-France voisine."
+      },
+      {
+        "question": "Combien de temps pour rénover une salle de bain à {city} ?",
+        "answer": "Une rénovation complète de salle de bain à {city} prend en moyenne 2 à 4 semaines selon l'ampleur des travaux. La dépose et la plomberie nécessitent 3 à 5 jours, le carrelage 3 à 4 jours, puis la pose des équipements 2 à 3 jours. Dans les maisons anciennes du Perche, il faut prévoir un délai supplémentaire pour traiter les éventuels problèmes d'humidité ou de plancher."
+      },
+      {
+        "question": "Quelles aides pour adapter une salle de bain aux seniors à {city} ?",
+        "answer": "L'adaptation d'une salle de bain pour les personnes âgées ou à mobilité réduite bénéficie de plusieurs aides : MaPrimeAdapt' (jusqu'à 70 % du montant des travaux), crédit d'impôt de 25 % pour l'adaptation du logement, aides de l'ANAH et de la CARSAT. La TVA réduite à 5,5 % s'applique pour les équipements spécifiques (barres d'appui, siège de douche). Le département d'Eure-et-Loir propose aussi des aides via l'Allocation Personnalisée d'Autonomie (APA)."
+      },
+      {
+        "question": "Douche ou baignoire : que choisir pour sa salle de bain à {city} ?",
+        "answer": "Le remplacement d'une baignoire par une douche à l'italienne est la tendance forte en Eure-et-Loir, notamment pour les maisons du Perche où l'espace est parfois contraint. La douche consomme moins d'eau (60 litres contre 150 pour un bain) et facilite l'accessibilité. Comptez 2 000 à 4 500 € pour cette transformation. Toutefois, si vous avez de jeunes enfants ou un espace suffisant, la baignoire reste un atout pour la revente."
+      }
+    ]
+  },
+  {
+    "slug": "menuiserie",
+    "title": "Menuiserie",
+    "min_price": 40,
+    "max_price": 70,
+    "unit": "h",
+    "description_template": "Vous recherchez un menuisier à {city} ? Le tarif horaire d'un menuisier en Eure-et-Loir se situe entre {min_price} € et {max_price} € de l'{unit}, hors fournitures, selon la complexité des travaux (pose de fenêtres, portes, placards, escaliers). Le patrimoine architectural du Perche, riche en maisons à colombages et demeures en pierre, requiert un savoir-faire artisanal pour la restauration ou le remplacement des menuiseries dans le respect du style local. Un menuisier qualifié dans le département {department} vous conseillera sur les matériaux les plus adaptés au bâti traditionnel comme aux constructions modernes.",
+    "technical_details": [
+      "Remplacement fenêtre double vitrage (standard) : 400 à 800 € l'unité",
+      "Pose porte intérieure : 200 à 500 € l'unité",
+      "Porte d'entrée sur mesure : 1 500 à 3 500 €",
+      "Fabrication et pose escalier bois : 3 000 à 8 000 €",
+      "Aménagement placard sur mesure : 600 à 1 500 €/ml",
+      "Restauration menuiseries anciennes : 150 à 400 € par élément"
+    ],
+    "faq": [
+      {
+        "question": "Quel est le prix de remplacement des fenêtres à {city} ?",
+        "answer": "Le prix de remplacement d'une fenêtre double vitrage à {city} varie entre 400 et 800 € pose comprise, selon les dimensions et le matériau (PVC, bois, aluminium). Pour une maison de 5 fenêtres, le budget total se situe entre 2 000 et 4 000 €. Dans le Perche, le bois reste privilégié pour les maisons anciennes afin de conserver l'authenticité architecturale, tandis que le PVC offre le meilleur rapport qualité-prix."
+      },
+      {
+        "question": "Bois, PVC ou aluminium : quel matériau pour les menuiseries à {city} ?",
+        "answer": "Le choix du matériau dépend du style de votre habitation et de votre budget. Le bois (500-800 €/fenêtre) est recommandé pour les maisons à colombages du Perche et les zones protégées par les ABF. Le PVC (400-600 €/fenêtre) offre un excellent rapport isolation/prix. L'aluminium (600-900 €/fenêtre) convient aux grandes baies vitrées. En Eure-et-Loir, un menuisier local vous guidera selon les exigences du PLU de votre commune."
+      },
+      {
+        "question": "Quelles aides pour changer ses fenêtres à {city} ?",
+        "answer": "Le remplacement des fenêtres est éligible à MaPrimeRénov' (jusqu'à 100 € par fenêtre selon les revenus), aux primes CEE (50 à 120 € par fenêtre), à l'éco-PTZ et à la TVA réduite à 5,5 %. L'ANAH propose aussi des aides dans le cadre d'une rénovation globale. Pour bénéficier de ces aides en Eure-et-Loir, les fenêtres doivent atteindre un coefficient Uw ≤ 1,3 W/m².K et être posées par un artisan RGE."
+      },
+      {
+        "question": "Comment restaurer des menuiseries anciennes à {city} ?",
+        "answer": "La restauration des menuiseries anciennes dans les maisons du Perche est souvent préférable au remplacement, surtout pour les biens situés en secteur protégé. Un menuisier spécialisé peut décaper, traiter et remettre en état les boiseries pour 150 à 400 € par élément. L'ajout d'un survitrage ou d'un joint d'étanchéité améliore les performances thermiques sans dénaturer le cachet. Cette option est souvent moins coûteuse qu'un remplacement complet et préserve le caractère patrimonial."
+      }
+    ]
+  },
+  {
+    "slug": "peinture",
+    "title": "Peinture",
+    "min_price": 20,
+    "max_price": 45,
+    "unit": "m²",
+    "description_template": "Les travaux de peinture à {city} sont facturés entre {min_price} et {max_price} €/{unit}, un tarif qui varie selon le type de support, la hauteur sous plafond et la qualité des produits choisis. Qu'il s'agisse d'un rafraîchissement intérieur ou d'un ravalement de façade, la peinture est le levier le plus rapide et le plus économique pour valoriser un bien immobilier dans le {department}. Les peintures écoresponsables à faibles COV et les enduits décoratifs biosourcés sont de plus en plus plébiscités par les propriétaires soucieux de la qualité de l'air intérieur.",
+    "technical_details": [
+      "Peinture murs intérieurs (2 couches) : 20 à 35 €/m²",
+      "Peinture plafonds : 25 à 40 €/m²",
+      "Peinture façade extérieure : 25 à 45 €/m²",
+      "Laquage portes et boiseries : 30 à 60 € l'unité",
+      "Enduit et préparation murs abîmés : 15 à 30 €/m²",
+      "Pose papier peint ou toile de verre : 15 à 35 €/m²"
+    ],
+    "faq": [
+      {
+        "question": "Quel est le prix de la peinture au m² à {city} ?",
+        "answer": "Le prix de la peinture à {city} varie entre {min_price} € et {max_price} € par {unit}, incluant la préparation des supports, la fourniture de peinture et la main-d'oeuvre. Un appartement de 60 m² nécessite en moyenne 150 à 200 m² de surfaces à peindre (murs et plafonds), soit un budget total de 3 000 à 9 000 €. Les tarifs en Eure-et-Loir restent compétitifs par rapport aux zones urbaines."
+      },
+      {
+        "question": "Combien de temps pour repeindre une maison à {city} ?",
+        "answer": "Repeindre l'intérieur d'une maison de 100 m² à {city} prend en moyenne 1 à 2 semaines pour un peintre professionnel. Ce délai inclut la préparation des murs (rebouchage, ponçage, sous-couche) et l'application de 2 couches de finition. Pour les maisons anciennes du Perche dont les murs présentent des irrégularités, un temps de préparation supplémentaire est à prévoir."
+      },
+      {
+        "question": "Quelle peinture choisir pour une maison ancienne à {city} ?",
+        "answer": "Pour les maisons anciennes du Perche, privilégiez les peintures respirantes (minérales ou à la chaux) qui permettent aux murs en pierre de réguler l'humidité. Évitez les peintures acryliques imperméables qui emprisonnent l'humidité et dégradent les enduits anciens. Un peintre spécialisé en Eure-et-Loir vous orientera vers des produits microporeaux adaptés, comme les badigeons de chaux ou les peintures silicatées."
+      },
+      {
+        "question": "Faut-il un peintre professionnel à {city} ou peut-on peindre soi-même ?",
+        "answer": "Si la peinture semble accessible, un peintre professionnel à {city} garantit un résultat impeccable, surtout pour les plafonds, les boiseries et les surfaces en mauvais état. La préparation des supports représente 60 % du travail et conditionne la durabilité du résultat. Dans les maisons du Perche, les murs irréguliers en pierre ou en torchis exigent un savoir-faire particulier en matière d'enduits et de finitions."
+      }
+    ]
+  },
+  {
+    "slug": "carrelage",
+    "title": "Carrelage",
+    "min_price": 30,
+    "max_price": 70,
+    "unit": "m²",
+    "description_template": "Le prix de pose du carrelage à {city} oscille entre {min_price} et {max_price} €/{unit}, fourniture non comprise, selon le format des carreaux et la complexité du calepinage. Grands formats, imitation bois, carreaux de ciment vintage : les tendances 2026 privilégient les sols décoratifs et faciles d'entretien. Dans le {department}, l'association du carrelage avec un plancher chauffant séduit de plus en plus de propriétaires, offrant un confort thermique optimal aussi bien en construction neuve qu'en rénovation.",
+    "technical_details": [
+      "Pose carrelage sol format standard : 30 à 50 €/m²",
+      "Pose carrelage grand format (60x60 et +) : 45 à 70 €/m²",
+      "Pose faïence murale : 35 à 60 €/m²",
+      "Pose tomettes ou terre cuite : 40 à 65 €/m²",
+      "Ragréage et préparation du sol : 15 à 25 €/m²",
+      "Dépose ancien carrelage : 10 à 20 €/m²"
+    ],
+    "faq": [
+      {
+        "question": "Quel est le prix de la pose de carrelage à {city} ?",
+        "answer": "Le prix de la pose de carrelage à {city} varie entre {min_price} € et {max_price} € par {unit}, main-d'oeuvre seule. À cela s'ajoute le coût des carreaux (15 à 80 €/m² selon la gamme). Pour un séjour de 30 m², le budget total (pose + fournitures) se situe entre 1 350 et 4 500 €. Les tarifs en Eure-et-Loir sont généralement inférieurs de 15 à 25 % à ceux pratiqués en région parisienne."
+      },
+      {
+        "question": "Quel carrelage choisir pour une maison du Perche à {city} ?",
+        "answer": "Pour les maisons traditionnelles du Perche, les tomettes en terre cuite ou le carrelage effet pierre naturelle s'intègrent harmonieusement au bâti ancien. Le grès cérame imitation bois est aussi très prisé pour apporter de la chaleur aux pièces de vie. Pour les pièces humides, optez pour un carrelage antidérapant classé R10 minimum. Un carreleur local à {city} pourra vous montrer des réalisations dans des maisons similaires à la vôtre."
+      },
+      {
+        "question": "Peut-on poser du carrelage sur un ancien plancher à {city} ?",
+        "answer": "Oui, la pose de carrelage sur un ancien plancher bois est possible sous certaines conditions. Il faut d'abord vérifier la solidité du solivage et la planéité du support. Une plaque de désolidarisation type Ditra ou Schlüter est recommandée pour absorber les mouvements du bois. Dans les maisons du Perche, un carreleur expérimenté évaluera la portance du plancher et pourra réaliser un ragréage fibré si nécessaire."
+      },
+      {
+        "question": "Combien de temps pour carreler une pièce à {city} ?",
+        "answer": "La pose de carrelage dans une pièce de 20 m² prend en moyenne 2 à 4 jours, incluant la préparation du sol, la pose et les joints. Pour un carrelage grand format ou une pose en diagonale, comptez un jour supplémentaire. Dans les maisons anciennes d'Eure-et-Loir, la préparation du sol (ragréage, mise à niveau) peut ajouter 1 à 2 jours au chantier, les sols étant souvent irréguliers."
+      }
+    ]
+  },
+  {
+    "slug": "facade",
+    "title": "Façade",
+    "min_price": 30,
+    "max_price": 80,
+    "unit": "m²",
+    "description_template": "Vous souhaitez rénover la façade de votre maison à {city} ? Le prix moyen d'un ravalement de façade en Eure-et-Loir se situe entre {min_price} € et {max_price} € par {unit}, selon l'état du support, le type de finition et les traitements nécessaires. Les façades du Perche, qu'elles soient en pierre de tuffeau, en brique, en enduit à la chaux ou à colombages, constituent un patrimoine architectural remarquable qui mérite une restauration soignée. Un façadier qualifié dans le département {department} connaîtra les techniques traditionnelles et les matériaux compatibles pour préserver l'authenticité de votre habitation tout en améliorant ses performances thermiques.",
+    "technical_details": [
+      "Nettoyage et ravalement simple : 30 à 50 €/m²",
+      "Ravalement avec enduit à la chaux : 50 à 80 €/m²",
+      "Peinture de façade : 25 à 45 €/m²",
+      "Rejointoiement pierre ou brique : 40 à 70 €/m²",
+      "Traitement anti-mousse et hydrofuge : 15 à 30 €/m²",
+      "Isolation thermique par l'extérieur (ITE) : 100 à 180 €/m²"
+    ],
+    "faq": [
+      {
+        "question": "Quel est le prix d'un ravalement de façade à {city} ?",
+        "answer": "Le prix d'un ravalement de façade à {city} varie entre {min_price} € et {max_price} € par {unit}, soit entre 4 500 et 12 000 € pour une maison individuelle de 150 m² de façade. Ce tarif inclut le montage de l'échafaudage, le nettoyage, les réparations et la finition. En Eure-et-Loir, le ravalement est obligatoire tous les 10 ans dans certaines communes, vérifiez le règlement municipal de votre ville."
+      },
+      {
+        "question": "Quelles techniques pour ravaler une façade en pierre dans le Perche à {city} ?",
+        "answer": "Les façades en pierre du Perche nécessitent des techniques spécifiques : nettoyage basse pression (jamais de haute pression sur la pierre tendre), rejointoiement au mortier de chaux (jamais de ciment qui emprisonne l'humidité) et éventuellement un badigeon de chaux pour protéger le parement. Un façadier spécialisé dans le bâti ancien en Eure-et-Loir utilisera des matériaux perspirants qui respectent le fonctionnement hygrothermique des murs anciens."
+      },
+      {
+        "question": "Quelles aides pour le ravalement de façade à {city} ?",
+        "answer": "Un ravalement de façade couplé à une isolation par l'extérieur (ITE) est éligible à MaPrimeRénov' (jusqu'à 75 €/m² selon les revenus), aux primes CEE, à l'éco-PTZ et à la TVA à 5,5 %. Même sans ITE, la TVA réduite à 10 % s'applique pour le ravalement d'un logement de plus de 2 ans. Certaines communes d'Eure-et-Loir proposent des aides locales dans le cadre d'opérations de revitalisation du centre-bourg."
+      },
+      {
+        "question": "À quelle fréquence ravaler sa façade à {city} ?",
+        "answer": "En règle générale, un ravalement de façade est recommandé tous les 10 à 15 ans, et il est obligatoire tous les 10 ans dans certaines communes d'Eure-et-Loir conformément au Code de la construction. Les façades exposées aux intempéries (nord et ouest) se dégradent plus vite dans le Perche en raison de l'humidité. Un traitement hydrofuge après ravalement prolonge la durée de vie de la façade de 5 à 10 ans supplémentaires."
+      }
+    ]
+  }
+]
