@@ -1,0 +1,1264 @@
+[
+  {
+    "slug": "tuile-vs-ardoise",
+    "title": "Tuile vs Ardoise : quel matériau de couverture choisir en Eure-et-Loir ?",
+    "meta_description": "Comparatif tuile vs ardoise pour votre toiture en Eure-et-Loir : prix, durée de vie, esthétique et entretien. Guide complet pour choisir la meilleure couverture.",
+    "intro": "<p>Le choix entre la tuile et l'ardoise est une question récurrente pour les propriétaires d'Eure-et-Loir qui envisagent la réfection de leur toiture. Ces deux matériaux traditionnels présentent des caractéristiques très différentes en termes de prix, de durée de vie, d'esthétique et d'adaptation au climat local. Dans le Perche, l'ardoise naturelle domine le patrimoine bâti ancien, tandis que la tuile plate prédomine en Beauce et dans le Drouais. Voici notre comparatif détaillé pour vous aider à faire le bon choix.</p>",
+    "option_a": {
+      "name": "Tuile (terre cuite)",
+      "price_range": "40–80 €/m² posée",
+      "pros": [
+        "Excellent rapport qualité-prix",
+        "Grande variété de formes et coloris",
+        "Résistante au gel et aux intempéries",
+        "Facile à remplacer pièce par pièce",
+        "Durée de vie de 50 à 100 ans"
+      ],
+      "cons": [
+        "Plus lourde que l'ardoise (nécessite charpente solide)",
+        "Peut accumuler mousse et lichens",
+        "Esthétique moins noble que l'ardoise",
+        "Choix parfois contraint par le PLU"
+      ],
+      "best_for": "Maisons de Beauce et du Drouais, rénovations avec budget maîtrisé, toitures de grande surface"
+    },
+    "option_b": {
+      "name": "Ardoise naturelle",
+      "price_range": "90–160 €/m² posée",
+      "pros": [
+        "Esthétique prestigieuse et intemporelle",
+        "Durée de vie exceptionnelle (100 à 150 ans)",
+        "Très résistante au feu et aux UV",
+        "Légère par rapport à la tuile",
+        "Valorise le patrimoine (Perche, manoirs)"
+      ],
+      "cons": [
+        "Prix deux fois supérieur à la tuile",
+        "Pose plus complexe (main-d'œuvre qualifiée)",
+        "Fragile aux chocs (grêle, branches)",
+        "Moins de variété de formes"
+      ],
+      "best_for": "Maisons du Perche, bâtiments classés ou en secteur protégé, propriétaires recherchant la longévité maximale"
+    },
+    "criteria": [
+      {
+        "name": "Prix au m² posé",
+        "option_a_score": "40–80 €",
+        "option_b_score": "90–160 €",
+        "winner": "Tuile"
+      },
+      {
+        "name": "Durée de vie",
+        "option_a_score": "50–100 ans",
+        "option_b_score": "100–150 ans",
+        "winner": "Ardoise"
+      },
+      {
+        "name": "Esthétique",
+        "option_a_score": "Traditionnelle, variée",
+        "option_b_score": "Noble, prestigieuse",
+        "winner": "Ardoise"
+      },
+      {
+        "name": "Résistance au gel",
+        "option_a_score": "Très bonne",
+        "option_b_score": "Excellente",
+        "winner": "Ardoise"
+      },
+      {
+        "name": "Poids au m²",
+        "option_a_score": "45–65 kg",
+        "option_b_score": "25–35 kg",
+        "winner": "Ardoise"
+      },
+      {
+        "name": "Facilité de réparation",
+        "option_a_score": "Facile",
+        "option_b_score": "Technique",
+        "winner": "Tuile"
+      },
+      {
+        "name": "Entretien",
+        "option_a_score": "Démoussage régulier",
+        "option_b_score": "Quasi nul",
+        "winner": "Ardoise"
+      },
+      {
+        "name": "Disponibilité artisans (28)",
+        "option_a_score": "Très courante",
+        "option_b_score": "Courante",
+        "winner": "Tuile"
+      }
+    ],
+    "verdict": "<p><strong>En Eure-et-Loir, le choix dépend avant tout de votre localisation et de votre budget.</strong> Dans le Perche et pour les maisons de caractère, l'ardoise naturelle s'impose comme le choix patrimonial par excellence, avec une durée de vie qui justifie l'investissement supérieur. En Beauce, dans le Drouais et pour les budgets plus serrés, la tuile plate en terre cuite offre un excellent compromis entre performance et économie. Vérifiez systématiquement le PLU de votre commune : certaines zones imposent un matériau spécifique. Dans les deux cas, exigez un artisan couvreur RGE pour bénéficier des aides à la rénovation.</p>",
+    "related_trades": [
+      "toiture",
+      "charpente"
+    ],
+    "tags": [
+      "toiture",
+      "couverture",
+      "tuile",
+      "ardoise",
+      "materiaux"
+    ]
+  },
+  {
+    "slug": "pac-vs-chaudiere-gaz",
+    "title": "Pompe à chaleur vs Chaudière gaz : quel chauffage choisir en Eure-et-Loir ?",
+    "meta_description": "Comparatif PAC air-eau vs chaudière gaz condensation pour votre chauffage en Eure-et-Loir : coûts, performances, aides MaPrimeRénov' et conseils d'experts.",
+    "intro": "<p>Avec l'évolution des prix de l'énergie et le renforcement des normes environnementales, le choix du système de chauffage est devenu un enjeu majeur pour les propriétaires en Eure-et-Loir. La pompe à chaleur air-eau (PAC) et la chaudière gaz à condensation restent les deux solutions les plus populaires. En zone climatique H1, où les hivers peuvent être rigoureux, ce choix mérite une analyse approfondie.</p>",
+    "option_a": {
+      "name": "Pompe à chaleur air-eau",
+      "price_range": "8 000–16 000 € installée",
+      "pros": [
+        "COP de 3 à 4 (1 kWh consommé = 3 à 4 kWh produits)",
+        "Éligible MaPrimeRénov' jusqu'à 5 000 €",
+        "Énergie renouvelable, faible empreinte carbone",
+        "Peut assurer le chauffage et l'eau chaude",
+        "Coût d'exploitation 2 à 3 fois inférieur au gaz"
+      ],
+      "cons": [
+        "Investissement initial élevé",
+        "Performances réduites par grand froid (-7°C et moins)",
+        "Nuisances sonores de l'unité extérieure",
+        "Nécessite un appoint électrique en hiver rigoureux",
+        "Maintenance annuelle obligatoire"
+      ],
+      "best_for": "Maisons bien isolées, construction neuve ou rénovation globale, propriétaires souhaitant réduire leur empreinte carbone et leurs factures"
+    },
+    "option_b": {
+      "name": "Chaudière gaz condensation",
+      "price_range": "3 500–7 000 € installée",
+      "pros": [
+        "Investissement initial modéré",
+        "Rendement supérieur à 100 % (récupération chaleur latente)",
+        "Performances constantes quelle que soit la température",
+        "Installation simple en remplacement d'ancienne chaudière",
+        "Silencieuse"
+      ],
+      "cons": [
+        "Énergie fossile (interdite en neuf depuis la RE2020)",
+        "Prix du gaz volatil et en hausse",
+        "Pas d'aide MaPrimeRénov' pour le gaz seul",
+        "Empreinte carbone élevée",
+        "Avenir incertain (fin du gaz fossile annoncée)"
+      ],
+      "best_for": "Remplacement rapide d'une ancienne chaudière gaz, logements raccordés au réseau gaz, budget d'investissement limité"
+    },
+    "criteria": [
+      {
+        "name": "Coût d'installation",
+        "option_a_score": "8 000–16 000 €",
+        "option_b_score": "3 500–7 000 €",
+        "winner": "Chaudière gaz"
+      },
+      {
+        "name": "Coût annuel d'exploitation",
+        "option_a_score": "600–1 000 €/an",
+        "option_b_score": "1 200–2 000 €/an",
+        "winner": "PAC"
+      },
+      {
+        "name": "Aides financières (2026)",
+        "option_a_score": "Jusqu'à 5 000 €",
+        "option_b_score": "Aucune",
+        "winner": "PAC"
+      },
+      {
+        "name": "Performance hiver (H1)",
+        "option_a_score": "Bonne (avec appoint)",
+        "option_b_score": "Constante",
+        "winner": "Chaudière gaz"
+      },
+      {
+        "name": "Impact environnemental",
+        "option_a_score": "Faible (EnR)",
+        "option_b_score": "Élevé (fossile)",
+        "winner": "PAC"
+      },
+      {
+        "name": "Durée de vie",
+        "option_a_score": "15–20 ans",
+        "option_b_score": "15–25 ans",
+        "winner": "Chaudière gaz"
+      },
+      {
+        "name": "Confort d'utilisation",
+        "option_a_score": "Bon",
+        "option_b_score": "Très bon",
+        "winner": "Chaudière gaz"
+      },
+      {
+        "name": "Rentabilité à 10 ans",
+        "option_a_score": "Très favorable",
+        "option_b_score": "Défavorable",
+        "winner": "PAC"
+      }
+    ],
+    "verdict": "<p><strong>En 2026, la pompe à chaleur air-eau est le choix le plus pertinent pour la grande majorité des propriétaires en Eure-et-Loir.</strong> Malgré un investissement initial plus élevé, les économies d'exploitation, les aides MaPrimeRénov' et la valorisation du DPE rendent la PAC plus rentable sur 7 à 10 ans. La chaudière gaz condensation reste pertinente uniquement pour un remplacement à l'identique dans un logement déjà raccordé au gaz, avec un budget limité. Attention : en zone H1 (Eure-et-Loir), prévoyez une PAC dimensionnée pour -10°C et conservez un appoint électrique.</p>",
+    "related_trades": [
+      "chauffage",
+      "climatisation"
+    ],
+    "tags": [
+      "chauffage",
+      "pac",
+      "chaudiere",
+      "gaz",
+      "energie"
+    ]
+  },
+  {
+    "slug": "laine-verre-vs-ouate-cellulose",
+    "title": "Laine de verre vs Ouate de cellulose : quel isolant choisir ?",
+    "meta_description": "Comparatif laine de verre vs ouate de cellulose : performances thermiques, prix, confort d'été et impact écologique. Guide pour l'isolation en Eure-et-Loir.",
+    "intro": "<p>L'isolation thermique est le poste de travaux le plus rentable pour améliorer le confort et réduire les factures énergétiques d'une maison en Eure-et-Loir. La laine de verre, isolant le plus vendu en France, fait face à la montée en puissance de la ouate de cellulose, plébiscitée pour ses performances estivales et son bilan écologique. Lequel choisir pour votre projet dans le département 28 ?</p>",
+    "option_a": {
+      "name": "Laine de verre",
+      "price_range": "3–10 €/m² (fourniture) | 20–35 €/m² posée",
+      "pros": [
+        "Prix très compétitif (isolant le moins cher)",
+        "Très bonne performance thermique (λ = 0,030 à 0,040)",
+        "Incombustible (classement A1)",
+        "Large gamme d'épaisseurs et de conditionnements",
+        "Artisans très familiers avec ce matériau"
+      ],
+      "cons": [
+        "Faible déphasage thermique (inconfort en été)",
+        "Sensible à l'humidité (perd ses propriétés)",
+        "Irritante à la pose (fibres)",
+        "Bilan environnemental moyen",
+        "Tassement possible dans le temps"
+      ],
+      "best_for": "Combles perdus avec budget serré, isolation de cloisons intérieures, projets où le confort d'été n'est pas prioritaire"
+    },
+    "option_b": {
+      "name": "Ouate de cellulose",
+      "price_range": "8–15 €/m² (fourniture) | 25–40 €/m² posée",
+      "pros": [
+        "Excellent déphasage thermique (8–12h, confort d'été)",
+        "Très bon régulateur hygrométrique",
+        "Matériau recyclé (papier journal), bilan carbone faible",
+        "Bonne isolation acoustique",
+        "Insufflation sans joint (pas de pont thermique)"
+      ],
+      "cons": [
+        "Plus chère que la laine de verre",
+        "Nécessite une machine d'insufflation professionnelle",
+        "Traitement au sel de bore (controversé)",
+        "Peut se tasser si mal posée",
+        "Moins de variété de conditionnements"
+      ],
+      "best_for": "Combles perdus ou aménagés, maisons du Perche (confort d'été important), propriétaires sensibles à l'écologie"
+    },
+    "criteria": [
+      {
+        "name": "Prix fourni-posé",
+        "option_a_score": "20–35 €/m²",
+        "option_b_score": "25–40 €/m²",
+        "winner": "Laine de verre"
+      },
+      {
+        "name": "Performance thermique (λ)",
+        "option_a_score": "0,030–0,040",
+        "option_b_score": "0,038–0,042",
+        "winner": "Laine de verre"
+      },
+      {
+        "name": "Confort d'été (déphasage)",
+        "option_a_score": "2–4 heures",
+        "option_b_score": "8–12 heures",
+        "winner": "Ouate de cellulose"
+      },
+      {
+        "name": "Résistance humidité",
+        "option_a_score": "Faible",
+        "option_b_score": "Bonne",
+        "winner": "Ouate de cellulose"
+      },
+      {
+        "name": "Isolation acoustique",
+        "option_a_score": "Moyenne",
+        "option_b_score": "Bonne",
+        "winner": "Ouate de cellulose"
+      },
+      {
+        "name": "Bilan écologique",
+        "option_a_score": "Moyen",
+        "option_b_score": "Très bon",
+        "winner": "Ouate de cellulose"
+      },
+      {
+        "name": "Facilité de pose",
+        "option_a_score": "Facile (rouleaux)",
+        "option_b_score": "Professionnelle (insufflation)",
+        "winner": "Laine de verre"
+      },
+      {
+        "name": "Durabilité",
+        "option_a_score": "30–40 ans",
+        "option_b_score": "40–50 ans",
+        "winner": "Ouate de cellulose"
+      }
+    ],
+    "verdict": "<p><strong>Pour les maisons d'Eure-et-Loir, la ouate de cellulose s'impose comme le meilleur choix global</strong>, notamment grâce à son déphasage thermique supérieur qui garantit un confort d'été appréciable dans le Perche et en Beauce. Son surcoût de 20 à 30 % par rapport à la laine de verre est largement compensé par ses performances et sa durabilité. La laine de verre reste pertinente pour les budgets très serrés ou l'isolation de cloisons intérieures. Dans les deux cas, visez un R ≥ 7 en combles pour être éligible aux aides MaPrimeRénov'.</p>",
+    "related_trades": [
+      "isolation"
+    ],
+    "tags": [
+      "isolation",
+      "laine-verre",
+      "ouate-cellulose",
+      "thermique",
+      "materiaux"
+    ]
+  },
+  {
+    "slug": "fenetre-pvc-vs-aluminium-vs-bois",
+    "title": "Fenêtre PVC, Aluminium ou Bois : comparatif pour l'Eure-et-Loir",
+    "meta_description": "PVC, aluminium ou bois : quel matériau choisir pour vos fenêtres en Eure-et-Loir ? Prix, isolation, esthétique et contraintes PLU. Comparatif complet.",
+    "intro": "<p>Le remplacement des fenêtres est l'un des travaux de rénovation les plus impactants sur le confort thermique et acoustique d'un logement. En Eure-et-Loir, le choix du matériau est d'autant plus important que les contraintes architecturales varient selon les zones : le Perche exige souvent du bois pour respecter le patrimoine, tandis que la Beauce et le Drouais offrent plus de liberté. PVC, aluminium ou bois : voici notre comparatif adapté au département 28.</p>",
+    "option_a": {
+      "name": "Fenêtre PVC",
+      "price_range": "250–600 € par fenêtre posée",
+      "pros": [
+        "Prix le plus compétitif du marché",
+        "Excellente isolation thermique (Uw ≤ 1,3)",
+        "Zéro entretien (pas de peinture)",
+        "Très bonne étanchéité à l'air et à l'eau",
+        "Large choix de couleurs et finitions"
+      ],
+      "cons": [
+        "Aspect plastique peu esthétique",
+        "Non recyclable en fin de vie",
+        "Profilés épais réduisant la surface vitrée",
+        "Interdit dans certains secteurs protégés (Perche)",
+        "Se déforme à très haute température"
+      ],
+      "best_for": "Budget serré, maisons récentes en Beauce ou Drouais, propriétaires privilégiant le rapport qualité-prix"
+    },
+    "option_b": {
+      "name": "Fenêtre Aluminium",
+      "price_range": "400–900 € par fenêtre posée",
+      "pros": [
+        "Design fin et contemporain (profilés minces)",
+        "Maximise la surface vitrée et la luminosité",
+        "Très résistant à la corrosion",
+        "Idéal pour grandes baies vitrées",
+        "100 % recyclable"
+      ],
+      "cons": [
+        "Isolation thermique moyenne sans rupture de pont thermique",
+        "Prix élevé",
+        "Peut ne pas convenir au bâti ancien (style moderne)",
+        "Condensation possible sans RPT",
+        "Moins isolant que PVC ou bois"
+      ],
+      "best_for": "Extensions modernes, grandes baies vitrées, propriétaires recherchant un design contemporain et lumineux"
+    },
+    "option_c": {
+      "name": "Fenêtre Bois",
+      "price_range": "500–1 200 € par fenêtre posée",
+      "pros": [
+        "Esthétique noble et chaleureuse",
+        "Excellente isolation thermique naturelle",
+        "Matériau écologique et renouvelable",
+        "Accepté dans tous les secteurs protégés (ABF)",
+        "Longue durée de vie si bien entretenu (50+ ans)"
+      ],
+      "cons": [
+        "Entretien régulier obligatoire (lasure tous les 5–8 ans)",
+        "Prix le plus élevé",
+        "Sensible à l'humidité si mal traité",
+        "Plus lourd que PVC ou aluminium"
+      ],
+      "best_for": "Maisons du Perche, bâtiments en secteur ABF, rénovations patrimoniales, propriétaires sensibles à l'écologie"
+    },
+    "criteria": [
+      {
+        "name": "Prix moyen posé",
+        "option_a_score": "250–600 €",
+        "option_b_score": "400–900 €",
+        "option_c_score": "500–1 200 €",
+        "winner": "PVC"
+      },
+      {
+        "name": "Isolation thermique (Uw)",
+        "option_a_score": "1,1–1,4",
+        "option_b_score": "1,4–2,0",
+        "option_c_score": "1,0–1,4",
+        "winner": "Bois"
+      },
+      {
+        "name": "Entretien",
+        "option_a_score": "Aucun",
+        "option_b_score": "Minimal",
+        "option_c_score": "Régulier",
+        "winner": "PVC"
+      },
+      {
+        "name": "Esthétique patrimoniale",
+        "option_a_score": "Moyenne",
+        "option_b_score": "Moderne",
+        "option_c_score": "Excellente",
+        "winner": "Bois"
+      },
+      {
+        "name": "Durée de vie",
+        "option_a_score": "25–30 ans",
+        "option_b_score": "30–40 ans",
+        "option_c_score": "50+ ans",
+        "winner": "Bois"
+      },
+      {
+        "name": "Bilan écologique",
+        "option_a_score": "Faible",
+        "option_b_score": "Moyen",
+        "option_c_score": "Excellent",
+        "winner": "Bois"
+      },
+      {
+        "name": "Acceptation ABF",
+        "option_a_score": "Rarement",
+        "option_b_score": "Parfois",
+        "option_c_score": "Toujours",
+        "winner": "Bois"
+      },
+      {
+        "name": "Luminosité (finesse profilé)",
+        "option_a_score": "Moyenne",
+        "option_b_score": "Maximale",
+        "option_c_score": "Bonne",
+        "winner": "Aluminium"
+      }
+    ],
+    "verdict": "<p><strong>En Eure-et-Loir, le choix dépend de votre contexte.</strong> Dans le Perche et les secteurs protégés, le bois s'impose comme la seule option validée par les ABF et la plus cohérente avec le patrimoine local. En Beauce et dans le Drouais, le PVC offre le meilleur rapport qualité-prix pour les fenêtres standard. L'aluminium excelle pour les grandes baies vitrées et les extensions contemporaines. Le compromis mixte bois-aluminium (bois intérieur, alu extérieur) combine les avantages des deux mais à un prix supérieur (700–1 500 € par fenêtre). Quelle que soit l'option, exigez du double vitrage ITR avec gaz argon (Ug ≤ 1,1) pour l'éligibilité MaPrimeRénov'.</p>",
+    "related_trades": [
+      "menuiserie"
+    ],
+    "tags": [
+      "menuiserie",
+      "fenetre",
+      "pvc",
+      "aluminium",
+      "bois",
+      "materiaux"
+    ]
+  },
+  {
+    "slug": "fosse-septique-vs-micro-station",
+    "title": "Fosse septique vs Micro-station : quel assainissement en Eure-et-Loir ?",
+    "meta_description": "Fosse toutes eaux vs micro-station d'épuration : prix, entretien, réglementation et performances. Guide complet pour l'assainissement non collectif dans le 28.",
+    "intro": "<p>En Eure-et-Loir, de nombreuses habitations en zone rurale ne sont pas raccordées au tout-à-l'égout et dépendent d'un système d'assainissement non collectif (ANC). Le choix entre une fosse toutes eaux classique et une micro-station d'épuration est déterminant pour le budget, l'entretien et la conformité réglementaire de votre installation. Ce comparatif vous aide à choisir la solution la plus adaptée.</p>",
+    "option_a": {
+      "name": "Fosse toutes eaux + épandage",
+      "price_range": "5 000–10 000 € installée",
+      "pros": [
+        "Technologie éprouvée et fiable",
+        "Aucune consommation électrique",
+        "Entretien simple (vidange tous les 4 ans)",
+        "Longue durée de vie (20–30 ans)",
+        "Agréée par tous les SPANC"
+      ],
+      "cons": [
+        "Nécessite un terrain d'épandage (surface importante)",
+        "Impossible sur terrain imperméable ou en pente",
+        "Vidange régulière (150–300 € tous les 4 ans)",
+        "Odeurs possibles si mal ventilée",
+        "Emprise au sol importante"
+      ],
+      "best_for": "Grandes parcelles rurales en Beauce ou Perche, propriétaires recherchant une solution simple et économique"
+    },
+    "option_b": {
+      "name": "Micro-station d'épuration",
+      "price_range": "8 000–15 000 € installée",
+      "pros": [
+        "Emprise au sol réduite (2–5 m²)",
+        "Rejet direct dans le milieu naturel possible",
+        "Performances épuratoires élevées (>95%)",
+        "Pas de terrain d'épandage nécessaire",
+        "Idéale pour petites parcelles"
+      ],
+      "cons": [
+        "Consommation électrique permanente (50–100 €/an)",
+        "Contrat d'entretien annuel recommandé (150–200 €)",
+        "Sensible aux variations de charge (absences prolongées)",
+        "Durée de vie plus courte (15–20 ans)",
+        "Investissement initial plus élevé"
+      ],
+      "best_for": "Petites parcelles, terrains inadaptés à l'épandage, propriétaires souhaitant une solution compacte"
+    },
+    "criteria": [
+      {
+        "name": "Coût d'installation",
+        "option_a_score": "5 000–10 000 €",
+        "option_b_score": "8 000–15 000 €",
+        "winner": "Fosse toutes eaux"
+      },
+      {
+        "name": "Coût annuel d'entretien",
+        "option_a_score": "50–75 €/an",
+        "option_b_score": "200–350 €/an",
+        "winner": "Fosse toutes eaux"
+      },
+      {
+        "name": "Emprise au sol",
+        "option_a_score": "50–150 m²",
+        "option_b_score": "2–5 m²",
+        "winner": "Micro-station"
+      },
+      {
+        "name": "Performance épuratoire",
+        "option_a_score": "Bonne (avec épandage)",
+        "option_b_score": "Excellente (>95%)",
+        "winner": "Micro-station"
+      },
+      {
+        "name": "Adaptabilité terrain",
+        "option_a_score": "Terrain perméable requis",
+        "option_b_score": "Tout terrain",
+        "winner": "Micro-station"
+      },
+      {
+        "name": "Durée de vie",
+        "option_a_score": "20–30 ans",
+        "option_b_score": "15–20 ans",
+        "winner": "Fosse toutes eaux"
+      },
+      {
+        "name": "Fiabilité",
+        "option_a_score": "Très fiable",
+        "option_b_score": "Sensible aux coupures",
+        "winner": "Fosse toutes eaux"
+      }
+    ],
+    "verdict": "<p><strong>En Eure-et-Loir, la fosse toutes eaux avec épandage reste la solution de référence</strong> pour les propriétés rurales disposant d'un terrain adapté (sol perméable, surface suffisante). C'est le cas de la majorité des maisons dans la Beauce et le Perche. La micro-station s'impose en revanche pour les parcelles trop petites, les terrains argileux ou les zones à nappe phréatique haute. Consultez impérativement le SPANC (Service Public d'Assainissement Non Collectif) de votre commune avant de choisir : le rapport d'étude de sol déterminera les solutions autorisées sur votre parcelle.</p>",
+    "related_trades": [
+      "assainissement",
+      "plomberie"
+    ],
+    "tags": [
+      "assainissement",
+      "fosse-septique",
+      "micro-station",
+      "anc"
+    ]
+  },
+  {
+    "slug": "vmc-simple-flux-vs-double-flux",
+    "title": "VMC simple flux vs double flux : quelle ventilation pour votre maison ?",
+    "meta_description": "VMC simple flux hygro B vs double flux : performances, prix, économies d'énergie et confort. Comparatif adapté au climat d'Eure-et-Loir (zone H1).",
+    "intro": "<p>La ventilation mécanique contrôlée (VMC) est indispensable pour garantir la qualité de l'air intérieur et prévenir l'humidité dans votre logement. En Eure-et-Loir, classé en zone climatique H1, le choix entre une VMC simple flux hygro B et une VMC double flux a un impact significatif sur le confort thermique et les économies d'énergie. Voici notre analyse comparative détaillée.</p>",
+    "option_a": {
+      "name": "VMC simple flux hygro B",
+      "price_range": "500–1 500 € installée",
+      "pros": [
+        "Prix d'installation très abordable",
+        "Installation simple (rénovation facile)",
+        "Fonctionnement silencieux",
+        "Entretien minimal",
+        "Débit adapté automatiquement à l'humidité (hygro B)"
+      ],
+      "cons": [
+        "Déperditions thermiques (air froid entrant non réchauffé)",
+        "Pas de filtration de l'air entrant",
+        "Consommation de chauffage accrue en hiver",
+        "Courants d'air froid possible",
+        "Pas de récupération de chaleur"
+      ],
+      "best_for": "Rénovation avec budget limité, logements moyennement isolés, remplacement de VMC existante"
+    },
+    "option_b": {
+      "name": "VMC double flux",
+      "price_range": "4 000–8 000 € installée",
+      "pros": [
+        "Récupération de 70 à 90% de la chaleur de l'air extrait",
+        "Air entrant filtré (pollens, particules fines)",
+        "Économies de chauffage significatives (15–25%)",
+        "Suppression des entrées d'air en façade",
+        "Confort optimal sans courants d'air"
+      ],
+      "cons": [
+        "Investissement initial 4 à 5 fois supérieur",
+        "Installation complexe (réseau de gaines double)",
+        "Entretien des filtres régulier (tous les 3–6 mois)",
+        "Encombrement des gaines (faux plafond nécessaire)",
+        "Bruit du caisson d'échange si mal installé"
+      ],
+      "best_for": "Construction neuve, rénovation globale avec isolation performante, personnes allergiques ou sensibles à la qualité de l'air"
+    },
+    "criteria": [
+      {
+        "name": "Coût d'installation",
+        "option_a_score": "500–1 500 €",
+        "option_b_score": "4 000–8 000 €",
+        "winner": "Simple flux"
+      },
+      {
+        "name": "Économies de chauffage",
+        "option_a_score": "Aucune",
+        "option_b_score": "15–25% de la facture",
+        "winner": "Double flux"
+      },
+      {
+        "name": "Qualité d'air intérieur",
+        "option_a_score": "Correcte",
+        "option_b_score": "Excellente (filtration)",
+        "winner": "Double flux"
+      },
+      {
+        "name": "Confort thermique",
+        "option_a_score": "Courants d'air possibles",
+        "option_b_score": "Optimal",
+        "winner": "Double flux"
+      },
+      {
+        "name": "Facilité d'installation",
+        "option_a_score": "Simple",
+        "option_b_score": "Complexe (gaines)",
+        "winner": "Simple flux"
+      },
+      {
+        "name": "Entretien",
+        "option_a_score": "1 fois/an",
+        "option_b_score": "Filtres tous les 3–6 mois",
+        "winner": "Simple flux"
+      },
+      {
+        "name": "Rentabilité en zone H1",
+        "option_a_score": "Immédiate",
+        "option_b_score": "8–12 ans",
+        "winner": "Simple flux"
+      }
+    ],
+    "verdict": "<p><strong>En Eure-et-Loir (zone H1), la VMC double flux est le choix optimal pour les maisons bien isolées</strong> (classe DPE A à C), notamment dans le cadre d'une rénovation globale ou d'une construction neuve. Les économies de chauffage de 15 à 25 % rentabilisent l'investissement en 8 à 12 ans, tout en offrant un confort supérieur. Pour une rénovation partielle ou un budget limité, la VMC simple flux hygro B reste un excellent choix, à condition d'accepter les déperditions thermiques par le renouvellement d'air. Dans tous les cas, ne sacrifiez jamais la ventilation : une maison isolée sans VMC adaptée est une bombe à moisissures.</p>",
+    "related_trades": [
+      "vmc",
+      "chauffage",
+      "isolation"
+    ],
+    "tags": [
+      "vmc",
+      "ventilation",
+      "simple-flux",
+      "double-flux",
+      "qualite-air"
+    ]
+  },
+  {
+    "slug": "parquet-vs-carrelage",
+    "title": "Parquet vs Carrelage : quel revêtement de sol choisir en Eure-et-Loir ?",
+    "meta_description": "Parquet massif ou contrecollé vs carrelage ou grès cérame : prix, confort, entretien et durée de vie. Comparatif des revêtements de sol pour la rénovation dans le 28.",
+    "intro": "<p>Le choix du revêtement de sol est une décision importante lors d'une rénovation en Eure-et-Loir. Le parquet, apprécié pour sa chaleur et son esthétique naturelle, et le carrelage, plébiscité pour sa robustesse et sa facilité d'entretien, présentent des avantages complémentaires. Ce comparatif vous aide à choisir le revêtement le plus adapté à votre projet et à votre mode de vie.</p>",
+    "option_a": {
+      "name": "Parquet (massif ou contrecollé)",
+      "price_range": "30–120 €/m² posé",
+      "pros": [
+        "Esthétique chaleureuse et authentique",
+        "Isolation thermique naturelle (confort au toucher)",
+        "Valorise le patrimoine (maisons du Perche)",
+        "Rénovable par ponçage (massif : 3 à 5 fois)",
+        "Large choix d'essences et de finitions"
+      ],
+      "cons": [
+        "Sensible à l'eau et à l'humidité",
+        "Entretien régulier (huile ou vitrification)",
+        "Rayures et marques d'usure visibles",
+        "Incompatible avec les pièces d'eau (sauf teck)",
+        "Craint les variations de température"
+      ],
+      "best_for": "Chambres, salons, séjours, maisons du Perche à caractère patrimonial, propriétaires recherchant la chaleur et l'authenticité"
+    },
+    "option_b": {
+      "name": "Carrelage (grès cérame)",
+      "price_range": "25–90 €/m² posé",
+      "pros": [
+        "Extrêmement résistant et durable",
+        "Imperméable (idéal pièces d'eau et cuisine)",
+        "Entretien très facile",
+        "Compatible plancher chauffant",
+        "Imitations bois, pierre, béton très réalistes"
+      ],
+      "cons": [
+        "Sensation de froid au toucher (sans chauffage au sol)",
+        "Dur et bruyant (résonance)",
+        "Pose technique (ragréage, joints)",
+        "Casse en cas de choc violent",
+        "Moins chaleureux que le parquet"
+      ],
+      "best_for": "Pièces d'eau, cuisines, entrées, rez-de-chaussée avec plancher chauffant, propriétaires privilégiant la durabilité"
+    },
+    "criteria": [
+      {
+        "name": "Prix posé (gamme médiane)",
+        "option_a_score": "50–80 €/m²",
+        "option_b_score": "35–60 €/m²",
+        "winner": "Carrelage"
+      },
+      {
+        "name": "Confort au toucher",
+        "option_a_score": "Chaud et agréable",
+        "option_b_score": "Froid (sans PC)",
+        "winner": "Parquet"
+      },
+      {
+        "name": "Durabilité",
+        "option_a_score": "20–50 ans (ponçable)",
+        "option_b_score": "30–50+ ans",
+        "winner": "Carrelage"
+      },
+      {
+        "name": "Résistance à l'eau",
+        "option_a_score": "Faible",
+        "option_b_score": "Totale",
+        "winner": "Carrelage"
+      },
+      {
+        "name": "Entretien",
+        "option_a_score": "Régulier",
+        "option_b_score": "Très simple",
+        "winner": "Carrelage"
+      },
+      {
+        "name": "Esthétique patrimoniale",
+        "option_a_score": "Authentique",
+        "option_b_score": "Imitation possible",
+        "winner": "Parquet"
+      },
+      {
+        "name": "Isolation acoustique",
+        "option_a_score": "Bonne",
+        "option_b_score": "Faible",
+        "winner": "Parquet"
+      },
+      {
+        "name": "Compatibilité chauffage au sol",
+        "option_a_score": "Limitée",
+        "option_b_score": "Excellente",
+        "winner": "Carrelage"
+      }
+    ],
+    "verdict": "<p><strong>La solution la plus courante en Eure-et-Loir est de combiner les deux matériaux</strong> : carrelage (ou grès cérame imitation pierre) au rez-de-chaussée dans les pièces de vie et pièces d'eau, et parquet contrecollé chêne à l'étage dans les chambres. Cette combinaison offre le meilleur des deux mondes. Pour les maisons du Perche avec tomettes d'origine, la restauration des tomettes anciennes ou la pose de nouvelles tomettes artisanales est aussi une option patrimoniale de grande valeur. Budget indicatif pour 100 m² mixte : 5 000 à 8 000 € fourni-posé.</p>",
+    "related_trades": [
+      "peinture",
+      "menuiserie"
+    ],
+    "tags": [
+      "sol",
+      "parquet",
+      "carrelage",
+      "revetement",
+      "interieur"
+    ]
+  },
+  {
+    "slug": "enduit-vs-bardage-facade",
+    "title": "Enduit vs Bardage : quelle finition pour votre façade en Eure-et-Loir ?",
+    "meta_description": "Enduit de façade vs bardage bois ou composite : prix, isolation, esthétique et durée de vie. Comparatif pour le ravalement et l'ITE dans le 28.",
+    "intro": "<p>Le ravalement de façade est une obligation légale (tous les 10 ans dans certaines communes) et une opportunité d'améliorer l'isolation thermique par l'extérieur (ITE) de votre maison. En Eure-et-Loir, deux solutions dominent le marché : l'enduit (crépi) et le bardage (bois, composite ou fibrociment). Chaque option présente des caractéristiques distinctes en termes de prix, d'esthétique et de performance.</p>",
+    "option_a": {
+      "name": "Enduit de façade (crépi)",
+      "price_range": "40–80 €/m² (enduit sur ITE : 100–160 €/m²)",
+      "pros": [
+        "Solution traditionnelle adaptée à la région",
+        "Large palette de teintes et finitions",
+        "Compatible avec l'ITE sous enduit (polystyrène ou laine de roche)",
+        "Entretien limité (nettoyage + hydrofuge)",
+        "Accepté dans la quasi-totalité des PLU"
+      ],
+      "cons": [
+        "Fissuration possible avec le temps",
+        "Sensible aux mousses et salissures",
+        "Pose dépendante de la météo",
+        "Moins performant thermiquement seul",
+        "Aspect uniforme parfois monotone"
+      ],
+      "best_for": "Maisons traditionnelles de Beauce et du Drouais, ITE sous enduit, ravalements réglementaires"
+    },
+    "option_b": {
+      "name": "Bardage (bois, composite, fibrociment)",
+      "price_range": "60–120 €/m² (bardage sur ITE : 120–200 €/m²)",
+      "pros": [
+        "Esthétique contemporaine ou rustique au choix",
+        "Excellente protection contre les intempéries",
+        "Ventilation naturelle du mur (lame d'air)",
+        "Masque les défauts de façade existante",
+        "Bon support pour ITE sous bardage (fibre de bois)"
+      ],
+      "cons": [
+        "Prix plus élevé que l'enduit",
+        "Entretien du bois naturel (lasure tous les 5–8 ans)",
+        "Peut être refusé par les ABF en secteur protégé",
+        "Risque de grisaillement (bois naturel sans traitement)",
+        "Fixation mécanique sur façade existante"
+      ],
+      "best_for": "Extensions modernes, rénovations avec isolation par l'extérieur, propriétaires recherchant un look contemporain ou scandinave"
+    },
+    "criteria": [
+      {
+        "name": "Prix (ravalement simple)",
+        "option_a_score": "40–80 €/m²",
+        "option_b_score": "60–120 €/m²",
+        "winner": "Enduit"
+      },
+      {
+        "name": "Prix (avec ITE)",
+        "option_a_score": "100–160 €/m²",
+        "option_b_score": "120–200 €/m²",
+        "winner": "Enduit"
+      },
+      {
+        "name": "Esthétique",
+        "option_a_score": "Traditionnelle",
+        "option_b_score": "Moderne/variée",
+        "winner": "Bardage"
+      },
+      {
+        "name": "Durée de vie",
+        "option_a_score": "20–30 ans",
+        "option_b_score": "25–40 ans (composite)",
+        "winner": "Bardage"
+      },
+      {
+        "name": "Entretien",
+        "option_a_score": "Faible",
+        "option_b_score": "Moyen (bois) / Faible (composite)",
+        "winner": "Enduit"
+      },
+      {
+        "name": "Performance ITE",
+        "option_a_score": "Bonne",
+        "option_b_score": "Très bonne (lame d'air)",
+        "winner": "Bardage"
+      },
+      {
+        "name": "Acceptation PLU/ABF",
+        "option_a_score": "Universelle",
+        "option_b_score": "Variable",
+        "winner": "Enduit"
+      }
+    ],
+    "verdict": "<p><strong>En Eure-et-Loir, l'enduit reste la solution de référence</strong> pour le ravalement classique et l'ITE sous enduit, grâce à son prix compétitif et son acceptation universelle par les PLU. Le bardage s'impose pour les extensions contemporaines et les rénovations où la façade existante est trop dégradée pour recevoir un enduit. Pour une ITE performante, le bardage ventilé avec isolant en fibre de bois offre la meilleure gestion de l'humidité, un atout précieux pour les murs en pierre du Perche. Quel que soit votre choix, profitez des aides MaPrimeRénov' pour l'ITE : jusqu'à 75 €/m² pour les ménages modestes.</p>",
+    "related_trades": [
+      "facade",
+      "isolation"
+    ],
+    "tags": [
+      "facade",
+      "enduit",
+      "bardage",
+      "ravalement",
+      "ite",
+      "isolation"
+    ]
+  },
+  {
+    "slug": "charpente-traditionnelle-vs-fermettes",
+    "title": "Charpente traditionnelle vs Fermettes industrielles : que choisir ?",
+    "meta_description": "Charpente traditionnelle en bois massif vs fermettes industrielles : prix, performances, aménagement des combles. Comparatif pour la construction en Eure-et-Loir.",
+    "intro": "<p>Le choix du type de charpente est déterminant pour l'architecture, le budget et les possibilités d'aménagement de votre maison. En Eure-et-Loir, la charpente traditionnelle en bois massif cohabite avec les fermettes industrielles, chacune ayant ses adeptes. Ce comparatif vous aide à faire le bon choix pour votre projet de construction ou de rénovation dans le département 28.</p>",
+    "option_a": {
+      "name": "Charpente traditionnelle",
+      "price_range": "70–130 €/m² de toiture",
+      "pros": [
+        "Espace sous toiture entièrement aménageable",
+        "Esthétique noble (poutres apparentes)",
+        "Durée de vie exceptionnelle (100+ ans)",
+        "Bois massif résistant et solide",
+        "Valorise le patrimoine (manoirs, longères)"
+      ],
+      "cons": [
+        "Coût 30 à 50% supérieur aux fermettes",
+        "Délai de fabrication plus long",
+        "Pose par charpentier qualifié obligatoire",
+        "Poids plus important (fondations adaptées)",
+        "Traitement régulier contre les insectes xylophages"
+      ],
+      "best_for": "Maisons avec combles aménageables, rénovation de maisons anciennes du Perche, propriétaires recherchant l'authenticité"
+    },
+    "option_b": {
+      "name": "Fermettes industrielles",
+      "price_range": "40–70 €/m² de toiture",
+      "pros": [
+        "Prix très compétitif",
+        "Fabrication rapide et standardisée",
+        "Pose rapide (1–2 jours)",
+        "Légère (moins de contraintes sur les fondations)",
+        "Bon rapport qualité-prix"
+      ],
+      "cons": [
+        "Combles non aménageables (sauf modification coûteuse)",
+        "Aucun charme esthétique",
+        "Durée de vie inférieure (40–60 ans)",
+        "Bois de section fine (moins résistant)",
+        "Modifications ultérieures complexes et coûteuses"
+      ],
+      "best_for": "Constructions neuves à budget optimisé, maisons sans projet d'aménagement de combles, toitures de garages et dépendances"
+    },
+    "criteria": [
+      {
+        "name": "Prix au m²",
+        "option_a_score": "70–130 €/m²",
+        "option_b_score": "40–70 €/m²",
+        "winner": "Fermettes"
+      },
+      {
+        "name": "Combles aménageables",
+        "option_a_score": "Oui (volume libre)",
+        "option_b_score": "Non (encombrement)",
+        "winner": "Traditionnelle"
+      },
+      {
+        "name": "Durée de vie",
+        "option_a_score": "100+ ans",
+        "option_b_score": "40–60 ans",
+        "winner": "Traditionnelle"
+      },
+      {
+        "name": "Esthétique",
+        "option_a_score": "Noble (poutres apparentes)",
+        "option_b_score": "Technique",
+        "winner": "Traditionnelle"
+      },
+      {
+        "name": "Rapidité de pose",
+        "option_a_score": "1–2 semaines",
+        "option_b_score": "1–2 jours",
+        "winner": "Fermettes"
+      },
+      {
+        "name": "Résistance structurelle",
+        "option_a_score": "Excellente",
+        "option_b_score": "Bonne",
+        "winner": "Traditionnelle"
+      },
+      {
+        "name": "Évolutivité",
+        "option_a_score": "Facile",
+        "option_b_score": "Très difficile",
+        "winner": "Traditionnelle"
+      }
+    ],
+    "verdict": "<p><strong>Pour les maisons en Eure-et-Loir avec un projet d'aménagement des combles (présent ou futur), la charpente traditionnelle est un investissement rentable.</strong> Le surcoût de 30 à 50 % est largement compensé par les 30 à 60 m² de surface habitable gagnés, valorisés entre 1 500 et 2 500 €/m² à la revente. Pour une construction neuve sans projet de combles (plain-pied, garage, dépendance), les fermettes industrielles sont le choix économique rationnel. En rénovation dans le Perche, la restauration de la charpente traditionnelle existante est presque toujours préférable à un remplacement par des fermettes.</p>",
+    "related_trades": [
+      "charpente",
+      "toiture",
+      "amenagement-combles"
+    ],
+    "tags": [
+      "charpente",
+      "fermettes",
+      "toiture",
+      "combles",
+      "structure"
+    ]
+  },
+  {
+    "slug": "extension-bois-vs-parpaing",
+    "title": "Extension bois vs Parpaing : quel matériau pour agrandir votre maison ?",
+    "meta_description": "Extension en ossature bois vs extension en parpaing : prix, délais, isolation et esthétique. Comparatif pour les projets d'agrandissement en Eure-et-Loir.",
+    "intro": "<p>L'extension de maison est une alternative attractive à la vente et au déménagement pour gagner de l'espace de vie. En Eure-et-Loir, deux techniques dominent le marché : l'ossature bois et le parpaing (agglo). Ce comparatif analyse les forces et faiblesses de chaque solution pour vous aider à choisir le matériau le plus adapté à votre projet d'agrandissement dans le département 28.</p>",
+    "option_a": {
+      "name": "Extension ossature bois",
+      "price_range": "1 500–2 500 €/m² clé en main",
+      "pros": [
+        "Chantier rapide (4–8 semaines hors d'eau)",
+        "Excellente performance thermique native",
+        "Légère (fondations réduites)",
+        "Esthétique contemporaine ou rustique",
+        "Préfabrication possible en atelier"
+      ],
+      "cons": [
+        "Prix légèrement supérieur au parpaing",
+        "Perception de fragilité (non fondée)",
+        "Entretien du bardage bois extérieur",
+        "Isolation acoustique à soigner",
+        "Résistance au feu inférieure sans traitement"
+      ],
+      "best_for": "Extensions contemporaines, terrains difficiles (fondations légères), propriétaires souhaitant un chantier rapide et propre"
+    },
+    "option_b": {
+      "name": "Extension parpaing (agglo)",
+      "price_range": "1 300–2 300 €/m² clé en main",
+      "pros": [
+        "Solution la plus répandue et maîtrisée",
+        "Excellente inertie thermique",
+        "Très bonne isolation acoustique",
+        "Résistance au feu élevée",
+        "Finitions variées (enduit, bardage, pierre)"
+      ],
+      "cons": [
+        "Chantier long (8–16 semaines)",
+        "Fondations plus lourdes (coût supplémentaire)",
+        "Ponts thermiques à traiter soigneusement",
+        "Temps de séchage (humidité résiduelle)",
+        "Impact environnemental plus élevé"
+      ],
+      "best_for": "Extensions en continuité du bâti existant en maçonnerie, projets avec enduit de façade identique à l'existant, propriétaires privilégiant la masse thermique"
+    },
+    "criteria": [
+      {
+        "name": "Prix clé en main",
+        "option_a_score": "1 500–2 500 €/m²",
+        "option_b_score": "1 300–2 300 €/m²",
+        "winner": "Parpaing"
+      },
+      {
+        "name": "Délai de chantier",
+        "option_a_score": "4–8 semaines",
+        "option_b_score": "8–16 semaines",
+        "winner": "Bois"
+      },
+      {
+        "name": "Performance thermique",
+        "option_a_score": "Excellente (native)",
+        "option_b_score": "Bonne (avec ITE)",
+        "winner": "Bois"
+      },
+      {
+        "name": "Inertie thermique",
+        "option_a_score": "Faible",
+        "option_b_score": "Forte",
+        "winner": "Parpaing"
+      },
+      {
+        "name": "Isolation acoustique",
+        "option_a_score": "Moyenne",
+        "option_b_score": "Très bonne",
+        "winner": "Parpaing"
+      },
+      {
+        "name": "Impact environnemental",
+        "option_a_score": "Faible",
+        "option_b_score": "Élevé",
+        "winner": "Bois"
+      },
+      {
+        "name": "Intégration au bâti existant",
+        "option_a_score": "Contraste possible",
+        "option_b_score": "Continuité naturelle",
+        "winner": "Parpaing"
+      }
+    ],
+    "verdict": "<p><strong>En Eure-et-Loir, le choix dépend principalement de votre bâti existant et de l'esthétique recherchée.</strong> L'extension bois est idéale pour un agrandissement rapide avec un style contemporain assumé (très tendance dans le Perche). L'extension parpaing convient mieux quand on souhaite une continuité parfaite avec la maison existante (même enduit, même toiture). Le coût total est comparable une fois l'isolation intégrée. Attention : au-delà de 20 m² (ou 40 m² en zone urbaine avec PLU), un permis de construire est obligatoire, et la surface totale peut rendre obligatoire le recours à un architecte (>150 m² de surface de plancher).</p>",
+    "related_trades": [
+      "extension-maison",
+      "maconnerie",
+      "charpente"
+    ],
+    "tags": [
+      "extension",
+      "bois",
+      "parpaing",
+      "agrandissement",
+      "construction"
+    ]
+  },
+  {
+    "slug": "isolation-interieure-vs-exterieure",
+    "title": "Isolation par l'intérieur (ITI) vs par l'extérieur (ITE) : le comparatif",
+    "meta_description": "ITI vs ITE : avantages, inconvénients et prix de l'isolation thermique par l'intérieur et par l'extérieur. Guide pour les maisons d'Eure-et-Loir.",
+    "intro": "<p>L'isolation des murs représente le deuxième poste de déperditions thermiques d'une maison (25 % en moyenne), après la toiture. Deux approches s'offrent à vous : l'isolation thermique par l'intérieur (ITI) et l'isolation thermique par l'extérieur (ITE). En Eure-et-Loir, où le bâti est varié — maisons en pierre du Perche, pavillons de Beauce, maisons de ville à Chartres — le choix entre ITI et ITE a des implications techniques, esthétiques et financières importantes.</p>",
+    "option_a": {
+      "name": "Isolation par l'intérieur (ITI)",
+      "price_range": "40–80 €/m² posée",
+      "pros": [
+        "Coût modéré (2 à 3 fois moins cher que l'ITE)",
+        "Pas d'impact sur l'aspect extérieur de la façade",
+        "Réalisable pièce par pièce (budget échelonné)",
+        "Pas de déclaration de travaux",
+        "Compatible avec tous les isolants"
+      ],
+      "cons": [
+        "Réduction de la surface habitable (5 à 7%)",
+        "Ponts thermiques résiduels (planchers, cloisons)",
+        "Perte de l'inertie thermique des murs",
+        "Travaux intérieurs (dérangement, relogement)",
+        "Risque de condensation dans le mur si mal conçue"
+      ],
+      "best_for": "Budgets limités, maisons de ville, façades à caractère patrimonial à préserver, rénovation progressive pièce par pièce"
+    },
+    "option_b": {
+      "name": "Isolation par l'extérieur (ITE)",
+      "price_range": "100–200 €/m² posée",
+      "pros": [
+        "Suppression totale des ponts thermiques",
+        "Conservation de la surface habitable",
+        "Inertie thermique du mur préservée",
+        "Ravalement de façade inclus",
+        "Meilleures aides financières (MaPrimeRénov')"
+      ],
+      "cons": [
+        "Coût élevé (2 à 3 fois l'ITI)",
+        "Modification de l'aspect extérieur (épaisseur +12 à 20 cm)",
+        "Déclaration de travaux ou permis de construire",
+        "Impossible ou déconseillée sur certaines façades (pierre apparente)",
+        "Travaux dépendants de la météo"
+      ],
+      "best_for": "Rénovations globales (DPE F/G vers B/C), maisons avec façades dégradées nécessitant un ravalement, propriétaires visant la performance maximale"
+    },
+    "criteria": [
+      {
+        "name": "Prix posé (murs)",
+        "option_a_score": "40–80 €/m²",
+        "option_b_score": "100–200 €/m²",
+        "winner": "ITI"
+      },
+      {
+        "name": "Performance thermique",
+        "option_a_score": "Bonne (ponts thermiques)",
+        "option_b_score": "Excellente (continu)",
+        "winner": "ITE"
+      },
+      {
+        "name": "Conservation surface",
+        "option_a_score": "Perte 5–7%",
+        "option_b_score": "Aucune perte",
+        "winner": "ITE"
+      },
+      {
+        "name": "Aides MaPrimeRénov'",
+        "option_a_score": "Jusqu'à 25 €/m²",
+        "option_b_score": "Jusqu'à 75 €/m²",
+        "winner": "ITE"
+      },
+      {
+        "name": "Respect du bâti ancien",
+        "option_a_score": "Façade préservée",
+        "option_b_score": "Façade modifiée",
+        "winner": "ITI"
+      },
+      {
+        "name": "Confort d'été",
+        "option_a_score": "Réduit (inertie perdue)",
+        "option_b_score": "Bon (inertie conservée)",
+        "winner": "ITE"
+      },
+      {
+        "name": "Facilité de mise en œuvre",
+        "option_a_score": "Simple",
+        "option_b_score": "Complexe (échafaudage)",
+        "winner": "ITI"
+      }
+    ],
+    "verdict": "<p><strong>En Eure-et-Loir, l'ITE est le choix optimal pour les rénovations globales</strong> visant un gain de 2+ classes DPE (éligible au Parcours accompagné MaPrimeRénov'). Les aides financières supérieures compensent en partie le surcoût. Cependant, pour les maisons en pierre apparente du Perche, les bâtiments en secteur ABF et les rénovations partielles, l'ITI reste la seule option viable. La solution hybride (ITE sur façades exposées nord/ouest + ITI sur façades sud/est protégées) est parfois la plus intelligente. Budget indicatif ITE pour une maison de 100 m² de façade : 10 000 à 20 000 € avant aides.</p>",
+    "related_trades": [
+      "isolation",
+      "facade"
+    ],
+    "tags": [
+      "isolation",
+      "iti",
+      "ite",
+      "murs",
+      "thermique",
+      "renovation-energetique"
+    ]
+  },
+  {
+    "slug": "chaudiere-granules-vs-pac",
+    "title": "Chaudière à granulés vs Pompe à chaleur : quel chauffage écologique ?",
+    "meta_description": "Chaudière à granulés de bois vs pompe à chaleur air-eau : prix, autonomie, performances et aides. Comparatif des chauffages écologiques en Eure-et-Loir.",
+    "intro": "<p>Pour remplacer une vieille chaudière fioul ou gaz, deux solutions écologiques dominent le marché en 2026 : la chaudière à granulés de bois (pellets) et la pompe à chaleur air-eau. Toutes deux sont éligibles aux aides MaPrimeRénov' et offrent des performances environnementales supérieures aux énergies fossiles. En Eure-et-Loir, où les hivers peuvent être froids, le choix entre ces deux technologies mérite une analyse fine.</p>",
+    "option_a": {
+      "name": "Chaudière à granulés de bois",
+      "price_range": "12 000–22 000 € installée (avec silo)",
+      "pros": [
+        "Énergie renouvelable et bilan carbone quasi neutre",
+        "Performances constantes même par grand froid (-15°C)",
+        "Éligible MaPrimeRénov' jusqu'à 5 500 €",
+        "Prix du granulé stable et compétitif (~6 cts/kWh)",
+        "Compatible avec réseau de radiateurs existant"
+      ],
+      "cons": [
+        "Investissement initial très élevé",
+        "Espace de stockage nécessaire (silo 2–4 m³)",
+        "Livraison et manutention des granulés",
+        "Entretien régulier (ramonage + maintenance annuelle)",
+        "Cendres à évacuer"
+      ],
+      "best_for": "Maisons rurales du Perche avec espace de stockage, remplacement de chaudière fioul, propriétaires souhaitant l'autonomie énergétique"
+    },
+    "option_b": {
+      "name": "Pompe à chaleur air-eau",
+      "price_range": "8 000–16 000 € installée",
+      "pros": [
+        "Investissement inférieur à la chaudière granulés",
+        "COP de 3 à 4 (grande efficacité énergétique)",
+        "Aucune livraison de combustible",
+        "Pas de stockage nécessaire",
+        "Réversible (rafraîchissement en été)"
+      ],
+      "cons": [
+        "Performances dégradées par grand froid (COP < 2 sous -7°C)",
+        "Coût de l'électricité en hausse",
+        "Nuisances sonores de l'unité extérieure",
+        "Durée de vie inférieure (15–20 ans vs 20–25 ans)",
+        "Fluide frigorigène (impact environnemental)"
+      ],
+      "best_for": "Maisons bien isolées en zone tempérée, propriétaires sans espace de stockage, projets combinant chauffage et rafraîchissement"
+    },
+    "criteria": [
+      {
+        "name": "Coût d'installation",
+        "option_a_score": "12 000–22 000 €",
+        "option_b_score": "8 000–16 000 €",
+        "winner": "PAC"
+      },
+      {
+        "name": "Coût annuel d'exploitation",
+        "option_a_score": "800–1 200 €/an",
+        "option_b_score": "600–1 000 €/an",
+        "winner": "PAC"
+      },
+      {
+        "name": "Performance par grand froid",
+        "option_a_score": "Constante",
+        "option_b_score": "Dégradée sous -7°C",
+        "winner": "Granulés"
+      },
+      {
+        "name": "Encombrement",
+        "option_a_score": "Important (chaufferie + silo)",
+        "option_b_score": "Modéré (unité ext. + int.)",
+        "winner": "PAC"
+      },
+      {
+        "name": "Bilan carbone",
+        "option_a_score": "Quasi neutre",
+        "option_b_score": "Très faible",
+        "winner": "Granulés"
+      },
+      {
+        "name": "Aides MaPrimeRénov'",
+        "option_a_score": "Jusqu'à 5 500 €",
+        "option_b_score": "Jusqu'à 5 000 €",
+        "winner": "Granulés"
+      },
+      {
+        "name": "Autonomie (sans livraison)",
+        "option_a_score": "Non (livraison granulés)",
+        "option_b_score": "Oui (électricité)",
+        "winner": "PAC"
+      },
+      {
+        "name": "Durée de vie",
+        "option_a_score": "20–25 ans",
+        "option_b_score": "15–20 ans",
+        "winner": "Granulés"
+      }
+    ],
+    "verdict": "<p><strong>En Eure-et-Loir (zone H1), les deux solutions sont pertinentes mais répondent à des profils différents.</strong> La chaudière à granulés excelle pour les grandes maisons rurales du Perche disposant d'un local technique et d'un espace de stockage, surtout si la maison est moyennement isolée (les granulés chauffent puissamment par grand froid). La PAC air-eau convient mieux aux maisons bien isolées (DPE C ou mieux), aux pavillons sans espace de stockage et aux propriétaires recherchant la simplicité d'usage. Budget moyen après aides : granulés 8 000–15 000 € / PAC 5 000–12 000 €.</p>",
+    "related_trades": [
+      "chauffage"
+    ],
+    "tags": [
+      "chauffage",
+      "granules",
+      "pac",
+      "bois-energie",
+      "ecologique"
+    ]
+  }
+]

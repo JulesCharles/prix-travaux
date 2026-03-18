@@ -6,9 +6,9 @@ import { tradeIcons } from "@/lib/trade-icons"
 import { Breadcrumb } from "@/components/Breadcrumb"
 
 export const metadata: Metadata = {
-  title: "Prix Travaux en Eure-et-Loir (28) — Guide Complet",
+  title: "Toutes les communes d'Eure-et-Loir (28) — Artisans & travaux par ville",
   description:
-    "Guide complet des prix de travaux en Eure-et-Loir (28). Toiture, isolation, plomberie, peinture dans les 33 communes principales. Devis gratuits d'artisans qualifiés.",
+    "Annuaire des 33 communes d'Eure-et-Loir couvertes : Chartres, Dreux, Nogent-le-Rotrou, Châteaudun… Trouvez les artisans et tarifs de travaux dans votre ville du département 28.",
   alternates: { canonical: "/eure-et-loir" },
 }
 
@@ -28,12 +28,12 @@ export default function DepartmentPage() {
 
       <section className="mb-10">
         <h1 className="mb-4 font-heading text-3xl font-bold tracking-tight sm:text-4xl">
-          Prix Travaux en Eure-et-Loir (28)
+          Travaux dans les 33 communes d'Eure-et-Loir (28)
         </h1>
         <p className="max-w-2xl text-base leading-relaxed text-muted-foreground">
-          Guide complet des tarifs de travaux dans le département de l'Eure-et-Loir
-          en {year}. De Chartres à Nogent-le-Rotrou, de Dreux à Châteaudun :
-          retrouvez les prix constatés pour chaque corps de métier et chaque commune.
+          Annuaire complet des communes du département 28 en {year}. De Chartres à
+          Nogent-le-Rotrou, de Dreux à Châteaudun : sélectionnez votre ville pour
+          accéder aux artisans, corps de métier et estimations disponibles localement.
         </p>
         <div className="mt-4 flex flex-wrap gap-4 text-sm font-semibold text-foreground">
           <span className="flex items-center gap-1.5">

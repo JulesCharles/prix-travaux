@@ -1,0 +1,41 @@
+datasource db {
+  provider = "sqlite"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Lead {
+  id               String   @id @default(cuid())
+
+  // Contact info
+  name             String
+  phone            String
+  email            String
+  zip              String
+
+  // Project info
+  trade            String
+  surface          Int
+  message          String?
+  budget           String?
+  urgency          String?
+  propertyType     String?
+
+  // Tracking (auto-captured)
+  sourceUrl        String?
+  utmSource        String?
+  utmMedium        String?
+  utmCampaign      String?
+  device           String?
+  cityGeo          String?
+
+  // Dispatch
+  dispatcher       String?
+  dispatcherStatus Boolean  @default(false)
+
+  // RGPD
+  createdAt        DateTime @default(now())
+  expiresAt        DateTime
+}

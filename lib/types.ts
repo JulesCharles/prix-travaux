@@ -40,6 +40,8 @@ export interface Trade {
   extended_faq: ExtendedFaqItem[]
   tier_content: Record<PopulationTier, string>
   zone_content: Record<GeographicZone, string>
+  related_trades?: string[]
+  is_emergency?: boolean
 }
 
 export interface City {
@@ -77,4 +79,34 @@ export interface BlogPost {
   author: string
   tags: string[]
   related_trades: string[]
+}
+
+export interface ComparatifOption {
+  name: string
+  price_range: string
+  pros: string[]
+  cons: string[]
+  best_for: string
+}
+
+export interface ComparatifCriterion {
+  name: string
+  option_a_score: string
+  option_b_score: string
+  option_c_score?: string
+  winner: string
+}
+
+export interface Comparatif {
+  slug: string
+  title: string
+  meta_description: string
+  intro: string
+  option_a: ComparatifOption
+  option_b: ComparatifOption
+  option_c?: ComparatifOption
+  criteria: ComparatifCriterion[]
+  verdict: string
+  related_trades: string[]
+  tags: string[]
 }
