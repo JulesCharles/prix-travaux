@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import Image from "next/image"
 import { ChevronDown, Menu, X, BookOpen, HelpCircle, AlertTriangle, Scale } from "lucide-react"
 import { trades, getTopCities } from "@/lib/data"
 import { tradeIcons } from "@/lib/trade-icons"
