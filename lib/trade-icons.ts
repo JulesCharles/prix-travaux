@@ -9,6 +9,14 @@ import {
   Paintbrush,
   Grid3x3,
   Building,
+  Hammer,
+  Shovel,
+  Layers,
+  Snowflake,
+  Waves,
+  ArrowUpFromLine,
+  Maximize2,
+  Fan,
 } from "lucide-react"
 
 export const tradeIcons: Record<string, typeof Home> = {
@@ -22,4 +30,12 @@ export const tradeIcons: Record<string, typeof Home> = {
   peinture: Paintbrush,
   carrelage: Grid3x3,
   facade: Building,
+  charpente: Hammer,
+  terrassement: Shovel,
+  maconnerie: Layers,
+  climatisation: Snowflake,
+  assainissement: Waves,
+  "amenagement-combles": ArrowUpFromLine,
+  "extension-maison": Maximize2,
+  vmc: Fan,
 }

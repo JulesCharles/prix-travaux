@@ -91,11 +91,41 @@ export default function MentionsLegalesPage() {
           recueilli via la case à cocher du formulaire de demande de devis.
         </p>
 
+        <h3>Destinataires des données</h3>
+        <p>
+          Vos données personnelles sont susceptibles d'être transmises aux
+          destinataires suivants, dans le cadre strict de la mise en relation
+          avec des professionnels du bâtiment :
+        </p>
+        <ul>
+          <li>
+            <strong>Casaneo</strong> — Plateforme de mise en relation entre
+            particuliers et artisans. Les données transmises sont : nom, téléphone,
+            email, code postal, type de travaux, surface du projet.
+          </li>
+          <li>
+            <strong>Travaux.com</strong> — Service de devis en ligne pour travaux
+            de rénovation. Les données transmises sont : nom, téléphone, email,
+            code postal, catégorie de travaux, surface du projet.
+          </li>
+        </ul>
+        <p>
+          Ces partenaires sont soumis à leurs propres politiques de
+          confidentialité et au respect du RGPD. Vos données ne sont jamais
+          vendues à des tiers à des fins publicitaires.
+        </p>
+        <p>
+          Des données anonymisées et agrégées (statistiques de demandes par type
+          de travaux, par zone géographique, tendances saisonnières) peuvent être
+          utilisées à des fins d'études de marché, sans qu'aucune donnée
+          personnelle ne soit identifiable.
+        </p>
+
         <h3>Durée de conservation</h3>
         <p>
           Vos données personnelles sont conservées pendant une durée maximale
-          de 12 mois à compter de leur collecte. Passé ce délai, elles sont
-          automatiquement supprimées.
+          de 3 ans à compter de leur collecte, ou 3 ans après le dernier
+          contact. Passé ce délai, elles sont automatiquement supprimées.
         </p>
 
         <h3>Exercer vos droits</h3>

@@ -33,6 +33,14 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# prisma local db
+prisma/dev.db
+prisma/dev.db-journal
+*.db
+
+# google service account key
+scripts/google-service-account.json
+
 # vercel
 .vercel
 

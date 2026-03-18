@@ -1,11 +1,13 @@
-import type { Trade, City, BlogPost, ExtendedFaqItem } from "./types"
+import type { Trade, City, BlogPost, ExtendedFaqItem, Comparatif } from "./types"
 import tradesData from "@/data/trades.json"
 import citiesData from "@/data/cities.json"
 import blogPostsData from "@/data/blog-posts.json"
+import comparatifsData from "@/data/comparatifs.json"
 
 export const trades: Trade[] = tradesData as Trade[]
 export const cities: City[] = citiesData as City[]
 export const blogPosts: BlogPost[] = blogPostsData as BlogPost[]
+export const comparatifs: Comparatif[] = comparatifsData as Comparatif[]
 
 export function getTrade(slug: string): Trade | undefined {
   return trades.find((t) => t.slug === slug)
@@ -98,4 +100,30 @@ export function interpolateForDepartment(template: string, trade: Trade): string
     .replace(/{department}/g, "28")
     .replace(/\bà Eure-et-Loir\b/g, "en Eure-et-Loir")
     .replace(/\bde Eure-et-Loir\b/g, "d'Eure-et-Loir")
+}
+
+/** Get a comparatif by slug */
+export function getComparatif(slug: string): Comparatif | undefined {
+  return comparatifs.find((c) => c.slug === slug)
+}
+
+/** Get trades flagged as emergency services */
+export function getEmergencyTrades(): Trade[] {
+  return trades.filter((t) => t.is_emergency)
+}
+
+/** Get related trades for a given trade */
+export function getRelatedTrades(trade: Trade): Trade[] {
+  if (!trade.related_trades) return []
+  return trade.related_trades
+    .map((slug) => getTrade(slug))
+    .filter((t): t is Trade => t !== undefined)
+}
+
+/** Get all urgence (emergency) trade × city combinations */
+export function getAllUrgenceCombinations(): { trade: string; city: string }[] {
+  const emergencyTrades = getEmergencyTrades()
+  return emergencyTrades.flatMap((trade) =>
+    cities.map((city) => ({ trade: trade.slug, city: city.slug }))
+  )
 }

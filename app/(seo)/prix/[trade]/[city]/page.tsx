@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
-import { ExternalLink } from "lucide-react"
+import { ExternalLink, ArrowRight } from "lucide-react"
 import {
   getAllTradesCityCombinations,
   getTrade,
@@ -11,7 +11,9 @@ import {
   getTierContent,
   getZoneContent,
   getExtendedFaq,
+  getRelatedTrades,
 } from "@/lib/data"
+import { tradeIcons } from "@/lib/trade-icons"
 import { getTradeCityMeta } from "@/lib/metadata"
 import { PriceCalculator } from "@/components/PriceCalculator"
 import { NearbyInterventions } from "@/components/NearbyInterventions"
@@ -62,6 +64,7 @@ export default async function TradeCityPage({ params }: PageProps) {
   const financingGuide = interpolateTemplate(trade.financing_guide, trade, city)
   const seasonalAdvice = interpolateTemplate(trade.seasonal_advice, trade, city)
   const extendedFaq = getExtendedFaq(trade, city)
+  const relatedTrades = getRelatedTrades(trade)
 
   return (
     <>
@@ -365,6 +368,46 @@ export default async function TradeCityPage({ params }: PageProps) {
       </section>
 
       <Separator />
+
+      {/* H2 — Services complémentaires (cross-trade links) */}
+      {relatedTrades.length > 0 && (
+        <>
+          <section className="my-10">
+            <h2 className="mb-4 font-heading text-xl font-bold">
+              Services complémentaires à {city.name}
+            </h2>
+            <p className="mb-4 text-sm text-muted-foreground">
+              Ces corps de métier interviennent souvent en complément de la {trade.title.toLowerCase()}.
+            </p>
+            <div className="grid gap-3 sm:grid-cols-2">
+              {relatedTrades.map((rt) => {
+                const Icon = tradeIcons[rt.slug] ?? ArrowRight
+                return (
+                  <Link
+                    key={rt.slug}
+                    href={`/prix/${rt.slug}/${city.slug}`}
+                    className="group flex items-center gap-3 rounded-xl border border-border/60 bg-card p-3.5 transition-all hover:border-primary/30 hover:shadow-sm"
+                  >
+                    <div className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-primary/10">
+                      <Icon className="size-4 text-primary" />
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <span className="block text-sm font-semibold">
+                        {rt.title} à {city.name}
+                      </span>
+                      <span className="text-xs text-muted-foreground">
+                        {rt.min_price}–{rt.max_price} €/{rt.unit}
+                      </span>
+                    </div>
+                    <ArrowRight className="size-3.5 text-muted-foreground/40 group-hover:text-primary" />
+                  </Link>
+                )
+              })}
+            </div>
+          </section>
+          <Separator />
+        </>
+      )}
 
       {/* H2 — Communes voisines */}
       <NearbyInterventions trade={trade} city={city} />

@@ -2,13 +2,14 @@ import Link from "next/link"
 import Image from "next/image"
 import { trades, getTopCities, blogPosts } from "@/lib/data"
 
-const TOP_TRADES = 5
 const TOP_CITIES_PER_TRADE = 6
+const FOOTER_TRADES_COL3 = 6 // max trades shown in 3rd column
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
   const topCities = getTopCities(TOP_CITIES_PER_TRADE)
-  const displayTrades = trades.slice(0, TOP_TRADES)
+  const footerColumnTrades = trades.slice(0, 2) // first 2 get their own columns
+  const otherTrades = trades.slice(2, 2 + FOOTER_TRADES_COL3)
   const recentPosts = [...blogPosts]
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     .slice(0, 3)
@@ -19,7 +20,7 @@ export function Footer() {
         {/* Link grid */}
         <div className="mb-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {/* Trades + cities columns */}
-          {displayTrades.slice(0, 2).map((trade) => (
+          {footerColumnTrades.map((trade) => (
             <div key={trade.slug}>
               <h3 className="mb-3 font-heading text-sm font-bold tracking-wide">
                 <Link
@@ -45,7 +46,7 @@ export function Footer() {
                     href={`/prix/${trade.slug}`}
                     className="text-sm font-semibold text-primary"
                   >
-                    Toutes les communes
+                    Tous les prix {trade.title.toLowerCase()} →
                   </Link>
                 </li>
               </ul>
@@ -71,7 +72,7 @@ export function Footer() {
                   Tous les métiers
                 </Link>
               </li>
-              {displayTrades.slice(2).map((trade) => (
+              {otherTrades.map((trade) => (
                 <li key={trade.slug}>
                   <Link
                     href={`/prix/${trade.slug}`}
@@ -81,39 +82,63 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
-              {trades.length > TOP_TRADES &&
-                trades.slice(TOP_TRADES).map((trade) => (
-                  <li key={trade.slug}>
-                    <Link
-                      href={`/prix/${trade.slug}`}
-                      className="text-sm text-muted-foreground transition-colors hover:text-primary"
-                    >
-                      Prix {trade.title}
-                    </Link>
-                  </li>
-                ))}
               <li>
                 <Link
-                  href="/eure-et-loir"
+                  href="/prix"
                   className="text-sm font-semibold text-primary"
                 >
-                  Toutes les communes
+                  Tous les métiers →
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Blog + info */}
+          {/* Guides + new pages */}
           <div>
             <h3 className="mb-3 font-heading text-sm font-bold tracking-wide">
-              <Link
-                href="/blog"
-                className="transition-colors hover:text-primary"
-              >
-                Blog
-              </Link>
+              Guides & ressources
             </h3>
             <ul className="mb-6 space-y-1.5">
+              <li>
+                <Link
+                  href="/guide"
+                  className="text-sm text-muted-foreground transition-colors hover:text-primary"
+                >
+                  Guides rénovation par ville
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/aides"
+                  className="text-sm text-muted-foreground transition-colors hover:text-primary"
+                >
+                  Aides financières
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/urgence"
+                  className="text-sm text-muted-foreground transition-colors hover:text-primary"
+                >
+                  Urgences travaux
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/comparatif"
+                  className="text-sm text-muted-foreground transition-colors hover:text-primary"
+                >
+                  Comparatifs matériaux
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/blog"
+                  className="text-sm font-semibold text-primary"
+                >
+                  Blog
+                </Link>
+              </li>
               {recentPosts.map((post) => (
                 <li key={post.slug}>
                   <Link

@@ -1,18 +1,40 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import Image from "next/image"
 import { notFound } from "next/navigation"
-import {
-  Calendar,
-  ArrowRight,
-  Clock,
-  User,
-  ChevronLeft,
-  BookOpen,
-} from "lucide-react"
+import { Calendar, ArrowRight, User, Clock, BookOpen } from "lucide-react"
 import { blogPosts, getBlogPost, getTrade } from "@/lib/data"
 import { tradeIcons } from "@/lib/trade-icons"
 import { Breadcrumb } from "@/components/Breadcrumb"
 import { Separator } from "@/components/ui/separator"
+
+const tagLabels: Record<string, string> = {
+  toiture: "Toiture",
+  isolation: "Isolation",
+  chauffage: "Chauffage",
+  plomberie: "Plomberie",
+  electricite: "Électricité",
+  menuiserie: "Menuiserie",
+  facade: "Façade",
+  peinture: "Peinture",
+  "salle-de-bain": "Salle de bain",
+  carrelage: "Carrelage",
+  maconnerie: "Maçonnerie",
+  charpente: "Charpente",
+  "eure-et-loir": "Eure-et-Loir",
+  renovation: "Rénovation",
+  aides: "Aides",
+  energie: "Énergie",
+  budget: "Budget",
+  artisan: "Artisan",
+  rge: "RGE",
+  qualite: "Qualité",
+  reglementation: "Réglementation",
+  conseils: "Conseils",
+  materiaux: "Matériaux",
+  financement: "Financement",
+  saison: "Saison",
+}
 
 interface PageProps {
   params: Promise<{ slug: string }>
@@ -35,6 +57,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       type: "article",
       publishedTime: post.date,
       authors: [post.author],
+      images: [`/images/blog/${post.slug}.jpg`],
     },
   }
 }
@@ -43,25 +66,6 @@ function estimateReadingTime(html: string): number {
   const text = html.replace(/<[^>]*>/g, "")
   const words = text.split(/\s+/).filter(Boolean).length
   return Math.max(1, Math.ceil(words / 220))
-}
-
-const tagLabels: Record<string, string> = {
-  renovation: "Rénovation",
-  perche: "Perche",
-  guide: "Guide",
-  budget: "Budget",
-  aides: "Aides",
-  maprimerenov: "MaPrimeRénov'",
-  financement: "Financement",
-  "eure-et-loir": "Eure-et-Loir",
-  isolation: "Isolation",
-  materiaux: "Matériaux",
-  performance: "Performance",
-  toiture: "Toiture",
-  rge: "RGE",
-  artisans: "Artisans",
-  couvreur: "Couvreur",
-  entretien: "Entretien",
 }
 
 export default async function BlogPostPage({ params }: PageProps) {
@@ -86,6 +90,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     description: post.excerpt,
     datePublished: post.date,
     author: { "@type": "Organization", name: post.author },
+    image: `${process.env.NEXT_PUBLIC_BASE_URL || "https://prix-travaux-28.fr"}/images/blog/${post.slug}.jpg`,
   }
 
   return (
@@ -103,17 +108,20 @@ export default async function BlogPostPage({ params }: PageProps) {
         ]}
       />
 
+      <div className="relative mb-8 h-[280px] w-full overflow-hidden rounded-xl sm:h-[360px]">
+        <Image
+          src={`/images/blog/${post.slug}.jpg`}
+          alt={post.title}
+          fill
+          sizes="(max-width: 768px) 100vw, 768px"
+          className="object-cover"
+          priority
+        />
+      </div>
+
       <article>
         {/* ── Header ── */}
         <header className="mb-8">
-          <Link
-            href="/blog"
-            className="mb-4 inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
-          >
-            <ChevronLeft className="size-3.5" />
-            Retour au blog
-          </Link>
-
           {/* Tags */}
           {post.tags.length > 0 && (
             <div className="mb-4 flex flex-wrap gap-2">
@@ -140,19 +148,21 @@ export default async function BlogPostPage({ params }: PageProps) {
           {/* Meta bar */}
           <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-1.5">
-              <Calendar className="size-3.5" />
-              {new Date(post.date).toLocaleDateString("fr-FR", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-              })}
+              <Calendar className="size-3.5" aria-hidden="true" />
+              <time dateTime={post.date}>
+                {new Date(post.date).toLocaleDateString("fr-FR", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}
+              </time>
             </div>
             <div className="flex items-center gap-1.5">
-              <User className="size-3.5" />
+              <User className="size-3.5" aria-hidden="true" />
               {post.author}
             </div>
             <div className="flex items-center gap-1.5">
-              <Clock className="size-3.5" />
+              <Clock className="size-3.5" aria-hidden="true" />
               {readingTime} min de lecture
             </div>
           </div>
@@ -171,7 +181,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       <div className="mt-10 rounded-xl border-2 border-border/60 bg-card p-5">
         <div className="flex items-start gap-4">
           <div className="flex size-11 shrink-0 items-center justify-center rounded-full bg-primary/10">
-            <BookOpen className="size-5 text-primary" />
+            <BookOpen className="size-5 text-primary" aria-hidden="true" />
           </div>
           <div>
             <p className="text-sm font-bold">{post.author}</p>
@@ -187,17 +197,17 @@ export default async function BlogPostPage({ params }: PageProps) {
       {/* ── CTA ── */}
       <div className="mt-8 rounded-xl border-2 border-primary/20 bg-primary/5 p-6 text-center">
         <h2 className="mb-2 font-heading text-lg font-bold">
-          Besoin d'un devis pour vos travaux ?
+          Besoin d&apos;un devis pour vos travaux ?
         </h2>
         <p className="mb-4 text-sm text-muted-foreground">
-          Comparez gratuitement les prix d'artisans qualifiés en Eure-et-Loir.
+          Comparez gratuitement les prix d&apos;artisans qualifiés en Eure-et-Loir.
         </p>
         <Link
           href="/prix"
           className="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-all hover:bg-primary/90 hover:shadow-lg"
         >
           Voir tous les prix
-          <ArrowRight className="size-3.5" />
+          <ArrowRight className="size-3.5" aria-hidden="true" />
         </Link>
       </div>
 
@@ -244,12 +254,14 @@ export default async function BlogPostPage({ params }: PageProps) {
                 className="group block rounded-lg border border-border/60 bg-card p-4 transition-all hover:border-primary/30 hover:shadow-sm"
               >
                 <div className="mb-1.5 flex items-center gap-2 text-xs text-muted-foreground">
-                  <Calendar className="size-3" />
-                  {new Date(p.date).toLocaleDateString("fr-FR", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })}
+                  <Calendar className="size-3" aria-hidden="true" />
+                  <time dateTime={p.date}>
+                    {new Date(p.date).toLocaleDateString("fr-FR", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    })}
+                  </time>
                 </div>
                 <h3 className="text-sm font-bold text-foreground group-hover:text-primary">
                   {p.title}

@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next"
-import { trades, cities, blogPosts } from "@/lib/data"
+import { trades, cities, blogPosts, comparatifs, getEmergencyTrades } from "@/lib/data"
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://prix-travaux-28.fr"
 
@@ -60,6 +60,53 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
+  // Comparatif hub + pages
+  const comparatifHub: MetadataRoute.Sitemap = [
+    { url: `${BASE_URL}/comparatif`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+  ]
+  const comparatifPages: MetadataRoute.Sitemap = comparatifs.map((comp) => ({
+    url: `${BASE_URL}/comparatif/${comp.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }))
+
+  // Guide ville hub + pages
+  const guideHub: MetadataRoute.Sitemap = [
+    { url: `${BASE_URL}/guide`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+  ]
+  const guidePages: MetadataRoute.Sitemap = cities.map((city) => ({
+    url: `${BASE_URL}/guide/${city.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }))
+
+  // Aides hub + pages
+  const aidesHub: MetadataRoute.Sitemap = [
+    { url: `${BASE_URL}/aides`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+  ]
+  const aidesPages: MetadataRoute.Sitemap = cities.map((city) => ({
+    url: `${BASE_URL}/aides/${city.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }))
+
+  // Urgence hub + pages
+  const emergencyTrades = getEmergencyTrades()
+  const urgenceHub: MetadataRoute.Sitemap = [
+    { url: `${BASE_URL}/urgence`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+  ]
+  const urgencePages: MetadataRoute.Sitemap = emergencyTrades.flatMap((trade) =>
+    cities.map((city) => ({
+      url: `${BASE_URL}/urgence/${trade.slug}/${city.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    }))
+  )
+
   // Legal & info pages
   const legalPages: MetadataRoute.Sitemap = [
     { url: `${BASE_URL}/mentions-legales`, lastModified: now, changeFrequency: "yearly" as const, priority: 0.3 },
@@ -76,6 +123,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...tradeCityPages,
     ...blogIndex,
     ...blogPages,
+    ...comparatifHub,
+    ...comparatifPages,
+    ...guideHub,
+    ...guidePages,
+    ...aidesHub,
+    ...aidesPages,
+    ...urgenceHub,
+    ...urgencePages,
     ...legalPages,
   ]
 }

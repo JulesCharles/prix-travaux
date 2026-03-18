@@ -146,7 +146,14 @@
       "beauce": "En Beauce, {city} est exposée aux vents dominants de la plaine céréalière qui sollicitent fortement les toitures. Les fermes beauceronnes et leurs vastes surfaces de couverture en tuiles plates nécessitent des charpentes robustes et des fixations renforcées. Le {climate_note} impose un contrôle régulier de l'étanchéité, particulièrement au niveau des faîtages et des rives de toit. Les couvreurs du secteur privilégient les tuiles mécaniques grand moule pour leur résistance au vent et leur rapidité de pose sur les grandes surfaces agricoles reconverties en habitation.",
       "drouais": "Dans le Drouais, autour de {city}, les toitures reflètent une transition architecturale entre l'Île-de-France et la Normandie. On y trouve aussi bien de l'ardoise que de la tuile plate, selon l'époque de construction et l'influence régionale. Le {climate_note} de cette zone, légèrement plus pluvieux que la Beauce voisine, exige une attention particulière à l'étanchéité des noues et des raccords de cheminée. La proximité de Dreux et de ses entreprises de couverture permet de bénéficier d'un bon choix d'artisans et de tarifs concurrentiels.",
       "dunois": "Dans le Dunois, aux alentours de {city}, les toitures portent la marque d'un patrimoine rural marqué par l'agriculture. Les anciennes granges et dépendances reconverties en habitation présentent des surfaces de couverture importantes, souvent en tuiles plates ou mécaniques. Le {climate_note} de ce secteur, avec des étés chauds et secs, favorise la dilatation des matériaux et fragilise les joints de faîtage. Les couvreurs locaux recommandent un démoussage préventif tous les 5 ans et un contrôle des fixations après les tempêtes hivernales qui balaient cette partie orientale du département."
-    }
+    },
+    "related_trades": [
+      "charpente",
+      "isolation",
+      "facade",
+      "menuiserie"
+    ],
+    "is_emergency": true
   },
   {
     "slug": "isolation",
@@ -295,7 +302,14 @@
       "beauce": "En Beauce, autour de {city}, le parc immobilier se compose majoritairement de constructions d'après-guerre en parpaing ou en brique. Ces maisons, souvent exposées aux vents de plaine sans protection végétale, subissent des déperditions thermiques importantes. L'isolation thermique par l'extérieur en polystyrène ou en laine de roche sous enduit est la technique la plus efficace et la plus pratiquée. Le {climate_note} de la Beauce, avec des écarts de température marqués entre été et hiver, plaide pour des isolants à bon déphasage thermique qui protègent aussi de la chaleur estivale.",
       "drouais": "Dans le Drouais, {city} se trouve dans une zone de transition climatique entre le bassin parisien et la Normandie. L'humidité y est légèrement supérieure à la Beauce, ce qui impose une vigilance accrue sur l'étanchéité à l'air et la gestion de la vapeur d'eau. Les constructions sont variées : pavillons récents, maisons de ville anciennes et fermes restaurées. Le {climate_note} du Drouais justifie une résistance thermique R ≥ 6,5 m².K/W pour les combles et R ≥ 3,7 m².K/W pour les murs. Les artisans RGE du secteur de Dreux interviennent dans un rayon de 25 km.",
       "dunois": "Dans le Dunois, autour de {city}, l'isolation est une priorité pour les grandes maisons rurales exposées aux rigueurs de l'hiver continental. Les exploitations agricoles reconverties en habitation présentent des volumes importants à chauffer et des combles de grande hauteur. Le {climate_note} du Dunois, avec des gelées fréquentes de novembre à mars, impose une isolation renforcée des combles (R ≥ 7 m².K/W) et du plancher bas sur cave ou vide sanitaire. Le soufflage de ouate de cellulose ou de laine de verre en combles perdus représente le meilleur rapport performance-prix pour ces grands volumes."
-    }
+    },
+    "related_trades": [
+      "toiture",
+      "chauffage",
+      "vmc",
+      "menuiserie"
+    ],
+    "is_emergency": false
   },
   {
     "slug": "plomberie",
@@ -437,7 +451,13 @@
       "beauce": "En Beauce, autour de {city}, la principale caractéristique affectant la plomberie est la dureté élevée de l'eau. Le calcaire de la nappe de Beauce provoque un entartrage rapide des chauffe-eau, réduisant leur durée de vie de 30 à 40 %. L'installation d'un adoucisseur d'eau est fortement recommandée. Le {climate_note} impose une protection antigel renforcée des canalisations dans les combles et les garages non chauffés. Les fermes beauceronnes reconverties en habitation nécessitent souvent une mise aux normes complète du réseau sanitaire.",
       "drouais": "Dans le Drouais, {city} bénéficie de la proximité de Dreux et de son bassin d'artisans plombiers. La qualité de l'eau y est variable selon les communes, avec une dureté moyenne de 25 à 35 °f. Le {climate_note} du Drouais, plus humide que la Beauce, favorise la corrosion des canalisations en acier dans les vides sanitaires mal ventilés. Les plombiers du secteur recommandent un contrôle annuel des joints et raccords dans les maisons de plus de 20 ans. La création de lotissements neufs en périphérie de Dreux génère une forte demande en plomberie neuve.",
       "dunois": "Dans le Dunois, les maisons rurales autour de {city} sont souvent alimentées par des réseaux d'eau communaux aux débits parfois limités. Un surpresseur peut s'avérer nécessaire pour les habitations en bout de réseau. Le {climate_note} du Dunois, avec des hivers marqués, impose une isolation soignée des canalisations dans les bâtiments non chauffés. Les exploitations agricoles reconverties disposent parfois de puits ou de forages privés dont la potabilité doit être vérifiée. Les plombiers intervenant dans ce secteur oriental du département pratiquent des tarifs alignés sur la moyenne départementale."
-    }
+    },
+    "related_trades": [
+      "chauffage",
+      "salle-de-bain",
+      "assainissement"
+    ],
+    "is_emergency": true
   },
   {
     "slug": "electricite",
@@ -579,7 +599,13 @@
       "beauce": "En Beauce, {city} est située dans une zone soumise à un niveau kéraunique (densité de foudre) supérieur à la moyenne régionale. La norme NF C 15-100 impose l'installation d'un parafoudre lorsque le bâtiment se situe dans une commune classée AQ2. Les fermes beauceronnes avec leurs grands volumes et leurs dépendances nécessitent des installations puissantes et bien protégées. Le {climate_note} de la plaine, avec ses orages d'été violents, justifie des dispositifs de protection renforcés pour les équipements agricoles convertis en usage résidentiel.",
       "drouais": "Dans le Drouais, autour de {city}, le parc immobilier mêle constructions anciennes du centre-ville de Dreux et lotissements récents en périphérie. Cette diversité se reflète dans les besoins électriques : mise aux normes pour les uns, domotique et bornes de recharge pour les autres. Le {climate_note} de cette zone, similaire à celui de l'Île-de-France voisine, n'impose pas de contraintes particulières au-delà des exigences normatives standard. La proximité de Dreux garantit un bon choix d'électriciens certifiés Qualifelec et des délais d'intervention raisonnables.",
       "dunois": "Dans le Dunois, autour de {city}, les installations électriques des maisons rurales et des corps de ferme reconvertis demandent souvent une refonte complète. Les anciennes installations agricoles (compteurs triphasés, câblages surdimensionnés pour les moteurs) doivent être adaptées à un usage résidentiel. Le {climate_note} de ce secteur oriental du département, avec des températures hivernales parfois très basses, impose un dimensionnement soigneux du chauffage électrique lorsqu'il est retenu. Les électriciens intervenant dans le Dunois couvrent généralement un rayon large et regroupent leurs interventions pour optimiser les déplacements."
-    }
+    },
+    "related_trades": [
+      "chauffage",
+      "climatisation",
+      "vmc"
+    ],
+    "is_emergency": true
   },
   {
     "slug": "chauffage",
@@ -728,7 +754,14 @@
       "beauce": "En Beauce, {city} se situe dans une zone où le réseau de gaz naturel est bien développé le long des axes principaux, mais absent dans les communes écartées. Les fermes beauceronnes reconverties présentent des volumes à chauffer importants et des plafonds hauts qui compliquent la diffusion de la chaleur. Le {climate_note} de la Beauce, avec des hivers secs et ventés, accentue la sensation de froid et les infiltrations d'air. La pompe à chaleur air-eau fonctionne efficacement dans ce climat continental modéré, avec un COP satisfaisant même lors des épisodes de gel courants de décembre à février.",
       "drouais": "Dans le Drouais, autour de {city}, le marché du chauffage bénéficie de la proximité de Dreux et de son bassin d'installateurs qualifiés. Le réseau de gaz naturel dessert les communes les plus importantes, offrant l'option de la chaudière à condensation pour les budgets limités. Le {climate_note} du Drouais est comparable à celui de l'Île-de-France, avec des hivers modérés mais humides. Les maisons récentes des lotissements périurbains de Dreux adoptent massivement la pompe à chaleur, tandis que les demeures anciennes du centre-ville privilégient le gaz ou le bois. La concurrence entre chauffagistes maintient des tarifs compétitifs dans ce secteur.",
       "dunois": "Dans le Dunois, autour de {city}, l'éloignement du réseau de gaz naturel oriente fortement vers les solutions de chauffage autonomes. La pompe à chaleur air-eau et le poêle à granulés dominent le marché de la rénovation dans ce secteur rural. Le {climate_note} du Dunois, marqué par des hivers plus rigoureux que le reste du département, impose un dimensionnement généreux des équipements. Les grandes propriétés rurales avec terrain disponible constituent des candidates idéales pour la géothermie sur capteurs horizontaux. Le bois-bûche reste abordable grâce aux forêts du secteur, à 45-65 €/stère en circuit court."
-    }
+    },
+    "related_trades": [
+      "isolation",
+      "plomberie",
+      "vmc",
+      "climatisation"
+    ],
+    "is_emergency": true
   },
   {
     "slug": "salle-de-bain",
@@ -877,7 +910,13 @@
       "beauce": "En Beauce, les corps de ferme rénovés et les grandes maisons en pierre calcaire disposent souvent de pièces spacieuses permettant des salles de bain généreuses de 6 à 10 m². Le {climate_note} et l'exposition au vent nécessitent une attention particulière à l'isolation des murs extérieurs donnant sur la salle d'eau. Le style {architectural_style} de la Beauce se prête aux aménagements contemporains avec grands formats de carrelage et douches de plain-pied. Les sols en pierre calcaire existants peuvent être conservés après traitement hydrofuge, ce qui confère un cachet authentique à la pièce d'eau.",
       "drouais": "Le secteur drouais présente un patrimoine bâti marqué par la brique et le silex, typique de la transition entre Île-de-France et Normandie. Le {climate_note} des vallées de l'Eure et de la Blaise génère une humidité importante à traiter dans les salles de bain. Les influences normandes du style {architectural_style} se retrouvent dans les encadrements de fenêtres en brique qu'il convient de protéger lors des travaux intérieurs. La proximité de Dreux et de ses négoces de matériaux facilite l'approvisionnement. Les artisans du secteur maîtrisent aussi bien la rénovation du bâti ancien que l'aménagement de pavillons récents.",
       "dunois": "Dans le Dunois, la vallée du Loir confère au bâti un caractère singulier avec ses maisons en tuffeau et ses caves troglodytes. Le {climate_note}, marqué par une hygrométrie élevée, impose des solutions d'étanchéité renforcées dans les salles de bain. Le style {architectural_style} du Dunois favorise les teintes chaudes et les matériaux naturels. Le tuffeau, pierre tendre et poreuse, nécessite un traitement hydrofuge avant la pose de tout revêtement mural étanche. Les artisans autour de Châteaudun connaissent ces spécificités et recommandent des systèmes de ventilation performants pour prévenir les moisissures liées à la proximité de la rivière."
-    }
+    },
+    "related_trades": [
+      "plomberie",
+      "carrelage",
+      "peinture"
+    ],
+    "is_emergency": false
   },
   {
     "slug": "menuiserie",
@@ -1026,7 +1065,13 @@
       "beauce": "En Beauce, les corps de ferme et les maisons de maître en pierre calcaire présentent des ouvertures de grande taille, souvent cintrées, qui nécessitent des menuiseries sur mesure. L'exposition au vent dominant rend le triple vitrage pertinent sur les façades ouest. Le style {architectural_style} sobre de la Beauce autorise le PVC ou l'aluminium dans la plupart des communes, hors périmètre ABF. Le {climate_note} (amplitude thermique élevée, gel fréquent) exige des quincailleries robustes et des joints de vitrage résistants aux écarts de température. Les menuisiers du secteur de Chartres, Janville et Voves sont bien équipés pour ces configurations.",
       "drouais": "Le secteur drouais mêle influences normandes et franciliennes dans ses menuiseries traditionnelles. Les encadrements en brique et silex nécessitent une pose adaptée, souvent avec un dormant en retrait et un habillage de tableau spécifique. Le {climate_note} des vallées de l'Eure et de la Blaise apporte une humidité persistante qui impose un traitement fongicide renforcé pour les menuiseries en bois. Le style {architectural_style} du Drouais se traduit par des fenêtres à imposte et des volets persiennés que les menuisiers locaux savent reproduire. La proximité de Dreux et de la zone industrielle offre un bon choix de fabricants et de poseurs qualifiés.",
       "dunois": "Le Dunois, traversé par le Loir, présente un bâti en tuffeau dont les encadrements de fenêtres sont sculptés dans la pierre tendre. Le remplacement des menuiseries doit préserver ces éléments architecturaux caractéristiques du style {architectural_style}. Le {climate_note} du val de Loir (brouillards fréquents, humidité de 75 à 85 % en hiver) déconseille les menuiseries en bois non traité. Les essences durables (chêne, mélèze) ou les menuiseries mixtes bois-alu offrent la meilleure résistance. Les menuisiers basés autour de Châteaudun et Cloyes-les-Trois-Rivières connaissent ces contraintes et proposent des solutions éprouvées pour le patrimoine de la vallée."
-    }
+    },
+    "related_trades": [
+      "isolation",
+      "peinture",
+      "facade"
+    ],
+    "is_emergency": false
   },
   {
     "slug": "peinture",
@@ -1175,7 +1220,14 @@
       "beauce": "En Beauce, les vastes corps de ferme et les maisons en pierre calcaire offrent des surfaces de peinture considérables. Le {climate_note} (exposition au vent, écarts thermiques importants, gel hivernal) exige des peintures de façade très résistantes aux intempéries. Les peintures pliolite et siloxane sont privilégiées pour leur tenue dans le temps. Le style {architectural_style} de la Beauce est sobre : enduits clairs (blanc, crème, pierre) avec volets dans des teintes traditionnelles (gris, vert foncé, marron). À l'intérieur, les grands volumes des anciennes granges réhabilitées se prêtent aux peintures mates dans des tons neutres qui mettent en valeur la charpente apparente.",
       "drouais": "Le secteur drouais présente un bâti en brique et silex dont la mise en peinture requiert des produits compatibles avec ces supports poreux. Le {climate_note} des vallées de l'Eure et de la Blaise génère une humidité persistante qui favorise les mousses et lichens sur les façades exposées au nord. Un traitement biocide préalable est indispensable avant toute mise en peinture extérieure. Le style {architectural_style} du Drouais autorise une palette chromatique variée, entre les rouges brique, les gris silex et les enduits crème. Les peintres du secteur de Dreux maîtrisent les techniques de ravalement sur ces supports mixtes et conseillent des cycles d'entretien de 8 à 12 ans.",
       "dunois": "Dans le Dunois, le tuffeau et les enduits traditionnels à la chaux constituent l'essentiel des façades à peindre. Le {climate_note} marqué par la proximité du Loir et une hygrométrie élevée impose des peintures minérales ou silicatées strictement microporeuses. Toute peinture filmogène (acrylique, glycéro) provoquerait un cloquage rapide sur ces supports tendres et poreux. Le style {architectural_style} du Dunois se traduit par des teintes naturelles : blanc de tuffeau, ocre de sable, gris clair. Les encadrements de fenêtres en pierre sculptée ne se peignent jamais mais se rejointent au mortier de chaux. Les peintres spécialisés autour de Châteaudun et Bonneval connaissent ces règles de l'art spécifiques à la vallée du Loir."
-    }
+    },
+    "related_trades": [
+      "salle-de-bain",
+      "menuiserie",
+      "facade",
+      "carrelage"
+    ],
+    "is_emergency": false
   },
   {
     "slug": "carrelage",
@@ -1324,7 +1376,13 @@
       "beauce": "En Beauce, les grandes surfaces de sol des corps de ferme et des maisons de maître se prêtent aux carrelages grand format (60x120, 80x80 cm) qui minimisent les joints et créent une lecture d'espace moderne. Le {climate_note} (amplitude thermique élevée, gel hivernal) rend le plancher chauffant basse température particulièrement pertinent sous carrelage. Le style {architectural_style} de la Beauce privilégie les teintes claires (pierre calcaire, beige, sable) qui reflètent la lumière dans les pièces parfois sombres des maisons à murs épais. Le grès cérame imitation pierre de Beauce constitue une alternative économique et résistante aux dalles naturelles.",
       "drouais": "Le secteur drouais, à la croisée des influences franciliennes et normandes, présente un bâti où la brique rouge voisine avec le silex. Le {climate_note} des vallées encaissées de l'Eure génère des taux d'humidité importants au niveau des sols, surtout dans les maisons sans vide sanitaire. Un film polyéthylène sous la chape est recommandé avant toute pose de carrelage. Le style {architectural_style} du Drouais se traduit par des intérieurs éclectiques où les carrelages imitation carreaux de ciment et les parquets céramique sont très demandés. Les carreleurs du secteur de Dreux et Anet connaissent les contraintes spécifiques des maisons de vallée et adaptent la préparation du support en conséquence.",
       "dunois": "Dans le Dunois, les maisons en tuffeau posées sur des sols calcaires présentent des problématiques de remontées capillaires que le carreleur doit impérativement traiter avant la pose. Le {climate_note} du val de Loir (brouillards fréquents, nappe phréatique haute) impose un traitement hydrofuge de la dalle et l'utilisation de colles et joints résistants à l'humidité (classe R2T pour les joints époxy). Le style {architectural_style} du Dunois se caractérise par des sols en pierre de tuffeau dans les maisons anciennes, que les propriétaires choisissent souvent de restaurer plutôt que de recouvrir. Lorsque la pose de carrelage est retenue, les teintes claires rappelant le tuffeau (ivoire, crème, blanc cassé) assurent une cohérence avec l'architecture locale."
-    }
+    },
+    "related_trades": [
+      "salle-de-bain",
+      "peinture",
+      "maconnerie"
+    ],
+    "is_emergency": false
   },
   {
     "slug": "facade",
@@ -1473,6 +1531,1152 @@
       "beauce": "En Beauce, les façades des grandes fermes et des maisons de plaine sont exposées aux vents dominants qui érodent les enduits et favorisent l'encrassement. Le {climate_note} (gel fréquent, amplitude thermique forte, ensoleillement important) impose des enduits souples résistants aux chocs thermiques. Le style {architectural_style} de la Beauce se caractérise par des façades sobres en pierre calcaire ou en enduit clair, avec des encadrements de fenêtres en pierre de taille. L'ITE est particulièrement pertinente sur les murs en parpaing des exploitations agricoles reconverties en habitations. Les façadiers du secteur de Chartres et Janville maîtrisent aussi bien le ravalement traditionnel que l'ITE sous enduit.",
       "drouais": "Le Drouais se distingue par un patrimoine bâti en brique et silex hérité de la tradition constructive normande et francilienne. Le {climate_note} des vallées de l'Eure et de la Blaise apporte une humidité qui fragilise les joints et favorise les mousses sur les façades nord. Le style {architectural_style} du Drouais mêle appareillages de brique décoratifs, bandeaux de silex et encadrements de grès. Le rejointoiement à la chaux hydraulique préserve la souplesse nécessaire à ces maçonneries mixtes. Les façadiers du secteur de Dreux, Anet et Brezolles interviennent régulièrement sur ce type de bâti et connaissent les exigences du secteur sauvegardé de Dreux.",
       "dunois": "Le Dunois, traversé par le Loir, est le pays du tuffeau, cette pierre tendre calcaire qui confère aux façades leur blancheur lumineuse. Le {climate_note} du val de Loir (brouillards, humidité élevée, gel modéré) provoque des désagrégations de surface (desquamation, alvéolisation) que seul un façadier formé au patrimoine de tuffeau peut traiter correctement. Le style {architectural_style} se caractérise par des façades sculptées (corniches, bandeaux, moulures) qu'il faut restaurer avec le même soin que la maçonnerie courante. Le micro-gommage à basse pression est la seule technique de nettoyage admise. Les façadiers spécialisés travaillent également dans le Loir-et-Cher voisin, ce qui assure un bon niveau de compétence sur le tuffeau dans le secteur de Châteaudun et Cloyes-les-Trois-Rivières."
+    },
+    "related_trades": [
+      "isolation",
+      "peinture",
+      "maconnerie",
+      "toiture"
+    ],
+    "is_emergency": false
+  },
+  {
+    "slug": "charpente",
+    "title": "Charpente",
+    "min_price": 60,
+    "max_price": 130,
+    "unit": "m²",
+    "related_trades": [
+      "toiture",
+      "isolation",
+      "amenagement-combles"
+    ],
+    "is_emergency": false,
+    "description_template": "Vous envisagez des travaux de charpente à {city} ? Le prix moyen d'une intervention sur charpente dans le département d'Eure-et-Loir se situe entre {min_price} € et {max_price} € par {unit}, selon le type de structure (traditionnelle, fermettes industrielles, lamellé-collé) et l'ampleur des réparations. Les habitations du Perche et de la Beauce présentent des charpentes anciennes en chêne ou châtaignier qui nécessitent un diagnostic approfondi avant toute intervention. Le savoir-faire des charpentiers locaux garantit le respect du patrimoine bâti tout en intégrant les normes parasismiques et les exigences d'isolation actuelles.",
+    "technical_details": [
+      "Charpente traditionnelle en chêne : 90 à 130 €/m² (fourniture et pose)",
+      "Charpente fermettes industrielles : 60 à 85 €/m²",
+      "Remplacement de pannes et chevrons : 40 à 80 €/ml",
+      "Traitement préventif insecticide et fongicide : 15 à 30 €/m²",
+      "Renforcement de charpente existante : 50 à 100 €/m²",
+      "Surélévation de charpente : 800 à 1 400 €/m²"
+    ],
+    "faq": [
+      {
+        "question": "Quel est le prix moyen d'une charpente à {city} ?",
+        "answer": "Le prix moyen d'une charpente à {city} varie entre {min_price} € et {max_price} € par {unit}. Ce tarif dépend du type de structure choisi (traditionnelle en chêne, fermettes industrielles, lamellé-collé), de la complexité de la toiture et de l'accessibilité du chantier."
+      },
+      {
+        "question": "Quand faut-il remplacer sa charpente à {city} ?",
+        "answer": "Une charpente bien entretenue peut durer plus de 100 ans. Les signes d'alerte incluent : affaissement visible du toit, présence de sciure au sol (insectes xylophages), bois friable ou noirci (champignons), craquements inhabituels. Un diagnostic par un charpentier qualifié est recommandé tous les 10 ans."
+      },
+      {
+        "question": "Charpente traditionnelle ou fermettes : que choisir à {city} ?",
+        "answer": "La charpente traditionnelle (chêne massif, assemblages tenon-mortaise) est idéale pour le bâti ancien du Perche et les projets d'aménagement de combles. Les fermettes industrielles conviennent aux constructions neuves et aux extensions avec un budget maîtrisé. En zone protégée, la charpente traditionnelle peut être imposée par l'ABF."
+      },
+      {
+        "question": "Quelles aides pour la charpente dans le département 28 ?",
+        "answer": "Les travaux de charpente peuvent bénéficier de MaPrimeRénov' lorsqu'ils incluent une isolation (sarking), de l'éco-PTZ dans un bouquet de travaux, et de la TVA réduite à 10 % pour les logements de plus de 2 ans. Les primes CEE s'appliquent si l'isolation de toiture accompagne la réfection de charpente."
+      }
+    ],
+    "process_steps": [
+      "Inspection visuelle et diagnostic de la charpente existante par un charpentier qualifié",
+      "Sondage des bois à l'aide d'un poinçon pour détecter les zones fragilisées par les insectes ou l'humidité",
+      "Établissement d'un plan de structure et d'un devis détaillé avec choix des essences de bois",
+      "Mise en place de l'étayage provisoire et dépose partielle ou totale de la couverture",
+      "Remplacement ou renforcement des pièces de bois dégradées (pannes, chevrons, entraits)",
+      "Assemblage de la nouvelle charpente avec fixations conformes aux DTU en vigueur",
+      "Traitement préventif de l'ensemble de la charpente contre les insectes xylophages et les champignons",
+      "Repose de la couverture et vérification de l'alignement et de la géométrie de l'ensemble"
+    ],
+    "timeline_template": "À {city}, la durée d'un chantier de charpente dépend de l'ampleur des travaux. Pour une réfection complète sur une maison de 100 m² au sol, comptez 2 à 4 semaines. Le remplacement de quelques pannes ou chevrons peut se faire en 3 à 5 jours. En {population_tier}, les délais d'approvisionnement en bois (chêne, douglas) peuvent ajouter 2 à 6 semaines. Prévoyez un délai de 6 à 10 semaines entre la signature du devis et le démarrage des travaux, les charpentiers d'Eure-et-Loir étant très sollicités du printemps à l'automne.",
+    "materials_comparison": [
+      {
+        "name": "Chêne massif",
+        "price_range": "100 à 130 €/m²",
+        "pros": "Durabilité exceptionnelle (100+ ans), résistance naturelle aux insectes, esthétique noble",
+        "cons": "Prix élevé, poids important nécessitant des murs porteurs solides, délai d'approvisionnement",
+        "best_for": "Maisons de caractère du Perche, manoirs, restaurations patrimoniales"
+      },
+      {
+        "name": "Douglas (pin)",
+        "price_range": "70 à 95 €/m²",
+        "pros": "Bon rapport qualité-prix, résistance naturelle à l'humidité, bois local disponible",
+        "cons": "Durabilité inférieure au chêne, nécessite un traitement en classe 2",
+        "best_for": "Constructions neuves, extensions, charpentes apparentes contemporaines"
+      },
+      {
+        "name": "Fermettes industrielles",
+        "price_range": "60 à 85 €/m²",
+        "pros": "Pose rapide, coût maîtrisé, régularité dimensionnelle, portées libres importantes",
+        "cons": "Combles perdus non aménageables, esthétique standard, assemblages métalliques",
+        "best_for": "Pavillons neufs en Beauce, hangars reconvertis, extensions à budget serré"
+      },
+      {
+        "name": "Lamellé-collé",
+        "price_range": "90 à 120 €/m²",
+        "pros": "Portées très longues sans appuis intermédiaires, formes architecturales libres, stabilité dimensionnelle",
+        "cons": "Coût élevé, nécessite un bureau d'études, sensibilité à l'humidité si non protégé",
+        "best_for": "Projets architecturaux contemporains, grandes ouvertures, bâtiments publics"
+      }
+    ],
+    "financing_guide": "Les travaux de charpente à {city} peuvent bénéficier de plusieurs aides lorsqu'ils incluent un volet d'isolation thermique. MaPrimeRénov' finance l'isolation de toiture par l'extérieur (sarking) entre 25 et 75 €/m² selon les revenus. L'éco-PTZ permet d'emprunter jusqu'à 50 000 € à taux zéro pour un bouquet de travaux. Les primes CEE couvrent 5 à 12 €/m² d'isolation. La TVA réduite à 10 % s'applique sur les travaux de charpente pour les logements de plus de 2 ans, et à 5,5 % sur la part isolation. L'ANAH propose MaPrimeRénov' Parcours Accompagné pour les ménages modestes. La région Centre-Val de Loire complète ponctuellement ces aides. Pour les bâtiments classés, des subventions spécifiques de la DRAC sont mobilisables.",
+    "seasonal_advice": "En Eure-et-Loir, les travaux de charpente se planifient idéalement de mars à octobre. Évitez les mois d'hiver où le gel fragilise les assemblages et rend le bois cassant. En Beauce, les vents de plaine compliquent le levage des pièces de charpente de novembre à février. Commandez votre bois dès l'hiver pour une livraison au printemps, saison la plus demandée.",
+    "official_links": [
+      {
+        "label": "Compagnons du Devoir",
+        "url": "https://www.compagnons-du-devoir.com",
+        "description": "Formation et réseau de charpentiers qualifiés, gage de savoir-faire traditionnel"
+      },
+      {
+        "label": "CAPEB Eure-et-Loir",
+        "url": "https://www.capeb.fr",
+        "description": "Confédération de l'artisanat et des petites entreprises du bâtiment : annuaire des charpentiers locaux"
+      },
+      {
+        "label": "Qualibat",
+        "url": "https://www.qualibat.com",
+        "description": "Vérifiez la certification et les assurances de votre charpentier avant de signer"
+      },
+      {
+        "label": "France Rénov'",
+        "url": "https://france-renov.gouv.fr",
+        "description": "Accompagnement gratuit pour la rénovation énergétique incluant la charpente et l'isolation"
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "Les charpentiers interviennent-ils dans les petites communes comme {city} ?",
+        "answer": "Les charpentiers du {department} couvrent un rayon de 30 à 50 km. Les frais de déplacement varient de 50 à 120 € selon la distance. Dans une commune rurale comme {city}, demandez des références locales et privilégiez les artisans CAPEB 28.",
+        "tier_filter": "rural",
+        "zone_filter": null
+      },
+      {
+        "question": "Quelles contraintes pour les charpentes du Perche à {city} ?",
+        "answer": "Les charpentes anciennes du Perche en chêne massif sont souvent classées ou protégées. À {city}, l'ABF peut imposer une restauration à l'identique avec des techniques traditionnelles (tenon-mortaise, chevilles bois). Comptez un surcoût de 20 à 40 % par rapport à une charpente standard.",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "Comment gérer un chantier de charpente en centre-ville de {city} ?",
+        "answer": "En centre-ville de {city}, le levage par grue nécessite une autorisation d'occupation de voirie. Le stationnement est réglementé et les livraisons de bois souvent limitées aux heures creuses. Prévoyez 15 à 30 jours supplémentaires pour les démarches administratives.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "Les charpentes en Beauce nécessitent-elles des renforts spécifiques ?",
+        "answer": "En Beauce autour de {city}, les vents de plaine sollicitent les charpentes plus fortement. Les DTU imposent des contreventements renforcés et des ancrages adaptés. Les fermettes doivent être entretoisées selon les calculs de charge du bureau d'études.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "Faut-il traiter une charpente neuve à {city} ?",
+        "answer": "Oui, un traitement préventif est obligatoire dans tout le {department} (arrêté préfectoral termites). Le traitement par injection ou pulvérisation coûte 15 à 30 €/m² et protège pendant 10 à 25 ans selon le produit utilisé.",
+        "tier_filter": null,
+        "zone_filter": null
+      }
+    ],
+    "tier_content": {
+      "urban": "En centre-ville de {city}, les travaux de charpente s'inscrivent dans un contexte urbain qui impose des contraintes logistiques spécifiques. L'accès par grue est souvent nécessaire, les livraisons de bois sont limitées aux horaires autorisés, et la proximité du voisinage impose un bâchage soigneux. Les tarifs se situent entre {min_price} et {max_price} €/{unit}. La concurrence entre charpentiers y est favorable aux propriétaires.",
+      "periurban": "En zone périurbaine de {city}, les charpentes des pavillons construits entre 1970 et 2000 arrivent souvent à leur première grande inspection. Les fermettes industrielles de cette époque peuvent présenter des faiblesses aux nœuds d'assemblage. Les charpentiers du secteur proposent des tarifs de {min_price} à {max_price} €/{unit} avec des délais corrects.",
+      "bourg": "Dans un bourg comme {city} ({population} habitants), les charpentes traditionnelles des maisons de village alternent entre chêne et résineux selon l'époque de construction. Le bouche-à-oreille local permet de trouver des charpentiers bien implantés. Les tarifs varient de {min_price} à {max_price} €/{unit}.",
+      "rural": "Dans une commune rurale comme {city} ({population} habitants), les corps de ferme et longères présentent de vastes charpentes anciennes qui nécessitent un diagnostic approfondi. L'éloignement des dépôts de bois peut engendrer un surcoût de 8 à 15 %. Regroupez les travaux avec vos voisins pour mutualiser les frais de déplacement."
+    },
+    "zone_content": {
+      "perche": "Dans le Perche, autour de {city}, les charpentes traditionnelles en chêne massif constituent un patrimoine architectural de premier plan. Les assemblages tenon-mortaise et les fermes à entrait retroussé caractérisent les manoirs et longères percheronnes. Le {climate_note} impose un traitement régulier contre l'humidité. Les charpentiers spécialisés en restauration patrimoniale sont indispensables pour les travaux en zone protégée.",
+      "beauce": "En Beauce, {city} bénéficie d'un tissu de charpentiers habitués aux grandes portées des bâtiments agricoles reconvertis. Les fermettes industrielles dominent sur les constructions récentes. Le {climate_note} et les vents de plaine exigent des contreventements renforcés. Le douglas local, cultivé dans les forêts du Perche voisin, offre un approvisionnement en circuit court.",
+      "drouais": "Dans le Drouais, autour de {city}, les charpentes reflètent une transition entre traditions normande et francilienne. On trouve des fermes à pannes avec couverture ardoise ou tuile selon les quartiers. Le {climate_note} nécessite une ventilation correcte des combles. Les charpentiers de Dreux et alentours interviennent sur tous types de structures.",
+      "dunois": "Dans le Dunois, autour de {city}, les vastes granges et dépendances agricoles offrent des charpentes monumentales à restaurer ou adapter. Le {climate_note} avec ses étés chauds impose une bonne ventilation sous faîtage. Les essences locales (chêne, peuplier) sont encore utilisées par les charpentiers traditionnels du secteur de Châteaudun."
+    }
+  },
+  {
+    "slug": "terrassement",
+    "title": "Terrassement",
+    "min_price": 25,
+    "max_price": 65,
+    "unit": "m²",
+    "related_trades": [
+      "maconnerie",
+      "assainissement",
+      "extension-maison"
+    ],
+    "is_emergency": false,
+    "description_template": "Vous envisagez des travaux de terrassement à {city} ? Le prix moyen d'une intervention en Eure-et-Loir se situe entre {min_price} € et {max_price} € par {unit}, selon la nature du sol (argile, calcaire, sable), la profondeur de décaissement et l'accessibilité du terrain. Dans le {department}, les sols varient considérablement entre la plaine argilo-calcaire de Beauce et les terrains sablonneux du Perche, ce qui influence directement le coût et la technique de terrassement.",
+    "technical_details": [
+      "Décaissement général : 25 à 45 €/m²",
+      "Fouilles en rigoles (fondations) : 30 à 55 €/ml",
+      "Remblaiement et compactage : 15 à 30 €/m²",
+      "Évacuation des terres : 15 à 25 €/m³ (transport compris)",
+      "Enrochement et stabilisation de talus : 80 à 150 €/ml",
+      "VRD (voirie et réseaux divers) : 40 à 65 €/ml"
+    ],
+    "faq": [
+      {
+        "question": "Quel est le prix moyen du terrassement à {city} ?",
+        "answer": "Le prix moyen du terrassement à {city} varie entre {min_price} € et {max_price} € par {unit}. Ce tarif dépend de la nature du sol, du volume de terre à déplacer, de l'accessibilité du terrain et de la profondeur de décaissement requise."
+      },
+      {
+        "question": "Quand réaliser un terrassement à {city} ?",
+        "answer": "Le terrassement se réalise idéalement en période sèche (avril à octobre) pour éviter les problèmes de portance du sol gorgé d'eau. En Eure-et-Loir, les sols argileux de Beauce deviennent très plastiques en hiver, ce qui complique le travail des engins."
+      },
+      {
+        "question": "Faut-il un permis pour le terrassement à {city} ?",
+        "answer": "Le terrassement en lui-même ne nécessite pas de permis, mais le projet qu'il prépare (construction, piscine, extension) peut exiger une déclaration préalable ou un permis de construire. Un plan de terrassement est obligatoire dans le dossier de permis de construire."
+      },
+      {
+        "question": "Comment choisir un terrassier à {city} ?",
+        "answer": "Vérifiez que l'entreprise dispose d'une assurance décennale et de références locales. Demandez au moins 3 devis détaillés précisant les volumes, les évacuations et les finitions. Un terrassier connaissant les sols du {department} évitera les mauvaises surprises."
+      }
+    ],
+    "process_steps": [
+      "Étude de sol et piquetage du terrain par un géomètre pour délimiter les zones d'intervention",
+      "Implantation des réseaux existants (eau, gaz, électricité, télécom) et marquage au sol",
+      "Décapage de la terre végétale et stockage séparé pour réutilisation ultérieure",
+      "Décaissement et fouilles selon les plans de fondation ou d'aménagement",
+      "Mise en forme des pentes et des niveaux conformément aux côtes du projet",
+      "Pose des drains périphériques et passage des gaines pour les réseaux enterrés",
+      "Remblaiement par couches successives avec compactage mécanique",
+      "Réglage fin des surfaces et remise en place de la terre végétale"
+    ],
+    "timeline_template": "À {city}, un chantier de terrassement standard pour une maison individuelle dure entre 3 et 7 jours ouvrés. Le décapage et le décaissement prennent 1 à 3 jours, les fouilles et réseaux 2 à 3 jours, et le remblaiement 1 à 2 jours. En {population_tier}, l'accès des engins (pelle mécanique, camions) peut nécessiter des autorisations de voirie. Prévoyez un délai de 3 à 6 semaines entre la commande et le démarrage, les terrassiers d'Eure-et-Loir étant très sollicités au printemps.",
+    "materials_comparison": [
+      {
+        "name": "Grave concassée 0/31.5",
+        "price_range": "20 à 30 €/tonne",
+        "pros": "Compactage excellent, drainage efficace, économique",
+        "cons": "Aspect brut, poussière par temps sec",
+        "best_for": "Fond de forme, accès de chantier, parkings ruraux"
+      },
+      {
+        "name": "Grave naturelle alluvionnaire",
+        "price_range": "15 à 25 €/tonne",
+        "pros": "Bonne portance, disponible localement en Beauce, économique",
+        "cons": "Moins stable que le concassé, peut contenir des fines",
+        "best_for": "Remblais courants, sous-couches de terrasses"
+      },
+      {
+        "name": "Enrochement calcaire",
+        "price_range": "40 à 70 €/tonne",
+        "pros": "Stabilisation durable des talus, esthétique naturelle, drainage",
+        "cons": "Transport coûteux, mise en œuvre nécessitant un engin lourd",
+        "best_for": "Talus, murs de soutènement paysagers, berges"
+      }
+    ],
+    "financing_guide": "Les travaux de terrassement à {city} bénéficient de la TVA à 10 % pour les logements de plus de 2 ans lorsqu'ils sont liés à des travaux de rénovation. La TVA à 20 % s'applique pour les constructions neuves. Le terrassement seul n'est généralement pas éligible à MaPrimeRénov' ni aux CEE, mais il peut être intégré dans un bouquet de travaux financé par l'éco-PTZ. Pour les travaux d'assainissement individuel, les aides de l'Agence de l'Eau Loire-Bretagne couvrent 20 à 60 % du coût. Les collectivités locales d'Eure-et-Loir proposent parfois des subventions pour la mise aux normes de l'assainissement non collectif.",
+    "seasonal_advice": "En Eure-et-Loir, les travaux de terrassement se réalisent de préférence d'avril à octobre. Les sols argileux de Beauce sont impraticables en hiver (portance insuffisante). Dans le Perche, les sols sablonneux permettent des interventions plus précoces au printemps. Évitez les périodes de gel qui rendent le sol dur et les périodes de forte pluie qui transforment les chantiers en bourbier.",
+    "official_links": [
+      {
+        "label": "Géoportail",
+        "url": "https://www.geoportail.gouv.fr",
+        "description": "Cartes des risques naturels et nature des sols sur votre parcelle"
+      },
+      {
+        "label": "InfoTerre (BRGM)",
+        "url": "https://infoterre.brgm.fr",
+        "description": "Données géologiques et études de sol du Bureau de Recherches Géologiques et Minières"
+      },
+      {
+        "label": "FNTP",
+        "url": "https://www.fntp.fr",
+        "description": "Fédération Nationale des Travaux Publics : annuaire des entreprises de terrassement"
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "Les sols argileux autour de {city} posent-ils des problèmes de terrassement ?",
+        "answer": "En Beauce, les sols argilo-calcaires autour de {city} sont sujets au retrait-gonflement en fonction de l'humidité. Le terrassier doit adapter la profondeur des fondations et prévoir un drainage efficace. Une étude de sol G2 est fortement recommandée avant tout projet.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "Le terrassement dans le Perche est-il différent ?",
+        "answer": "Dans le Perche autour de {city}, les sols sont plus sablonneux et perméables qu'en Beauce. Le terrassement y est souvent plus facile mais la stabilisation des talus nécessite une attention particulière. Les nappes phréatiques peu profondes peuvent imposer un pompage pendant les fouilles.",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "Comment accéder avec des engins en centre-ville de {city} ?",
+        "answer": "En centre-ville de {city}, l'accès des pelles mécaniques et camions nécessite une autorisation de voirie et parfois la fermeture temporaire d'une rue. Les mini-pelles (1.5 à 3 tonnes) passent dans des accès de 1.5 m de large. Prévoyez un surcoût de 15 à 25 % pour la logistique en zone urbaine.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "Les terrassiers interviennent-ils dans les communes rurales comme {city} ?",
+        "answer": "Oui, les terrassiers du {department} couvrent tout le département. Dans une commune rurale comme {city}, les accès sont souvent plus faciles mais les frais de déplacement des engins (transport sur porte-char) représentent 300 à 600 € supplémentaires.",
+        "tier_filter": "rural",
+        "zone_filter": null
+      },
+      {
+        "question": "Que faire de la terre excavée à {city} ?",
+        "answer": "La terre végétale est conservée sur site pour le réaménagement paysager. Les terres inertes (argile, calcaire) sont évacuées vers une installation de stockage agréée (ISDI) du {department}. Le coût d'évacuation est de 15 à 25 €/m³ transport compris. Certains terrassiers proposent la revente de terre végétale de qualité.",
+        "tier_filter": null,
+        "zone_filter": null
+      }
+    ],
+    "tier_content": {
+      "urban": "En centre-ville de {city}, le terrassement nécessite des engins compacts (mini-pelles) adaptés aux espaces restreints. Les contraintes de stationnement, les horaires de chantier réglementés et la protection du voisinage augmentent les coûts de 15 à 25 %. Les réseaux enterrés (eau, gaz, fibre) sont denses et imposent un repérage préalable rigoureux. Les tarifs se situent entre {min_price} et {max_price} €/{unit}.",
+      "periurban": "En zone périurbaine de {city}, les terrains des lotissements offrent un accès correct aux engins de terrassement. Les parcelles de 500 à 1 000 m² des pavillons des années 1980-2000 permettent des travaux dans de bonnes conditions. Les terrassiers du secteur pratiquent des tarifs de {min_price} à {max_price} €/{unit}.",
+      "bourg": "Dans un bourg comme {city} ({population} habitants), les travaux de terrassement bénéficient d'une accessibilité intermédiaire. Les rues étroites des centres-bourgs peuvent nécessiter des engins compacts. Les terrassiers locaux connaissent bien les particularités du sol et proposent des tarifs de {min_price} à {max_price} €/{unit}.",
+      "rural": "Dans une commune rurale comme {city} ({population} habitants), les terrains spacieux facilitent le travail des engins de terrassement. Les accès par chemins ruraux sont parfois difficiles pour les gros porteurs. Les sols du {department} varient fortement d'un lieu à l'autre, imposant une étude préalable. Comptez un surcoût de déplacement de 300 à 600 €."
+    },
+    "zone_content": {
+      "perche": "Dans le Perche, autour de {city}, les sols sablonneux et les terrains vallonnés imposent des techniques de terrassement adaptées. Les nappes phréatiques peu profondes nécessitent souvent un pompage. Le {climate_note} avec ses précipitations régulières réduit la fenêtre de travail. Les terrassiers du Perche maîtrisent les problématiques de stabilisation de talus en terrain meuble.",
+      "beauce": "En Beauce, {city} se situe sur des sols argilo-calcaires qui posent des défis spécifiques de terrassement. Le retrait-gonflement des argiles est un risque majeur dans cette zone. Le {climate_note} impose des travaux en saison sèche pour garantir la portance du sol. Les terrassiers locaux connaissent les profondeurs de fondation adaptées à ces terrains.",
+      "drouais": "Dans le Drouais, autour de {city}, les sols mêlent argile, silex et sable selon les couches géologiques. Le {climate_note} influence les conditions de travail. Les vallées de l'Eure offrent des terrains alluvionnaires faciles à travailler, tandis que les plateaux présentent des argiles à silex plus résistantes.",
+      "dunois": "Dans le Dunois, autour de {city}, les terrains de la vallée du Loir sont composés d'alluvions faciles à travailler. Les coteaux calcaires nécessitent parfois un brise-roche hydraulique. Le {climate_note} avec ses étés secs durcit les sols argileux en surface. Les terrassiers du secteur de Châteaudun et Cloyes interviennent sur tous types de terrain."
+    }
+  },
+  {
+    "slug": "maconnerie",
+    "title": "Maçonnerie",
+    "min_price": 50,
+    "max_price": 120,
+    "unit": "m²",
+    "related_trades": [
+      "terrassement",
+      "facade",
+      "carrelage",
+      "extension-maison"
+    ],
+    "is_emergency": false,
+    "description_template": "Vous envisagez des travaux de maçonnerie à {city} ? Le prix moyen en Eure-et-Loir se situe entre {min_price} € et {max_price} € par {unit}, selon le type d'ouvrage (mur porteur, cloison, fondation, muret) et les matériaux utilisés (parpaing, brique, pierre, béton). Le bâti ancien du Perche et de la Beauce exige un maçon maîtrisant les techniques traditionnelles : pierres de roussard, calcaire tendre, mortier de chaux. Pour les constructions neuves et extensions, les techniques modernes (béton banché, brique monomur) garantissent performance et rapidité d'exécution.",
+    "technical_details": [
+      "Mur en parpaing (20 cm) : 50 à 75 €/m² (fourniture et pose)",
+      "Mur en brique monomur : 70 à 110 €/m²",
+      "Mur en pierre de taille : 150 à 300 €/m²",
+      "Fondations béton armé : 120 à 200 €/ml",
+      "Ouverture dans mur porteur (IPN) : 1 500 à 3 500 € forfait",
+      "Rejointoiement pierre : 40 à 80 €/m²"
+    ],
+    "faq": [
+      {
+        "question": "Quel est le prix moyen de la maçonnerie à {city} ?",
+        "answer": "Le prix moyen de la maçonnerie à {city} varie entre {min_price} € et {max_price} € par {unit}. Ce tarif dépend du type d'ouvrage (mur, fondation, cloison), du matériau choisi (parpaing, brique, pierre) et de la complexité du chantier."
+      },
+      {
+        "question": "Comment trouver un bon maçon à {city} ?",
+        "answer": "Vérifiez les qualifications Qualibat, l'assurance décennale et les références locales. Dans le Perche, un maçon spécialisé en bâti ancien est indispensable pour les maisons en pierre. Demandez au moins 3 devis détaillés et visitez des chantiers terminés."
+      },
+      {
+        "question": "Parpaing ou brique pour une construction à {city} ?",
+        "answer": "Le parpaing reste le plus économique (50-75 €/m²) et le plus courant en Eure-et-Loir. La brique monomur (70-110 €/m²) offre une meilleure isolation thermique. En zone Perche protégée, un parement en pierre peut être exigé en complément."
+      },
+      {
+        "question": "Quelles aides pour les travaux de maçonnerie à {city} ?",
+        "answer": "La TVA réduite à 10 % s'applique aux travaux de maçonnerie sur les logements de plus de 2 ans. Si les travaux incluent de l'isolation (ITE), MaPrimeRénov' et les CEE sont mobilisables. L'éco-PTZ finance les bouquets de travaux incluant la maçonnerie liée à la performance énergétique."
+      }
+    ],
+    "process_steps": [
+      "Étude du projet et relevé des cotes sur site par le maçon ou le bureau d'études",
+      "Implantation des ouvrages et traçage au sol selon les plans de construction",
+      "Terrassement des fouilles pour les fondations et coulage du béton de propreté",
+      "Réalisation des fondations en béton armé conformément à l'étude de sol",
+      "Élévation des murs par rangées successives avec vérification continue de l'aplomb",
+      "Pose des linteaux, poutres et éléments de structure au-dessus des ouvertures",
+      "Réalisation des enduits de protection et de finition (crépi, enduit à la chaux)",
+      "Nettoyage du chantier et vérification finale des cotes et de la géométrie"
+    ],
+    "timeline_template": "À {city}, la durée d'un chantier de maçonnerie dépend de l'ampleur des travaux. La construction d'un mur de clôture de 20 ml prend 3 à 5 jours. L'élévation des murs d'une extension de 30 m² nécessite 2 à 3 semaines. En {population_tier}, les délais d'approvisionnement en matériaux et l'obtention des autorisations peuvent ajouter 2 à 4 semaines. Prévoyez 4 à 8 semaines entre la signature du devis et le démarrage des travaux.",
+    "materials_comparison": [
+      {
+        "name": "Parpaing béton",
+        "price_range": "50 à 75 €/m²",
+        "pros": "Économique, robuste, rapide à poser, disponible partout",
+        "cons": "Faible isolation thermique, nécessite un enduit de finition, pont thermique",
+        "best_for": "Murs de refend, clôtures, garages, constructions économiques en Beauce"
+      },
+      {
+        "name": "Brique monomur",
+        "price_range": "70 à 110 €/m²",
+        "pros": "Excellente isolation thermique, régulation hygrométrique, confort d'été",
+        "cons": "Plus chère que le parpaing, pose plus technique, disponibilité variable",
+        "best_for": "Constructions neuves RT2012/RE2020, extensions performantes"
+      },
+      {
+        "name": "Pierre de pays",
+        "price_range": "150 à 300 €/m²",
+        "pros": "Esthétique patrimoniale, durabilité séculaire, valeur immobilière",
+        "cons": "Coût élevé, pose très technique, poids important",
+        "best_for": "Restaurations dans le Perche, murs de clôture patrimoniaux, façades classées"
+      },
+      {
+        "name": "Béton cellulaire",
+        "price_range": "60 à 90 €/m²",
+        "pros": "Léger, isolant, facile à découper, pose par collage rapide",
+        "cons": "Résistance mécanique limitée, sensibilité à l'eau, aspect de surface brut",
+        "best_for": "Cloisons intérieures, surélévations, aménagements de combles"
+      }
+    ],
+    "financing_guide": "Les travaux de maçonnerie à {city} bénéficient de la TVA à 10 % pour les logements de plus de 2 ans. Lorsque la maçonnerie s'inscrit dans un projet d'isolation par l'extérieur, MaPrimeRénov' finance de 15 à 75 €/m² selon les revenus. L'éco-PTZ permet d'emprunter jusqu'à 50 000 € à taux zéro pour un bouquet de travaux incluant la maçonnerie. Les CEE couvrent une partie des travaux d'isolation des murs. Pour les bâtiments classés ou inscrits, la DRAC Centre-Val de Loire peut accorder des subventions pour la restauration des maçonneries en pierre. L'ANAH finance les travaux lourds pour les ménages modestes dans le cadre du programme Habiter Mieux.",
+    "seasonal_advice": "En Eure-et-Loir, les travaux de maçonnerie se réalisent de mars à novembre. Le gel est l'ennemi du béton frais et du mortier : évitez de couler entre décembre et février sauf avec des adjuvants antigel. En Beauce, les étés secs permettent un séchage optimal des enduits. Dans le Perche, l'humidité automnale ralentit la prise des mortiers à la chaux.",
+    "official_links": [
+      {
+        "label": "Qualibat",
+        "url": "https://www.qualibat.com",
+        "description": "Vérifiez la qualification et les assurances de votre maçon"
+      },
+      {
+        "label": "FFB",
+        "url": "https://www.ffbatiment.fr",
+        "description": "Fédération Française du Bâtiment : annuaire des entreprises de maçonnerie"
+      },
+      {
+        "label": "CAPEB 28",
+        "url": "https://www.capeb.fr",
+        "description": "Artisans maçons du département d'Eure-et-Loir"
+      },
+      {
+        "label": "France Rénov'",
+        "url": "https://france-renov.gouv.fr",
+        "description": "Conseils gratuits pour la rénovation incluant la maçonnerie"
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "Les maçons du Perche travaillent-ils la pierre à {city} ?",
+        "answer": "Oui, les maçons spécialisés du Perche autour de {city} maîtrisent la taille et la pose de la pierre de roussard, du calcaire tendre et du silex. Ces savoir-faire sont indispensables pour la restauration des manoirs et longères percheronnes. Comptez un surcoût de 30 à 50 % par rapport à une maçonnerie standard.",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "Les sols argileux de Beauce impactent-ils les fondations à {city} ?",
+        "answer": "En Beauce autour de {city}, le retrait-gonflement des argiles impose des fondations plus profondes (80 cm à 1.20 m au lieu de 60 cm) et parfois des semelles renforcées. Une étude de sol G2 est indispensable pour dimensionner correctement les fondations.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "Comment réaliser une ouverture dans un mur porteur à {city} ?",
+        "answer": "En centre-ville de {city}, l'ouverture d'un mur porteur nécessite un calcul de structure par un bureau d'études. Le maçon pose un IPN ou une poutre en béton armé pour reprendre les charges. Comptez 1 500 à 3 500 € forfait selon la largeur. Une déclaration préalable est parfois nécessaire.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "Trouve-t-on des maçons qualifiés dans les petites communes comme {city} ?",
+        "answer": "Les maçons du {department} interviennent dans un rayon de 20 à 40 km. Dans une commune rurale comme {city}, les frais de déplacement sont de 50 à 150 €. Privilégiez les artisans CAPEB locaux et demandez des références dans votre secteur.",
+        "tier_filter": "rural",
+        "zone_filter": null
+      },
+      {
+        "question": "Faut-il un permis pour des travaux de maçonnerie à {city} ?",
+        "answer": "La construction d'un mur de clôture de plus de 2 m de haut nécessite une déclaration préalable. L'ouverture dans un mur porteur peut exiger une autorisation si elle modifie l'aspect extérieur. En zone protégée du {department}, l'ABF doit être consulté pour tout changement visible depuis la voie publique.",
+        "tier_filter": null,
+        "zone_filter": null
+      }
+    ],
+    "tier_content": {
+      "urban": "En centre-ville de {city}, les travaux de maçonnerie s'inscrivent dans un tissu urbain dense. L'accès limité pour les camions de livraison de matériaux, les contraintes de bruit et de poussière, et la mitoyenneté imposent une organisation rigoureuse. Les reprises en sous-œuvre et les ouvertures de murs porteurs sont fréquentes dans les immeubles anciens. Les maçons urbains pratiquent des tarifs de {min_price} à {max_price} €/{unit}.",
+      "periurban": "En zone périurbaine de {city}, les travaux de maçonnerie concernent souvent les extensions de pavillons et la rénovation de garages. Les accès sont généralement bons et les surfaces de stockage disponibles. Les tarifs se situent entre {min_price} et {max_price} €/{unit} avec une bonne disponibilité d'artisans.",
+      "bourg": "Dans un bourg comme {city} ({population} habitants), les maçons locaux connaissent les spécificités du bâti communal : maisons mitoyennes en pierre, enduits à la chaux, murets de clôture traditionnels. Le bouche-à-oreille permet de trouver des artisans fiables. Tarifs de {min_price} à {max_price} €/{unit}.",
+      "rural": "Dans une commune rurale comme {city} ({population} habitants), les travaux de maçonnerie portent souvent sur la restauration de corps de ferme et de dépendances agricoles. Les volumes importants et l'accessibilité des engins compensent les surcoûts de déplacement. Comptez {min_price} à {max_price} €/{unit} avec un supplément transport de 100 à 300 €."
+    },
+    "zone_content": {
+      "perche": "Dans le Perche, autour de {city}, la maçonnerie traditionnelle en pierre de roussard et en calcaire constitue l'identité architecturale de la région. Les murs épais (60 à 80 cm) des manoirs et longères exigent des mortiers à la chaux compatibles avec la respiration du bâti. Le {climate_note} impose une protection contre les remontées capillaires. Les maçons spécialisés facturent 30 à 50 % de plus que pour une maçonnerie standard.",
+      "beauce": "En Beauce, {city} se caractérise par un bâti en pierre calcaire et en parpaing selon l'époque. Les grandes fermes beauceronnes présentent des murs en moellons calcaires appareillés. Le {climate_note} avec ses amplitudes thermiques impose des matériaux résistants au gel. Les maçons du secteur maîtrisent aussi bien la restauration que la construction neuve en parpaing ou brique.",
+      "drouais": "Dans le Drouais, autour de {city}, les maçonneries mixtes en brique et silex constituent une spécificité locale. Le {climate_note} avec son humidité régulière nécessite des joints de qualité. Les maçons du secteur de Dreux et Anet maîtrisent ces appareillages décoratifs qui donnent leur caractère aux façades drouaises.",
+      "dunois": "Dans le Dunois, autour de {city}, le tuffeau et le calcaire tendre dominent la maçonnerie traditionnelle. Le {climate_note} de la vallée du Loir provoque des altérations spécifiques (alvéolisation, desquamation) qui nécessitent des réparations régulières. Les maçons du secteur de Châteaudun connaissent les techniques de restauration adaptées à cette pierre fragile."
+    }
+  },
+  {
+    "slug": "climatisation",
+    "title": "Climatisation",
+    "min_price": 55,
+    "max_price": 100,
+    "unit": "m²",
+    "related_trades": [
+      "electricite",
+      "chauffage",
+      "vmc",
+      "isolation"
+    ],
+    "is_emergency": false,
+    "description_template": "Vous envisagez l'installation d'une climatisation à {city} ? Le prix moyen en Eure-et-Loir se situe entre {min_price} € et {max_price} € par {unit} de surface à climatiser, selon le type de système (monosplit, multisplit, gainable, PAC réversible) et la puissance requise. Les étés de plus en plus chauds en Beauce et dans le Dunois rendent la climatisation pertinente pour le confort d'été, tandis que les PAC réversibles offrent un chauffage performant en hiver.",
+    "technical_details": [
+      "Climatisation monosplit : 1 500 à 3 000 € (fourniture et pose, 1 pièce)",
+      "Multisplit 2 unités : 3 000 à 5 500 €",
+      "Multisplit 4 unités : 5 500 à 9 000 €",
+      "Climatisation gainable : 6 000 à 12 000 € (maison complète)",
+      "PAC air-air réversible : 4 000 à 8 000 €",
+      "Entretien annuel obligatoire : 120 à 200 €/an"
+    ],
+    "faq": [
+      {
+        "question": "Quel est le prix d'une climatisation à {city} ?",
+        "answer": "Le prix d'installation d'une climatisation à {city} varie entre {min_price} € et {max_price} € par {unit} de surface climatisée. Un monosplit pour une pièce coûte 1 500 à 3 000 €, tandis qu'un système gainable pour toute la maison revient à 6 000-12 000 €."
+      },
+      {
+        "question": "Climatisation ou PAC réversible à {city} ?",
+        "answer": "La PAC réversible (air-air) est le meilleur choix à {city} car elle assure le rafraîchissement en été ET le chauffage en hiver avec un excellent rendement (COP 3 à 4). Elle est éligible aux aides MaPrimeRénov' contrairement à la climatisation simple."
+      },
+      {
+        "question": "L'entretien de climatisation est-il obligatoire ?",
+        "answer": "Oui, depuis 2020, l'entretien des climatisations de plus de 4 kW est obligatoire tous les 2 ans. Il comprend le contrôle du fluide frigorigène, le nettoyage des filtres et la vérification des performances. Comptez 120 à 200 €/intervention."
+      },
+      {
+        "question": "Quelles aides pour installer une climatisation à {city} ?",
+        "answer": "La climatisation simple n'est pas aidée. En revanche, les PAC réversibles sont éligibles à MaPrimeRénov' (de 2 000 à 4 000 € selon revenus), aux CEE (prime jusqu'à 900 €), et à l'éco-PTZ. La TVA à 5,5 % s'applique sur les PAC en remplacement d'un chauffage existant."
+      }
+    ],
+    "process_steps": [
+      "Bilan thermique de la maison pour dimensionner la puissance nécessaire",
+      "Choix du système (monosplit, multisplit, gainable) en fonction des besoins et du budget",
+      "Repérage des emplacements pour les unités intérieures et le groupe extérieur",
+      "Percement des murs pour le passage des liaisons frigorifiques et l'évacuation des condensats",
+      "Installation et fixation du groupe extérieur sur support anti-vibrations",
+      "Pose des unités intérieures ou des bouches de soufflage (gainable)",
+      "Tirage au vide des liaisons et mise en service avec contrôle du fluide frigorigène",
+      "Réglage des températures de consigne et formation de l'utilisateur à la télécommande"
+    ],
+    "timeline_template": "À {city}, l'installation d'une climatisation monosplit prend 1 journée. Un système multisplit 3-4 unités nécessite 2 à 3 jours. Un gainable complet demande 3 à 5 jours de travaux. En {population_tier}, prévoyez un délai de 3 à 6 semaines entre la commande et l'installation, les climaticiens étant très demandés de mai à août. La période idéale pour installer est de février à avril pour profiter de tarifs plus bas et d'une disponibilité meilleure.",
+    "materials_comparison": [
+      {
+        "name": "Monosplit mural",
+        "price_range": "1 500 à 3 000 €",
+        "pros": "Économique, installation rapide, efficace pour une pièce, silencieux",
+        "cons": "Ne climatise qu'une seule pièce, unité visible au mur, esthétique moyenne",
+        "best_for": "Chambres, bureaux, pièce de vie unique, appartements"
+      },
+      {
+        "name": "Multisplit",
+        "price_range": "3 000 à 9 000 €",
+        "pros": "Plusieurs pièces avec un seul groupe extérieur, réglage indépendant par zone",
+        "cons": "Unités murales visibles, coût intermédiaire, un seul groupe extérieur = point unique de panne",
+        "best_for": "Maisons avec 2 à 5 pièces à climatiser, rénovations"
+      },
+      {
+        "name": "Gainable",
+        "price_range": "6 000 à 12 000 €",
+        "pros": "Invisible (bouches de soufflage encastrées), confort homogène, silencieux, esthétique",
+        "cons": "Nécessite des faux plafonds ou combles accessibles, coût élevé, installation longue",
+        "best_for": "Maisons neuves ou rénovations complètes, haut de gamme"
+      },
+      {
+        "name": "PAC air-air réversible",
+        "price_range": "4 000 à 8 000 €",
+        "pros": "Chauffage + climatisation, COP 3-4, éligible aux aides, économies d'énergie",
+        "cons": "Performance réduite sous -7°C, nécessite un appoint en hiver rigoureux",
+        "best_for": "Remplacement de chauffage électrique, logements bien isolés en Eure-et-Loir"
+      }
+    ],
+    "financing_guide": "L'installation d'une PAC réversible à {city} est éligible à MaPrimeRénov' : de 2 000 € (revenus supérieurs) à 4 000 € (revenus très modestes) pour une PAC air-air. Les primes CEE ajoutent 300 à 900 € selon le système. L'éco-PTZ permet d'emprunter jusqu'à 15 000 € à taux zéro pour l'installation d'une PAC. La TVA à 5,5 % s'applique sur les PAC en remplacement d'un chauffage existant dans un logement de plus de 2 ans. Attention : la climatisation simple (non réversible) n'est éligible à aucune aide. La région Centre-Val de Loire propose ponctuellement des compléments pour les équipements EnR.",
+    "seasonal_advice": "En Eure-et-Loir, faites installer votre climatisation de février à avril pour bénéficier de meilleures disponibilités et tarifs. La demande explose de mai à août avec les premières chaleurs, et les délais s'allongent à 6-8 semaines. En Beauce, les étés sont particulièrement chauds (35°C+ régulièrement). Dans le Perche, les nuits plus fraîches permettent un usage ponctuel.",
+    "official_links": [
+      {
+        "label": "France Rénov'",
+        "url": "https://france-renov.gouv.fr",
+        "description": "Simulateur d'aides pour l'installation de PAC réversible"
+      },
+      {
+        "label": "AFPAC",
+        "url": "https://www.afpac.org",
+        "description": "Association Française pour les Pompes à Chaleur : guide de choix et annuaire d'installateurs"
+      },
+      {
+        "label": "Qualit'EnR",
+        "url": "https://www.qualit-enr.org",
+        "description": "Certification des installateurs de PAC et climatisation (label QualiPAC)"
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "La climatisation est-elle vraiment utile dans le Perche à {city} ?",
+        "answer": "Le Perche autour de {city} bénéficie d'un climat plus tempéré que la Beauce, avec des nuits fraîches. Une climatisation y est moins indispensable mais de plus en plus demandée pour les épisodes caniculaires. Un monosplit dans la chambre peut suffire. Le {climate_note} rend une PAC réversible intéressante pour le chauffage hivernal.",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "La climatisation est-elle indispensable en Beauce ?",
+        "answer": "En Beauce autour de {city}, les étés sont chauds et secs avec des températures dépassant régulièrement 35°C. L'absence de relief et de couvert forestier amplifie la chaleur. Une climatisation est de plus en plus considérée comme essentielle pour le confort. Le {climate_note} justifie pleinement l'investissement.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "Où placer le groupe extérieur en centre-ville de {city} ?",
+        "answer": "En centre-ville de {city}, le groupe extérieur doit respecter les distances réglementaires avec le voisinage (pas de nuisance sonore). En copropriété, l'accord du syndic est nécessaire. En zone protégée, l'ABF peut imposer un emplacement non visible depuis la voie publique. Privilégiez un mur en retrait ou une cour intérieure.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "Les installateurs se déplacent-ils dans les communes rurales comme {city} ?",
+        "answer": "Les climaticiens du {department} couvrent un rayon de 30 à 50 km. Dans une commune rurale comme {city}, les frais de déplacement sont de 50 à 100 €. L'installation reste identique mais prévoyez un délai supplémentaire pour la livraison du matériel.",
+        "tier_filter": "rural",
+        "zone_filter": null
+      },
+      {
+        "question": "Faut-il une autorisation pour installer une clim à {city} ?",
+        "answer": "L'installation d'un groupe extérieur ne nécessite pas de déclaration préalable en général. Cependant, en zone protégée (monuments historiques, secteur sauvegardé) du {department}, l'ABF peut exiger un avis. En copropriété, le règlement peut interdire ou encadrer l'installation.",
+        "tier_filter": null,
+        "zone_filter": null
+      }
+    ],
+    "tier_content": {
+      "urban": "En centre-ville de {city}, l'installation d'une climatisation pose des contraintes spécifiques : bruit du groupe extérieur vis-à-vis du voisinage, réglementation copropriété, esthétique en zone protégée. Les climaticiens urbains maîtrisent ces contraintes et proposent des solutions discrètes (gainable, split mural design). Tarifs de {min_price} à {max_price} €/{unit}.",
+      "periurban": "En zone périurbaine de {city}, les pavillons offrent des conditions idéales pour la climatisation : espace pour le groupe extérieur, combles accessibles pour le gainable, absence de contraintes de copropriété. Les tarifs se situent entre {min_price} et {max_price} €/{unit}.",
+      "bourg": "Dans un bourg comme {city} ({population} habitants), la climatisation se développe rapidement face aux étés de plus en plus chauds. Les maisons mitoyennes nécessitent une attention au bruit du groupe extérieur. Les climaticiens locaux proposent des tarifs de {min_price} à {max_price} €/{unit}.",
+      "rural": "Dans une commune rurale comme {city} ({population} habitants), l'espace disponible autour des maisons facilite l'installation du groupe extérieur. Les corps de ferme aux murs épais conservent la fraîcheur mais les combles sous ardoise surchauffent en été. Comptez {min_price} à {max_price} €/{unit} avec un supplément déplacement de 50 à 100 €."
+    },
+    "zone_content": {
+      "perche": "Dans le Perche, autour de {city}, le climat est plus tempéré qu'en Beauce mais les épisodes caniculaires se multiplient. Les maisons en pierre épaisse conservent une certaine fraîcheur mais les combles sous ardoise surchauffent. Le {climate_note} rend une PAC réversible doublement intéressante : climatisation l'été et chauffage performant l'hiver.",
+      "beauce": "En Beauce, {city} subit de plein fouet les vagues de chaleur estivales. L'absence de relief et la faible végétation amplifient les températures. Le {climate_note} justifie pleinement l'installation d'une climatisation performante. Les PAC air-air offrent un excellent COP dans ce climat continental modéré.",
+      "drouais": "Dans le Drouais, autour de {city}, le climat est intermédiaire entre Beauce et Normandie. Les étés sont chauds mais les nuits restent relativement fraîches. Le {climate_note} permet un usage raisonné de la climatisation. Un système monosplit ou bi-split suffit souvent pour les pièces de vie principales.",
+      "dunois": "Dans le Dunois, autour de {city}, la vallée du Loir connaît des étés chauds et secs qui rendent la climatisation de plus en plus nécessaire. Le {climate_note} amplifie la chaleur dans les maisons en tuffeau qui se réchauffent en journée. Les systèmes réversibles sont particulièrement adaptés au climat local."
+    }
+  },
+  {
+    "slug": "assainissement",
+    "title": "Assainissement",
+    "min_price": 40,
+    "max_price": 85,
+    "unit": "ml",
+    "related_trades": [
+      "plomberie",
+      "terrassement",
+      "maconnerie"
+    ],
+    "is_emergency": true,
+    "description_template": "Vous envisagez des travaux d'assainissement à {city} ? Le prix moyen en Eure-et-Loir se situe entre {min_price} € et {max_price} € par {unit} de canalisation, selon le type de réseau (collectif ou individuel), la profondeur d'enfouissement et la nature du sol. En Eure-et-Loir, de nombreuses communes rurales du Perche et du Dunois sont encore en assainissement non collectif (ANC), ce qui impose l'installation et l'entretien de fosses septiques ou de micro-stations d'épuration conformes aux normes en vigueur.",
+    "technical_details": [
+      "Raccordement au tout-à-l'égout : 3 000 à 8 000 € forfait",
+      "Fosse septique toutes eaux (3 000 L) : 4 000 à 7 000 € posée",
+      "Micro-station d'épuration : 6 000 à 12 000 € posée",
+      "Filtre compact : 5 000 à 10 000 € posé",
+      "Canalisation PVC Ø100 enterrée : 40 à 65 €/ml",
+      "Vidange de fosse septique : 200 à 350 € par intervention"
+    ],
+    "faq": [
+      {
+        "question": "Quel est le prix d'un assainissement à {city} ?",
+        "answer": "Le prix de l'assainissement à {city} varie selon le système : raccordement tout-à-l'égout (3 000-8 000 €), fosse septique toutes eaux (4 000-7 000 €), micro-station (6 000-12 000 €). Le coût au ml de canalisation est de {min_price} à {max_price} €."
+      },
+      {
+        "question": "Fosse septique ou micro-station à {city} ?",
+        "answer": "La fosse septique est moins chère à l'achat (4 000-7 000 €) mais nécessite un épandage et un terrain suffisant. La micro-station est plus compacte et performante (6 000-12 000 €) mais consomme de l'électricité. Le choix dépend de la taille du terrain et de la nature du sol à {city}."
+      },
+      {
+        "question": "L'assainissement non collectif est-il obligatoire à {city} ?",
+        "answer": "Si votre commune n'est pas raccordée au tout-à-l'égout, l'assainissement individuel conforme est obligatoire. Le SPANC (Service Public d'Assainissement Non Collectif) du {department} contrôle les installations tous les 4 à 10 ans. Une installation non conforme doit être mise aux normes lors de la vente."
+      },
+      {
+        "question": "Quelles aides pour l'assainissement à {city} ?",
+        "answer": "L'Agence de l'Eau Loire-Bretagne subventionne 20 à 60 % des travaux d'ANC. L'éco-PTZ assainissement permet d'emprunter jusqu'à 10 000 € à taux zéro. Certaines communautés de communes d'Eure-et-Loir proposent des aides complémentaires. La TVA réduite à 10 % s'applique."
+      }
+    ],
+    "process_steps": [
+      "Diagnostic de l'installation existante et étude de sol pour déterminer la filière adaptée",
+      "Dépôt du dossier au SPANC et obtention de l'accord de conformité du projet",
+      "Terrassement des fouilles pour la fosse, le préfiltre et le dispositif de traitement",
+      "Pose de la fosse septique ou de la micro-station sur lit de sable stabilisé",
+      "Raccordement des canalisations de collecte (eaux usées et eaux vannes)",
+      "Installation du dispositif de traitement (épandage, filtre compact ou micro-station)",
+      "Remblaiement progressif avec sable puis terre végétale en respectant les cotes du projet",
+      "Contrôle de conformité par le SPANC et mise en service de l'installation"
+    ],
+    "timeline_template": "À {city}, l'installation d'un assainissement individuel complet prend 5 à 10 jours ouvrés. La phase de terrassement dure 2 à 3 jours, la pose des équipements 2 à 3 jours, et le remblaiement 1 à 2 jours. En {population_tier}, le délai entre le dépôt du dossier SPANC et le début des travaux est de 4 à 8 semaines. Prévoyez 2 à 4 mois pour l'ensemble du processus (études, autorisations, travaux). La période idéale est d'avril à octobre.",
+    "materials_comparison": [
+      {
+        "name": "Fosse septique toutes eaux",
+        "price_range": "4 000 à 7 000 €",
+        "pros": "Coût d'achat modéré, technologie éprouvée, aucune consommation électrique",
+        "cons": "Nécessite un terrain d'épandage, vidange régulière, emprise au sol importante",
+        "best_for": "Terrains spacieux en zone rurale du Perche et de la Beauce"
+      },
+      {
+        "name": "Micro-station d'épuration",
+        "price_range": "6 000 à 12 000 €",
+        "pros": "Emprise au sol réduite, qualité de rejet excellent, adapté aux petits terrains",
+        "cons": "Consommation électrique, maintenance technique, coût plus élevé",
+        "best_for": "Terrains exigus, zones sensibles (rivières), hameaux du Dunois"
+      },
+      {
+        "name": "Filtre compact",
+        "price_range": "5 000 à 10 000 €",
+        "pros": "Sans électricité, emprise réduite par rapport à l'épandage, entretien simple",
+        "cons": "Coût intermédiaire, remplacement du média filtrant tous les 10 ans",
+        "best_for": "Compromis entre fosse traditionnelle et micro-station, terrains moyens"
+      }
+    ],
+    "financing_guide": "Les travaux d'assainissement non collectif à {city} bénéficient de plusieurs aides. L'Agence de l'Eau Loire-Bretagne finance 20 à 60 % du coût selon les revenus et la zone géographique. L'éco-PTZ assainissement permet d'emprunter jusqu'à 10 000 € à taux zéro pour la mise aux normes. La TVA réduite à 10 % s'applique pour les logements de plus de 2 ans. L'ANAH finance les travaux pour les ménages modestes. Certaines communautés de communes du {department} (Chartres Métropole, Agglo du Pays de Dreux) proposent des aides complémentaires. Renseignez-vous auprès du SPANC de votre collectivité.",
+    "seasonal_advice": "En Eure-et-Loir, les travaux d'assainissement se réalisent de préférence d'avril à octobre. Les sols gorgés d'eau en hiver compliquent le terrassement et la pose des équipements. En Beauce, les sols argileux sont impraticables de novembre à mars. Dans le Perche, les nappes hautes en hiver peuvent noyer les fouilles. L'été offre les meilleures conditions de travail.",
+    "official_links": [
+      {
+        "label": "Agence de l'Eau Loire-Bretagne",
+        "url": "https://aelb.fr",
+        "description": "Aides financières pour l'assainissement non collectif en Eure-et-Loir"
+      },
+      {
+        "label": "Service-Public.fr",
+        "url": "https://www.service-public.fr/particuliers/vosdroits/F31481",
+        "description": "Obligations et réglementation de l'assainissement non collectif"
+      },
+      {
+        "label": "IFAA",
+        "url": "https://www.ifaa-asso.fr",
+        "description": "Industries Françaises de l'Assainissement Autonome : guide technique et annuaire"
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "Les sols argileux de Beauce compliquent-ils l'assainissement à {city} ?",
+        "answer": "En Beauce autour de {city}, les sols argileux ont une faible perméabilité qui rend l'épandage classique souvent inadapté. Le SPANC impose dans ce cas un filtre compact ou une micro-station. L'étude de sol (percolation) est indispensable pour déterminer la filière autorisée.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "L'assainissement est-il différent dans le Perche à {city} ?",
+        "answer": "Dans le Perche autour de {city}, les sols sablonneux sont souvent plus perméables qu'en Beauce, ce qui facilite l'épandage traditionnel. Cependant, les nappes phréatiques peu profondes imposent parfois des filières sans rejet dans le sol. Le {climate_note} influence le dimensionnement des installations.",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "Comment raccorder au tout-à-l'égout en centre-ville de {city} ?",
+        "answer": "En centre-ville de {city}, le raccordement au réseau collectif est obligatoire dans les 2 ans suivant la mise en service du réseau. Les travaux de tranchée en voirie nécessitent une autorisation et un balisage réglementaire. Comptez 3 000 à 8 000 € selon la distance au regard de branchement.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "Le SPANC intervient-il dans les petites communes comme {city} ?",
+        "answer": "Le SPANC du {department} couvre toutes les communes en assainissement non collectif, y compris les plus petites comme {city}. Le contrôle a lieu tous les 4 à 10 ans selon les collectivités. Le diagnostic est obligatoire lors de la vente d'un bien immobilier.",
+        "tier_filter": "rural",
+        "zone_filter": null
+      },
+      {
+        "question": "Faut-il remplacer une fosse septique ancienne à {city} ?",
+        "answer": "Si le diagnostic SPANC révèle une non-conformité avec risque sanitaire ou environnemental, la mise aux normes est obligatoire sous 4 ans (1 an en cas de vente). Les anciennes fosses non étanches ou les puisards sont systématiquement non conformes. À {city}, le remplacement est éligible aux aides de l'Agence de l'Eau.",
+        "tier_filter": null,
+        "zone_filter": null
+      }
+    ],
+    "tier_content": {
+      "urban": "En centre-ville de {city}, l'assainissement est collectif (tout-à-l'égout). Le raccordement est obligatoire et coûte 3 000 à 8 000 € selon la distance au réseau. Les travaux de tranchée en voirie nécessitent des autorisations spécifiques. Les tarifs de canalisation sont de {min_price} à {max_price} €/{unit}.",
+      "periurban": "En zone périurbaine de {city}, le réseau collectif est souvent récent. Les propriétaires doivent se raccorder dans les 2 ans suivant la mise en service. Pour les zones non desservies, un assainissement individuel conforme est obligatoire. Tarifs de {min_price} à {max_price} €/{unit}.",
+      "bourg": "Dans un bourg comme {city} ({population} habitants), la situation est variable : centre raccordé au collectif, périphérie en assainissement individuel. Le SPANC local contrôle les installations non collectives. Les artisans du secteur connaissent les filières adaptées. Tarifs de {min_price} à {max_price} €/{unit}.",
+      "rural": "Dans une commune rurale comme {city} ({population} habitants), l'assainissement non collectif est la norme. Chaque habitation doit disposer d'une installation conforme (fosse + traitement). Les terrains spacieux permettent l'épandage traditionnel quand le sol le permet. Comptez {min_price} à {max_price} €/{unit} plus le coût de la filière complète."
+    },
+    "zone_content": {
+      "perche": "Dans le Perche, autour de {city}, les sols sablonneux facilitent souvent l'épandage mais les nappes phréatiques peu profondes imposent parfois des filières alternatives (filtre compact, micro-station). Le {climate_note} avec ses précipitations régulières nécessite un dimensionnement adapté des installations. Les artisans du Perche connaissent les spécificités hydrogéologiques locales.",
+      "beauce": "En Beauce, {city} se situe sur des sols argileux à faible perméabilité. L'épandage classique est rarement possible et le SPANC impose des filières compactes ou des micro-stations. Le {climate_note} avec ses étés secs peut provoquer des fissurations du sol qui compromettent l'étanchéité des installations.",
+      "drouais": "Dans le Drouais, autour de {city}, la diversité des sols (argile, silex, sable) impose une étude de sol systématique. Le {climate_note} influence le choix de la filière. Les communautés de communes du Drouais proposent souvent un accompagnement technique pour les projets d'ANC.",
+      "dunois": "Dans le Dunois, autour de {city}, la proximité du Loir et de ses affluents impose des contraintes environnementales strictes. Les rejets dans les cours d'eau sont soumis à autorisation. Le {climate_note} avec ses étés secs peut nécessiter un arrosage du filtre planté de roseaux. Les micro-stations sont souvent privilégiées pour leur qualité de rejet."
+    }
+  },
+  {
+    "slug": "amenagement-combles",
+    "title": "Aménagement de combles",
+    "min_price": 700,
+    "max_price": 1600,
+    "unit": "m²",
+    "related_trades": [
+      "charpente",
+      "isolation",
+      "electricite",
+      "peinture"
+    ],
+    "is_emergency": false,
+    "description_template": "Vous envisagez un aménagement de combles à {city} ? Le prix moyen en Eure-et-Loir se situe entre {min_price} € et {max_price} € par {unit} de surface habitable créée, selon le niveau de finition et les travaux nécessaires (modification de charpente, isolation, électricité, plomberie, revêtements). L'aménagement des combles est l'un des moyens les plus rentables d'agrandir sa maison sans emprise au sol supplémentaire, particulièrement pertinent pour les grandes toitures des maisons percheronnes et beauceronnes.",
+    "technical_details": [
+      "Aménagement simple (isolation + placo + électricité) : 700 à 1 000 €/m²",
+      "Aménagement complet (salle de bain incluse) : 1 000 à 1 400 €/m²",
+      "Aménagement haut de gamme (parquet, velux, sdb design) : 1 400 à 1 600 €/m²",
+      "Fenêtre de toit Velux 78×98 posée : 600 à 1 000 €",
+      "Modification de charpente (fermettes → combles aménageables) : 500 à 800 €/m²",
+      "Création d'un escalier : 2 000 à 6 000 € selon matériau"
+    ],
+    "faq": [
+      {
+        "question": "Quel est le prix d'un aménagement de combles à {city} ?",
+        "answer": "Le prix d'un aménagement de combles à {city} varie entre {min_price} € et {max_price} € par {unit}. Pour 30 m² de combles, comptez 21 000 à 48 000 € tout compris. Le coût dépend de l'état de la charpente, du niveau de finition et des équipements (salle d'eau, velux, escalier)."
+      },
+      {
+        "question": "Mes combles sont-ils aménageables à {city} ?",
+        "answer": "Des combles sont aménageables si la hauteur sous faîtage dépasse 1,80 m, si la pente de toit est supérieure à 30° et si la charpente le permet (fermettes = modification nécessaire). Un diagnostic par un professionnel est recommandé. Les grandes toitures des maisons du Perche offrent généralement un excellent potentiel."
+      },
+      {
+        "question": "Faut-il un permis de construire pour aménager les combles à {city} ?",
+        "answer": "Si l'aménagement crée plus de 20 m² de surface de plancher (40 m² en zone urbaine avec PLU), un permis de construire est obligatoire. En dessous, une déclaration préalable suffit. En zone protégée du {department}, l'avis de l'ABF est requis pour les velux visibles."
+      },
+      {
+        "question": "Quelles aides pour l'aménagement de combles à {city} ?",
+        "answer": "L'isolation des combles est éligible à MaPrimeRénov' (de 15 à 25 €/m²), aux CEE (5-12 €/m²) et à l'éco-PTZ. La TVA réduite à 5,5 % s'applique sur la part isolation et à 10 % sur les autres travaux dans un logement de plus de 2 ans."
+      }
+    ],
+    "process_steps": [
+      "Diagnostic de la charpente et mesure du potentiel d'aménagement (hauteur, pente, structure)",
+      "Dépôt de la déclaration préalable ou du permis de construire en mairie",
+      "Modification éventuelle de la charpente (transformation fermettes en combles aménageables)",
+      "Pose de l'isolation thermique (laine de bois, ouate de cellulose, ou laine de verre entre chevrons)",
+      "Création de la trémie d'escalier et pose de l'escalier d'accès",
+      "Passage des réseaux électriques, plomberie et VMC",
+      "Pose des cloisons, plafonds en placo et des fenêtres de toit (velux)",
+      "Finitions : revêtements de sol, peinture, menuiseries intérieures et équipements sanitaires"
+    ],
+    "timeline_template": "À {city}, un aménagement de combles de 30 m² prend 4 à 8 semaines selon la complexité. La modification de charpente nécessite 1 à 2 semaines, l'isolation et le placo 1 à 2 semaines, l'électricité et la plomberie 1 semaine, les finitions 1 à 2 semaines. En {population_tier}, prévoyez 2 à 4 mois entre le permis et le démarrage des travaux. La coordination des corps de métier (charpentier, plaquiste, électricien, plombier, peintre) est cruciale.",
+    "materials_comparison": [
+      {
+        "name": "Isolation laine de bois",
+        "price_range": "25 à 45 €/m²",
+        "pros": "Excellent confort d'été, matériau écologique, régulation hygrométrique, déphasage thermique long",
+        "cons": "Plus chère que la laine de verre, épaisseur importante, sensible à l'eau",
+        "best_for": "Combles de maisons anciennes du Perche (compatible bâti respirant)"
+      },
+      {
+        "name": "Isolation ouate de cellulose",
+        "price_range": "15 à 30 €/m²",
+        "pros": "Bon déphasage thermique, matériau recyclé, bon rapport qualité-prix",
+        "cons": "Tassement possible, pose par soufflage plus complexe entre chevrons",
+        "best_for": "Combles aménagés en Beauce et Dunois, budget maîtrisé"
+      },
+      {
+        "name": "Isolation laine de verre",
+        "price_range": "10 à 20 €/m²",
+        "pros": "Économique, performance thermique éprouvée, facile à poser en rouleaux",
+        "cons": "Confort d'été moindre, irritant à la pose, déphasage thermique court",
+        "best_for": "Rénovations économiques, combles peu exposés à la chaleur"
+      }
+    ],
+    "financing_guide": "L'aménagement de combles à {city} bénéficie de plusieurs aides sur le volet isolation. MaPrimeRénov' finance l'isolation des rampants de toiture de 15 à 25 €/m² selon les revenus. Les CEE ajoutent 5 à 12 €/m². L'éco-PTZ permet d'emprunter jusqu'à 50 000 € à taux zéro pour un bouquet de travaux. La TVA à 5,5 % s'applique sur l'isolation, et à 10 % sur les autres travaux pour les logements de plus de 2 ans. L'ANAH propose MaPrimeRénov' Parcours Accompagné pour les rénovations globales. La création de surface habitable augmente la valeur du bien de 15 à 25 %, rentabilisant rapidement l'investissement.",
+    "seasonal_advice": "En Eure-et-Loir, l'aménagement de combles peut se réaliser toute l'année car les travaux sont essentiellement intérieurs. Toutefois, la modification de charpente et la pose des velux nécessitent une ouverture temporaire de la toiture : privilégiez la période d'avril à octobre. En Beauce, les combles mal isolés dépassent 50°C en été, soulignant l'urgence d'une bonne isolation.",
+    "official_links": [
+      {
+        "label": "France Rénov'",
+        "url": "https://france-renov.gouv.fr",
+        "description": "Simulateur d'aides pour l'isolation des combles aménagés"
+      },
+      {
+        "label": "ADEME",
+        "url": "https://www.ademe.fr",
+        "description": "Guide de l'isolation des combles et performance thermique"
+      },
+      {
+        "label": "Qualibat",
+        "url": "https://www.qualibat.com",
+        "description": "Qualification des entreprises d'aménagement intérieur et d'isolation"
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "Les combles des maisons percheronnes sont-ils facilement aménageables à {city} ?",
+        "answer": "Dans le Perche autour de {city}, les maisons anciennes ont souvent de grandes toitures en ardoise avec une charpente traditionnelle en chêne qui offre un volume sous combles généreux. La hauteur sous faîtage dépasse fréquemment 3 mètres, ce qui permet un aménagement confortable. Attention cependant à la charge de la couverture en ardoise qui peut limiter les modifications.",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "Les fermettes des pavillons de Beauce peuvent-elles être transformées ?",
+        "answer": "En Beauce autour de {city}, les pavillons des années 1970-2000 ont majoritairement des charpentes à fermettes industrielles. La transformation en combles aménageables est possible mais coûteuse (500-800 €/m²). Un bureau d'études structure doit valider la faisabilité.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "Quelle isolation choisir pour les combles en centre-ville de {city} ?",
+        "answer": "En centre-ville de {city}, l'isolation des rampants doit être performante en été comme en hiver. La laine de bois offre le meilleur déphasage thermique (12h+ contre 4-6h pour la laine de verre). En zone protégée, les velux doivent être validés par l'ABF.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "Peut-on aménager les combles d'un corps de ferme à {city} ?",
+        "answer": "Les corps de ferme ruraux autour de {city} offrent des volumes de combles considérables (souvent 50 à 100 m²). La charpente traditionnelle en chêne est généralement solide mais nécessite un diagnostic complet. Le renforcement du plancher est souvent nécessaire. Le résultat est spectaculaire avec les poutres apparentes.",
+        "tier_filter": "rural",
+        "zone_filter": null
+      },
+      {
+        "question": "L'aménagement de combles nécessite-t-il une modification du DPE ?",
+        "answer": "Oui, la création de surface habitable modifie le DPE du logement. Si l'isolation des combles est performante (R ≥ 6 m².K/W pour les rampants), le DPE peut s'améliorer significativement. En cas de vente ou de location, le nouveau DPE devra refléter la surface et l'isolation réelles.",
+        "tier_filter": null,
+        "zone_filter": null
+      }
+    ],
+    "tier_content": {
+      "urban": "En centre-ville de {city}, l'aménagement de combles est souvent la seule solution d'agrandissement possible. Les contraintes de mitoyenneté et d'urbanisme limitent les extensions en rez-de-chaussée. Les velux doivent respecter les distances par rapport au voisinage. Les tarifs se situent entre {min_price} et {max_price} €/{unit}.",
+      "periurban": "En zone périurbaine de {city}, les combles des pavillons offrent un potentiel de 20 à 40 m² de surface habitable supplémentaire. La modification de charpente à fermettes est fréquente mais techniquement maîtrisée. Les tarifs sont de {min_price} à {max_price} €/{unit}.",
+      "bourg": "Dans un bourg comme {city} ({population} habitants), les maisons de ville et de village ont souvent des combles sous-exploités. Les charpentes traditionnelles offrent de beaux volumes. Le bouche-à-oreille local permet de trouver des artisans polyvalents. Tarifs de {min_price} à {max_price} €/{unit}.",
+      "rural": "Dans une commune rurale comme {city} ({population} habitants), les corps de ferme et longères ont des combles vastes qui représentent un potentiel d'agrandissement considérable. Les poutres apparentes en chêne ajoutent du cachet. Comptez {min_price} à {max_price} €/{unit} avec des volumes parfois supérieurs à 80 m²."
+    },
+    "zone_content": {
+      "perche": "Dans le Perche, autour de {city}, les grandes toitures en ardoise des manoirs et longères offrent des combles spacieux et lumineux. Les charpentes traditionnelles en chêne massif se prêtent magnifiquement à l'aménagement avec poutres apparentes. Le {climate_note} rend l'isolation performante indispensable, en privilégiant des matériaux respirants compatibles avec le bâti ancien.",
+      "beauce": "En Beauce, {city} et ses environs comptent de nombreux pavillons à fermettes dont les combles sont perdus. La transformation est rentable (15-25 % de plus-value) mais nécessite une modification de charpente. Le {climate_note} avec ses étés chauds impose une isolation avec fort déphasage thermique pour le confort en été.",
+      "drouais": "Dans le Drouais, autour de {city}, les maisons présentent des combles variés selon l'époque de construction. Les toitures à forte pente en ardoise ou tuile offrent généralement une bonne hauteur sous faîtage. Le {climate_note} nécessite une isolation performante. Les artisans du secteur de Dreux maîtrisent les techniques d'aménagement.",
+      "dunois": "Dans le Dunois, autour de {city}, les combles des maisons en tuffeau offrent des espaces lumineux sous des charpentes souvent anciennes. Le {climate_note} avec ses étés chauds rend l'aménagement de combles pertinent si l'isolation est correctement dimensionnée. Les fenêtres de toit doivent être orientées pour éviter la surchauffe."
+    }
+  },
+  {
+    "slug": "extension-maison",
+    "title": "Extension de maison",
+    "min_price": 1300,
+    "max_price": 2800,
+    "unit": "m²",
+    "related_trades": [
+      "maconnerie",
+      "terrassement",
+      "charpente",
+      "toiture"
+    ],
+    "is_emergency": false,
+    "description_template": "Vous envisagez une extension de maison à {city} ? Le prix moyen en Eure-et-Loir se situe entre {min_price} € et {max_price} € par {unit}, selon le type de construction (ossature bois, parpaing, brique), le niveau de finition et les contraintes techniques. L'extension est une solution idéale pour gagner de la surface sans déménager, particulièrement prisée dans les communes du Perche et de la Beauce où le foncier est accessible et les maisons disposent souvent de terrains spacieux.",
+    "technical_details": [
+      "Extension ossature bois clé en main : 1 500 à 2 500 €/m²",
+      "Extension parpaing enduit : 1 300 à 2 200 €/m²",
+      "Extension toit plat (contemporaine) : 1 800 à 2 800 €/m²",
+      "Véranda aluminium : 1 000 à 1 800 €/m²",
+      "Surélévation partielle : 1 500 à 2 600 €/m²",
+      "Raccordement aux réseaux existants : 2 000 à 5 000 € forfait"
+    ],
+    "faq": [
+      {
+        "question": "Quel est le prix d'une extension de maison à {city} ?",
+        "answer": "Le prix d'une extension à {city} varie entre {min_price} € et {max_price} € par {unit}. Pour une extension de 30 m², comptez 39 000 à 84 000 € tout compris. Le coût dépend du mode constructif (bois, parpaing), du toit (plat, pente) et du niveau de finition."
+      },
+      {
+        "question": "Bois ou parpaing pour une extension à {city} ?",
+        "answer": "L'ossature bois est plus rapide à poser (4-6 semaines), plus légère et plus isolante. Le parpaing est plus économique et plus résistant aux intempéries. Dans le Perche, le bois s'intègre naturellement au bâti traditionnel. En Beauce, le parpaing enduit est plus courant."
+      },
+      {
+        "question": "Faut-il un permis de construire pour une extension à {city} ?",
+        "answer": "Si l'extension dépasse 20 m² (40 m² en zone urbaine avec PLU), un permis de construire est obligatoire. En dessous, une déclaration préalable suffit. Si la surface totale après extension dépasse 150 m², le recours à un architecte est obligatoire."
+      },
+      {
+        "question": "Quelles aides pour une extension à {city} ?",
+        "answer": "L'extension elle-même n'est pas éligible à MaPrimeRénov'. Cependant, l'isolation de l'extension (murs, toiture) peut bénéficier des CEE et de la TVA à 5,5 % si elle améliore la performance globale. L'éco-PTZ finance le bouquet de travaux incluant l'isolation de l'extension."
+      }
+    ],
+    "process_steps": [
+      "Étude de faisabilité : contraintes du PLU, emprise au sol, distances de voisinage, réseaux",
+      "Conception du projet par un architecte ou un maître d'œuvre (obligatoire si total > 150 m²)",
+      "Dépôt du permis de construire ou de la déclaration préalable en mairie",
+      "Terrassement des fouilles de fondation et coulage des semelles et du soubassement",
+      "Élévation des murs (ossature bois assemblée en atelier ou parpaings montés sur site)",
+      "Pose de la charpente, de la couverture et de l'étanchéité (toiture plate ou en pente)",
+      "Second œuvre : isolation, électricité, plomberie, chauffage, ventilation",
+      "Finitions : revêtements intérieurs, menuiseries, raccordement à l'existant et aménagement"
+    ],
+    "timeline_template": "À {city}, la durée d'une extension de 30 m² varie de 3 à 6 mois selon le mode constructif. L'ossature bois, préfabriquée en atelier, est la plus rapide : 4 à 8 semaines de chantier. Le parpaing nécessite 8 à 12 semaines. En {population_tier}, ajoutez 2 à 4 mois pour l'obtention du permis de construire. Le délai total, de la conception à la réception, est de 6 à 12 mois.",
+    "materials_comparison": [
+      {
+        "name": "Ossature bois",
+        "price_range": "1 500 à 2 500 €/m²",
+        "pros": "Construction rapide, excellent bilan carbone, isolation intégrée, légèreté (fondations réduites)",
+        "cons": "Entretien du bardage extérieur, risque d'insectes si non traité, acoustique parfois moindre",
+        "best_for": "Extensions contemporaines dans le Perche, intégration au bâti ancien, éco-construction"
+      },
+      {
+        "name": "Parpaing enduit",
+        "price_range": "1 300 à 2 200 €/m²",
+        "pros": "Robuste, inertie thermique, résistant au feu, bonne valeur de revente",
+        "cons": "Construction plus longue, isolation par l'extérieur nécessaire, fondations lourdes",
+        "best_for": "Extensions classiques en Beauce, continuité du bâti existant en parpaing"
+      },
+      {
+        "name": "Brique monomur",
+        "price_range": "1 600 à 2 600 €/m²",
+        "pros": "Isolation intégrée, régulation hygrométrique, confort d'été, faible entretien",
+        "cons": "Coût plus élevé, pose technique, moins d'artisans formés",
+        "best_for": "Extensions RE2020, projets haut de gamme avec performance thermique"
+      },
+      {
+        "name": "Véranda aluminium",
+        "price_range": "1 000 à 1 800 €/m²",
+        "pros": "Luminosité maximale, coût modéré, installation rapide, design moderne",
+        "cons": "Confort thermique variable (chaud en été, froid en hiver), isolation limitée",
+        "best_for": "Agrandissement du séjour, jardin d'hiver, pièce de vie lumineuse"
+      }
+    ],
+    "financing_guide": "L'extension de maison à {city} bénéficie de la TVA à 20 % (construction neuve). Cependant, si l'extension est attenante à un logement de plus de 2 ans et que les travaux d'isolation sont distincts, la TVA réduite à 5,5 % peut s'appliquer sur la part isolation. L'éco-PTZ finance les travaux d'isolation de l'extension dans un bouquet de travaux. Les primes CEE s'appliquent sur l'isolation des murs et de la toiture de l'extension. Le PTZ (Prêt à Taux Zéro) pour l'accession peut être mobilisé si l'extension s'inscrit dans un projet d'acquisition-rénovation. Les banques proposent des prêts travaux à taux compétitifs pour ce type de projet qui augmente significativement la valeur du bien.",
+    "seasonal_advice": "En Eure-et-Loir, les travaux d'extension se planifient idéalement avec un démarrage du gros œuvre au printemps (mars-avril) pour terminer les finitions avant l'hiver. Le terrassement et les fondations nécessitent un sol portant (évitez le gel hivernal). L'ossature bois peut se monter toute l'année car l'assemblage est sec. En Beauce, les vents limitent le travail en hauteur de novembre à février.",
+    "official_links": [
+      {
+        "label": "CAUE 28",
+        "url": "https://www.caue28.org",
+        "description": "Conseil d'Architecture, d'Urbanisme et de l'Environnement : conseil gratuit sur votre projet d'extension"
+      },
+      {
+        "label": "Ordre des Architectes",
+        "url": "https://www.architectes.org",
+        "description": "Trouver un architecte pour votre extension (obligatoire si surface totale > 150 m²)"
+      },
+      {
+        "label": "Qualibat",
+        "url": "https://www.qualibat.com",
+        "description": "Qualification des entreprises de construction et de rénovation"
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "L'extension en bois s'intègre-t-elle au bâti du Perche à {city} ?",
+        "answer": "Dans le Perche autour de {city}, le bois est un matériau traditionnel (colombages). Une extension en ossature bois avec bardage en Douglas ou mélèze s'intègre parfaitement au patrimoine local. L'ABF l'accepte généralement si les proportions et les couleurs respectent l'existant.",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "Quelles contraintes d'urbanisme en Beauce pour une extension à {city} ?",
+        "answer": "En Beauce autour de {city}, les PLU imposent souvent des reculs de 3 à 5 m par rapport aux limites séparatives. L'emprise au sol est parfois limitée à 40-50 % de la parcelle. Les hauteurs maximales sont encadrées. Consultez le PLU en mairie avant de concevoir votre projet.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "Comment raccorder l'extension aux réseaux en centre-ville de {city} ?",
+        "answer": "En centre-ville de {city}, le raccordement aux réseaux (eau, électricité, assainissement) nécessite une coordination avec les concessionnaires. Les tranchées en voirie publique imposent des autorisations et un balisage. Prévoyez 2 000 à 5 000 € de raccordement.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "Peut-on faire une extension sur un terrain rural à {city} ?",
+        "answer": "Dans une commune rurale comme {city}, les terrains spacieux facilitent les extensions mais le PLU ou la carte communale peut limiter les zones constructibles. Vérifiez que votre parcelle est en zone U (urbaine) ou AU (à urbaniser). Le raccordement aux réseaux peut être coûteux en zone éloignée.",
+        "tier_filter": "rural",
+        "zone_filter": null
+      },
+      {
+        "question": "L'extension augmente-t-elle la taxe foncière à {city} ?",
+        "answer": "Oui, la création de surface habitable entraîne une réévaluation de la valeur locative cadastrale et donc de la taxe foncière. À {city}, comptez une augmentation de 500 à 1 500 €/an selon la surface créée. En contrepartie, la plus-value immobilière est de 15 à 25 % de la valeur du bien.",
+        "tier_filter": null,
+        "zone_filter": null
+      }
+    ],
+    "tier_content": {
+      "urban": "En centre-ville de {city}, les extensions sont contraintes par le PLU : reculs, emprise au sol, hauteur maximale. Les solutions verticales (surélévation) ou en fond de parcelle sont privilégiées. Le raccordement aux réseaux est simplifié par la proximité des réseaux existants. Tarifs de {min_price} à {max_price} €/{unit}.",
+      "periurban": "En zone périurbaine de {city}, les pavillons sur parcelles de 500 à 1 000 m² offrent un potentiel d'extension optimal. Les contraintes d'urbanisme sont souvent plus souples qu'en centre-ville. L'ossature bois est populaire pour sa rapidité. Tarifs de {min_price} à {max_price} €/{unit}.",
+      "bourg": "Dans un bourg comme {city} ({population} habitants), les extensions doivent respecter le caractère architectural existant. Les maisons mitoyennes imposent des solutions créatives (extension arrière, surélévation). Les artisans locaux connaissent les spécificités du PLU. Tarifs de {min_price} à {max_price} €/{unit}.",
+      "rural": "Dans une commune rurale comme {city} ({population} habitants), les terrains spacieux permettent des extensions généreuses. Les corps de ferme offrent un potentiel de surface considérable par reconversion des dépendances. Le coût des fondations est favorable sur terrain accessible. Tarifs de {min_price} à {max_price} €/{unit}."
+    },
+    "zone_content": {
+      "perche": "Dans le Perche, autour de {city}, les extensions doivent s'harmoniser avec le patrimoine bâti local. L'ossature bois avec bardage naturel est plébiscitée car elle rappelle les colombages traditionnels. Le {climate_note} impose une isolation performante. Les architectes du Perche maîtrisent l'intégration des extensions contemporaines dans le paysage patrimonial.",
+      "beauce": "En Beauce, {city} bénéficie de terrains plats et accessibles qui facilitent les extensions. Le parpaing enduit domine pour sa continuité avec le bâti existant. Le {climate_note} avec ses vents impose une conception aérodynamique. Les extensions en rez-de-chaussée sont privilégiées pour leur stabilité.",
+      "drouais": "Dans le Drouais, autour de {city}, les extensions combinent influences franciliennes et normandes. La proximité de Paris influence les choix architecturaux (design contemporain, toit-terrasse). Le {climate_note} est favorable aux constructions toute l'année. Les artisans du secteur de Dreux sont habitués aux projets ambitieux.",
+      "dunois": "Dans le Dunois, autour de {city}, les extensions s'inscrivent souvent dans la reconversion de bâtiments agricoles. Les granges et dépendances en tuffeau offrent des surfaces à transformer plutôt qu'à construire. Le {climate_note} impose une attention à la ventilation naturelle. Les extensions en continuité du tuffeau demandent un savoir-faire spécifique."
+    }
+  },
+  {
+    "slug": "vmc",
+    "title": "VMC et ventilation",
+    "min_price": 30,
+    "max_price": 70,
+    "unit": "m²",
+    "related_trades": [
+      "isolation",
+      "chauffage",
+      "climatisation",
+      "electricite"
+    ],
+    "is_emergency": false,
+    "description_template": "Vous envisagez l'installation ou le remplacement d'une VMC à {city} ? Le prix moyen en Eure-et-Loir se situe entre {min_price} € et {max_price} € par {unit} de surface ventilée, selon le type de système (simple flux autoréglable, hygroréglable, double flux). La ventilation mécanique contrôlée est indispensable pour la qualité de l'air intérieur et la préservation du bâti, particulièrement dans les maisons rénovées avec une isolation renforcée qui réduit les infiltrations d'air naturelles.",
+    "technical_details": [
+      "VMC simple flux autoréglable : 500 à 1 000 € posée (maison individuelle)",
+      "VMC simple flux hygroréglable type B : 1 200 à 2 500 € posée",
+      "VMC double flux haut rendement : 4 000 à 8 000 € posée",
+      "Gaine isolée Ø125 : 8 à 15 €/ml",
+      "Bouche d'extraction hygroréglable : 30 à 60 € pièce",
+      "Entretien VMC (nettoyage filtres + gaines) : 100 à 200 €/an"
+    ],
+    "faq": [
+      {
+        "question": "Quel est le prix d'une VMC à {city} ?",
+        "answer": "Le prix d'une VMC à {city} varie selon le type : simple flux autoréglable (500-1 000 €), hygroréglable (1 200-2 500 €), double flux (4 000-8 000 €). Rapporté à la surface, comptez {min_price} à {max_price} € par {unit}."
+      },
+      {
+        "question": "VMC simple flux ou double flux à {city} ?",
+        "answer": "La VMC simple flux hygroréglable offre le meilleur rapport qualité-prix pour la plupart des logements. La double flux récupère 70 à 90 % de la chaleur de l'air extrait, idéale après une rénovation énergétique poussée. En maison ancienne du Perche, la double flux est recommandée pour préserver le bâti et économiser l'énergie."
+      },
+      {
+        "question": "La VMC est-elle obligatoire à {city} ?",
+        "answer": "Oui, la ventilation mécanique est obligatoire dans tous les logements neufs depuis 1982 et fortement recommandée en rénovation. Après des travaux d'isolation, une VMC est indispensable pour éviter les problèmes d'humidité et de moisissures."
+      },
+      {
+        "question": "Quelles aides pour installer une VMC à {city} ?",
+        "answer": "La VMC double flux est éligible à MaPrimeRénov' (de 2 000 à 2 500 € selon revenus), aux CEE (300-600 €) et à l'éco-PTZ. La TVA à 5,5 % s'applique. La VMC simple flux hygroréglable bénéficie des CEE et de la TVA réduite à 5,5 % dans un logement de plus de 2 ans."
+      }
+    ],
+    "process_steps": [
+      "Diagnostic de la ventilation existante et calcul des débits réglementaires par pièce",
+      "Choix du type de VMC adapté au logement et au niveau d'isolation",
+      "Repérage du passage des gaines dans les combles ou faux plafonds",
+      "Installation du caisson de ventilation (généralement dans les combles)",
+      "Passage des gaines isolées vers chaque pièce humide (cuisine, salle de bain, WC)",
+      "Pose des bouches d'extraction dans les pièces humides et des entrées d'air dans les pièces sèches",
+      "Raccordement électrique et mise en service avec contrôle des débits",
+      "Réglage des bouches hygroréglables et formation de l'utilisateur à l'entretien des filtres"
+    ],
+    "timeline_template": "À {city}, l'installation d'une VMC simple flux prend 1 à 2 jours. Une VMC double flux nécessite 2 à 4 jours en raison du réseau de gaines plus complexe (soufflage + extraction). En {population_tier}, prévoyez 2 à 4 semaines entre la commande et l'installation. Si les combles sont accessibles, le chantier est peu invasif. La VMC doit idéalement être posée en même temps que les travaux d'isolation pour une cohérence de l'enveloppe thermique.",
+    "materials_comparison": [
+      {
+        "name": "VMC simple flux autoréglable",
+        "price_range": "500 à 1 000 €",
+        "pros": "Économique à l'achat, installation simple, débits constants et fiables",
+        "cons": "Déperditions de chaleur importantes, pas d'adaptation à l'humidité, inconfort courants d'air froid",
+        "best_for": "Budget serré, logements peu isolés, renouvellement d'une VMC existante"
+      },
+      {
+        "name": "VMC simple flux hygroréglable B",
+        "price_range": "1 200 à 2 500 €",
+        "pros": "Débits adaptés à l'humidité, économies de chauffage (20-30 %), confort amélioré",
+        "cons": "Coût supérieur, bouches à nettoyer régulièrement, toujours des déperditions",
+        "best_for": "Rénovation standard, meilleur rapport qualité-prix, maisons de Beauce et du Drouais"
+      },
+      {
+        "name": "VMC double flux haut rendement",
+        "price_range": "4 000 à 8 000 €",
+        "pros": "Récupère 70-90 % de la chaleur, air filtré (pollens, poussières), confort optimal",
+        "cons": "Coût élevé, encombrement (caisson + double réseau de gaines), entretien des filtres",
+        "best_for": "Maisons rénovées BBC, bâti ancien du Perche après isolation, allergiques/asthmatiques"
+      }
+    ],
+    "financing_guide": "L'installation d'une VMC à {city} bénéficie de plusieurs aides. MaPrimeRénov' finance la VMC double flux de 2 000 à 2 500 € selon les revenus du ménage. Les primes CEE ajoutent 300 à 600 €. L'éco-PTZ permet d'emprunter jusqu'à 15 000 € à taux zéro pour l'installation d'une VMC dans un bouquet de travaux. La TVA réduite à 5,5 % s'applique sur la VMC double flux et la simple flux hygroréglable dans les logements de plus de 2 ans. La VMC simple flux autoréglable bénéficie de la TVA à 10 %. Cumulées, ces aides peuvent couvrir 40 à 60 % du coût d'une VMC double flux.",
+    "seasonal_advice": "En Eure-et-Loir, l'installation d'une VMC peut se faire toute l'année car les travaux sont essentiellement intérieurs. Toutefois, programmez l'installation en même temps que vos travaux d'isolation pour une cohérence technique. En hiver, la VMC double flux démontre tout son intérêt en récupérant la chaleur. En Beauce, les pollens de céréales au printemps rendent la filtration de l'air entrant particulièrement appréciable.",
+    "official_links": [
+      {
+        "label": "ADEME",
+        "url": "https://www.ademe.fr",
+        "description": "Guide complet de la ventilation résidentielle et de la qualité de l'air intérieur"
+      },
+      {
+        "label": "France Rénov'",
+        "url": "https://france-renov.gouv.fr",
+        "description": "Simulateur d'aides pour l'installation de VMC double flux"
+      },
+      {
+        "label": "Promotelec",
+        "url": "https://www.promotelec.com",
+        "description": "Label qualité pour les installations électriques et de ventilation dans l'habitat"
+      }
+    ],
+    "extended_faq": [
+      {
+        "question": "La VMC est-elle compatible avec le bâti ancien du Perche à {city} ?",
+        "answer": "Oui, à condition de choisir le bon système. Dans le Perche autour de {city}, le bâti ancien en pierre et colombages respire naturellement. Une VMC hygroréglable ou double flux régule l'humidité sans assécher les murs. Évitez les débits excessifs qui pourraient fissurer les enduits à la chaux. Le {climate_note} rend la ventilation contrôlée indispensable après isolation.",
+        "tier_filter": null,
+        "zone_filter": "perche"
+      },
+      {
+        "question": "La VMC double flux est-elle rentable en Beauce ?",
+        "answer": "En Beauce autour de {city}, les hivers froids et venteux rendent la VMC double flux très rentable. La récupération de 70-90 % de la chaleur économise 300 à 500 € de chauffage par an. Le retour sur investissement est de 6 à 10 ans. Le {climate_note} amplifie les bénéfices.",
+        "tier_filter": null,
+        "zone_filter": "beauce"
+      },
+      {
+        "question": "Comment passer les gaines de VMC en centre-ville de {city} ?",
+        "answer": "En centre-ville de {city}, les logements sans combles accessibles nécessitent des solutions alternatives : gaines en faux plafond, caisson mural compact, VMC décentralisée par pièce. Ces solutions sont plus coûteuses (majoration de 20-30 %) mais adaptées à l'habitat dense.",
+        "tier_filter": "urban",
+        "zone_filter": null
+      },
+      {
+        "question": "La VMC est-elle utile dans une maison rurale à {city} ?",
+        "answer": "Absolument. Dans une maison rurale à {city}, même si le bâti ancien était naturellement ventilé, les travaux d'isolation (fenêtres, murs, combles) suppriment ces infiltrations d'air. Sans VMC, l'humidité s'accumule et provoque moisissures et dégradation du bâti. Une VMC hygroréglable est le minimum recommandé.",
+        "tier_filter": "rural",
+        "zone_filter": null
+      },
+      {
+        "question": "À quelle fréquence entretenir sa VMC à {city} ?",
+        "answer": "Les filtres de VMC doivent être nettoyés ou remplacés tous les 3 à 6 mois. Les bouches d'extraction se nettoient 2 fois par an. Un entretien complet par un professionnel (nettoyage gaines, vérification débits) est recommandé tous les 3 ans. En Beauce, les pollens de céréales encrassent les filtres plus rapidement au printemps.",
+        "tier_filter": null,
+        "zone_filter": null
+      }
+    ],
+    "tier_content": {
+      "urban": "En centre-ville de {city}, les logements sans combles accessibles imposent des solutions de VMC compactes : caissons muraux, VMC décentralisée ou gaines en faux plafond. Les nuisances sonores du caisson doivent être maîtrisées en habitat collectif. Les tarifs de VMC en milieu urbain se situent entre {min_price} et {max_price} €/{unit}, majorés de 20-30 % pour la complexité d'installation.",
+      "periurban": "En zone périurbaine de {city}, les pavillons avec combles accessibles offrent des conditions idéales pour l'installation d'une VMC. Le passage des gaines est facilité, le caisson trouve sa place naturellement. Les tarifs se situent entre {min_price} et {max_price} €/{unit}.",
+      "bourg": "Dans un bourg comme {city} ({population} habitants), les maisons de village ont des configurations variées. Les combles sous toiture sont souvent accessibles, facilitant l'installation. Les artisans locaux proposent des tarifs de {min_price} à {max_price} €/{unit}.",
+      "rural": "Dans une commune rurale comme {city} ({population} habitants), les maisons spacieuses nécessitent un réseau de gaines plus long. Les corps de ferme rénovés bénéficient particulièrement d'une VMC double flux pour maîtriser l'humidité des murs épais en pierre. Comptez {min_price} à {max_price} €/{unit}."
+    },
+    "zone_content": {
+      "perche": "Dans le Perche, autour de {city}, la VMC est essentielle après les travaux d'isolation des maisons en pierre et colombages. Le {climate_note} avec son humidité régulière impose une ventilation contrôlée pour préserver le bâti ancien. La VMC double flux avec échangeur enthalpique est idéale pour gérer à la fois la chaleur et l'humidité sans assécher les murs en terre ou en chaux.",
+      "beauce": "En Beauce, {city} bénéficie d'un climat plus sec mais les pollens de céréales au printemps rendent la filtration de l'air entrant très appréciable. Le {climate_note} avec ses hivers froids justifie la VMC double flux pour récupérer la chaleur. Les pavillons bien isolés de la périphérie de Chartres et Dreux sont les candidats idéaux.",
+      "drouais": "Dans le Drouais, autour de {city}, la VMC s'adapte à un habitat diversifié. Le {climate_note} légèrement plus humide qu'en Beauce renforce le besoin de ventilation. Les maisons en brique et silex du Drouais sont sensibles à l'humidité résiduelle si la ventilation est insuffisante.",
+      "dunois": "Dans le Dunois, autour de {city}, les maisons en tuffeau nécessitent une ventilation adaptée pour éviter la condensation sur les murs poreux. Le {climate_note} avec ses brouillards hivernaux et la proximité du Loir amplifient le risque d'humidité. La VMC hygroréglable est le minimum recommandé après isolation."
     }
   }
 ]

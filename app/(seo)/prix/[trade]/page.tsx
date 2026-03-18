@@ -47,7 +47,7 @@ export default async function TradeHubPage({ params }: PageProps) {
         ]}
       />
 
-      <section className="mb-10">
+<section className="mb-10">
         <div className="mb-4 flex items-center gap-3">
           <div className="flex size-12 items-center justify-center rounded-xl bg-primary/10">
             <Icon className="size-6 text-primary" />
@@ -128,6 +128,26 @@ export default async function TradeHubPage({ params }: PageProps) {
               </p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* ── CTA ── */}
+      <section className="mt-10">
+        <div className="rounded-xl border-2 border-primary/20 bg-primary/5 p-6 text-center">
+          <h2 className="mb-2 font-heading text-lg font-bold">
+            Besoin d&apos;un devis {trade.title.toLowerCase()} en Eure-et-Loir ?
+          </h2>
+          <p className="mb-4 text-sm text-muted-foreground">
+            Sélectionnez votre commune pour obtenir une estimation personnalisée
+            et recevoir jusqu&apos;à 3 devis gratuits d&apos;artisans qualifiés.
+          </p>
+          <Link
+            href={`/prix/${trade.slug}/${sortedCities[0]?.slug ?? ""}`}
+            className="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-all hover:bg-primary/90 hover:shadow-lg"
+          >
+            Estimer le prix dans ma commune
+            <ArrowRight className="size-3.5" aria-hidden="true" />
+          </Link>
         </div>
       </section>
     </>

@@ -9,6 +9,18 @@ export const leadSchema = z.object({
   surface: z.number().min(1, "Surface minimale de 1 m²").max(10000, "Surface maximale de 10 000 m²"),
   message: z.string().max(1000).optional(),
   website: z.string().max(0).optional(),
+
+  // New fields
+  budget: z.enum(["<5000", "5000-15000", "15000-30000", "30000+"]).optional(),
+  urgency: z.enum(["urgent", "1-3mois", "3-6mois", "info"]).optional(),
+  propertyType: z.enum(["maison", "appartement", "local"]).optional(),
+
+  // Auto-captured tracking
+  sourceUrl: z.string().max(500).optional(),
+  utmSource: z.string().max(200).optional(),
+  utmMedium: z.string().max(200).optional(),
+  utmCampaign: z.string().max(200).optional(),
+  device: z.string().max(50).optional(),
 })
 
 export type LeadInput = z.infer<typeof leadSchema>
