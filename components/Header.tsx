@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { ChevronDown, Menu, X, BookOpen, HelpCircle, AlertTriangle, Scale } from "lucide-react"
 import { trades, getTopCities } from "@/lib/data"
 import { tradeIcons } from "@/lib/trade-icons"
@@ -15,10 +16,15 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-border/60 bg-card/95 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
-          <span className="font-heading text-xl font-extrabold tracking-tight">
-            Prix Travaux <span className="text-primary">28</span>
-          </span>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/assets/logo.png"
+            alt="Prix Travaux 28"
+            width={180}
+            height={52}
+            className="h-11 w-auto sm:h-12"
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}

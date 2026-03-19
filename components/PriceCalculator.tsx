@@ -71,13 +71,15 @@ export function PriceCalculator({
   const [sending, setSending] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
-  const [name, setName] = useState("")
+  const [firstName, setFirstName] = useState("")
+  const [lastName, setLastName] = useState("")
   const [phone, setPhone] = useState("")
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
   const [budget, setBudget] = useState("")
   const [urgency, setUrgency] = useState("")
   const [propertyType, setPropertyType] = useState("")
+  const [address, setAddress] = useState("")
   const [rgpdConsent, setRgpdConsent] = useState(false)
   const [website, setWebsite] = useState("")
 
@@ -114,9 +116,12 @@ export function PriceCalculator({
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          name,
+          firstName,
+          lastName,
           phone,
           email,
+          address,
+          city: cityName,
           zip: cityZip,
           trade: tradeSlug,
           surface,
@@ -140,7 +145,7 @@ export function PriceCalculator({
     } finally {
       setSending(false)
     }
-  }, [name, phone, email, message, website, cityZip, tradeSlug, surface, budget, urgency, propertyType])
+  }, [firstName, lastName, phone, email, address, cityName, message, website, cityZip, tradeSlug, surface, budget, urgency, propertyType])
 
   const selectClasses = "flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
 
@@ -226,16 +231,29 @@ export function PriceCalculator({
               Recevez jusqu&apos;à 3 devis gratuits d&apos;artisans qualifiés à {cityName} pour votre projet de {surface} {unit}.
             </p>
 
-            <div className="space-y-2">
-              <Label htmlFor="name">Nom complet</Label>
-              <Input
-                id="name"
-                required
-                minLength={2}
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                placeholder="Jean Dupont"
-              />
+            <div className="grid gap-4 sm:grid-cols-2">
+              <div className="space-y-2">
+                <Label htmlFor="firstName">Prénom</Label>
+                <Input
+                  id="firstName"
+                  required
+                  minLength={2}
+                  value={firstName}
+                  onChange={(e) => setFirstName(e.target.value)}
+                  placeholder="Jean"
+                />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="lastName">Nom</Label>
+                <Input
+                  id="lastName"
+                  required
+                  minLength={2}
+                  value={lastName}
+                  onChange={(e) => setLastName(e.target.value)}
+                  placeholder="Dupont"
+                />
+              </div>
             </div>
 
             <div className="space-y-2">
@@ -259,6 +277,18 @@ export function PriceCalculator({
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="jean@email.com"
+              />
+            </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="address">Adresse</Label>
+              <Input
+                id="address"
+                required
+                minLength={5}
+                value={address}
+                onChange={(e) => setAddress(e.target.value)}
+                placeholder="12 rue de la Mairie"
               />
             </div>
 
@@ -343,7 +373,7 @@ export function PriceCalculator({
               />
               <Label htmlFor="rgpd-consent" className="cursor-pointer text-xs leading-relaxed text-muted-foreground">
                 En validant, j&apos;accepte que mes données soient transmises à des
-                professionnels pour l&apos;établissement de devis.{" "}
+                professionnels pour l&apos;établissement de devis et d&apos;être recontacté par téléphone.{" "}
                 <a href="/mentions-legales" className="text-primary underline underline-offset-2 hover:text-primary/80">
                   Politique de confidentialité
                 </a>.
